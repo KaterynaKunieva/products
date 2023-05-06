@@ -2,7 +2,7 @@ import asyncio
 import json
 import logging
 import os
-from typing import List, Dict
+from typing import List, Dict, Any
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
@@ -89,16 +89,41 @@ async def parse_categories(shop, popular, force_reload):
 @click.option('--shops', default="novus", type=str, help='list of shops.')
 @click.option('--page_count', default=1, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')
-async def parse_shop_products(shops, page_count, product_count):
+@click.option('--force_reload', default=False, help='force data download no matter cache exists.')
+async def parse_shop_products(shops, page_count, product_count, force_reload):
     shop_list = list(shops.keys()) if shops == "all" else shops.split(",")
 
     for shop_key in shop_list:
         logging.info(f"Started scanning for {shop_key} products")
+
         shop_dir = try_create_shop_dir(shop_key)
         raw_product_path = os.path.join(shop_dir, f"raw_products_info.json")
-        products_normalized_file_path = os.path.join(shop_dir, f"normalized_products_info.json")
-        category_products: Dict[CategoryInfo, List[ProductInfo]] = await get_products(shop_key, page_count, product_count)
-        print(len(category_products))
+        products_normalized_file_path = os.path.join(shop_dir, f"normalized_products_info.json")     # add regexp 
+        products_cached = os.path.exists(raw_product_path) and os.stat(raw_product_path).st_size > 5
+        
+        category_products: Dict[CategoryInfo, List[ProductInfo]] = {}
+        if not products_cached or force_reload: 
+            category_products = await get_products(shop_key, page_count, product_count)
+        else: 
+            logging.debug(f"Retrieving {shop_key} products from path: {raw_product_path}")
+            category_products = parse_file_as(Dict[CategoryInfo, List[ProductInfo]], raw_product_path)
+        if category_products: 
+            print(f"Available products for {shop_key}, count: {len(category_products)}")
+            if not products_cached or force_reload: 
+                logging.info(f"Saving products to {raw_product_path}") 
+                print(type(category_products))
+                
+                with open(raw_product_path, 'w+', **file_open_settings) as f:
+                    json.dump({k: [product.dict() for product in v] for k, v in category_products.items()}, f, **json_write_settings)
+
+                # split by dirs по категоріям
+                # а як підкатегорії? 
+                for k in list(category_products.keys()): 
+                    path_to_category: List[str] = os.path.join(shop_dir, k) 
+                    os.mkdir(path_to_category) # може функцію try to create any dir? not only shop 
+                    with open(path_to_category+'products.json', 'w+', **file_open_settings) as f:
+                        with open(raw_product_path, 'w+', **file_open_settings) as f:
+                            json.dump({category_products[k].dict()}, f, **json_write_settings)
 
 
 

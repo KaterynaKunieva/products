@@ -89,7 +89,7 @@ async def parse_categories(shop, popular, force_reload):
 @click.option('--shops', default="novus", type=str, help='list of shops.')
 @click.option('--page_count', default=1, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')
-async def parse_shop_products(shops,  page_count, product_count):
+async def parse_shop_products(shops, page_count, product_count):
     shop_list = list(shops.keys()) if shops == "all" else shops.split(",")
 
     for shop_key in shop_list:
@@ -102,5 +102,5 @@ async def parse_shop_products(shops,  page_count, product_count):
 
 
 
-if __name__ == '__main__': #todo read
+if __name__ == '__main__': #todo read - done
     parse_shop_products()

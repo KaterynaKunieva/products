@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict
+from typing import Optional, List, Dict, Any
 
 from pydantic import BaseModel
 
@@ -25,12 +25,11 @@ class CustomCategoryHierarchy(BaseCategoryInfo):
 
 
 class ProductInfo(BaseModel):
+    title: str 
     category_id: str
-    title: str
-    price: float
-    discount: Optional[bool]
-    producer: Optional[str]     # producer_id?
-    country: Optional[str]      # ?
-    weight: Optional[float] 
+    price: int
+    currency: Optional[str]
+    weight: Optional[int]
     unit: Optional[str]
+    producer: Dict[str, Any]
     description: Optional[str]

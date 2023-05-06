@@ -22,14 +22,21 @@ async def get_categories(shop: str, popular: bool) -> List[CategoryInfo]:
         logging.warning(f"Failed to parse categories of shop {shop}")
 
 
-async def get_products(shop: str, page_count: int) -> List[ProductInfo]:
-    shop_info: ShopInfo = shops.get(shop)
-    category_url = f"{BASE_ZAKAZ_UA_URL}"
-    params = {}
-    response = await get_http_response(category_url, headers={"Accept-Language": "uk"}, params=params)
-    if response:
-        categories: List[CategoryInfo] = parse_obj_as(List[CategoryInfo], response)
+async def get_products(shop: str, product_count: int) -> List[ProductInfo]:
 
-        return categories
-    else:
-        logging.warning(f"Failed to parse categories of shop {shop}")
+    # надо проверять чтоб колво не было больше чем всего?
+
+    shop_info: ShopInfo = shops.get(shop)
+    params = {'page': 1, 'per_page': product_count}
+    categories = get_categories(shop=shop, popular=False)  # или параметр с категорией
+    for category in categories:
+        product_url = f"{BASE_ZAKAZ_UA_URL}/{shop_info.id}/categories/{category}/products/"
+        response = await get_http_response(product_url, headers={"Accept-Language": "uk"}, params=params)
+
+        if response:
+            products: List[ProductInfo] = parse_obj_as(List[ProductInfo], response)
+            return products
+
+        else:
+            logging.warning(f"Failed to parse products of category {category} of shop {shop}")
+

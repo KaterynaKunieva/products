@@ -14,3 +14,11 @@ shops = {
     "ultramarket": ShopInfo(id=48277601),
     "auchan": ShopInfo(id=48246401)
 }
+
+# id ссылается на определенный магазин физический (адрес), а не всю сеть
+# /stores/
+# 482010105 - NOVUS SkyMall
+# 48201022 - NOVUS Rivne DRIVE
+# 48201029 - NOVUS Kil'tseva
+# 48201070 - NOVUS Osokor
+# ....

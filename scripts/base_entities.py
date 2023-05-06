@@ -15,12 +15,22 @@ class BaseCategoryInfo(BaseModel):
 class CategoryInfo(BaseCategoryInfo):
     children: Optional[List[BaseCategoryInfo]]
 
+
 class BaseCustomCategoryHierarchy(BaseCategoryInfo):
     pass
+
 
 class CustomCategoryHierarchy(BaseCategoryInfo):
     children: Dict[str, BaseCustomCategoryHierarchy]
 
+
 class ProductInfo(BaseModel):
     category_id: str
-    country: str
+    title: str
+    price: float
+    discount: Optional[bool]
+    producer: Optional[str]     # producer_id?
+    country: Optional[str]      # ?
+    weight: Optional[float] 
+    unit: Optional[str]
+    description: Optional[str]

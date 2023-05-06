@@ -105,4 +105,4 @@ async def test_parse_shop_products():
         items = await get_products(shop, 10)
 
 if __name__ == '__main__':
-    test_parse_shop_products()
+    parse_categories()

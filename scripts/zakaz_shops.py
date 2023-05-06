@@ -4,9 +4,9 @@ from pydantic import BaseModel
 class ShopInfo(BaseModel):
     id: int
 
-shops = {
+zakaz_shops = {
     "metro": ShopInfo(id=48215611),
-    "novus": ShopInfo(id=48201070),
+    "novus_osokor": ShopInfo(id=48201070),
     "ekomarket": ShopInfo(id=48280214),
     "tavria": ShopInfo(id=48221130),
     "megamarket": ShopInfo(id=48267602),

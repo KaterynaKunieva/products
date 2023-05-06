@@ -61,3 +61,7 @@ async def get_http_response(url: str, params: Dict[str, str] = None,
                       headers: Dict[str, str] = None, payload: Dict[str, str] = None, method: HttpMethod = HttpMethod.Get, response_body_type: HttpResponseType = HttpResponseType.Json) -> Any:
     logging.debug(f"Http requesting {url}...")
     return (await call_method(url, params, headers, payload, method, response_body_type)).get("response")
+
+def chunks(lst, n):
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]

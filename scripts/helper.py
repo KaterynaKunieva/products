@@ -1,5 +1,5 @@
 import logging
-from typing import List
+from typing import List, Dict
 
 import aiohttp
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
@@ -22,21 +22,25 @@ async def get_categories(shop: str, popular: bool) -> List[CategoryInfo]:
         logging.warning(f"Failed to parse categories of shop {shop}")
 
 
-async def get_products(shop: str, product_count: int) -> List[ProductInfo]:
-
-    # надо проверять чтоб колво не было больше чем всего?
-
+async def get_products(shop: str, page_count: int, product_count: int) -> Dict[CategoryInfo, List[ProductInfo]]:
     shop_info: ShopInfo = shops.get(shop)
-    params = {'page': 1, 'per_page': product_count}
-    categories = get_categories(shop=shop, popular=False)  # или параметр с категорией
+    if not shop_info:
+        return {}
+
+    params = {'page': 1, 'per_page': str(product_count)}
+
+    categories: List[CategoryInfo] = await get_categories(shop=shop, popular=False)  # или параметр с категорией
+    products: Dict[CategoryInfo, List[ProductInfo]] = {}
     for category in categories:
-        product_url = f"{BASE_ZAKAZ_UA_URL}/{shop_info.id}/categories/{category}/products/"
+        category: CategoryInfo
+
+        product_url = f"{BASE_ZAKAZ_UA_URL}/{shop_info.id}/categories/{category.id}/products/"
         response = await get_http_response(product_url, headers={"Accept-Language": "uk"}, params=params)
 
         if response:
-            products: List[ProductInfo] = parse_obj_as(List[ProductInfo], response)
-            return products
-
+            shop_products: List[ProductInfo] = parse_obj_as(List[ProductInfo], response)
+            products[category] = shop_products
         else:
             logging.warning(f"Failed to parse products of category {category} of shop {shop}")
+    return products
 

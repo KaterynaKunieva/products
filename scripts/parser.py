@@ -2,11 +2,11 @@ import asyncio
 import json
 import logging
 import os
-from typing import List
+from typing import List, Dict
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
-from base_entities import CategoryInfo
+from base_entities import CategoryInfo, ProductInfo
 from helper import get_categories, get_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
 from zakaz_shops import shops
@@ -20,13 +20,12 @@ if not os.path.exists(datat_dir):
     os.mkdir(datat_dir)
 
 
-def async_cmd(func):
+def async_cmd(func): #to do, write your function decorator
     @ft.wraps(func)
     def wrapper(*args, **kwargs):
         return asyncio.run(func(*args, **kwargs))
 
     return wrapper
-
 
 def try_create_shop_dir(shop: str):
     shop_dir = os.path.join(datat_dir, shop)
@@ -48,7 +47,8 @@ def cli():
 def get_shops():
     print(f"Available shops: {', '.join(list(shops.keys()))}")
 
-
+def load_categories_from_file_or_cache(shop: str, is_popular: bool):
+    pass
 @cli.command()
 @async_cmd
 @click.option('--shop', default=None, type=str, help='list of shop categories.')
@@ -85,24 +85,22 @@ async def parse_categories(shop, popular, force_reload):
 
 
 @cli.command()
-@click.option('--shops', default=None, type=str, help='list of shops.')
-@click.option('--page_count', default=10000, help='number of pages to scrape from shops.')
-def parse_shop_products(shops, page_count):
+@async_cmd
+@click.option('--shops', default="novus", type=str, help='list of shops.')
+@click.option('--page_count', default=1, help='number of pages_count to scrape from shops.')
+@click.option('--product_count', default=100, help='number of products to scrape from shops.')
+async def parse_shop_products(shops,  page_count, product_count):
     shop_list = list(shops.keys()) if shops == "all" else shops.split(",")
 
-    for shop_key in shops:
-        logging.info(f"Started scanning for {shop_key} products, page_count: {len(page_count)}")
+    for shop_key in shop_list:
+        logging.info(f"Started scanning for {shop_key} products")
         shop_dir = try_create_shop_dir(shop_key)
-        raw_cfile_path = os.path.join(shop_dir, f"raw_categories_info{'popular' if popular else ''}.json")
-        categories_hierarchy_file_path = os.path.join(shop_dir, f"categories_hierarchy{'popular' if popular else ''}.json")
+        raw_product_path = os.path.join(shop_dir, f"raw_products_info.json")
+        products_normalized_file_path = os.path.join(shop_dir, f"normalized_products_info.json")
+        category_products: Dict[CategoryInfo, List[ProductInfo]] = await get_products(shop_key, page_count, product_count)
+        print(len(category_products))
 
 
-@cli.command()
-@async_cmd
-async def test_parse_shop_products():
-    shops = []
-    for shop in shops:
-        items = await get_products(shop, 10)
 
-if __name__ == '__main__':
-    test_parse_shop_products()
+if __name__ == '__main__': #todo read
+    parse_shop_products()

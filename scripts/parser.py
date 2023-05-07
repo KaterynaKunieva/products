@@ -52,33 +52,36 @@ def get_shops():
 def load_categories_from_file_or_cache(shop: str, is_popular: bool):
     pass
 
-def normalize_title(product_title: str):
+def normalize_title(product_title: str, product_brand: str = ""):
     product_key = product_title
-    rb_first_letter = "(?<=\s)([A-ZА-ЯЇІЄҐ]"  # без першого слова у рядку і з великої літери
-    rb_word = rb_first_letter + "[A-ZА-Яa-zа-яЇїІіЄєҐґ\-\—\.®']+\s?)+\s*"  # будь-які символи 1 або більше разів? пробіл між словами та в кінці рядка
-    rb_exc = "[a-zа-яїієґ\-\—\.®']{0,5}\s*"  # маленькі слова в брендах: до 5 символів, можуть зустрітися 1 раз
-    regex_brand = rb_word + '(' + rb_word + ')*' + '(' + rb_exc + rb_word + '){0,1}' + '(' + rb_word + ')*'
-    regex_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"  # перед пробіл, хоча б 1 цифра, після може бути . або , і після них обов'язково ще хоча б одна цифра і маленькі літери
-    regex_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"  # перед пробіл, цифра . або , (якщо знаки, то обов'язково ще цифра) і знак % (між ними може бути пробіл)
-    brand = re.search(regex_brand, product_key)
-    amount = re.search(regex_amount, product_key)
-    percentages = re.search(regex_percentage, product_key)
+    regexp_brand = product_brand
+    regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
+    regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
+    regexp_number = "№\d*"
 
-    # getting found text in title (if it found)
+    brand = re.search(regexp_brand, product_key)
+    amount = re.search(regexp_amount, product_key)
+    percentages = re.search(regexp_percentage, product_key)
+    number = re.search(regexp_number, product_key)
+
     if brand is not None:
         brand = brand.group().strip()
-        product_key = re.sub(brand, '', product_key)  # deleting brand from key
-        product_key = re.sub(' {2}', ' ', product_key)  # deleting double spaces
+        product_key = re.sub(brand, '', product_key)
+        product_key = re.sub(' {2,}', ' ', product_key)
     if amount is not None:
         amount = amount.group().strip()
-        product_key = re.sub(amount, '', product_key)  # deleting amount from key
-        product_key = re.sub(' {2}', ' ', product_key)  # deleting double spaces
+        product_key = re.sub(amount, '', product_key)
+        product_key = re.sub(' {2,}', ' ', product_key)
     if percentages is not None:
         percentages = percentages.group().strip()
-        product_key = re.sub(percentages, '', product_key)  # deleting percentages from key
-        product_key = re.sub(' {2}', ' ', product_key)  # deleting double spaces
+        product_key = re.sub(percentages, '', product_key)
+        product_key = re.sub(' {2,}', ' ', product_key)
+    if number is not None:
+        number = number.group().strip()
+        product_key = re.sub(number, '', product_key)
+        product_key = re.sub(' {2,}', ' ', product_key)
 
-    return product_key
+    return product_key.lower().strip()
 
 shop_infos = {**zakaz_shops, **silpo_shops}
 
@@ -174,7 +177,8 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                     for category, products in category_products.items():
                         for product in products:
                             product: ProductInfo
-                            product.normalized_title = normalize_title(product.title)
+                            product.normalized_title = normalize_title(product_title=product.title,
+                                                   product_brand=product.producer.trademark)
 
                     print(f"Available products for '{shop_full_name}', categories count: {len(category_products)}")
                     if not products_cached or force_reload:
@@ -228,11 +232,20 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 @click.option('--input_file_path', default="./user_buy_request_path.json", type=str, help='list of shops.')
 @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
 async def form_buy_list(input_file_path):
-    # Read input input_file_path file
-    # Read all necessary information from data files
-    # Form minimum cost buy list
-    # Output buy card to output_file_path
-    pass
+    user_products = click.prompt('Введіть список продуктів')
+    user_shops = click.prompt('Введіть магазини, в яких шукати')
+    user_searchtype = click.confirm('Формувати чек по кожному магазину?')
+
+    user_query = {
+        'Products': user_products.split(' '),
+        'Shops': user_shops.split(' '),
+        'TypeSearch': user_searchtype
+    }
+
+    click.echo(
+        f'Було одержано такі вводні: \n\tПродукти: {user_products}\n\tМагазини: {user_shops}, \n\tТип пошуку: {user_searchtype}\n')
+    if click.confirm('Вірно? '):
+        click.echo('Починаю аналіз...')
 
 if __name__ == '__main__':
     parse_categories()

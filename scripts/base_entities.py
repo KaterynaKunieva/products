@@ -54,7 +54,6 @@ class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.SingleShop
 
-
 class Shop(BaseModel):
     name: str
     id: int

@@ -28,6 +28,7 @@ class ProducerInfo(BaseModel):
     trademark: Optional[str]
     trademark_slug: Optional[str]
 
+
 class ProductInfo(BaseModel):
     normalized_title: Optional[str]
     title: str 
@@ -42,17 +43,24 @@ class ProductInfo(BaseModel):
     url: Optional[str]
     slug: Optional[str]
 
+
 class ShopLocationPreference(str, Enum):
     SingleShop = "single_shop",
     MultiShop = "multi_shop"
+
+
 class BuyPreference(BaseModel):
     product_filter: Optional[str]
     brand_filter: Optional[str]
     weight_filter: Optional[str]
     shop_filter: Optional[str]
+    location_filter: Optional[str]
+
+
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.SingleShop
+
 
 class Shop(BaseModel):
     name: str

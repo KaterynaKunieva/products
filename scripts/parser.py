@@ -8,8 +8,8 @@ from typing import List, Dict, Set
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
-from base_entities import CategoryInfo, ProductInfo
-from scripts.silpo_helper import silpo_shops, get_silpo_categories
+from base_entities import CategoryInfo, ProductInfo, UserBuyRequest
+from silpo_helper import silpo_shops, get_silpo_categories
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
 from zakaz_shops import zakaz_shops
@@ -54,10 +54,11 @@ def load_categories_from_file_or_cache(shop: str, is_popular: bool):
 
 def normalize_title(product_title: str, product_brand: str = ""):
     product_key = product_title
-    regexp_brand = product_brand
+    regexp_brand = product_brand if product_brand is not None else ""
     regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
     regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
     regexp_number = "№\d*"
+    regexp_symbols = "['\"‘’«»”„]+"
 
     brand = re.search(regexp_brand, product_key)
     amount = re.search(regexp_amount, product_key)
@@ -80,8 +81,10 @@ def normalize_title(product_title: str, product_brand: str = ""):
         number = number.group().strip()
         product_key = re.sub(number, '', product_key)
         product_key = re.sub(' {2,}', ' ', product_key)
+    product_key = re.sub(regexp_symbols, '', product_key)
 
     return product_key.lower().strip()
+
 
 shop_infos = {**zakaz_shops, **silpo_shops}
 
@@ -232,20 +235,39 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 @click.option('--input_file_path', default="./user_buy_request_path.json", type=str, help='list of shops.')
 @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
 async def form_buy_list(input_file_path):
-    user_products = click.prompt('Введіть список продуктів')
-    user_shops = click.prompt('Введіть магазини, в яких шукати')
-    user_searchtype = click.confirm('Формувати чек по кожному магазину?')
+    # Read input input_file_path file
+    # Read all necessary information from data files
+    # Form minimum cost buy list
+    # Output buy card to output_file_path
 
-    user_query = {
-        'Products': user_products.split(' '),
-        'Shops': user_shops.split(' '),
-        'TypeSearch': user_searchtype
-    }
+    user_query = parse_file_as(UserBuyRequest, input_file_path)
+    print(user_query)
 
-    click.echo(
-        f'Було одержано такі вводні: \n\tПродукти: {user_products}\n\tМагазини: {user_shops}, \n\tТип пошуку: {user_searchtype}\n')
-    if click.confirm('Вірно? '):
-        click.echo('Починаю аналіз...')
+    # UserBuyRequest:
+    # [product, brand, weight, shop]
+    # type
+
+    # how to get product? go to hierarchy and what?
+    # find dir for shop
+    # check location
+    # Dict[shop: location, shop: location]
+    # save info from file to... model?
+
+
+
+
+    # preferences - how to calculate (card for each shop or card with different shops)
+    # if type == by single:
+    # get data from each shop
+    # create list for each
+    # create function to create list by characteristics?
+
+
+    # if type == multiple
+    # selecting products by user?
+
 
 if __name__ == '__main__':
-    parse_categories()
+    form_buy_list()
+
+

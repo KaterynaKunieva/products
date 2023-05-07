@@ -9,7 +9,7 @@ import functools as ft
 import click
 from constants import STORE_INFO_PATH
 from base_entities import CategoryInfo, ProductInfo
-from scripts.silpo_helper import silpo_shops, get_silpo_categories
+from scripts.silpo_helper import silpo_shops, get_silpo_categories, get_silpo_products
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
 from zakaz_shops import zakaz_shops
@@ -59,7 +59,7 @@ def normalize_title(product_title: str, product_brand: str = ""):
     regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
     regexp_number = "№\d*"
 
-    brand = re.search(regexp_brand, product_key)
+    brand = re.search(regexp_brand, product_key) if product_brand else None
     amount = re.search(regexp_amount, product_key)
     percentages = re.search(regexp_percentage, product_key)
     number = re.search(regexp_number, product_key)
@@ -92,12 +92,12 @@ def get_shop_locations(shop: str) -> List[str]:
 
 @cli.command()
 @async_cmd
-@click.option('--shop', default="silpo", type=str, help='list of shop categories.')
-@click.option('--locations', default=None, type=str, help='list of locations.')
+@click.option('--shops', default="silpo", type=str, help='list of shop categories.')
+@click.option('--locations', default="all", type=str, help='list of locations.')
 @click.option('--popular', default=False, type=bool, help='return popular categories or no.')
 @click.option('--force_reload', default=True, type=bool, help='force data download no matter cache exists.')
-async def parse_categories(shop, locations, popular, force_reload):
-    shop_list = list(zakaz_shops.keys()) if not shop or shop == "all" else [shop]
+async def parse_categories(shops, locations, popular, force_reload):
+    shop_list = list(zakaz_shops.keys()) if not shops or shops == "all" else shops.split(",")
     input_locations = locations.splt(",") if locations and locations != "all" else []
 
 
@@ -119,7 +119,7 @@ async def parse_categories(shop, locations, popular, force_reload):
 
                 categories: List[CategoryInfo] = []
                 if not categories_cached or force_reload:
-                    categories = await get_zakaz_categories(shop_key, shop_location, popular) if shop_key in list(zakaz_shops.keys()) else await get_silpo_categories(shop, location=shop_location)
+                    categories = await get_zakaz_categories(shop_key, shop_location, popular) if shop_key in list(zakaz_shops.keys()) else await get_silpo_categories(shop_key, location=shop_location)
                 else:
                     logging.info(f"Retrieving {shop_full_name} categories from path: {raw_category_file_path}")
                     categories = parse_file_as(List[CategoryInfo], raw_category_file_path)
@@ -129,7 +129,7 @@ async def parse_categories(shop, locations, popular, force_reload):
                         logging.info(f"Saving categories to {raw_category_file_path}")
                         with open(raw_category_file_path, "w+", **file_open_settings) as f:
                             json.dump([category.dict() for category in categories], f, **json_write_settings)
-                        category_hierarchy = {category.id: category.dict() for category in categories}
+                        category_hierarchy = {category.slug: category.dict() for category in categories}
 
                         with open(categories_hierarchy_file_path, "w+", **file_open_settings) as f:
                             json.dump(category_hierarchy, f, **json_write_settings)
@@ -139,7 +139,7 @@ async def parse_categories(shop, locations, popular, force_reload):
 
 @cli.command()
 @async_cmd
-@click.option('--shops', default="таврія", type=str, help='list of shops.')
+@click.option('--shops', default="silpo", type=str, help='list of shops.')
 @click.option('--locations', default="all", type=str, help='list of locations.')
 @click.option('--page_count', default=5, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')
@@ -169,7 +169,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                 category_products: Dict[str, List[ProductInfo]] = {}
 
                 if not products_cached or force_reload:
-                    category_products = await get_zakaz_products(shop_key, shop_location, page_count, product_count)
+                    category_products = await get_zakaz_products(shop_key, shop_location, page_count, product_count) if shop_key in list(zakaz_shops.keys()) else await get_silpo_products(shop_key, shop_location, page_count, product_count)
                 else:
                     logging.info(f"Retrieving '{shop_full_name}' products from path: {raw_product_path}")
                     category_products = parse_file_as(Dict[str, List[ProductInfo]], raw_product_path)
@@ -248,4 +248,4 @@ async def form_buy_list(input_file_path):
         click.echo('Починаю аналіз...')
 
 if __name__ == '__main__':
-    parse_categories()
+    parse_shop_products()

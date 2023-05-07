@@ -5,11 +5,12 @@ from pydantic import BaseModel
 
 
 class BaseCategoryInfo(BaseModel):
-    id: str
+    id: Optional[str]
     title: str
     description: Optional[str]
     image_url: Optional[str]
     is_popular: Optional[bool]
+    slug: Optional[str]
 
 
 class CategoryInfo(BaseCategoryInfo):
@@ -33,15 +34,12 @@ class ProductInfo(BaseModel):
     normalized_title: Optional[str]
     title: str 
     category_id: str
-    price: int
-    currency: Optional[str]
-    weight: Optional[int]
-    unit: Optional[str]
+    price: float
+    weight: Optional[str]
     producer: ProducerInfo
     description: Optional[str]
-    category_id: Optional[str]
-    url: Optional[str]
     slug: Optional[str]
+    web_url: Optional[str]
 
 
 class ShopLocationPreference(str, Enum):
@@ -60,8 +58,11 @@ class BuyPreference(BaseModel):
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.SingleShop
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e3d1ec5c1e3788165bde23fe7894fbc01caa3c86
 class Shop(BaseModel):
     name: str
     id: int

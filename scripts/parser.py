@@ -2,8 +2,9 @@ import asyncio
 import json
 import logging
 import os
+import re
 from collections import defaultdict
-from typing import List, Dict, Any, Set
+from typing import List, Dict, Set
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
@@ -53,6 +54,33 @@ def get_shops():
 def load_categories_from_file_or_cache(shop: str, is_popular: bool):
     pass
 
+def normalize_title(product_title: str):
+    product_key = product_title
+    rb_first_letter = "(?<=\s)([A-ZА-ЯЇІЄҐ]"  # без першого слова у рядку і з великої літери
+    rb_word = rb_first_letter + "[A-ZА-Яa-zа-яЇїІіЄєҐґ\-\—\.®']+\s?)+\s*"  # будь-які символи 1 або більше разів? пробіл між словами та в кінці рядка
+    rb_exc = "[a-zа-яїієґ\-\—\.®']{0,5}\s*"  # маленькі слова в брендах: до 5 символів, можуть зустрітися 1 раз
+    regex_brand = rb_word + '(' + rb_word + ')*' + '(' + rb_exc + rb_word + '){0,1}' + '(' + rb_word + ')*'
+    regex_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"  # перед пробіл, хоча б 1 цифра, після може бути . або , і після них обов'язково ще хоча б одна цифра і маленькі літери
+    regex_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"  # перед пробіл, цифра . або , (якщо знаки, то обов'язково ще цифра) і знак % (між ними може бути пробіл)
+    brand = re.search(regex_brand, product_key)
+    amount = re.search(regex_amount, product_key)
+    percentages = re.search(regex_percentage, product_key)
+
+    # getting found text in title (if it found)
+    if brand is not None:
+        brand = brand.group().strip()
+        product_key = re.sub(brand, '', product_key)  # deleting brand from key
+        product_key = re.sub(' {2}', ' ', product_key)  # deleting double spaces
+    if amount is not None:
+        amount = amount.group().strip()
+        product_key = re.sub(amount, '', product_key)  # deleting amount from key
+        product_key = re.sub(' {2}', ' ', product_key)  # deleting double spaces
+    if percentages is not None:
+        percentages = percentages.group().strip()
+        product_key = re.sub(percentages, '', product_key)  # deleting percentages from key
+        product_key = re.sub(' {2}', ' ', product_key)  # deleting double spaces
+
+    return product_key
 
 @cli.command()
 @async_cmd
@@ -94,7 +122,7 @@ allowed_shops = list(zakaz_shops.keys())
 
 @cli.command()
 @async_cmd
-@click.option('--shops', default="novus_osokor", type=str, help='list of shops.')
+@click.option('--shops', default="NOVUS SkyMall", type=str, help='list of shops.')
 @click.option('--page_count', default=5, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')
 @click.option('--force_reload', default=True, help='force data download no matter cache exists.')
@@ -104,7 +132,7 @@ async def parse_shop_products(shops, page_count, product_count, force_reload):
         shop_list = allowed_shops
     else:
         for shop_key in shops.split(","):
-            if not shop_key in allowed_shops:
+            if shop_key not in allowed_shops:
                 for allowed_shop in allowed_shops:
                     if allowed_shop.startswith(shop_key):
                         shop_list.append(allowed_shop)
@@ -117,7 +145,6 @@ async def parse_shop_products(shops, page_count, product_count, force_reload):
         shop_dir = try_create_shop_dir(shop_key)
         raw_product_path = os.path.join(shop_dir, f"raw_products_info.json")
         products_cached = os.path.exists(raw_product_path) and os.stat(raw_product_path).st_size > 5
-
         category_products: Dict[str, List[ProductInfo]] = {}
         if not products_cached or force_reload:
             category_products = await get_zakaz_products(shop_key, page_count, product_count)
@@ -127,8 +154,8 @@ async def parse_shop_products(shops, page_count, product_count, force_reload):
         if category_products:
             for category, products in category_products.items():
                 for product in products:
-                    product:  ProductInfo
-                    product.code = product.title
+                    product: ProductInfo
+                    product.code = normalize_title(product.title)
 
             print(f"Available products for {shop_key}, categories count: {len(category_products)}")
             if not products_cached or force_reload:
@@ -173,6 +200,8 @@ async def parse_shop_products(shops, page_count, product_count, force_reload):
 
                     with open(os.path.join(path_to_category, 'product_brands.json'), 'w+', **file_open_settings) as f:
                         json.dump({k: list(v) for k, v in product_brands.items()}, f, **json_write_settings)
+
+
 @cli.command()
 @async_cmd
 @click.option('--input_file_path', default="./user_buy_request_path.json", type=str, help='list of shops.')

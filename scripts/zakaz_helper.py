@@ -53,7 +53,7 @@ async def get_zakaz_products(shop: str, page_count: int, product_count: int) -> 
     completed_tasks = 0
     for args in chunks(scrape_args, 50):
         for item in await asyncio.gather(*[asyncio.create_task(get_page_products(arg.get("page"), arg.get("category"))) for arg in args]):
-            item : ProductListWithCategory
+            item: ProductListWithCategory
             results[item.category.id].extend(item.product_list)
             completed_tasks += 1
         print(f"Completed {round(completed_tasks/total_tasks * 100)}% of tasks")

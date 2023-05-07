@@ -7,7 +7,6 @@ from pydantic import BaseModel
 class BaseCategoryInfo(BaseModel):
     id: str
     title: str
-    count:  Optional[int]
     description: Optional[str]
     image_url: Optional[str]
     is_popular: Optional[bool]
@@ -52,3 +51,12 @@ class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.SingleShop
 
+
+class Shop(BaseModel):
+    name: str
+    id: int
+
+
+class ShopInfo(BaseModel):
+    id: int
+    location: Optional[str]

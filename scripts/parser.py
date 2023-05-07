@@ -9,18 +9,17 @@ from typing import List, Dict, Set
 import functools as ft
 from constants import STORE_INFO_PATH
 from base_entities import CategoryInfo, ProductInfo
+from scripts.silpo_helper import silpo_shops, get_silpo_categories
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
 from zakaz_shops import zakaz_shops
-
+from pathlib import Path
 file_open_settings = {"encoding": 'utf-8'}
 json_write_settings = {"ensure_ascii": False, "indent": 2}
 
 curr_dir = os.path.dirname(__file__)
 datat_dir = os.path.join(curr_dir, STORE_INFO_PATH)
-if not os.path.exists(datat_dir):
-    os.mkdir(datat_dir)
-
+Path(datat_dir).mkdir(parents=True, exist_ok=True)
 
 def async_cmd(func):  # to do, write your function decorator
     @ft.wraps(func)
@@ -30,10 +29,9 @@ def async_cmd(func):  # to do, write your function decorator
     return wrapper
 
 
-def try_create_shop_dir(shop: str):
-    shop_dir = os.path.join(datat_dir, shop)
-    if not os.path.exists(shop_dir):
-        os.mkdir(shop_dir)
+def try_create_shop_dir(shop: str, shop_location: str = None):
+    shop_dir = os.path.join(datat_dir, shop, shop_location or "")
+    Path(shop_dir).mkdir( parents=True, exist_ok=True)
     return shop_dir
 
 
@@ -86,66 +84,81 @@ def normalize_title(product_title: str, product_brand: str = ""):
     return product_key.lower().strip()
 
 
+shop_infos = {**zakaz_shops, **silpo_shops}
+
+allowed_shops = list(shop_infos.keys())
+
+def get_shop_locations(shop: str) -> List[str]:
+    return [shopinfo.location for shopinfo in  shop_infos.get(shop)]
+
 @cli.command()
 @async_cmd
-@click.option('--shop', default=None, type=str, help='list of shop categories.')
+@click.option('--shop', default="silpo", type=str, help='list of shop categories.')
+@click.option('--locations', default=None, type=str, help='list of locations.')
 @click.option('--popular', default=False, type=bool, help='return popular categories or no.')
-@click.option('--force_reload', default=False, type=bool, help='force data download no matter cache exists.')
-async def parse_categories(shop, popular, force_reload):
-    shop_list = list(zakaz_shops.keys()) if shop == "all" else [shop]
+@click.option('--force_reload', default=True, type=bool, help='force data download no matter cache exists.')
+async def parse_categories(shop, locations, popular, force_reload):
+    shop_list = list(zakaz_shops.keys()) if not shop or shop == "all" else [shop]
+    input_locations = locations.splt(",") if locations and locations != "all" else []
+
 
     for shop_key in shop_list:
         logging.info(f"Started scanning for {shop_key} categories, popular: {popular}")
-        shop_dir = try_create_shop_dir(shop_key)
 
-        raw_category_file_path = os.path.join(shop_dir, f"raw_categories_info{'popular' if popular else ''}.json")
-        categories_hierarchy_file_path = os.path.join(shop_dir,
-                                                      f"categories_hierarchy{'popular' if popular else ''}.json")
-        categories_cached = os.path.exists(raw_category_file_path) and os.stat(
-            raw_category_file_path).st_size > 5 and os.path.exists(categories_hierarchy_file_path)
+        shop_location_list = get_shop_locations(shop_key) if not input_locations else list(filter(lambda shop: shop.location in input_locations, get_shop_locations(shop_key)))
 
-        categories: List[CategoryInfo] = []
-        if not categories_cached or force_reload:
-            categories = await get_zakaz_categories(shop_key, popular)
+        if shop_location_list:
+            for shop_location in shop_location_list:
+                shop_full_name = f"{shop_key}_{shop_location}"
+                shop_dir = try_create_shop_dir(shop_key, shop_location)
+
+                raw_category_file_path = os.path.join(shop_dir, f"raw_categories_info{'popular' if popular else ''}.json")
+                categories_hierarchy_file_path = os.path.join(shop_dir,
+                                                              f"categories_hierarchy{'popular' if popular else ''}.json")
+                categories_cached = os.path.exists(raw_category_file_path) and os.stat(
+                    raw_category_file_path).st_size > 5 and os.path.exists(categories_hierarchy_file_path)
+
+                categories: List[CategoryInfo] = []
+                if not categories_cached or force_reload:
+                    categories = await get_zakaz_categories(shop_key, shop_location, popular) if shop_key in list(zakaz_shops.keys()) else await get_silpo_categories(shop, location=shop_location)
+                else:
+                    logging.info(f"Retrieving {shop_full_name} categories from path: {raw_category_file_path}")
+                    categories = parse_file_as(List[CategoryInfo], raw_category_file_path)
+                if categories:
+                    print(f"Available categories for {shop_full_name}, count: {len(categories)}")
+                    if not categories_cached or force_reload:
+                        logging.info(f"Saving categories to {raw_category_file_path}")
+                        with open(raw_category_file_path, "w+", **file_open_settings) as f:
+                            json.dump([category.dict() for category in categories], f, **json_write_settings)
+                        category_hierarchy = {category.id: category.dict() for category in categories}
+
+                        with open(categories_hierarchy_file_path, "w+", **file_open_settings) as f:
+                            json.dump(category_hierarchy, f, **json_write_settings)
         else:
-            logging.info(f"Retrieving {shop_key} categories from path: {raw_category_file_path}")
-            categories = parse_file_as(List[CategoryInfo], raw_category_file_path)
-        if categories:
-            print(f"Available categories for {shop_key}, count: {len(categories)}")
-            if not categories_cached or force_reload:
-                logging.info(f"Saving categories to {raw_category_file_path}")
-                with open(raw_category_file_path, "w+", **file_open_settings) as f:
-                    json.dump([category.dict() for category in categories], f, **json_write_settings)
-                category_hierarchy = {category.id: category.dict() for category in categories}
+            logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 
-                with open(categories_hierarchy_file_path, "w+", **file_open_settings) as f:
-                    json.dump(category_hierarchy, f, **json_write_settings)
-
-
-allowed_shops = list(zakaz_shops.keys())
 
 @cli.command()
 @async_cmd
-@click.option('--shops', default="NOVUS SkyMall", type=str, help='list of shops.')
+@click.option('--shops', default="таврія", type=str, help='list of shops.')
+@click.option('--locations', default="all", type=str, help='list of locations.')
 @click.option('--page_count', default=5, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')
 @click.option('--force_reload', default=True, help='force data download no matter cache exists.')
-async def parse_shop_products(shops, page_count, product_count, force_reload):
+async def parse_shop_products(shops, locations, page_count, product_count, force_reload):
     shop_list = []
-    if shops == "all":
+    if not shops or shops == "all":
         shop_list = allowed_shops
     else:
         for shop_key in shops.split(","):
-            if shop_key not in allowed_shops:
-                for allowed_shop in allowed_shops:
-                    if allowed_shop.startswith(shop_key):
-                        shop_list.append(allowed_shop)
-            else:
-                shop_list.append(shop_key)
+            shop_list.append(shop_key)
 
+    input_locations = locations.splt(",") if locations and locations != "all" else []
     for shop_key in shop_list:
+        shop_key: str
         logging.info(f"Started scanning for {shop_key} products")
 
+<<<<<<< HEAD
         shop_dir = try_create_shop_dir(shop_key)
         raw_product_path = os.path.join(shop_dir, f"raw_products_info.json")
         products_cached = os.path.exists(raw_product_path) and os.stat(raw_product_path).st_size > 5
@@ -161,50 +174,75 @@ async def parse_shop_products(shops, page_count, product_count, force_reload):
                     product: ProductInfo
                     product.code = normalize_title(product_title=product.title,
                                                    product_brand=product.producer.trademark)
+=======
+        shop_location_list = get_shop_locations(shop_key) if not input_locations else list(filter(lambda shop: shop.location in input_locations, get_shop_locations(shop_key)))
+>>>>>>> 8dcccad140ebab5c79807c0cee1d22462abfb21f
 
-            print(f"Available products for {shop_key}, categories count: {len(category_products)}")
-            if not products_cached or force_reload:
-                logging.info(f"Saving raw products to {raw_product_path}")
+        if shop_location_list:
+            for shop_location in shop_location_list:
+                shop_full_name = f"{shop_key}_{shop_location}"
+                shop_dir = try_create_shop_dir(shop_key, shop_location)
 
-                with open(raw_product_path, 'w+', **file_open_settings) as f:
-                    json.dump(
-                        {category_id: [product.dict() for product in product_list] for category_id, product_list in
-                         category_products.items()}, f, **json_write_settings)
+                raw_product_path = os.path.join(shop_dir, f"raw_products_info.json")
+                products_cached = os.path.exists(raw_product_path) and os.stat(raw_product_path).st_size > 5
+                category_products: Dict[str, List[ProductInfo]] = {}
 
-                for category_id, products in category_products.items():
-                    products: List[ProductInfo]
-                    path_to_category = os.path.join(shop_dir, category_id)
-                    if not os.path.exists(path_to_category):
-                        os.mkdir(path_to_category)
+                if not products_cached or force_reload:
+                    category_products = await get_zakaz_products(shop_key, shop_location, page_count, product_count)
+                else:
+                    logging.info(f"Retrieving '{shop_full_name}' products from path: {raw_product_path}")
+                    category_products = parse_file_as(Dict[str, List[ProductInfo]], raw_product_path)
+                if category_products:
+                    for category, products in category_products.items():
+                        for product in products:
+                            product: ProductInfo
+                            product.code = normalize_title(product.title)
 
-                    with open(os.path.join(path_to_category, 'normalized_products.json'), 'w+',
-                              **file_open_settings) as f:
-                        json.dump({product.code: product.dict() for product in products}, f, **json_write_settings)
+                    print(f"Available products for '{shop_full_name}', categories count: {len(category_products)}")
+                    if not products_cached or force_reload:
+                        logging.info(f"Saving raw products to {raw_product_path}")
 
-                    with open(os.path.join(path_to_category, 'normalized_products_list.json'), 'w+', **file_open_settings) as f:
-                        json.dump(sorted([product.code for product in products]), f, **json_write_settings)
+                        with open(raw_product_path, 'w+', **file_open_settings) as f:
+                            json.dump(
+                                {category_id: [product.dict() for product in product_list] for category_id, product_list in
+                                 category_products.items()}, f, **json_write_settings)
 
-                    with open(os.path.join(path_to_category, 'products_list.json'), 'w+', **file_open_settings) as f:
-                        json.dump(sorted([product.title for product in products]), f, **json_write_settings)
+                        for category_id, products in category_products.items():
+                            products: List[ProductInfo]
+                            path_to_category = os.path.join(shop_dir, category_id)
+                            if not os.path.exists(path_to_category):
+                                os.mkdir(path_to_category)
 
-                    with open(os.path.join(path_to_category, 'brand_list.json'), 'w+', **file_open_settings) as f:
-                        json.dump(list(
-                            set([product.producer.trademark for product in products if product.producer.trademark])), f,
-                                  **json_write_settings)
+                            with open(os.path.join(path_to_category, 'normalized_products.json'), 'w+',
+                                      **file_open_settings) as f:
+                                json.dump({product.code: product.dict() for product in products}, f, **json_write_settings)
 
-                    brand_products: Dict[str, Set[str]] = defaultdict(set)
-                    product_brands: Dict[str, Set[str]] = defaultdict(set)
-                    for product in products:
-                        # normalize
-                        if product.producer.trademark:
-                            brand_products[product.producer.trademark].add(product.code)
-                            product_brands[product.code].add(product.producer.trademark)
+                            with open(os.path.join(path_to_category, 'normalized_products_list.json'), 'w+', **file_open_settings) as f:
+                                json.dump(sorted([product.code for product in products]), f, **json_write_settings)
 
-                    with open(os.path.join(path_to_category, 'brand_products.json'), 'w+', **file_open_settings) as f:
-                        json.dump({k: list(v) for k, v in brand_products.items()}, f, **json_write_settings)
+                            with open(os.path.join(path_to_category, 'products_list.json'), 'w+', **file_open_settings) as f:
+                                json.dump(sorted([product.title for product in products]), f, **json_write_settings)
 
-                    with open(os.path.join(path_to_category, 'product_brands.json'), 'w+', **file_open_settings) as f:
-                        json.dump({k: list(v) for k, v in product_brands.items()}, f, **json_write_settings)
+                            with open(os.path.join(path_to_category, 'brand_list.json'), 'w+', **file_open_settings) as f:
+                                json.dump(list(
+                                    set([product.producer.trademark for product in products if product.producer.trademark])), f,
+                                          **json_write_settings)
+
+                            brand_products: Dict[str, Set[str]] = defaultdict(set)
+                            product_brands: Dict[str, Set[str]] = defaultdict(set)
+                            for product in products:
+                                # normalize
+                                if product.producer.trademark:
+                                    brand_products[product.producer.trademark].add(product.code)
+                                    product_brands[product.code].add(product.producer.trademark)
+
+                            with open(os.path.join(path_to_category, 'brand_products.json'), 'w+', **file_open_settings) as f:
+                                json.dump({k: list(v) for k, v in brand_products.items()}, f, **json_write_settings)
+
+                            with open(os.path.join(path_to_category, 'product_brands.json'), 'w+', **file_open_settings) as f:
+                                json.dump({k: list(v) for k, v in product_brands.items()}, f, **json_write_settings)
+            else:
+                logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 
 
 @cli.command()
@@ -233,4 +271,4 @@ async def form_buy_list(input_file_path):
             click.echo('Починаю аналіз...')
 
 if __name__ == '__main__':
-    cli()
+    parse_categories()

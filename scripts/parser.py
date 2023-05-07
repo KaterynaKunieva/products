@@ -174,7 +174,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                     for category, products in category_products.items():
                         for product in products:
                             product: ProductInfo
-                            product.code = normalize_title(product.title)
+                            product.normalized_title = normalize_title(product.title)
 
                     print(f"Available products for '{shop_full_name}', categories count: {len(category_products)}")
                     if not products_cached or force_reload:
@@ -193,10 +193,10 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 
                             with open(os.path.join(path_to_category, 'normalized_products.json'), 'w+',
                                       **file_open_settings) as f:
-                                json.dump({product.code: product.dict() for product in products}, f, **json_write_settings)
+                                json.dump({product.normalized_title: product.dict() for product in products}, f, **json_write_settings)
 
                             with open(os.path.join(path_to_category, 'normalized_products_list.json'), 'w+', **file_open_settings) as f:
-                                json.dump(sorted([product.code for product in products]), f, **json_write_settings)
+                                json.dump(sorted([product.normalized_title for product in products]), f, **json_write_settings)
 
                             with open(os.path.join(path_to_category, 'products_list.json'), 'w+', **file_open_settings) as f:
                                 json.dump(sorted([product.title for product in products]), f, **json_write_settings)
@@ -211,8 +211,8 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                             for product in products:
                                 # normalize
                                 if product.producer.trademark:
-                                    brand_products[product.producer.trademark].add(product.code)
-                                    product_brands[product.code].add(product.producer.trademark)
+                                    brand_products[product.producer.trademark].add(product.normalized_title)
+                                    product_brands[product.normalized_title].add(product.producer.trademark)
 
                             with open(os.path.join(path_to_category, 'brand_products.json'), 'w+', **file_open_settings) as f:
                                 json.dump({k: list(v) for k, v in brand_products.items()}, f, **json_write_settings)

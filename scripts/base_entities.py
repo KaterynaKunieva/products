@@ -29,7 +29,7 @@ class ProducerInfo(BaseModel):
     trademark_slug: Optional[str]
 
 class ProductInfo(BaseModel):
-    code: Optional[str]
+    normalized_title: Optional[str]
     title: str 
     category_id: str
     price: int
@@ -38,6 +38,9 @@ class ProductInfo(BaseModel):
     unit: Optional[str]
     producer: ProducerInfo
     description: Optional[str]
+    category_id: Optional[str]
+    url: Optional[str]
+    slug: Optional[str]
 
 class ShopLocationPreference(str, Enum):
     SingleShop = "single_shop",

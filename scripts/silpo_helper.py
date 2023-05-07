@@ -2,14 +2,12 @@ import asyncio
 import logging
 from collections import namedtuple, defaultdict
 from typing import List, Dict, Optional
-import json
-import re
-import aiohttp
-from pydantic import parse_obj_as, parse_raw_as, parse_file_as, BaseModel
+
+from pydantic import parse_obj_as, BaseModel
 
 from base_entities import CategoryInfo, ProductInfo, ShopInfo
-from extensions import get_http_response, chunks, HttpMethod
 from constants import BASE_silpo_UA_URL
+from extensions import get_http_response, chunks, HttpMethod
 
 silpo_shops = {
     "silpo": [ShopInfo(id=2043, location="default")]
@@ -71,7 +69,7 @@ async def get_silpo_categories(shop: str, location: str) -> List[CategoryInfo]:
 
 ProductListWithCategory = namedtuple('ProductListWithCategory', ['category', 'product_list'])
 
-async def get_silpo_products(shop: str, location: str, page_count: int, product_count: int) -> Dict[str, List[ProductInfo]]:
+async def get_silpo_products(shop: str, location: str, page_count:int, product_count: int) -> Dict[str, List[ProductInfo]]:
     shop_infos: List[ShopInfo] = list(filter(lambda x: x.location == location, silpo_shops.get(shop)))
     if not shop_infos:
         return {}
@@ -80,7 +78,26 @@ async def get_silpo_products(shop: str, location: str, page_count: int, product_
     categories: List[CategoryInfo] = await get_silpo_categories(shop=shop, location=location)
 
     async def get_page_products(page: int, category: CategoryInfo):
-        params = {'page': page, 'per_page': str(product_count)}
+        params = {
+        "method": "GetSimpleCatalogItems",
+        "data": {
+            "merchantId": 1,
+            "basketGuid": "",
+            "deliveryType": 2,
+            "filialId": shop_info.id,
+            "From": 1,
+            "businessId": 1,
+            "To": product_count * page_count,
+            "ingredients": False,
+            "categoryId": category.id,
+            "sortBy": "popular-asc",
+            "RangeFilters": {},
+            "MultiFilters": {},
+            "UniversalFilters": [],
+            "CategoryFilter": [],
+            "Promos": []
+        }
+    }
 
 
         product_url = f"{BASE_silpo_UA_URL}/{shop_info.id}/categories/{category.id}/products/"

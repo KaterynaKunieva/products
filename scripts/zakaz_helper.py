@@ -13,26 +13,31 @@ from zakaz_shops import zakaz_shops, ShopInfo
 from constants import BASE_ZAKAZ_UA_URL
 
 
-async def get_zakaz_categories(shop: str, popular: bool) -> List[CategoryInfo]:
-    shop_info: ShopInfo = zakaz_shops.get(shop)
-    category_url = f"{BASE_ZAKAZ_UA_URL}/{shop_info.id}/categories/{'popular' if popular else ''}"
-    response = await get_http_response(category_url, headers={"Accept-Language": "uk"})
-    if response:
-        categories: List[CategoryInfo] = parse_obj_as(List[CategoryInfo], response)
+async def get_zakaz_categories(shop: str, location: str, popular: bool = False) -> List[CategoryInfo]:
+    shop_infos: List[ShopInfo] = list(filter(lambda x: x.location == location, zakaz_shops.get(shop)))
+    if shop_infos:
+        shop_info = shop_infos[0]
+        category_url = f"{BASE_ZAKAZ_UA_URL}/{shop_info.id}/categories/{'popular' if popular else ''}"
+        response = await get_http_response(category_url, headers={"Accept-Language": "uk"})
+        if response:
+            categories: List[CategoryInfo] = parse_obj_as(List[CategoryInfo], response)
 
-        return categories
+            return categories
+        else:
+            logging.warning(f"Failed to parse categories of shop {shop}, location: {location}")
     else:
-        logging.warning(f"Failed to parse categories of shop {shop}")
+        logging.warning(f"Failed to find shop {shop}, location: {location}")
 
 
 ProductListWithCategory = namedtuple('ProductListWithCategory', ['category', 'product_list'])
 
-async def get_zakaz_products(shop: str, page_count: int, product_count: int) -> Dict[str, List[ProductInfo]]:
-    shop_info: ShopInfo = zakaz_shops.get(shop)
-    if not shop_info:
+async def get_zakaz_products(shop: str, location: str, page_count: int, product_count: int) -> Dict[str, List[ProductInfo]]:
+    shop_infos: List[ShopInfo] = list(filter(lambda x: x.location == location, zakaz_shops.get(shop)))
+    if not shop_infos:
         return {}
 
-    categories: List[CategoryInfo] = await get_zakaz_categories(shop=shop, popular=False)
+    shop_info = shop_infos[0]
+    categories: List[CategoryInfo] = await get_zakaz_categories(shop=shop, location=location, popular=False)
 
     async def get_page_products(page: int, category: CategoryInfo):
         params = {'page': page, 'per_page': str(product_count)}
@@ -44,7 +49,7 @@ async def get_zakaz_products(shop: str, page_count: int, product_count: int) -> 
             shop_products: List[ProductInfo] = parse_obj_as(List[ProductInfo], response['results'])
             return ProductListWithCategory(category=category, product_list=shop_products)
         else:
-            logging.warning(f"Failed to parse products of category {category} of shop {shop}")
+            logging.warning(f"Failed to parse products of category {category} of shop {shop}, location: {location}")
             return None
 
     results: Dict[str, List[ProductInfo]] = defaultdict(list)

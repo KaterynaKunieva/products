@@ -9,6 +9,7 @@ import functools as ft
 import click
 from constants import STORE_INFO_PATH
 from base_entities import CategoryInfo, ProductInfo
+from scripts.silpo_helper import silpo_shops, get_silpo_categories
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
 from zakaz_shops import zakaz_shops
@@ -79,9 +80,16 @@ def normalize_title(product_title: str):
 
     return product_key
 
+shop_infos = {**zakaz_shops, **silpo_shops}
+
+allowed_shops = list(shop_infos.keys())
+
+def get_shop_locations(shop: str) -> List[str]:
+    return [shopinfo.location for shopinfo in  shop_infos.get(shop)]
+
 @cli.command()
 @async_cmd
-@click.option('--shop', default=None, type=str, help='list of shop categories.')
+@click.option('--shop', default="silpo", type=str, help='list of shop categories.')
 @click.option('--locations', default=None, type=str, help='list of locations.')
 @click.option('--popular', default=False, type=bool, help='return popular categories or no.')
 @click.option('--force_reload', default=True, type=bool, help='force data download no matter cache exists.')
@@ -108,7 +116,7 @@ async def parse_categories(shop, locations, popular, force_reload):
 
                 categories: List[CategoryInfo] = []
                 if not categories_cached or force_reload:
-                    categories = await get_zakaz_categories(shop_key, shop_location, popular)
+                    categories = await get_zakaz_categories(shop_key, shop_location, popular) if shop_key in list(zakaz_shops.keys()) else await get_silpo_categories(shop, location=shop_location)
                 else:
                     logging.info(f"Retrieving {shop_full_name} categories from path: {raw_category_file_path}")
                     categories = parse_file_as(List[CategoryInfo], raw_category_file_path)
@@ -125,9 +133,6 @@ async def parse_categories(shop, locations, popular, force_reload):
         else:
             logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 
-allowed_shops = list(zakaz_shops.keys())
-def get_shop_locations(shop: str):
-    return [shopinfo.location for shopinfo in  zakaz_shops.get(shop)]
 
 @cli.command()
 @async_cmd
@@ -146,6 +151,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 
     input_locations = locations.splt(",") if locations and locations != "all" else []
     for shop_key in shop_list:
+        shop_key: str
         logging.info(f"Started scanning for {shop_key} products")
 
         shop_location_list = get_shop_locations(shop_key) if not input_locations else list(filter(lambda shop: shop.location in input_locations, get_shop_locations(shop_key)))
@@ -229,4 +235,4 @@ async def form_buy_list(input_file_path):
     pass
 
 if __name__ == '__main__':
-    parse_shop_products()
+    parse_categories()

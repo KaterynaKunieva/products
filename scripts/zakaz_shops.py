@@ -9,15 +9,7 @@ from typing import Dict, List, Optional, Any
 from extensions import get_http_response
 import asyncio
 
-class Shop(BaseModel):
-    name: str
-    id: int
-
-
-class ShopInfo(BaseModel):
-    id: int
-    location: Optional[str]
-
+from scripts.base_entities import ShopInfo, Shop
 
 zakaz_shops = {'novus': [ShopInfo(id=482010105, location='SkyMall'), ShopInfo(id=48201022, location='Рівне'),
                ShopInfo(id=48201029, location='Кільцева'), ShopInfo(id=48201070, location='Осокор')],

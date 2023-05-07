@@ -92,7 +92,7 @@ def get_shop_locations(shop: str) -> List[str]:
 
 @cli.command()
 @async_cmd
-@click.option('--shops', default="silpo", type=str, help='list of shop categories.')
+@click.option('--shops', default="таврія", type=str, help='list of shop categories.')
 @click.option('--locations', default="all", type=str, help='list of locations.')
 @click.option('--popular', default=False, type=bool, help='return popular categories or no.')
 @click.option('--force_reload', default=True, type=bool, help='force data download no matter cache exists.')
@@ -141,7 +141,7 @@ async def parse_categories(shops, locations, popular, force_reload):
 @async_cmd
 @click.option('--shops', default="silpo", type=str, help='list of shops.')
 @click.option('--locations', default="all", type=str, help='list of locations.')
-@click.option('--page_count', default=5, help='number of pages_count to scrape from shops.')
+@click.option('--page_count', default=1, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')
 @click.option('--force_reload', default=True, help='force data download no matter cache exists.')
 async def parse_shop_products(shops, locations, page_count, product_count, force_reload):
@@ -188,7 +188,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                             json.dump(
                                 {category_id: [product.dict() for product in product_list] for category_id, product_list in
                                  category_products.items()}, f, **json_write_settings)
-
+                        product_categories: Dict[str, List[str]] = defaultdict(list)
                         for category_id, products in category_products.items():
                             products: List[ProductInfo]
                             path_to_category = os.path.join(shop_dir, category_id)
@@ -217,12 +217,18 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                                 if product.producer.trademark:
                                     brand_products[product.producer.trademark].add(product.normalized_title)
                                     product_brands[product.normalized_title].add(product.producer.trademark)
+                                product_categories[product.normalized_title].append(category_id)
 
                             with open(os.path.join(path_to_category, 'brand_products.json'), 'w+', **file_open_settings) as f:
                                 json.dump({k: list(v) for k, v in brand_products.items()}, f, **json_write_settings)
 
                             with open(os.path.join(path_to_category, 'product_brands.json'), 'w+', **file_open_settings) as f:
                                 json.dump({k: list(v) for k, v in product_brands.items()}, f, **json_write_settings)
+
+                        with open(os.path.join(shop_dir, 'products_categories.json'), 'w+',
+                                  **file_open_settings) as f:
+                            json.dump(product_categories, f,
+                                      **json_write_settings)
             else:
                 logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 

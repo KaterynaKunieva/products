@@ -14,16 +14,7 @@ class BaseCategoryInfo(BaseModel):
 
 
 class CategoryInfo(BaseCategoryInfo):
-    children: Optional[List[BaseCategoryInfo]]
-
-
-class BaseCustomCategoryHierarchy(BaseCategoryInfo):
-    pass
-
-
-class CustomCategoryHierarchy(BaseCategoryInfo):
-    children: Dict[str, BaseCustomCategoryHierarchy]
-
+    children: Optional[List["CategoryInfo"]]
 
 class ProducerInfo(BaseModel):
     trademark: Optional[str]
@@ -58,4 +49,4 @@ class Shop(BaseModel):
 
 class ShopInfo(BaseModel):
     id: int
-    location: Optional[str]
+    location: Optional[str] = "default"

@@ -1,9 +1,4 @@
-# написала модель и функцию,
-# взяла названия и айди с апи,
-# вывела их консоль, скопировала
-# и вставила переменную
 from collections import defaultdict
-
 from pydantic import BaseModel, parse_obj_as
 from typing import Dict, List, Optional, Any
 from extensions import get_http_response

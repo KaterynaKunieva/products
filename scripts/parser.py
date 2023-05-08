@@ -31,7 +31,7 @@ def async_cmd(func):  # to do, write your function decorator
 
 def try_create_shop_dir(shop: str, shop_location: str = None):
     shop_dir = os.path.join(datat_dir, shop, shop_location or "")
-    Path(shop_dir).mkdir( parents=True, exist_ok=True)
+    Path(shop_dir).mkdir(parents=True, exist_ok=True)
     return shop_dir
 
 
@@ -54,12 +54,15 @@ def load_categories_from_file_or_cache(shop: str, is_popular: bool):
 
 def normalize_title(product_title: str, product_brand: str = ""):
     product_key = product_title
-    regexp_brand = product_brand if product_brand is not None else ""
+    regexp_brand = product_brand if product_brand is not None else None
     regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
     regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
     regexp_number = "№\d*"
-    regexp_symbols = "['\"‘’«»”„®,]+"
-    # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}"
+    regexp_symbols = "[®]+"
+    regexp_quotes = "['\"‘’«»”„]"  # delete only symbols
+    regexp_brackets = "[()\[\]{}]*"  # delete only symbols
+    # regexp_quotes = "['\"‘’«»”„].*['\"‘’«»”„]" # delete all inside
+    # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}" # delete all inside
 
     brand = re.search(regexp_brand, product_key) if product_brand else None
     amount = re.search(regexp_amount, product_key)
@@ -80,7 +83,8 @@ def normalize_title(product_title: str, product_brand: str = ""):
         product_key = re.sub(number, '', product_key)
 
     product_key = re.sub(regexp_symbols, '', product_key)
-    # product_key = re.sub(regexp_brackets, '', product_key)
+    product_key = re.sub(regexp_quotes, '', product_key)
+    product_key = re.sub(regexp_brackets, '', product_key)
     product_key = re.sub(' {2,}', ' ', product_key)
 
     return product_key.lower().strip()
@@ -90,8 +94,9 @@ shop_infos = {**zakaz_shops, **silpo_shops}
 
 allowed_shops = list(shop_infos.keys())
 
+
 def get_shop_locations(shop: str) -> List[str]:
-    return [shopinfo.location for shopinfo in  shop_infos.get(shop)]
+    return [shopinfo.location for shopinfo in shop_infos.get(shop)]
 
 @cli.command()
 @async_cmd
@@ -102,7 +107,6 @@ def get_shop_locations(shop: str) -> List[str]:
 async def parse_categories(shops, locations, popular, force_reload):
     shop_list = list(zakaz_shops.keys()) if not shops or shops == "all" else shops.split(",")
     input_locations = locations.splt(",") if locations and locations != "all" else []
-
 
     for shop_key in shop_list:
         logging.info(f"Started scanning for {shop_key} categories, popular: {popular}")
@@ -239,26 +243,56 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 @cli.command()
 @async_cmd
 @click.option('--input_file_path', default="./user_buy_request_path.json", type=str, help='list of shops.')
-@click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
+# @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
 async def form_buy_list(input_file_path):
-    # Read input input_file_path file
+    # Read input_file_path file
     # Read all necessary information from data files
-    # Form minimum cost buy list
+
+    # how to read preferences?
+
+    # 1 - Form minimum cost buy list
+    # 2 - User must input what product of found he wants?
+
     # Output buy card to output_file_path
 
     user_query = parse_file_as(UserBuyRequest, input_file_path)
-    print(user_query)
+    user_query = user_query.dict()
+    print(user_query['buy_list'])
 
-    # UserBuyRequest:
-    # [product, brand, weight, shop]
-    # type
+    base_path = os.path.join(os.path.dirname(__file__), STORE_INFO_PATH)   # path to data
+    file_navigator = os.path.join('default', 'products_categories.json')
+    file_product_info = "normalized_products.json"
 
-    # how to get product? go to hierarchy and what?
-    # find dir for shop
-    # check location
-    # Dict[shop: location, shop: location]
-    # save info from file to... model?
+    products_dict = defaultdict(list)
 
+    for product in user_query['buy_list']:
+        product_title = product["product_filter"]
+        product_brand = product["brand_filter"]
+        product_weight = product["weight_filter"]
+        shop_name = product["shop_filter"]
+        shop_location = product["location_filter"]
+        print(f"Product: {product_title}")
+
+        path_to_shop = os.path.join(base_path, shop_name)
+        path_to_navigator = os.path.join(path_to_shop, file_navigator)
+
+        # find category of product
+        with open(path_to_navigator, 'r', **file_open_settings) as f:
+            file_navigation = json.load(f)
+            for product_key in list(file_navigation.keys()):
+                if product_key.startswith(product_title):
+                    path_to_category = file_navigation[product_key][0]
+                    product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
+        with open(product_location, 'r', **file_open_settings) as p:
+            file_info = json.load(p)
+            for k in list(file_info.keys()):
+                if k.startswith(product_title):
+                    product_item = defaultdict(lambda: defaultdict(dict))
+                    product_item[k] = file_info[k]
+                    products_dict[shop_name].append(dict(product_item))
+
+    with open('./output.json', 'w', **file_open_settings) as r:
+        json.dump(products_dict, r, **json_write_settings)
 
 
 
@@ -270,8 +304,10 @@ async def form_buy_list(input_file_path):
 
 
     # if type == multiple
-    # selecting products by user?
+    # selecting products by user - in all cases by user,
+    # but: if user select the most important characteristics - in all shops by it
 
 
 if __name__ == '__main__':
-    parse_shop_products()
+    # form_buy_list()
+    cli()

@@ -16,6 +16,7 @@ class BaseCategoryInfo(BaseModel):
 class CategoryInfo(BaseCategoryInfo):
     children: Optional[List["CategoryInfo"]]
 
+
 class ProducerInfo(BaseModel):
     trademark: Optional[str]
     trademark_slug: Optional[str]
@@ -49,11 +50,8 @@ class BuyPreference(BaseModel):
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.SingleShop
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e3d1ec5c1e3788165bde23fe7894fbc01caa3c86
 class Shop(BaseModel):
     name: str
     id: int

@@ -1,0 +1,16 @@
+{
+  "buy_list":[
+    {
+      "product_filter":"молоко згущене",
+      "shop_filter":"silpo"
+    },
+    {
+      "product_filter":"хліб тостовий",
+      "shop_filter":"silpo"
+    },
+    {
+      "product_filter":"какао",
+      "shop_filter":"silpo"
+    }
+  ]
+}

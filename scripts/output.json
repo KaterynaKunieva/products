@@ -1,0 +1,324 @@
+{
+  "silpo": [
+    {
+      "молоко згущене незбиране з цукром": {
+        "normalized_title": "молоко згущене незбиране з цукром",
+        "title": "Молоко згущене «Ічня» незбиране з цукром 8,5%",
+        "category_id": "255",
+        "price": 51.49,
+        "weight": "300г",
+        "producer": {
+          "trademark": "Ічня",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-ichnia-nezbyrane-z-tsukrom-8-5-585867",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-ichnia-nezbyrane-z-tsukrom-8-5-585867"
+      }
+    },
+    {
+      "молоко згущене з цукром": {
+        "normalized_title": "молоко згущене з цукром",
+        "title": "Молоко згущене «Лавка традицій» з цукром 8,5%",
+        "category_id": "255",
+        "price": 89.99,
+        "weight": "300г",
+        "producer": {
+          "trademark": "Лавка традицій",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-691396",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-691396"
+      }
+    },
+    {
+      "молоко згущене": {
+        "normalized_title": "молоко згущене",
+        "title": "Молоко згущене «Первомайський МКК» 8,5%",
+        "category_id": "255",
+        "price": 64.99,
+        "weight": "440г",
+        "producer": {
+          "trademark": "Первомайський МКК",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-pervomaiskyi-mkk-8-5-647808",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-8-5-647808"
+      }
+    },
+    {
+      "молоко згущене первомайский мкк безлактозне": {
+        "normalized_title": "молоко згущене первомайский мкк безлактозне",
+        "title": "Молоко згущене «Первомайский МКК» безлактозне 8,5%",
+        "category_id": "255",
+        "price": 52.99,
+        "weight": "290г",
+        "producer": {
+          "trademark": "Первомайський МКК",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-pervomaiskyi-mkk-bezlaktozne-8-5-865848",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-bezlaktozne-8-5-865848"
+      }
+    },
+    {
+      "молоко згущене з/б": {
+        "normalized_title": "молоко згущене з/б",
+        "title": "Молоко згущене «Первомайський МКК» 8,5% з/б",
+        "category_id": "255",
+        "price": 56.99,
+        "weight": "370г",
+        "producer": {
+          "trademark": "Первомайський МКК",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-pervomaiskyi-mkk-8-5-z-b-584230",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-8-5-z-b-584230"
+      }
+    },
+    {
+      "молоко згущене іриска варене з/б": {
+        "normalized_title": "молоко згущене іриска варене з/б",
+        "title": "Молоко згущене «Первомайський МКК» «Іриска» варене з/б",
+        "category_id": "255",
+        "price": 79.99,
+        "weight": "370г",
+        "producer": {
+          "trademark": "Первомайський МКК",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-pervomaiskyi-mkk-iryska-varene-z-b-599823",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-iryska-varene-z-b-599823"
+      }
+    },
+    {
+      "молоко згущене первомайский мкк з цукром": {
+        "normalized_title": "молоко згущене первомайский мкк з цукром",
+        "title": "Молоко згущене «Первомайский МКК» з цукром 8,5%",
+        "category_id": "255",
+        "price": 8.49,
+        "weight": "15г",
+        "producer": {
+          "trademark": "Первомайський МКК",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-pervomaiskyi-mkk-z-tsukrom-8-5-917749",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-z-tsukrom-8-5-917749"
+      }
+    },
+    {
+      "молоко згущене з цукром та какао": {
+        "normalized_title": "молоко згущене з цукром та какао",
+        "title": "Молоко згущене Mama Milla з цукром та какао 7,5%",
+        "category_id": "255",
+        "price": 67.99,
+        "weight": "320г",
+        "producer": {
+          "trademark": "Mama Milla",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-mama-milla-z-tsukrom-ta-kakao-7-5-643814",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-mama-milla-z-tsukrom-ta-kakao-7-5-643814"
+      }
+    },
+    {
+      "молоко згущене з цукром варене": {
+        "normalized_title": "молоко згущене з цукром варене",
+        "title": "Молоко згущене «Лавка традицій» з цукром варене 8,5%",
+        "category_id": "255",
+        "price": 94.99,
+        "weight": "300г",
+        "producer": {
+          "trademark": "Лавка традицій",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-691398",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-691398"
+      }
+    },
+    {
+      "молоко згущене з цукром варене с/б": {
+        "normalized_title": "молоко згущене з цукром варене с/б",
+        "title": "Молоко згущене «Лавка традицій» з цукром варене 8,5% с/б",
+        "category_id": "255",
+        "price": 164.0,
+        "weight": "600г",
+        "producer": {
+          "trademark": "Лавка традицій",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-s-b-691399",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-s-b-691399"
+      }
+    },
+    {
+      "молоко згущене з цукром с/б": {
+        "normalized_title": "молоко згущене з цукром с/б",
+        "title": "Молоко згущене «Лавка традицій» з цукром 8,5% с/б",
+        "category_id": "255",
+        "price": 159.0,
+        "weight": "600г",
+        "producer": {
+          "trademark": "Лавка традицій",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-s-b-691397",
+        "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-s-b-691397"
+      }
+    },
+    {
+      "хліб тостовий світлий нарізаний": {
+        "normalized_title": "хліб тостовий світлий нарізаний",
+        "title": "Хліб «Київхліб» тостовий світлий нарізаний",
+        "category_id": "497",
+        "price": 26.59,
+        "weight": "350г",
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tostovyi-svitlyi-narizanyi-764208",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tostovyi-svitlyi-narizanyi-764208"
+      }
+    },
+    {
+      "хліб тостовий томатний нарізаний": {
+        "normalized_title": "хліб тостовий томатний нарізаний",
+        "title": "Хліб «Київхліб» тостовий томатний нарізаний",
+        "category_id": "497",
+        "price": 32.49,
+        "weight": "350г",
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tostovyi-tomatnyi-narizanyi-822169",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tostovyi-tomatnyi-narizanyi-822169"
+      }
+    },
+    {
+      "хліб тостовий темний нарізаний": {
+        "normalized_title": "хліб тостовий темний нарізаний",
+        "title": "Хліб «Київхліб» тостовий темний нарізаний",
+        "category_id": "497",
+        "price": 26.69,
+        "weight": "350г",
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tostovyi-temnyi-narizanyi-764209",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tostovyi-temnyi-narizanyi-764209"
+      }
+    },
+    {
+      "хліб тостовий": {
+        "normalized_title": "хліб тостовий",
+        "title": "Хліб «Крафтяр» тостовий",
+        "category_id": "497",
+        "price": 23.49,
+        "weight": "400г",
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-tostovyi-753888",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-tostovyi-753888"
+      }
+    },
+    {
+      "хліб тостовий виcівковий": {
+        "normalized_title": "хліб тостовий виcівковий",
+        "title": "Хліб «Крафтяр» тостовий виcівковий",
+        "category_id": "497",
+        "price": 23.49,
+        "weight": "400г",
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-tostovyi-vycivkovyi-753887",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-tostovyi-vycivkovyi-753887"
+      }
+    },
+    {
+      "хліб тостовий солодовий": {
+        "normalized_title": "хліб тостовий солодовий",
+        "title": "Хліб «Крафтяр» тостовий солодовий",
+        "category_id": "497",
+        "price": 25.49,
+        "weight": "400г",
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-tostovyi-solodovyi-753886",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-tostovyi-solodovyi-753886"
+      }
+    },
+    {
+      "какао лавка традицій cacao veggi": {
+        "normalized_title": "какао лавка традицій cacao veggi",
+        "title": "Какао «Лавка Традицій» Ineo products Cacao veggi",
+        "category_id": "360",
+        "price": 25.99,
+        "weight": "20г",
+        "producer": {
+          "trademark": "Ineo products",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "kakao-lavka-tradytsii-ineo-products-cacao-veggi-885565",
+        "web_url": "https://shop.silpo.ua/product/kakao-lavka-tradytsii-ineo-products-cacao-veggi-885565"
+      }
+    },
+    {
+      "какао ineo products vega cacao": {
+        "normalized_title": "какао ineo products vega cacao",
+        "title": "Какао «Лавка традицій» Ineo products Vega Cacao",
+        "category_id": "360",
+        "price": 169.0,
+        "weight": "250г",
+        "producer": {
+          "trademark": "Лавка традицій",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "kakao-lavka-tradytsii-ineo-products-vega-cacao-813402",
+        "web_url": "https://shop.silpo.ua/product/kakao-lavka-tradytsii-ineo-products-vega-cacao-813402"
+      }
+    },
+    {
+      "какао-порошок церемоніальний": {
+        "normalized_title": "какао-порошок церемоніальний",
+        "title": "Какао-порошок Teahouse церемоніальний",
+        "category_id": "360",
+        "price": 98.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Teahouse",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "kakao-poroshok-teahouse-tseremonialnyi-924094",
+        "web_url": "https://shop.silpo.ua/product/kakao-poroshok-teahouse-tseremonialnyi-924094"
+      }
+    }
+  ]
+}

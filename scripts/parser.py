@@ -58,7 +58,8 @@ def normalize_title(product_title: str, product_brand: str = ""):
     regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
     regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
     regexp_number = "№\d*"
-    regexp_symbols = "['\"‘’«»”„]+"
+    regexp_symbols = "['\"‘’«»”„®,]+"
+    # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}"
 
     brand = re.search(regexp_brand, product_key) if product_brand else None
     amount = re.search(regexp_amount, product_key)
@@ -68,20 +69,19 @@ def normalize_title(product_title: str, product_brand: str = ""):
     if brand is not None:
         brand = brand.group().strip()
         product_key = re.sub(brand, '', product_key)
-        product_key = re.sub(' {2,}', ' ', product_key)
     if amount is not None:
         amount = amount.group().strip()
         product_key = re.sub(amount, '', product_key)
-        product_key = re.sub(' {2,}', ' ', product_key)
     if percentages is not None:
         percentages = percentages.group().strip()
         product_key = re.sub(percentages, '', product_key)
-        product_key = re.sub(' {2,}', ' ', product_key)
     if number is not None:
         number = number.group().strip()
         product_key = re.sub(number, '', product_key)
-        product_key = re.sub(' {2,}', ' ', product_key)
+
     product_key = re.sub(regexp_symbols, '', product_key)
+    # product_key = re.sub(regexp_brackets, '', product_key)
+    product_key = re.sub(' {2,}', ' ', product_key)
 
     return product_key.lower().strip()
 

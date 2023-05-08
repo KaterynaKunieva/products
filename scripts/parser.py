@@ -53,41 +53,45 @@ def load_categories_from_file_or_cache(shop: str, is_popular: bool):
     pass
 
 def normalize_title(product_title: str, product_brand: str = ""):
-    product_key = product_title
-    regexp_brand = product_brand if product_brand is not None else None
-    regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
-    regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
-    regexp_number = "№\d*"
-    regexp_symbols = "[®]+"
-    regexp_quotes = "['\"‘’«»”„]"  # delete only symbols
-    regexp_brackets = "[()\[\]{}]*"  # delete only symbols
-    # regexp_quotes = "['\"‘’«»”„].*['\"‘’«»”„]" # delete all inside
-    # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}" # delete all inside
+    try:
+        product_key = product_title
+        regexp_brand = product_brand if product_brand is not None else None
+        regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
+        regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
+        regexp_number = "№\d*"
+        regexp_symbols = "[®]+"
+        regexp_quotes = "['\"‘’«»”„]"  # delete only symbols
+        regexp_brackets = "[()\[\]{}]*"  # delete only symbols
+        # regexp_quotes = "['\"‘’«»”„].*['\"‘’«»”„]" # delete all inside
+        # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}" # delete all inside
 
-    brand = re.search(regexp_brand, product_key) if product_brand else None
-    amount = re.search(regexp_amount, product_key)
-    percentages = re.search(regexp_percentage, product_key)
-    number = re.search(regexp_number, product_key)
+        brand = re.search(regexp_brand, product_key) if product_brand else None
+        amount = re.search(regexp_amount, product_key)
+        percentages = re.search(regexp_percentage, product_key)
+        number = re.search(regexp_number, product_key)
 
-    if brand is not None:
-        brand = brand.group().strip()
-        product_key = re.sub(brand, '', product_key)
-    if amount is not None:
-        amount = amount.group().strip()
-        product_key = re.sub(amount, '', product_key)
-    if percentages is not None:
-        percentages = percentages.group().strip()
-        product_key = re.sub(percentages, '', product_key)
-    if number is not None:
-        number = number.group().strip()
-        product_key = re.sub(number, '', product_key)
+        if brand is not None:
+            brand = brand.group().strip()
+            product_key = re.sub(brand, '', product_key)
+        if amount is not None:
+            amount = amount.group().strip()
+            product_key = re.sub(amount, '', product_key)
+        if percentages is not None:
+            percentages = percentages.group().strip()
+            product_key = re.sub(percentages, '', product_key)
+        if number is not None:
+            number = number.group().strip()
+            product_key = re.sub(number, '', product_key)
 
-    product_key = re.sub(regexp_symbols, '', product_key)
-    product_key = re.sub(regexp_quotes, '', product_key)
-    product_key = re.sub(regexp_brackets, '', product_key)
-    product_key = re.sub(' {2,}', ' ', product_key)
+        product_key = re.sub(regexp_symbols, '', product_key)
+        product_key = re.sub(regexp_quotes, '', product_key)
+        product_key = re.sub(regexp_brackets, '', product_key)
+        product_key = re.sub(' {2,}', ' ', product_key)
 
-    return product_key.lower().strip()
+        return product_key.lower().strip()
+    except Exception as ex:
+        logging.error(f'Failed to normalized {product_title}, {product_brand}', exc_info=ex)
+        return product_title
 
 
 shop_infos = {**zakaz_shops, **silpo_shops}

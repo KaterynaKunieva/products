@@ -54,16 +54,40 @@ async def get_zakaz_products(shop: str, location: str, page_count: int, product_
             return None
 
     results: Dict[str, List[ProductInfo]] = defaultdict(list)
-    scrape_args = [{"page": page, "category": category} for page in range(1, page_count) for category in categories]
+    def get_categories(category: CategoryInfo):
+        categories = []
+        if category.children:
+            for child in category.children:
+                categories.extend(get_categories(child))
+        else:
+            categories.append(category)
+
+        return categories
+
+    scrape_args = []
+
+    categories_ids = set()
+    categories_flat = list()
+    for category in categories:
+        for cat in get_categories(category):
+            if cat.id not in categories_ids:
+                categories_ids.add(cat.id)
+                categories_flat.append(cat)
+
+    for page in range(1, page_count + 1):
+        for cat in list(categories_flat):
+            scrape_args.append({"page": page, "category": cat})
+
     total_tasks = len(scrape_args)
+    print(f"Total amount of scrape tasks: {total_tasks},  categories: {len(categories_flat)}")
     completed_tasks = 0
-    for args in chunks(scrape_args, 50):
+    for args in chunks(scrape_args, 15):
         for item in await asyncio.gather(*[asyncio.create_task(get_page_products(arg.get("page"), arg.get("category"))) for arg in args]):
             item: ProductListWithCategory
             results[item.category.id].extend(item.product_list)
             completed_tasks += 1
         print(f"Completed {round(completed_tasks/total_tasks * 100)}% of tasks")
-        await asyncio.sleep(1)
+        await asyncio.sleep(2.5)
 
     return results
 

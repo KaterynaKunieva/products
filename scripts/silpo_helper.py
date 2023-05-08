@@ -129,16 +129,36 @@ async def get_silpo_products(shop: str, location: str, page_count: int, product_
             return None
 
     results: Dict[str, List[ProductInfo]] = defaultdict(list)
-    scrape_args = [{"category": category }for category in categories]
+
+    def get_categories(category: CategoryInfo):
+        categories = []
+        if category.children:
+            for child in category.children:
+                categories.extend(get_categories(child))
+        else:
+            categories.append(category)
+
+        return categories
+
+    scrape_args = []
+
+    categories_ids = set()
+    for category in categories:
+        for cat in get_categories(category):
+            if cat.id not in categories_ids:
+                categories_ids.add(cat.id)
+                scrape_args.append(cat)
+
     total_tasks = len(scrape_args)
+    print(f"Total amount of scrape tasks: {total_tasks}")
     completed_tasks = 0
-    for args in chunks(scrape_args, 50):
+    for args in chunks(scrape_args, 30):
         for item in await asyncio.gather(
-                *[asyncio.create_task(get_products(arg.get("category"))) for arg in args]):
+                *[asyncio.create_task(get_products(arg)) for arg in args]):
             item: ProductListWithCategory
             results[item.category.slug].extend(item.product_list)
             completed_tasks += 1
         print(f"Completed {round(completed_tasks / total_tasks * 100)}% of tasks")
-        await asyncio.sleep(1)
+        await asyncio.sleep(2.5)
 
     return results

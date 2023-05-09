@@ -5,11 +5,47 @@
       "shop_filter":"silpo"
     },
     {
+      "product_filter":"молоко згущене",
+      "shop_filter":"novus"
+    },
+    {
       "product_filter":"хліб тостовий",
       "shop_filter":"silpo"
     },
     {
+      "product_filter":"хліб тостовий",
+      "shop_filter":"novus"
+    },
+    {
       "product_filter":"какао",
+      "shop_filter":"novus"
+    },
+    {
+      "product_filter":"какао",
+      "shop_filter":"silpo"
+    },
+    {
+      "product_filter":"яблуко",
+      "shop_filter":"metro"
+    },
+    {
+      "product_filter":"яблуко",
+      "shop_filter":"novus"
+    },
+    {
+      "product_filter":"гливи",
+      "shop_filter":"novus"
+    },
+    {
+      "product_filter":"гливи",
+      "shop_filter":"silpo"
+    },
+    {
+      "product_filter":"печериці",
+      "shop_filter":"novus"
+    },
+    {
+      "product_filter":"печериці",
       "shop_filter":"silpo"
     }
   ]

@@ -49,7 +49,7 @@ class BuyPreference(BaseModel):
 
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
-    buy_location_preference: ShopLocationPreference = ShopLocationPreference.SingleShop
+    buy_location_preference: ShopLocationPreference = ShopLocationPreference.MultiShop
 
 
 class Shop(BaseModel):

@@ -2,6 +2,7 @@ import asyncio
 import json
 import logging
 import os
+import math
 import re
 from collections import defaultdict
 from typing import List, Dict, Set
@@ -55,7 +56,7 @@ def load_categories_from_file_or_cache(shop: str, is_popular: bool):
 def normalize_title(product_title: str, product_brand: str = ""):
     try:
         product_key = product_title
-        regexp_brand = product_brand if product_brand is not None else None
+        regexp_brand = product_brand if product_brand else ''
         regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
         regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
         regexp_number = "№\d*"
@@ -65,24 +66,21 @@ def normalize_title(product_title: str, product_brand: str = ""):
         # regexp_quotes = "['\"‘’«»”„].*['\"‘’«»”„]" # delete all inside
         # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}" # delete all inside
 
-        brand = re.search(regexp_brand, product_key) if product_brand else None
         amount = re.search(regexp_amount, product_key)
         percentages = re.search(regexp_percentage, product_key)
         number = re.search(regexp_number, product_key)
 
-        if brand is not None:
-            brand = brand.group().strip()
-            product_key = re.sub(brand, '', product_key)
         if amount is not None:
             amount = amount.group().strip()
-            product_key = re.sub(amount, '', product_key)
+            product_key = product_key.replace(amount, '')
         if percentages is not None:
             percentages = percentages.group().strip()
-            product_key = re.sub(percentages, '', product_key)
+            product_key = product_key.replace(percentages, '')
         if number is not None:
             number = number.group().strip()
-            product_key = re.sub(number, '', product_key)
+            product_key = product_key.replace(number, '')
 
+        product_key = product_key.replace(regexp_brand, '')
         product_key = re.sub(regexp_symbols, '', product_key)
         product_key = re.sub(regexp_quotes, '', product_key)
         product_key = re.sub(regexp_brackets, '', product_key)
@@ -255,13 +253,12 @@ async def form_buy_list(input_file_path):
     # how to read preferences?
 
     # 1 - Form minimum cost buy list
-    # 2 - User must input what product of found he wants?
+    # 2 - User must input what product he wants?
 
-    # Output buy card to output_file_path
+    # Output buy-card to output_file_path
 
     user_query = parse_file_as(UserBuyRequest, input_file_path)
     user_query = user_query.dict()
-    print(user_query['buy_list'])
 
     base_path = os.path.join(os.path.dirname(__file__), STORE_INFO_PATH)   # path to data
     file_navigator = os.path.join('default', 'products_categories.json')
@@ -275,7 +272,6 @@ async def form_buy_list(input_file_path):
         product_weight = product["weight_filter"]
         shop_name = product["shop_filter"]
         shop_location = product["location_filter"]
-        print(f"Product: {product_title}")
 
         path_to_shop = os.path.join(base_path, shop_name)
         path_to_navigator = os.path.join(path_to_shop, file_navigator)
@@ -287,31 +283,57 @@ async def form_buy_list(input_file_path):
                 if product_key.startswith(product_title):
                     path_to_category = file_navigation[product_key][0]
                     product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
+
+        # find product in category
         with open(product_location, 'r', **file_open_settings) as p:
             file_info = json.load(p)
+
             for k in list(file_info.keys()):
-                if k.startswith(product_title):
-                    product_item = defaultdict(lambda: defaultdict(dict))
-                    product_item[k] = file_info[k]
-                    products_dict[shop_name].append(dict(product_item))
+                product_item = {'shop': shop_name, **file_info[k]}
+                if k.startswith(product_title) and product_item not in products_dict[product_title]:
+                    products_dict[product_title].append(product_item)
 
-    with open('./output.json', 'w', **file_open_settings) as r:
-        json.dump(products_dict, r, **json_write_settings)
+    def sort_products_by_price(e):
+        if e['weight'] is None or e['weight'] == 0 or e['weight'] == "0":
+            weight = 1
+        else:
+            weight = re.search("\d+(,?\d+|.?\d+)*", e['weight']).group()
+            weight = float(weight.replace(',', '.'))
 
+            weight_unit = re.search("[a-zа-яЇїІіЄєҐґ]+", e['weight'])
+            if weight_unit:
+                weight_unit = weight_unit.group()
+            else:
+                weight_unit = ''
+            if weight_unit == 'л':
+                weight *= 1000
+                weight_unit = 'мл'
+            elif weight_unit == 'кг':
+                weight *= 1000
+                weight_unit = 'мл'
+        price = e['price'] if e['shop'] == 'silpo' else e['price'] / 100
+        return price / weight
 
+    # find min price
+    if user_query['buy_location_preference'] == 'multi_shop':
+        end_price = 0
+        selected_products = defaultdict(lambda: defaultdict)
+        for query, products in products_dict.items():
+            products.sort(key=sort_products_by_price)
+            for product in products:
+                if query not in list(selected_products.keys()):
+                     selected_products[query] = product
 
-    # preferences - how to calculate (card for each shop or card with different shops)
-    # if type == by single:
-    # get data from each shop
-    # create list for each
-    # create function to create list by characteristics?
+        for q, v in selected_products.items():
+            end_price += v["price"] if v["shop"] == "silpo" else v["price"]/100
+            print(f'{q}: {v["shop"]} - {v["title"]} - {v["weight"]} - {v["price"] if v["shop"] == "silpo" else v["price"]/100}\n')
+        print(f'end price: {round(end_price, 2)}\n')
 
+        with open('./output.json', 'w', **file_open_settings) as r:
+            json.dump(selected_products, r, **json_write_settings)
 
-    # if type == multiple
-    # selecting products by user - in all cases by user,
-    # but: if user select the most important characteristics - in all shops by it
+    # if type == by single: group data for each shop
 
 
 if __name__ == '__main__':
-    # form_buy_list()
     cli()

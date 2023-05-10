@@ -297,15 +297,14 @@ async def form_buy_list(input_file_path):
     file_navigator = os.path.join('default', 'products_categories.json')
     file_product_info = "normalized_products.json"
 
-      # to store all found product
-
-    selected_products = defaultdict(lambda: defaultdict(str))
-    founded_products = defaultdict(lambda: defaultdict(list))
+    selected_products: Dict[str, Dict[str, Any]] = defaultdict(lambda: defaultdict(str))
+    founded_products: Dict[str, Dict[str, List[Dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
     end_price = 0
 
     for product in buy_list:  # each item
         path_to_shop = os.path.join(base_path, product.shop_filter)
         path_to_navigator = os.path.join(path_to_shop, file_navigator)
+
         # find category of product
         with open(path_to_navigator, 'r', **file_open_settings) as f:
             file_navigation = json.load(f)
@@ -316,10 +315,10 @@ async def form_buy_list(input_file_path):
 
                 # find product in category
                 with open(product_location, 'r', **file_open_settings) as p:
-                    file_info = json.load(p)
+                    file_info: Dict[str, Dict[str, Any]] = json.load(p)
 
                 if user_query.buy_location_preference == 'multi_shop_check':
-                    founded_products = defaultdict(list)
+                    founded_products: Dict[str, list] = defaultdict(list)
                     for title_key in list(file_info.keys()):
                         product_item: dict[str, Any] = {
                             'user_query': product.title_filter,

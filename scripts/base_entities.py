@@ -41,10 +41,9 @@ class ShopLocationPreference(str, Enum):
 
 class BuyPreference(BaseModel):
     title_filter: Optional[str]
-    brand_filter: Optional[str]
+    brand_filter: Optional[List[str]]
     weight_filter: Optional[str]
-    shop_filter: Optional[str]
-    location_filter: Optional[str]
+    shop_filter: Optional[List[str]]
 
 
 class UserBuyRequest(BaseModel):

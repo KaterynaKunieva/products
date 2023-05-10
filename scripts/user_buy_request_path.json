@@ -59,5 +59,6 @@
       "title_filter":"гливи",
       "shop_filter":"metro"
     }
-  ]
+  ],
+  "buy_location_preference": "multi_shop_check"
 }

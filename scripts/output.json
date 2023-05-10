@@ -1,92 +1,66 @@
 {
   "молоко згущене": {
-    "shop": "novus",
-    "normalized_title": "молоко згущене пмкк іриска нежирне",
-    "title": "Молоко згущене ПМКК Іриска нежирне 500г",
-    "category_id": "condensed-milk",
-    "price": 6599.0,
-    "weight": "796.0",
+    "user_query": "молоко згущене",
+    "found_in_shop": "varus",
+    "normalized_title": "сирки злагода 1 молоко згущене 60г",
+    "title": "Сирки Злагода 2в1 Молоко згущене 15% 60г",
+    "category_id": "glazed-curds-varus",
+    "price": 1870.0,
+    "weight": "60.0",
     "producer": {
-      "trademark": "Первомайськ",
-      "trademark_slug": "pervomaisk"
+      "trademark": "ЗЛАГОДА",
+      "trademark_slug": "zlagoda"
     },
-    "description": "Недоліком практично будь-яких солодощів є відсутність користі! На щастя, з будь-якого правила бувають винятки! Хороший приклад тому - згущене молоко! Його переваги: ​​повністю засвоюється більшістю людей, досить тривалий термін зберігання, альтернатива для любителів солодкого, висока енергетична цінність/користь. Купити згущене молоко варене Іриска, в Україні просто. Відмінність від звичайної згущенки, в тому що, вона проходить додаткову термічну обробку. Після неї з'являється характерний колір і смак, що відрізняється від оригінального!",
-    "slug": "zgushchene-moloko-pervomaisk-530g",
-    "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-530g--04820012683291/"
-  },
-  "хліб тостовий": {
-    "shop": "silpo",
-    "normalized_title": "хліб тостовий",
-    "title": "Хліб «Крафтяр» тостовий",
-    "category_id": "497",
-    "price": 23.49,
-    "weight": "400г",
-    "producer": {
-      "trademark": "Крафтяр",
-      "trademark_slug": null
-    },
-    "description": null,
-    "slug": "khlib-kraftiar-tostovyi-753888",
-    "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-tostovyi-753888"
-  },
-  "какао": {
-    "shop": "novus",
-    "normalized_title": "какао 10 вітамінів + кальцій розчинне",
-    "title": "Какао Kiddy 10 вітамінів + кальцій розчинне 150г",
-    "category_id": "cocoa-drinks",
-    "price": 3999.0,
-    "weight": "150.0",
-    "producer": {
-      "trademark": "Kiddy",
-      "trademark_slug": "kiddy"
-    },
-    "description": "",
-    "slug": "kakao-kiddi-150g-polshcha",
-    "web_url": "https://novus.zakaz.ua/uk/products/kakao-kiddi-150g-polshcha--04771632313849/"
-  },
-  "яблуко": {
-    "shop": "metro",
-    "normalized_title": "яблуко гала",
-    "title": "Яблуко Гала 1,5кг",
-    "category_id": "pears-apples-quinces-metro",
-    "price": 3214.0,
-    "weight": "1500.0",
-    "producer": {
-      "trademark": "без тм",
-      "trademark_slug": "without-brand"
-    },
-    "description": "",
-    "slug": "frukt",
-    "web_url": "https://metro.zakaz.ua/uk/products/frukt--metro98690137402700/"
-  },
-  "гливи": {
-    "shop": "novus",
-    "normalized_title": "гливи свіжі",
-    "title": "Гливи свіжі 250г",
-    "category_id": "veshenka",
-    "price": 3200.0,
-    "weight": "250.0",
-    "producer": {
-      "trademark": "без тм",
-      "trademark_slug": "without-brand"
-    },
-    "description": "",
-    "slug": "gribi-gliva-250g",
-    "web_url": "https://novus.zakaz.ua/uk/products/gribi-gliva-250g--04820215520034/"
+    "description": "Два смаку в одній упаковці! Сирки з натуральним і вареним згущеним молоком ідеально доповнюють один одного. Ніжна сирна маса з додаванням ароматного ваніліну, всіма улюблена натуральна сгущенка в одному сирку і варена, що нагадує карамельну іриску, в іншому. І вся ця спокуса покрита скоринкою хрусткого шоколаду.",
+    "slug": "sir-zlagoda-60g-ukrayina",
+    "web_url": "https://varus.zakaz.ua/uk/products/sir-zlagoda-60g-ukrayina--04820202530213/"
   },
   "печериці": {
-    "shop": "silpo",
-    "normalized_title": "печериці мариновані",
-    "title": "Печериці мариновані",
-    "category_id": "428",
-    "price": 49.99,
-    "weight": "300г",
+    "user_query": "печериці",
+    "found_in_shop": "varus",
+    "normalized_title": "печериці грибний фарш",
+    "title": "Печериці Пів Фунта Грибний фарш 227г",
+    "category_id": "mushrooms-varus",
+    "price": 2290.0,
+    "weight": "227.0",
     "producer": {
-      "trademark": "Без ТМ",
-      "trademark_slug": null
+      "trademark": "Пів Фунта",
+      "trademark_slug": "piv-funta"
     },
-    "description": null,
-    "slug": "pecherytsi-marynovani-913794",
-    "web_url": "https://shop.silpo.ua/product/pecherytsi-marynovani-913794"
+    "description": "",
+    "slug": "gribi-dinbo-227g-ukrayina",
+    "web_url": "https://varus.zakaz.ua/uk/products/gribi-dinbo-227g-ukrayina--04823067900726/"
+  },
+  "торт": {
+    "user_query": "торт",
+    "found_in_shop": "varus",
+    "normalized_title": "торт печінковий",
+    "title": "Торт Печінковий",
+    "category_id": "meat-dishes-varus",
+    "price": 22900.0,
+    "weight": "0",
+    "producer": {
+      "trademark": "без тм",
+      "trademark_slug": "without-brand"
+    },
+    "description": "",
+    "slug": "kulinariia-bez-tm-ukrayina",
+    "web_url": "https://varus.zakaz.ua/uk/products/kulinariia-bez-tm-ukrayina--varus02900056000000/"
+  },
+  "гливи": {
+    "user_query": "гливи",
+    "found_in_shop": "varus",
+    "normalized_title": "гливи фасовані",
+    "title": "Гливи фасовані 400г",
+    "category_id": "mushrooms-varus",
+    "price": 4520.0,
+    "weight": "400.0",
+    "producer": {
+      "trademark": "без тм",
+      "trademark_slug": "without-brand"
+    },
+    "description": "",
+    "slug": "gribi-gliva-400g",
+    "web_url": "https://varus.zakaz.ua/uk/products/gribi-gliva-400g--04820215520041/"
   }
 }

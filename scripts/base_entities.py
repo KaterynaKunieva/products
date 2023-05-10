@@ -35,12 +35,12 @@ class ProductInfo(BaseModel):
 
 
 class ShopLocationPreference(str, Enum):
-    SingleShop = "single_shop",
-    MultiShop = "multi_shop"
+    IsolateShopsCheck = "isolate_shops_check",
+    MultiShopCheck = "multi_shop_check"
 
 
 class BuyPreference(BaseModel):
-    product_filter: Optional[str]
+    title_filter: Optional[str]
     brand_filter: Optional[str]
     weight_filter: Optional[str]
     shop_filter: Optional[str]
@@ -49,7 +49,7 @@ class BuyPreference(BaseModel):
 
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
-    buy_location_preference: ShopLocationPreference = ShopLocationPreference.MultiShop
+    buy_location_preference: ShopLocationPreference = ShopLocationPreference.IsolateShopsCheck
 
 
 class Shop(BaseModel):

@@ -27,7 +27,8 @@
     {
       "title_filter":"торт",
       "shop_filter":"varus"
-    },   {
+    },
+    {
       "title_filter":"торт",
       "shop_filter":"silpo"
     },
@@ -36,20 +37,12 @@
       "shop_filter":"metro"
     },
     {
-      "title_filter":"конфети",
-      "shop_filter":"varus"
-    },
-    {
-      "title_filter":"конфети",
+      "title_filter":"цукерки",
       "shop_filter":"silpo"
     },
     {
-      "title_filter":"конфети",
+      "title_filter":"цукерки",
       "shop_filter":"metro"
-    },
-    {
-      "title_filter":"гливи",
-      "shop_filter":"varus"
     },
     {
       "title_filter":"гливи",

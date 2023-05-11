@@ -47,20 +47,36 @@
     "slug": "kulinariia-bez-tm-ukrayina",
     "web_url": "https://varus.zakaz.ua/uk/products/kulinariia-bez-tm-ukrayina--varus02900056000000/"
   },
+  "цукерки": {
+    "user_query": "цукерки",
+    "found_in_shop": "silpo",
+    "normalized_title": "цукерки житомирські ласощі батончик з фруктозою",
+    "title": "Цукерки «Житомирські Ласощі» «Батончик» з фруктозою",
+    "category_id": "75",
+    "price": 20.9,
+    "weight": "100г",
+    "producer": {
+      "trademark": "ЖЛ",
+      "trademark_slug": null
+    },
+    "description": null,
+    "slug": "tsukerky-zhytomyrski-lasoshchi-batonchyk-z-fruktozoiu-719537",
+    "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-batonchyk-z-fruktozoiu-719537"
+  },
   "гливи": {
     "user_query": "гливи",
-    "found_in_shop": "varus",
-    "normalized_title": "гливи фасовані",
-    "title": "Гливи фасовані 400г",
-    "category_id": "mushrooms-varus",
-    "price": 4520.0,
-    "weight": "400.0",
+    "found_in_shop": "metro",
+    "normalized_title": "гливи перша хвиля",
+    "title": "Гливи Перша Хвиля 500г",
+    "category_id": "mushrooms-metro",
+    "price": 7270.0,
+    "weight": "500.0",
     "producer": {
-      "trademark": "без тм",
-      "trademark_slug": "without-brand"
+      "trademark": "перша хвиля",
+      "trademark_slug": "persha-khvylia"
     },
     "description": "",
-    "slug": "gribi-gliva-400g",
-    "web_url": "https://varus.zakaz.ua/uk/products/gribi-gliva-400g--04820215520041/"
+    "slug": "gribi-shampinioni-persha-khvilia-450g",
+    "web_url": "https://metro.zakaz.ua/uk/products/gribi-shampinioni-persha-khvilia-450g--04820136590048/"
   }
 }

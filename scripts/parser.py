@@ -350,6 +350,14 @@ async def form_buy_list(input_file_path):
     for item in user_basket:
         with open('output.json', 'w', **file_open_settings) as f:
             json.dump(item.dict(), f, **json_write_settings)
+
+                    # надо щоб назва магазину була ключем і реквест ключем (тоді він не має бути діктом-об'єктом)
+
+
+
+
+
+
                     # for shop, products_in_shop in user_basket.items():
                     #     # print(shop)
                     #     for user_query_title, products_for_query in products_in_shop.items():

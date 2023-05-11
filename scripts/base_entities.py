@@ -57,6 +57,10 @@ class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.IsolateShopsCheck
 
+class Shop(BaseModel):
+    name: str
+    id: int
+
 class ShopInfo(BaseModel):
     id: int
     location: Optional[str] = "default"

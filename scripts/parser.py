@@ -280,7 +280,7 @@ def sort_products_by_price(product_element: ProductInfo) -> float: #create funct
                 try:
                     weight = float(weight)
                 except Exception as ex:
-                    weight = eval('10*20')
+                    weight = eval(weight)
             else:
                 weight = 1
             if weight_unit:
@@ -352,8 +352,8 @@ async def form_buy_list(input_file_path):
                             if buy_preference.title_filter + " " in title_key:
                                 #print('Found request in product_location')
                                 if product_item not in products:
-                                    if shop != "silpo":
-                                        product_item.price /= 100
+                                    # if shop != "silpo":
+                                    #     product_item.price /= 100
                                     #print("Appended product")
                                     products.append(product_item)
                         # products.sort(key=sort_products_by_price)

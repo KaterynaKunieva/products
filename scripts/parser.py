@@ -2,14 +2,13 @@ import asyncio
 import json
 import logging
 import os
-import math
 import re
 from collections import defaultdict
 from typing import List, Dict, Set, Any
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
-from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference
+from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, ProductsShop
 from silpo_helper import silpo_shops, get_silpo_categories, get_silpo_products
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
@@ -263,11 +262,11 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 
 
 def sort_products_by_price(product_element) -> float:
-    if product_element["weight"] is None or product_element["weight"] == 0 or product_element["weight"] == "0":
+    if product_element.weight is None or product_element.weight == 0 or product_element.weight == "0":
         weight = 1
     else:
-        weight = re.search("\d+(,?\d+|.?\d+)*", product_element["weight"])
-        weight_unit = re.search("[a-zа-яЇїІіЄєҐґ]+", product_element["weight"])
+        weight = re.search("\d+(,?\d+|.?\d+)*", product_element.weight)
+        weight_unit = re.search("[a-zа-яЇїІіЄєҐґ]+", product_element.weight)
         if weight:
             weight = weight.group()
             weight = float(weight.replace(',', '.'))
@@ -281,7 +280,8 @@ def sort_products_by_price(product_element) -> float:
             weight *= 1000
         elif weight_unit == 'кг':
             weight *= 1000
-    price = product_element["price"] if product_element["found_in_shop"] == 'silpo' else product_element["price"] / 100
+    price = product_element.price
+    # if product_element["found_in_shop"] == 'silpo' else product_element.price/ 100
     return price / weight
 
 @cli.command()
@@ -290,13 +290,16 @@ def sort_products_by_price(product_element) -> float:
 # @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
 async def form_buy_list(input_file_path):
     user_query: UserBuyRequest = parse_file_as(UserBuyRequest, input_file_path)
+    if user_query:
+        print('Stored user_query')
     buy_list: List[BuyPreference] = user_query.buy_list
     base_path = os.path.join(os.path.dirname(__file__), STORE_INFO_PATH)  # path to data
     file_navigator = os.path.join('default', 'products_categories.json')
     file_product_info = "normalized_products.json"
 
-    founded_products: Dict[str, Dict[str, List[ProductInfo]]] = defaultdict(lambda: defaultdict(list))
-    end_price = 0
+    user_basket: List[ProductsShop] = []
+    # end_price = 0
+
     #1. dont write to output file for each buy_list, do it in the end when all buy_lists are resolved
     #2. read files using parse_file_as
     #3. Algo:
@@ -305,66 +308,55 @@ async def form_buy_list(input_file_path):
         write it to file per each shop
         additionally, if user_query.buy_location_preference == 'multi_shop_check' form one more output file with minimum buy list across all shops Dict[str, List[ProductInfo]] 
     """
-    for buy_preference in buy_list:  # each item
+    for buy_preference in buy_list:
+        print('Started buy_preference')
+        paths_to_shops = []
+        paths_to_navigators = []
+        products_in_request: List[ProductsRequest] = []
+        for shop in buy_preference.shop_filter:
+            print('Started shop in buy_preference')
+            products = []
+            path_to_shop = os.path.join(base_path, shop)
+            path_to_navigator = os.path.join(path_to_shop, file_navigator)
 
-        path_to_shop = os.path.join(base_path, buy_preference.shop_filter) #add one more iteration per shop
-        path_to_navigator = os.path.join(path_to_shop, file_navigator)
+            paths_to_shops.append(path_to_shop)
+            paths_to_navigators.append(path_to_navigator)
 
-        # find category of buy_preference
-        with open(path_to_navigator, 'r', **file_open_settings) as f:
-            file_navigation = json.load(f)
-        for product_key in list(file_navigation.keys()):
-            if buy_preference.title_filter + " " in product_key:
-                path_to_category = file_navigation[product_key][0] #take first category
-                product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
+            # find category of buy_preference
+            file_navigation = parse_file_as(Dict[str, List], path_to_navigator)
+            if file_navigation:
+                print('Stored file_navigation')
 
-                # find buy_preference in category
+            for product_key in list(file_navigation.keys()):
+                if buy_preference.title_filter + " " in product_key:
+                    print('Found request in file_navigation')
+                    path_to_category = file_navigation[product_key][0]      #take first category
+                    product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
 
-                file_info: Dict[str, ProductInfo] = parse_file_as(Dict[str, ProductInfo], product_location)
+                    # find buy_preference in category
+                    file_info: Dict[str, ProductInfo] = parse_file_as(Dict[str, ProductInfo], product_location)
+                    if file_info:
+                        print('Stored file_info')
 
-                if user_query.buy_location_preference == 'multi_shop_check':
-                    founded_products: Dict[str, List] = defaultdict(list)
-                    for title_key, product_info in file_info.items():
-                        product_item: Dict[str, Any] = {
-                            'user_query': buy_preference.title_filter, #use named tuple
-                            'found_in_shop': buy_preference.shop_filter,
-                            **product_info
-                        }
-                        if buy_preference.title_filter in title_key \
-                                and product_item not in founded_products[buy_preference.title_filter]:
-                            founded_products[buy_preference.title_filter].append(product_item)
+                    for title_key, product_item in list(file_info.items()):
+                        if buy_preference.title_filter + " " in title_key:
+                            print('Found request in product_location')
+                            if product_item not in products:
+                                products.append(product_item)
+                    products.sort(key=sort_products_by_price)
+                products_in_request.append(ProductsRequest(request=buy_preference, products=products))
+            user_basket.append(ProductsShop(shop=shop, requests=products_in_request))
 
-                    for user_query_title, products in founded_products.items():
-                        products.sort(key=sort_products_by_price)
-                        for product_item in products:
-                            if user_query_title not in list(selected_products.keys()):
-                                end_price += product_item["price"] if product_item["found_in_shop"] == "silpo" else product_item["price"] / 100
-                                selected_products[user_query_title] = product_item
-                    with open('./output.json', 'w', **file_open_settings) as r:
-                        json.dump(selected_products, r, **json_write_settings)
-
-                elif user_query.buy_location_preference == 'isolate_shops_check':
-                    for title_key in list(file_info.keys()):
-                        product_item: dict[str, Any] = {
-                            'user_query': buy_preference.title_filter,
-                            'found_in_shop': buy_preference.shop_filter,
-                            **file_info[title_key]
-                        }
-
-                        if buy_preference.title_filter in title_key \
-                                and product_item not in founded_products[buy_preference.shop_filter][buy_preference.title_filter]:
-                            founded_products[buy_preference.shop_filter][buy_preference.title_filter].append(product_item)
-
-                    for shop, products_in_shop in founded_products.items():
-                        # print(shop)
-                        for user_query_title, products_for_query in products_in_shop.items():
-                            products_for_query.sort(key=sort_products_by_price)
-
-                            # printing
-                            print(user_query_title, " ", type(products_for_query))
-                            for prod in products_for_query:
-                                print(f'\t{prod["title"]} - {prod["weight"]} - '
-                                      f'{prod["price"] if prod["found_in_shop"] == "silpo" else prod["price"] / 100}')
+                    # for shop, products_in_shop in user_basket.items():
+                    #     # print(shop)
+                    #     for user_query_title, products_for_query in products_in_shop.items():
+                    #         products_for_query.sort(key=sort_products_by_price)
+                    #
+                    #         # printing
+                    #         print(user_query_title, " ", type(products_for_query))
+                    #         for prod in products_for_query:
+                    #             print(f'\t{prod["title"]} - {prod["weight"]} - '
+                    #                   f'{prod["price"] if prod["found_in_shop"] == "silpo" else prod["price"] / 100}')
 
                             # надо сохранять в селектед первую запись по запросу
                             # if user_query_title not in list(selected_products[shop].keys()):
@@ -372,16 +364,37 @@ async def form_buy_list(input_file_path):
                             #     selected_products[shop][user_query_title] = products_for_query[0]
                             #     і додати енд прайс в массив? по каждому магазину
 
+                # if user_query.buy_location_preference == 'multi_shop_check':
+                #     user_basket: Dict[str, List] = defaultdict(list)
+                #     for title_key, product_info in file_info.items():
+                #         product_item: Dict[str, Any] = {
+                #             'user_query': buy_preference.title_filter, #use named tuple
+                #             'found_in_shop': buy_preference.shop_filter,
+                #             **product_info
+                #         }
+                #         if buy_preference.title_filter in title_key \
+                #                 and product_item not in user_basket[buy_preference.title_filter]:
+                #             user_basket[buy_preference.title_filter].append(product_item)
+                #
+                #     for user_query_title, products in user_basket.items():
+                #         products.sort(key=sort_products_by_price)
+                #         for product_item in products:
+                #             if user_query_title not in list(selected_products.keys()):
+                #                 end_price += product_item["price"] if product_item["found_in_shop"] == "silpo" else product_item["price"] / 100
+                #                 selected_products[user_query_title] = product_item
+                #     with open('./output.json', 'w', **file_open_settings) as r:
+                #         json.dump(selected_products, r, **json_write_settings)
 
-    selected_products: Dict[str, Dict[str, ProductInfo]] = defaultdict(defaultdict)
 
-    for shop in shop_infos:
-        for product_key in :
-            #find minimum for shop and output
+    # selected_products: Dict[str, Dict[str, ProductInfo]] = defaultdict(defaultdict)
 
-    if buy_preference == "across_shops":
-        #one more iteration to find min products across all shops
-    print(end_price)
+    # for shop in shop_infos:
+    #     for product_key in :
+    #         #find minimum for shop and output
+    #
+    # if buy_preference == "across_shops":
+    #     #one more iteration to find min products across all shops
+    # print(end_price)
 
 if __name__ == '__main__':
     cli()

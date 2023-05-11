@@ -59,3 +59,13 @@ class Shop(BaseModel):
 class ShopInfo(BaseModel):
     id: int
     location: Optional[str] = "default"
+
+
+class ProductsRequest(BaseModel):
+    request: Optional[BuyPreference]
+    products: Optional[List[ProductInfo]]
+
+
+class ProductsShop(BaseModel):
+    shop: str
+    requests: Optional[List[ProductsRequest]]

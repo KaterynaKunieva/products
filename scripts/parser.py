@@ -342,11 +342,14 @@ async def form_buy_list(input_file_path):
                         if buy_preference.title_filter + " " in title_key:
                             print('Found request in product_location')
                             if product_item not in products:
+                                print("Appended product")
                                 products.append(product_item)
-                    products.sort(key=sort_products_by_price)
+                    # products.sort(key=sort_products_by_price)
                 products_in_request.append(ProductsRequest(request=buy_preference, products=products))
             user_basket.append(ProductsShop(shop=shop, requests=products_in_request))
-
+    for item in user_basket:
+        with open('output.json', 'w', **file_open_settings) as f:
+            json.dump(item.dict(), f, **json_write_settings)
                     # for shop, products_in_shop in user_basket.items():
                     #     # print(shop)
                     #     for user_query_title, products_for_query in products_in_shop.items():

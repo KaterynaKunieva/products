@@ -2,7 +2,7 @@
   "buy_list":[
     {
       "title_filter": "гливи",
-      "shop_filter": ["varus"]
+      "shop_filter": ["varus", "silpo"]
     }
   ],
   "buy_location_preference": "isolate_shops_check"

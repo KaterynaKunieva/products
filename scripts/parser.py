@@ -4,11 +4,13 @@ import logging
 import os
 import re
 from collections import defaultdict
+from itertools import groupby
 from typing import List, Dict, Set, Any
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
-from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, ProductsShop
+from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, ProductsShop, \
+    ShopLocationPreference
 from silpo_helper import silpo_shops, get_silpo_categories, get_silpo_products
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as
@@ -57,8 +59,8 @@ def load_categories_from_file_or_cache(shop: str, is_popular: bool):
 
 def normalize_title(product_title: str, product_brand: str = ""):
     try:
-        product_key = product_title
-        regexp_brand = product_brand if product_brand else ''
+        product_key = product_title.lower()
+        regexp_brand = product_brand.lower() if product_brand else ''
         regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
         regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
         regexp_number = "№\d*"
@@ -68,9 +70,9 @@ def normalize_title(product_title: str, product_brand: str = ""):
         # regexp_quotes = "['\"‘’«»”„].*['\"‘’«»”„]" # delete all inside
         # regexp_brackets = "\(.*\)|\[.*\]|\{.*\}" # delete all inside
 
-        amount = re.search(regexp_amount, product_key)
-        percentages = re.search(regexp_percentage, product_key)
-        number = re.search(regexp_number, product_key)
+        amount = re.search(regexp_amount, product_key, flags=re.IGNORECASE)
+        percentages = re.search(regexp_percentage, product_key, flags=re.IGNORECASE)
+        number = re.search(regexp_number, product_key, flags=re.IGNORECASE)
 
         if amount is not None:
             amount = amount.group().strip()
@@ -83,12 +85,13 @@ def normalize_title(product_title: str, product_brand: str = ""):
             product_key = product_key.replace(number, '')
 
         product_key = product_key.replace(regexp_brand, '')
-        product_key = re.sub(regexp_symbols, '', product_key)
-        product_key = re.sub(regexp_quotes, '', product_key)
-        product_key = re.sub(regexp_brackets, '', product_key)
-        product_key = re.sub(' {2,}', ' ', product_key)
 
-        return product_key.lower().strip()
+        product_key = re.sub(regexp_symbols, '', product_key, flags=re.IGNORECASE)
+        product_key = re.sub(regexp_quotes, '', product_key, flags=re.IGNORECASE)
+        product_key = re.sub(regexp_brackets, '', product_key, flags=re.IGNORECASE)
+        product_key = re.sub(' {2,}', ' ', product_key, flags=re.IGNORECASE)
+
+        return product_key.strip()
     except Exception as ex:
         logging.error(f'Failed to normalized {product_title}, {product_brand}', exc_info=ex)
         return product_title
@@ -98,10 +101,8 @@ shop_infos = {**zakaz_shops, **silpo_shops}
 
 allowed_shops = list(shop_infos.keys())
 
-
 def get_shop_locations(shop: str) -> List[str]:
     return [shopinfo.location for shopinfo in shop_infos.get(shop)]
-
 
 @cli.command()
 @async_cmd
@@ -261,7 +262,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                 logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 
 
-def sort_products_by_price(product_element) -> float:
+def sort_products_by_price(product_element: ProductInfo) -> float:
     if product_element.weight is None or product_element.weight == 0 or product_element.weight == "0":
         weight = 1
     else:
@@ -297,7 +298,7 @@ async def form_buy_list(input_file_path):
     file_navigator = os.path.join('default', 'products_categories.json')
     file_product_info = "normalized_products.json"
 
-    user_basket: List[ProductsShop] = []
+    user_basket: Dict[str, List[ProductsRequest]] = defaultdict(list)
     # end_price = 0
 
     #1. dont write to output file for each buy_list, do it in the end when all buy_lists are resolved
@@ -312,8 +313,8 @@ async def form_buy_list(input_file_path):
         print('Started buy_preference')
         paths_to_shops = []
         paths_to_navigators = []
-        products_in_request: List[ProductsRequest] = []
         for shop in buy_preference.shop_filter:
+            products_in_request: List[ProductsRequest] = []
             print('Started shop in buy_preference')
             products = []
             path_to_shop = os.path.join(base_path, shop)
@@ -323,12 +324,11 @@ async def form_buy_list(input_file_path):
             paths_to_navigators.append(path_to_navigator)
 
             # find category of buy_preference
-            file_navigation = parse_file_as(Dict[str, List], path_to_navigator)
+            file_navigation = parse_file_as(Dict[str, List[str]], path_to_navigator)
             if file_navigation:
                 print('Stored file_navigation')
-
             for product_key in list(file_navigation.keys()):
-                if buy_preference.title_filter + " " in product_key:
+                if buy_preference.title_filter in product_key.split(" "):
                     print('Found request in file_navigation')
                     path_to_category = file_navigation[product_key][0]      #take first category
                     product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
@@ -339,17 +339,39 @@ async def form_buy_list(input_file_path):
                         print('Stored file_info')
 
                     for title_key, product_item in list(file_info.items()):
-                        if buy_preference.title_filter + " " in title_key:
+                        product_item: ProductInfo
+                        if buy_preference.title_filter in title_key.split(" "):
                             print('Found request in product_location')
                             if product_item not in products:
+                                if shop != "silpo":
+                                    product_item.price /= 100
                                 print("Appended product")
                                 products.append(product_item)
                     # products.sort(key=sort_products_by_price)
-                products_in_request.append(ProductsRequest(request=buy_preference, products=products))
-            user_basket.append(ProductsShop(shop=shop, requests=products_in_request))
-    for item in user_basket:
-        with open('output.json', 'w', **file_open_settings) as f:
-            json.dump(item.dict(), f, **json_write_settings)
+            products_in_request.append(ProductsRequest(request=buy_preference, products=products))
+            user_basket[shop].extend(products_in_request)
+
+    for shop, product_requests in user_basket.items():
+        with open(f'output_{shop}.json', 'w', **file_open_settings) as f:
+            json.dump([product_request.dict() for product_request in product_requests], f, **json_write_settings)
+
+    for shop, product_requests in user_basket.items():
+        for product_request in product_requests:
+            product_request.products.sort(key=sort_products_by_price)
+            product_request.products = product_request.products[:1]
+
+        with open(f'minimum_output_{shop}.json', 'w', **file_open_settings) as f:
+            json.dump([product_request.dict() for product_request in product_requests], f, **json_write_settings)
+
+    # if user_query.buy_location_preference == ShopLocationPreference.MultiShopCheck:
+    #     final_minimum_shop_product_requests:  Dict[str, List[ProductsRequest]] = defaultdict(list)
+    #
+    #     for shop, product_requests in user_basket.items():
+    #         for  product_request in product_requests:
+
+
+
+    #1)Iterate
 
                     # надо щоб назва магазину була ключем і реквест ключем (тоді він не має бути діктом-об'єктом)
 
@@ -408,4 +430,4 @@ async def form_buy_list(input_file_path):
     # print(end_price)
 
 if __name__ == '__main__':
-    cli()
+    form_buy_list()

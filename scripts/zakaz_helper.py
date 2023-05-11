@@ -48,6 +48,8 @@ async def get_zakaz_products(shop: str, location: str, page_count: int, product_
         response = await get_http_response(product_url, headers={"Accept-Language": "uk"}, params=params)
         if response:
             shop_products: List[ProductInfo] = parse_obj_as(List[ProductInfo], response['results'])
+            for product in shop_products:
+                product.price /= 100
             return ProductListWithCategory(category=category, product_list=shop_products)
         else:
             logging.warning(f"Failed to parse products of category {category} of shop {shop}, location: {location}")

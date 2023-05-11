@@ -1,0 +1,645 @@
+[
+  {
+    "request": {
+      "title_filter": "гриби",
+      "brand_filter": null,
+      "weight_filter": null,
+      "shop_filter": [
+        "varus",
+        "silpo"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "гриби гливи",
+        "title": "Гриби гливи",
+        "category_id": "383",
+        "price": 63.99,
+        "weight": "400г",
+        "producer": {
+          "trademark": null,
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-glyvy-564415",
+        "web_url": "https://shop.silpo.ua/product/gryby-glyvy-564415"
+      },
+      {
+        "normalized_title": "гриби печерицi",
+        "title": "Гриби печерицi",
+        "category_id": "385",
+        "price": 9.3,
+        "weight": "100г",
+        "producer": {
+          "trademark": null,
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-pecherytsi-32571",
+        "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-32571"
+      },
+      {
+        "normalized_title": "гриби шампіньйони-малюки свіжі",
+        "title": "Гриби шампіньйони-малюки «Зелена Країна» свіжі",
+        "category_id": "385",
+        "price": 44.99,
+        "weight": "250г",
+        "producer": {
+          "trademark": "Зелена Країна",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-shampiniony-maliuky-zelena-kraina-svizhi-575960",
+        "web_url": "https://shop.silpo.ua/product/gryby-shampiniony-maliuky-zelena-kraina-svizhi-575960"
+      },
+      {
+        "normalized_title": "гриби шампіньйони свіжі",
+        "title": "Гриби шампіньйони «Зелена Країна» свіжі",
+        "category_id": "385",
+        "price": 69.99,
+        "weight": "450г",
+        "producer": {
+          "trademark": "Зелена Країна",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-shampiniony-zelena-kraina-svizhi-370658",
+        "web_url": "https://shop.silpo.ua/product/gryby-shampiniony-zelena-kraina-svizhi-370658"
+      },
+      {
+        "normalized_title": "гриби печериці вечеря за 3 хвилини",
+        "title": "Гриби печериці «ДінБо» «Вечеря за 3 хвилини»",
+        "category_id": "385",
+        "price": 42.99,
+        "weight": "200г",
+        "producer": {
+          "trademark": "ДінБо",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-pecherytsi-dinbo-vecheria-za-3-khvylyny-532844",
+        "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-dinbo-vecheria-za-3-khvylyny-532844"
+      },
+      {
+        "normalized_title": "гриби печериці",
+        "title": "Гриби печериці",
+        "category_id": "385",
+        "price": 72.99,
+        "weight": "500г",
+        "producer": {
+          "trademark": "Верес",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-pecherytsi-652275",
+        "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-652275"
+      },
+      {
+        "normalized_title": "гриби шампіньйони грибний світ свіжі різані",
+        "title": "Гриби шампіньйони Грибний світ свіжі різані",
+        "category_id": "385",
+        "price": 34.99,
+        "weight": "180г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-shampiniony-grybnyi-svit-svizhi-rizani-923262",
+        "web_url": "https://shop.silpo.ua/product/gryby-shampiniony-grybnyi-svit-svizhi-rizani-923262"
+      },
+      {
+        "normalized_title": "гриби печериці фасовані",
+        "title": "Гриби печериці «Перша хвиля» фасовані",
+        "category_id": "385",
+        "price": 48.19,
+        "weight": "250г",
+        "producer": {
+          "trademark": "Перша хвиля",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-pecherytsi-persha-khvylia-fasovani-558299",
+        "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-persha-khvylia-fasovani-558299"
+      },
+      {
+        "normalized_title": "гриби ерінги свіжі",
+        "title": "Гриби ерінги Esthetic foods свіжі",
+        "category_id": "386",
+        "price": 79.99,
+        "weight": "300г",
+        "producer": {
+          "trademark": "Esthetic foods",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-eringy-esthetic-foods-svizhi-916080",
+        "web_url": "https://shop.silpo.ua/product/gryby-eringy-esthetic-foods-svizhi-916080"
+      },
+      {
+        "normalized_title": "гриби по-корейськи з морквою",
+        "title": "Гриби по-корейськи з морквою",
+        "category_id": "428",
+        "price": 59.99,
+        "weight": "500г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-po-koreisky-z-morkvoiu-913791",
+        "web_url": "https://shop.silpo.ua/product/gryby-po-koreisky-z-morkvoiu-913791"
+      },
+      {
+        "normalized_title": "гриби білі сушені",
+        "title": "Гриби Шарм білі сушені",
+        "category_id": "429",
+        "price": 199.0,
+        "weight": "40г",
+        "producer": {
+          "trademark": "Шарм",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-sharm-bili-susheni-180687",
+        "web_url": "https://shop.silpo.ua/product/gryby-sharm-bili-susheni-180687"
+      },
+      {
+        "normalized_title": "гриби білі мелені сушені",
+        "title": "Гриби «Дари Гуцульщини» білі мелені сушені",
+        "category_id": "429",
+        "price": 169.0,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-dary-gutsulshchyny-bili-meleni-susheni-822385",
+        "web_url": "https://shop.silpo.ua/product/gryby-dary-gutsulshchyny-bili-meleni-susheni-822385"
+      },
+      {
+        "normalized_title": "гриби білі різані сушені",
+        "title": "Гриби білі «Шарм» різані сушені",
+        "category_id": "429",
+        "price": 389.0,
+        "weight": "80г",
+        "producer": {
+          "trademark": "Шарм",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-bili-sharm-rizani-susheni-370566",
+        "web_url": "https://shop.silpo.ua/product/gryby-bili-sharm-rizani-susheni-370566"
+      },
+      {
+        "normalized_title": "гриби польські сушені",
+        "title": "Гриби «Дари Гуцульщини» польські сушені",
+        "category_id": "429",
+        "price": 109.0,
+        "weight": "50г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-dary-gutsulshchyny-polski-susheni-822383",
+        "web_url": "https://shop.silpo.ua/product/gryby-dary-gutsulshchyny-polski-susheni-822383"
+      },
+      {
+        "normalized_title": "гриби білі сушені шматочки",
+        "title": "Гриби «Дари Гуцульщини» білі сушені шматочки",
+        "category_id": "429",
+        "price": 149.0,
+        "weight": "50г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-dary-gutsulshchyny-bili-susheni-shmatochky-822384",
+        "web_url": "https://shop.silpo.ua/product/gryby-dary-gutsulshchyny-bili-susheni-shmatochky-822384"
+      },
+      {
+        "normalized_title": "гриби мікс сушені",
+        "title": "Гриби «Дари Гуцульщини» мікс сушені",
+        "category_id": "429",
+        "price": 174.0,
+        "weight": "50г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-dary-gutsulshchyny-miks-susheni-792064",
+        "web_url": "https://shop.silpo.ua/product/gryby-dary-gutsulshchyny-miks-susheni-792064"
+      },
+      {
+        "normalized_title": "гриби лисички мелені сушені",
+        "title": "Гриби «Дари Гуцульщини» лисички мелені сушені",
+        "category_id": "429",
+        "price": 254.0,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-dary-gutsulshchyny-lysychky-meleni-susheni-822382",
+        "web_url": "https://shop.silpo.ua/product/gryby-dary-gutsulshchyny-lysychky-meleni-susheni-822382"
+      },
+      {
+        "normalized_title": "піца шинка та гриби з соусом",
+        "title": "Піца «Шинка та гриби» з соусом",
+        "category_id": "493",
+        "price": 35.99,
+        "weight": "145г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pitsa-shynka-ta-gryby-z-sousom-910058",
+        "web_url": "https://shop.silpo.ua/product/pitsa-shynka-ta-gryby-z-sousom-910058"
+      },
+      {
+        "normalized_title": "гриби в сметанному соусі",
+        "title": "Гриби в сметанному соусі",
+        "category_id": "440",
+        "price": 26.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": null,
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-v-smetannomu-sousi-62144",
+        "web_url": "https://shop.silpo.ua/product/gryby-v-smetannomu-sousi-62144"
+      },
+      {
+        "normalized_title": "гриби білі лавка традицій",
+        "title": "Гриби білі «Дари Гуцульщини» «Лавка традицій»",
+        "category_id": "266",
+        "price": 194.0,
+        "weight": "400г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-bili-dary-gutsulshchyny-lavka-tradytsii-787429",
+        "web_url": "https://shop.silpo.ua/product/gryby-bili-dary-gutsulshchyny-lavka-tradytsii-787429"
+      },
+      {
+        "normalized_title": "гриби shitake сушені",
+        "title": "Гриби JS Shitake сушені",
+        "category_id": "76",
+        "price": 98.99,
+        "weight": "30г",
+        "producer": {
+          "trademark": "JS",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-js-shitake-susheni-580494",
+        "web_url": "https://shop.silpo.ua/product/gryby-js-shitake-susheni-580494"
+      },
+      {
+        "normalized_title": "гриби мун сушені нарізані",
+        "title": "Гриби House of Asia Мун сушені нарізані",
+        "category_id": "76",
+        "price": 90.99,
+        "weight": "30г",
+        "producer": {
+          "trademark": "House of Asia",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-house-of-asia-mun-susheni-narizani-919034",
+        "web_url": "https://shop.silpo.ua/product/gryby-house-of-asia-mun-susheni-narizani-919034"
+      },
+      {
+        "normalized_title": "гриби шиїтаке сушені",
+        "title": "Гриби House of Asia Шиїтаке сушені",
+        "category_id": "76",
+        "price": 111.0,
+        "weight": "30г",
+        "producer": {
+          "trademark": "House of Asia",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-house-of-asia-shyitake-susheni-919035",
+        "web_url": "https://shop.silpo.ua/product/gryby-house-of-asia-shyitake-susheni-919035"
+      },
+      {
+        "normalized_title": "гриби печериці мариновані цілі стерилізовані",
+        "title": "Гриби «Премія»® Печериці мариновані цілі стерилізовані",
+        "category_id": "132",
+        "price": 139.0,
+        "weight": "675г",
+        "producer": {
+          "trademark": "Премія",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-premiia-pecherytsi-marynovani-tsili-sterylizovani-837988",
+        "web_url": "https://shop.silpo.ua/product/gryby-premiia-pecherytsi-marynovani-tsili-sterylizovani-837988"
+      },
+      {
+        "normalized_title": "гриби закусочні мариновані печериці",
+        "title": "Гриби «Верес» закусочні мариновані печериці",
+        "category_id": "132",
+        "price": 72.49,
+        "weight": "260г",
+        "producer": {
+          "trademark": "Верес",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-veres-zakusochni-marynovani-pecherytsi-9616",
+        "web_url": "https://shop.silpo.ua/product/gryby-veres-zakusochni-marynovani-pecherytsi-9616"
+      },
+      {
+        "normalized_title": "гриби печериці закусочні",
+        "title": "Гриби «Верес» печериці закусочні",
+        "category_id": "132",
+        "price": 116.0,
+        "weight": "460г",
+        "producer": {
+          "trademark": "Верес",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-veres-pecherytsi-zakusochni-811257",
+        "web_url": "https://shop.silpo.ua/product/gryby-veres-pecherytsi-zakusochni-811257"
+      },
+      {
+        "normalized_title": "гриби польські мариновані",
+        "title": "Гриби «Шарм» польські мариновані",
+        "category_id": "132",
+        "price": 66.99,
+        "weight": "480г",
+        "producer": {
+          "trademark": "Шарм",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-sharm-polski-marynovani-126733",
+        "web_url": "https://shop.silpo.ua/product/gryby-sharm-polski-marynovani-126733"
+      },
+      {
+        "normalized_title": "гриби печериці різані стерилізовані",
+        "title": "Гриби «Премія»® печериці різані стерилізовані",
+        "category_id": "132",
+        "price": 50.39,
+        "weight": "400г",
+        "producer": {
+          "trademark": "Премія",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-premiia-pecherytsi-rizani-sterylizovani-327513",
+        "web_url": "https://shop.silpo.ua/product/gryby-premiia-pecherytsi-rizani-sterylizovani-327513"
+      },
+      {
+        "normalized_title": "гриби шиїтаке мариновані стерилізовані",
+        "title": "Гриби шиїтаке «Премія»® мариновані стерилізовані",
+        "category_id": "132",
+        "price": 107.0,
+        "weight": "500г",
+        "producer": {
+          "trademark": "Премія",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-shyitake-premiia-marynovani-sterylizovani-582679",
+        "web_url": "https://shop.silpo.ua/product/gryby-shyitake-premiia-marynovani-sterylizovani-582679"
+      },
+      {
+        "normalized_title": "гриби намеко мариновані стерилізовані",
+        "title": "Гриби намеко «Премія»® мариновані стерилізовані",
+        "category_id": "132",
+        "price": 229.0,
+        "weight": "500г",
+        "producer": {
+          "trademark": "Премія",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-nameko-premiia-marynovani-sterylizovani-582677",
+        "web_url": "https://shop.silpo.ua/product/gryby-nameko-premiia-marynovani-sterylizovani-582677"
+      },
+      {
+        "normalized_title": "гриби маслюки мариновані",
+        "title": "Гриби WellDar маслюки мариновані",
+        "category_id": "132",
+        "price": 179.0,
+        "weight": "580г",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-masliuky-marynovani-921125",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-masliuky-marynovani-921125"
+      },
+      {
+        "normalized_title": "гриби асорті в маринаді",
+        "title": "Гриби «Премія»® асорті в маринаді",
+        "category_id": "132",
+        "price": 229.0,
+        "weight": "500г",
+        "producer": {
+          "trademark": "Премія",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-premiia-asorti-v-marynadi-300778",
+        "web_url": "https://shop.silpo.ua/product/gryby-premiia-asorti-v-marynadi-300778"
+      },
+      {
+        "normalized_title": "гриби шампіньйони мариновані",
+        "title": "Гриби «Маринадо» Шампіньйони мариновані",
+        "category_id": "132",
+        "price": 74.99,
+        "weight": "275г",
+        "producer": {
+          "trademark": "Маринадо",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-marynado-shampiniony-marynovani-620306",
+        "web_url": "https://shop.silpo.ua/product/gryby-marynado-shampiniony-marynovani-620306"
+      },
+      {
+        "normalized_title": "гриби шампіньйони різані в натуральному розсолі",
+        "title": "Гриби WellDar шампіньйони різані в натуральному розсолі",
+        "category_id": "132",
+        "price": 78.49,
+        "weight": "315мл",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-shampiniony-rizani-v-naturalnomu-rozsoli-913995",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-shampiniony-rizani-v-naturalnomu-rozsoli-913995"
+      },
+      {
+        "normalized_title": "гриби білі мариновані",
+        "title": "Гриби Лавка традицій Білі мариновані",
+        "category_id": "132",
+        "price": 319.0,
+        "weight": "465г",
+        "producer": {
+          "trademark": "Лавка традицій",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-lavka-tradytsii-bili-marynovani-919217",
+        "web_url": "https://shop.silpo.ua/product/gryby-lavka-tradytsii-bili-marynovani-919217"
+      },
+      {
+        "normalized_title": "гриби шампіньйони цілі в натуральному розсолі",
+        "title": "Гриби шампіньйони WellDar цілі в натуральному розсолі",
+        "category_id": "132",
+        "price": 189.0,
+        "weight": "720мл",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-shampiniony-welldar-tsili-v-naturalnomu-rozsoli-913993",
+        "web_url": "https://shop.silpo.ua/product/gryby-shampiniony-welldar-tsili-v-naturalnomu-rozsoli-913993"
+      },
+      {
+        "normalized_title": "гриби шампіньйони цілі мариновані",
+        "title": "Гриби WellDar шампіньйони цілі мариновані",
+        "category_id": "132",
+        "price": 102.0,
+        "weight": "315мл",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-shampiniony-tsili-marynovani-913992",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-shampiniony-tsili-marynovani-913992"
+      },
+      {
+        "normalized_title": "гриби лавка традицій лисички мариновані",
+        "title": "Гриби «Лавка традицій» «Дари Гуцульщини» лисички мариновані",
+        "category_id": "132",
+        "price": 129.0,
+        "weight": "348г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-lavka-tradytsii-dary-gutsulshchyny-lysychky-marynovani-850458",
+        "web_url": "https://shop.silpo.ua/product/gryby-lavka-tradytsii-dary-gutsulshchyny-lysychky-marynovani-850458"
+      },
+      {
+        "normalized_title": "гриби шиїтаке мариновані",
+        "title": "Гриби WellDar шиїтаке мариновані",
+        "category_id": "132",
+        "price": 109.0,
+        "weight": "580г",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-shyitake-marynovani-921123",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-shyitake-marynovani-921123"
+      },
+      {
+        "normalized_title": "гриби грузді лісові мариновані",
+        "title": "Гриби WellDar грузді лісові мариновані",
+        "category_id": "132",
+        "price": 111.0,
+        "weight": "580г",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-gruzdi-lisovi-marynovani-921126",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-gruzdi-lisovi-marynovani-921126"
+      },
+      {
+        "normalized_title": "гриби опеньки мариновані",
+        "title": "Гриби WellDar опеньки мариновані",
+        "category_id": "132",
+        "price": 134.0,
+        "weight": "580г",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-openky-marynovani-921122",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-openky-marynovani-921122"
+      },
+      {
+        "normalized_title": "гриби боровики мариновані",
+        "title": "Гриби WellDar боровики мариновані",
+        "category_id": "132",
+        "price": 164.0,
+        "weight": "580г",
+        "producer": {
+          "trademark": "WellDar",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-welldar-borovyky-marynovani-921127",
+        "web_url": "https://shop.silpo.ua/product/gryby-welldar-borovyky-marynovani-921127"
+      },
+      {
+        "normalized_title": "гриби лавка традицій білі мариновані",
+        "title": "Гриби «Лавка традицій» «Дари Гуцульщини» білі мариновані",
+        "category_id": "154",
+        "price": 149.25,
+        "weight": "348г",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "gryby-lavka-tradytsii-dary-gutsulshchyny-bili-marynovani-872258",
+        "web_url": "https://shop.silpo.ua/product/gryby-lavka-tradytsii-dary-gutsulshchyny-bili-marynovani-872258"
+      },
+      {
+        "normalized_title": "брускети гриби зі сметаною",
+        "title": "Брускети Maretti гриби зі сметаною",
+        "category_id": "312",
+        "price": 27.59,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Maretti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "bruskety-maretti-gryby-zi-smetanoiu-740111",
+        "web_url": "https://shop.silpo.ua/product/bruskety-maretti-gryby-zi-smetanoiu-740111"
+      },
+      {
+        "normalized_title": "брускети гриби з вершками",
+        "title": "Брускети Maretti гриби з вершками",
+        "category_id": "312",
+        "price": 57.49,
+        "weight": "140г",
+        "producer": {
+          "trademark": "Maretti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "bruskety-maretti-gryby-z-vershkamy-839850",
+        "web_url": "https://shop.silpo.ua/product/bruskety-maretti-gryby-z-vershkamy-839850"
+      }
+    ]
+  }
+]

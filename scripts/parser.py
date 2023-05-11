@@ -267,7 +267,7 @@ class WeightInfo(BaseModel): #to base entities
     weight: float
     unit: str
 #
-def sort_products_by_price(product_element: ProductInfo) -> float:
+def sort_products_by_price(product_element: ProductInfo) -> float: #create function that accepts weight:str argument and returns WeigtInfo and using this new function in function sort_products_by_price(that is below)
     try:
         if product_element.weight is None or product_element.weight == 0 or product_element.weight == "0":
             weight = 1

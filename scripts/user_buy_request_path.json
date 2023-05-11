@@ -1,9 +1,21 @@
 {
-  "buy_list":[
+  "buy_list": [
     {
       "title_filter": "гриби",
-      "shop_filter": ["varus", "silpo"]
+      "shop_filter": [
+        "silpo",
+        "varus",
+        "metro"
+      ]
+    },
+    {
+      "title_filter": "цукерки",
+      "shop_filter": [
+        "silpo",
+        "varus",
+        "metro"
+      ]
     }
   ],
-  "buy_location_preference": "isolate_shops_check"
+  "buy_location_preference": "multi_shop_check"
 }

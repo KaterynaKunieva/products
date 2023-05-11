@@ -27,7 +27,8 @@ class ProductInfo(BaseModel):
     title: str 
     category_id: str
     price: float
-    weight: Optional[str]
+    weight: Optional[str] #to float
+    weight_info: Optional[Any] #
     producer: ProducerInfo
     description: Optional[str]
     slug: Optional[str]
@@ -45,26 +46,25 @@ class BuyPreference(BaseModel):
     weight_filter: Optional[str]
     shop_filter: Optional[List[str]]
 
+    def __eq__(self, othr):
+        return (isinstance(othr, type(self))
+                and (self.title_filter, frozenset(self.brand_filter) if self.brand_filter else frozenset(), self.weight_filter, frozenset(self.shop_filter) if self.shop_filter else frozenset()) ==
+                (othr.title_filter,  frozenset(othr.brand_filter) if othr.brand_filter else frozenset(), othr.weight_filter, frozenset(othr.shop_filter) if othr.shop_filter else frozenset()))
+    def __hash__(self):
+        return hash((self.title_filter, frozenset(self.brand_filter) if self.brand_filter else frozenset(), self.weight_filter, frozenset(self.shop_filter) if self.shop_filter else frozenset()))
 
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.IsolateShopsCheck
 
-
-class Shop(BaseModel):
-    name: str
-    id: int
-
-
 class ShopInfo(BaseModel):
     id: int
     location: Optional[str] = "default"
-
+    title: Optional[str]
 
 class ProductsRequest(BaseModel):
     request: Optional[BuyPreference]
     products: Optional[List[ProductInfo]]
-
 
 class ProductsShop(BaseModel):
     shop: str

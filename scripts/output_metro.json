@@ -1,0 +1,1906 @@
+[
+  {
+    "request": {
+      "title_filter": "гриби",
+      "brand_filter": null,
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "гриби суміш глибокозаморожені",
+        "title": "Гриби Metro Chef суміш глибокозаморожені 1кг",
+        "category_id": "frozen-vegetables-metro",
+        "price": 299.9,
+        "weight": "1000.0",
+        "producer": {
+          "trademark": "Metro Chef",
+          "trademark_slug": "metro-chef"
+        },
+        "description": "",
+        "slug": "gribi-khoreka-selekt-1000g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-khoreka-selekt-1000g--04333465143286/"
+      },
+      {
+        "normalized_title": "гриби опеньки заморожені",
+        "title": "Гриби опеньки Дари Гуцульщини заморожені 250г",
+        "category_id": "frozen-vegetables-metro",
+        "price": 77.27,
+        "weight": "250.0",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": "dari-gutsulshchini"
+        },
+        "description": "",
+        "slug": "gribi-openki-250g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-openki-250g--04820017553094/"
+      },
+      {
+        "normalized_title": "білі гриби нарізані швидкозаморожені",
+        "title": "Білі гриби Metro Chef нарізані швидкозаморожені 1кг",
+        "category_id": "frozen-vegetables-metro",
+        "price": 659.0,
+        "weight": "1000.0",
+        "producer": {
+          "trademark": "Metro Chef",
+          "trademark_slug": "metro-chef"
+        },
+        "description": "",
+        "slug": "gribi-bili-gribi-khoreka-selekt-1000g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-bili-gribi-khoreka-selekt-1000g--04333465086385/"
+      },
+      {
+        "normalized_title": "гриби білі різані",
+        "title": "Гриби білі Spela різані 300г",
+        "category_id": "frozen-vegetables-metro",
+        "price": 317.89,
+        "weight": "326.0",
+        "producer": {
+          "trademark": "Spela",
+          "trademark_slug": "spela"
+        },
+        "description": "Гриби білі різані заморожені. Завдяки методу шокової заморозки продукти зберігають свій початковий вигляд, смак та вітаміни.",
+        "slug": "gribi-bili-gribi-spela-300g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-bili-gribi-spela-300g--04820134140733/"
+      },
+      {
+        "normalized_title": "гриби лисички заморожені",
+        "title": "Гриби лисички Дари Гуцульщини заморожені 250г",
+        "category_id": "frozen-vegetables-metro",
+        "price": 190.69,
+        "weight": "250.0",
+        "producer": {
+          "trademark": "Дари Гуцульщини",
+          "trademark_slug": "dari-gutsulshchini"
+        },
+        "description": "",
+        "slug": "gribi-lisichki-250g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-lisichki-250g--04820017553087/"
+      },
+      {
+        "normalized_title": "вермішель skorovarka пшенична швидкого приготування гриби не гостра",
+        "title": "Вермішель Skorovarka пшенична швидкого приготування Гриби не гостра 75г",
+        "category_id": "snack-meals-metro",
+        "price": 8.53,
+        "weight": "75.0",
+        "producer": {
+          "trademark": "скороварка",
+          "trademark_slug": "skorovarka"
+        },
+        "description": "",
+        "slug": "makaroni-75g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/makaroni-75g-ukrayina--04820244490469/"
+      },
+      {
+        "normalized_title": "гриби rio опеньки мариновані з овочами",
+        "title": "Гриби Rio Опеньки мариновані з овочами 250г",
+        "category_id": "canned-mushrooms-metro",
+        "price": 68.79,
+        "weight": "506.0",
+        "producer": {
+          "trademark": "RIO",
+          "trademark_slug": "rio"
+        },
+        "description": "Опеньки мароиновані у пряному маринаді з солодким перцем та цибулею.",
+        "slug": "gribi-openki-rio-250g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-openki-rio-250g--04820178190343/"
+      },
+      {
+        "normalized_title": "гриби шиітаке rio мариновані з овочами",
+        "title": "Гриби шиітаке Rio мариновані з овочами 1330г",
+        "category_id": "canned-mushrooms-metro",
+        "price": 222.49,
+        "weight": "2076.0",
+        "producer": {
+          "trademark": "RIO",
+          "trademark_slug": "rio"
+        },
+        "description": "Шиітаке – деревні гриби, які ростуть на дереві шиі. Вони мають вишуканий смак і цілющі властивості.Шиитаке вважаються делікатесом, їх цінують за специфічний приємний смак та аромат, який нагадує щось середнє між смаком білих грибів та печериць.",
+        "slug": "gribi-shiitake-rio-1350g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-shiitake-rio-1350g-ukrayina--04820178190930/"
+      },
+      {
+        "normalized_title": "гриби печериці відварені різані",
+        "title": "Гриби печериці Aro відварені різані 2840г",
+        "category_id": "canned-mushrooms-metro",
+        "price": 317.89,
+        "weight": "2840.0",
+        "producer": {
+          "trademark": "Aro",
+          "trademark_slug": "aro"
+        },
+        "description": "",
+        "slug": "gribi-shampinioni-aro-2840g",
+        "web_url": "https://metro.zakaz.ua/uk/products/gribi-shampinioni-aro-2840g--04823084600555/"
+      },
+      {
+        "normalized_title": "гриби гливи з овочами по-корейськи",
+        "title": "Гриби гливи Ноосфера-Агро з овочами по-корейськи 500г",
+        "category_id": "salads-and-pickles-metro",
+        "price": 156.49,
+        "weight": "500.0",
+        "producer": {
+          "trademark": "Ноосфера-Агро",
+          "trademark_slug": "noosfera-agro"
+        },
+        "description": "",
+        "slug": "salat-gliva-500g",
+        "web_url": "https://metro.zakaz.ua/uk/products/salat-gliva-500g--04820149690414/"
+      },
+      {
+        "normalized_title": "гриби гливи по-корейськи",
+        "title": "Гриби гливи Ноосфера-Агро по-корейськи 500г",
+        "category_id": "salads-and-pickles-metro",
+        "price": 156.49,
+        "weight": "500.0",
+        "producer": {
+          "trademark": "Ноосфера-Агро",
+          "trademark_slug": "noosfera-agro"
+        },
+        "description": "",
+        "slug": "salat-gliva-500g",
+        "web_url": "https://metro.zakaz.ua/uk/products/salat-gliva-500g--04820149690322/"
+      },
+      {
+        "normalized_title": "хлібні брускети запечені зі смаком гриби з сметаною",
+        "title": "Хлібні брускети Maretti запечені зі смаком гриби з сметаною 140г",
+        "category_id": "saltine-rusks-metro",
+        "price": 57.13,
+        "weight": "148.0",
+        "producer": {
+          "trademark": "Maretti",
+          "trademark_slug": "maretti"
+        },
+        "description": "Хлібні брускетти Maretti - хрусткі і смачні гуртки з хліба, приготовані з ретельно відібраних інгредієнтів. Вишуканий коктейль ароматних грибів та легкого кремового соусу, який надає нотку пікантності чудовому смаку спечених хлібних чіпсів. Підходять вегетаріанцям. Без штучних барвників і консервантів.",
+        "slug": "sukhariki-maretti-140g",
+        "web_url": "https://metro.zakaz.ua/uk/products/sukhariki-maretti-140g--03800205877578/"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "цукерки",
+      "brand_filter": null,
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "цукерки шалена бджілка фрутті желейні",
+        "title": "Цукерки Roshen Шалена бджілка фрутті желейні",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 154.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс «Шалена бджілка Фрутті» складається із 6 різноманітних фруктових смаків: апельсин, грейпфрут, кисла вишня, лісові ягоди, лимон лайм та суниця. Цукерки на основі желейного агента рослинного походження – каррагінана (продукт, зроблений із морських водоростей) та з додаванням натуральних соків.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28069600000000/"
+      },
+      {
+        "normalized_title": "цукерки minis",
+        "title": "Цукерки Twix Minis",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 350.38,
+        "weight": "0",
+        "producer": {
+          "trademark": "Twix",
+          "trademark_slug": "twix"
+        },
+        "description": "Twix® у форматі цукерок – задоволення, яке можна розділити у родинному колі під час чаювання.",
+        "slug": "khmizok-tulchin-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/khmizok-tulchin-ukrayina--metro28889800000000/"
+      },
+      {
+        "normalized_title": "цукерки ромашка",
+        "title": "Цукерки Roshen Ромашка",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 185.02,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Глазуровані шоколадною глазур'ю цукерки, корпус - помадка вершкова крем-брюле з додаванням какао-порошку та коньяку.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28064100000000/"
+      },
+      {
+        "normalized_title": "цукерки альпійське молоко",
+        "title": "Цукерки Milka Альпійське молоко 330г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 145.5,
+        "weight": "330.0",
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "tsukerka-milka-330g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-milka-330g--07622210283276/"
+      },
+      {
+        "normalized_title": "цукерки корівка",
+        "title": "Цукерки Roshen Корівка",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 130.94,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Неглазуровані цукерки, корпус - молочна помадка із цукровою скоринкою.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28064300000000/"
+      },
+      {
+        "normalized_title": "цукерки джеллі",
+        "title": "Цукерки Roshen Джеллі",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 128.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс желейних цукерок з додаванням концентрованих фруктових соків зі смаками лимону, апельсину, яблука, полуниці, малини, груші, посипані дрібнокристалічним цукром.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28115000000000/"
+      },
+      {
+        "normalized_title": "цукерки лукас тузя",
+        "title": "Цукерки Лукас Тузя",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 159.02,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lukas",
+          "trademark_slug": "lukas"
+        },
+        "description": "Є «Тузя» – є друзі!\nУпродовж трудового дня часом так хочеться чогось смачненького, аби поповнити втрачений запас енергії… Немає проблем! Компанія «Лукас» пропонує особливі цукерки «Тузя», що здатні подарувати насолоду з першого шматочка.\nЦі частково глазуровані ласощі мають молочно-грильяжний корпус, виготовлений з добірного обсмаженого насіння соняшника. Надзвичайний смак цукерок точно заслуговує на Вашу прихильність, тож варто спробувати!",
+        "slug": "tsukerka-lukas",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-lukas--metro28817500000000/"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко",
+        "title": "Цукерки Жако Пташине молоко 250г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 88.3,
+        "weight": "266.0",
+        "producer": {
+          "trademark": "Жако",
+          "trademark_slug": "zhako"
+        },
+        "description": "Цукерки виготовлені зі збитої на білках маси з додаванням згущеного молока та інших інгредієнтів. Цукерки глазуровані у кондитерській глазурі власного виробництва.",
+        "slug": "tsukerka-zhako-250g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-zhako-250g-ukrayina--04820177030299/"
+      },
+      {
+        "normalized_title": "цукерки галаретка",
+        "title": "Цукерки Roshen Галаретка",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 191.26,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Желейні цукерки зі смаками ананасу, апельсина, манго, лайма в шоколадній глазурі.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28880900000000/"
+      },
+      {
+        "normalized_title": "цукерки світоч зоряне сяйво",
+        "title": "Цукерки СВІТОЧ® Зоряне Сяйво",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 295.26,
+        "weight": "0",
+        "producer": {
+          "trademark": "Світоч",
+          "trademark_slug": "svitoch"
+        },
+        "description": "Зірка серед вагових цукерок Світоч® - неповторне \"Зоряне Сяйво®\": довершена купольна цукерка з ніжною арахісовою начинкою, присипана хрусткими крихтами.",
+        "slug": "tsukerka-svitoch-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-svitoch-ukrayina--metro28052000000000/"
+      },
+      {
+        "normalized_title": "цукерки ko-ko choco",
+        "title": "Цукерки Roshen Ko-Ko Choco 1кг",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 313.09,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Цукерки з комбінацією кремових начинок: ванільної та з ароматом «яєчного лікеру».",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077607332/"
+      },
+      {
+        "normalized_title": "цукерки konafetto bianco",
+        "title": "Цукерки Roshen Konafetto Bianco",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 207.9,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Вафельні трубочки в шоколадній глазурі з кремовою начинкою зі смаком лісового горіха.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28114300000000/"
+      },
+      {
+        "normalized_title": "цукерки nestlé lion стандарт вафельні вагові",
+        "title": "Цукерки NESTLÉ® LION® Стандарт вафельні вагові",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 335.82,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lion",
+          "trademark_slug": "lion"
+        },
+        "description": "",
+        "slug": "tsukerka-lain",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-lain--metro28054600000000/"
+      },
+      {
+        "normalized_title": "цукерки сливки-ленивки",
+        "title": "Цукерки Roshen Сливки-ленивки 1кг",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 237.49,
+        "weight": "1000.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Глазуровані екстрамолочною шоколадною глазур´ю вафельні цукерки з молочно-вершковою начинкою.",
+        "slug": "tsukerka-roshen-31g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-31g-ukrayina--04823006707911/"
+      },
+      {
+        "normalized_title": "цукерки kugeln в чорному шоколаді",
+        "title": "Цукерки Mozart Kugeln в чорному шоколаді 200г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 99.9,
+        "weight": "200.0",
+        "producer": {
+          "trademark": "Mozart",
+          "trademark_slug": "mozart"
+        },
+        "description": "Найсмачніші праліне, що складаються з шоколаду найвищої якості, марципану та фісташкового марципану.",
+        "slug": "motsart-200g",
+        "web_url": "https://metro.zakaz.ua/uk/products/motsart-200g--04006894733709/"
+      },
+      {
+        "normalized_title": "цукерки бім-бом карамельні з фруктово-ягідною начинкою вагові",
+        "title": "Цукерки Roshen Бім-Бом карамельні з фруктово-ягідною начинкою вагові",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 124.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Прозора карамель у формі кулі з фруктово-ягідною начинкою зі смаками груші, ананасу, суниці та тутті-фрутті.",
+        "slug": "karamel-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/karamel-roshen-ukrayina--metro28079400000000/"
+      },
+      {
+        "normalized_title": "цукерки mont blanc мікс шоколадні",
+        "title": "Цукерки Roshen Mont Blanc мікс шоколадні 1кг",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 405.5,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-1000g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077637865/"
+      },
+      {
+        "normalized_title": "цукерки желейні worms",
+        "title": "Цукерки желейні Haribo Worms 80г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 46.98,
+        "weight": "80.0",
+        "producer": {
+          "trademark": "Haribo",
+          "trademark_slug": "haribo"
+        },
+        "description": "Комбіновані продукти Haribo виробляються з цукру, коричневого цукрового сиропу, желатину, глюкози, фруктових і рослинних концентратів, а також ароматизаторів в комбінації з лакрицей.",
+        "slug": "tsukerka-kharibo-80g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-kharibo-80g--09002975378000/"
+      },
+      {
+        "normalized_title": "цукерки лукас з вишневим наповнювачем",
+        "title": "Цукерки Лукас Lukasia з вишневим наповнювачем",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 197.5,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lukasia",
+          "trademark_slug": "lukasia"
+        },
+        "description": "Іноді серед зими так кортить чогось солоденько-фруктового… Саме на такий випадок ми і створили ці смаколики з фірмової лінійки «Лукася». На Вас чекають невеличкі цукерки у формі купола. Під шаром кондитерської глазурі – неймовірно ніжне суфле. А всередині – особливий вишневий наповнювач, що огортає ягідними ароматами і на хвилинку повертає в літо.Тож, якщо Ви шукаєте незвичайні та якісні ласощі, «Лукася» – саме для Вас!",
+        "slug": "tsukerka-lukasia",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-lukasia--metro28817200000000/"
+      },
+      {
+        "normalized_title": "цукерки berry cheesecake",
+        "title": "Цукерки Chocolatier  Berry Cheesecake",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 280.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Chocolatier",
+          "trademark_slug": "chocolatier"
+        },
+        "description": "",
+        "slug": "tsukerka-shokolatie",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-shokolatie--metro28332900000000/"
+      },
+      {
+        "normalized_title": "цукерки королівський шарм вершковий крем",
+        "title": "Цукерки АВК Королівський шарм вершковий крем",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 306.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "АВК",
+          "trademark_slug": "avk"
+        },
+        "description": "Цукерки з ніжним вершковим кремом в хрусткій вафельці, вкриті молочно-шоколадною глазур’ю і прикрашені декором.",
+        "slug": "tsukerka-avk-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-avk-ukrayina--metro28088800000000/"
+      },
+      {
+        "normalized_title": "цукерки желейні золоті ведмедики",
+        "title": "Цукерки желейні Haribo Золоті ведмедики 150г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 104.65,
+        "weight": "150.0",
+        "producer": {
+          "trademark": "Haribo",
+          "trademark_slug": "haribo"
+        },
+        "description": "",
+        "slug": "tsukerka-kharibo-150g-avstriia",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-kharibo-150g-avstriia--09002975393935/"
+      },
+      {
+        "normalized_title": "цукерки golden nut",
+        "title": "Цукерки Millennium Golden Nut",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 466.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Millennium",
+          "trademark_slug": "millennium"
+        },
+        "description": "Ці цукерки створені спеціально для любителів похрумкотіти цілими лісовими горішками, смак яких доповнений гармонічним смаками ніжного праліне та оксамитового шоколаду. Їх надзвичайний смак не залишить осторонь жодного, хто хоч раз в житті їх спробував. Готуйтеся купувати їх знову й знову.",
+        "slug": "tsukerka",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka--metro28328900000000/"
+      },
+      {
+        "normalized_title": "цукерки білочка",
+        "title": "Цукерки Millennium Білочка",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 254.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Millennium",
+          "trademark_slug": "millennium"
+        },
+        "description": "",
+        "slug": "tsukerka",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka--metro28323900000000/"
+      },
+      {
+        "normalized_title": "цукерки truffle",
+        "title": "Цукерки Chocolatier Truffle",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 280.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Chocolatier",
+          "trademark_slug": "chocolatier"
+        },
+        "description": "",
+        "slug": "tsukerka-shokolatie",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-shokolatie--metro28333500000000/"
+      },
+      {
+        "normalized_title": "цукерки червоний мак",
+        "title": "Цукерки Roshen Червоний мак 1кг",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 313.09,
+        "weight": "1000.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Праліне з додаванням карамельної крихти, пасти ядер горіхів фундука та мигдалю, покрите шоколадною глазур’ю.\nЗавдяки карамельної крихті цукерка має щільну текстуру і приємний хрускіт. Смак родом з дитинства.",
+        "slug": "tsukerka-roshen-1000g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077604416/"
+      },
+      {
+        "normalized_title": "цукерки шоколапки",
+        "title": "Цукерки Roshen Шоколапки",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 202.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Тофі з подрібненим арахісом в шоколадній глазурі.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28065100000000/"
+      },
+      {
+        "normalized_title": "цукерки чорнослив з волоським горіхом",
+        "title": "Цукерки Maria Чорнослив з волоським горіхом",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 306.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Maria",
+          "trademark_slug": "maria"
+        },
+        "description": "Цукерки з чорносливом без кісточки і ядром волоського горіха в середині.",
+        "slug": "tsukerka-mariia",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-mariia--metro28815900000000/"
+      },
+      {
+        "normalized_title": "цукерки henry lambertz -kugeln в білому шоколаді",
+        "title": "Цукерки Henry Lambertz Mozart-Kugeln в білому шоколаді 200г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 99.9,
+        "weight": "200.0",
+        "producer": {
+          "trademark": "Mozart",
+          "trademark_slug": "mozart"
+        },
+        "description": "Класика в новому виконанні - чудова пралина Mozart в білому шоколаді. Багатий склад продукту: фісташковий марципан, марципан та нуга з лісового горіха, все це вкрите шарами молочного та білого шоколаду.",
+        "slug": "tsukerka-motsart-200g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-motsart-200g--04006894274905/"
+      },
+      {
+        "normalized_title": "цукерки монблан з кокосовим кремом та мигдалем",
+        "title": "Цукерки Roshen Монблан з кокосовим кремом та мигдалем",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 414.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Тандем молочного шоколаду з ніжною начинкою із кокосового крему та мигдалю.",
+        "slug": "shokolad-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/shokolad-roshen-ukrayina--metro28819800000000/"
+      },
+      {
+        "normalized_title": "цукерки johnny krocker choco",
+        "title": "Цукерки Roshen Johnny Krocker choco",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 224.54,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Світлі хрусткі вафлі та шоколадно-кремова начинка, покриті глазур’ю.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28966500000000/"
+      },
+      {
+        "normalized_title": "цукерки світоч львівський трюфель",
+        "title": "Цукерки СВІТОЧ® Львівський Трюфель",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 345.18,
+        "weight": "0",
+        "producer": {
+          "trademark": "Світоч",
+          "trademark_slug": "svitoch"
+        },
+        "description": "Вишуканий шоколадний трюфель, вкритий хрусткими шоколадними кріпсами. Оцінена споживачами як одна із найсмачніших цукерок.",
+        "slug": "tsukerka-svitoch-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-svitoch-ukrayina--metro28052700000000/"
+      },
+      {
+        "normalized_title": "цукерки кара-кум",
+        "title": "Цукерки Millennium Кара-кум",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 254.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Millennium",
+          "trademark_slug": "millennium"
+        },
+        "description": "Цукерки «Кара-Кум», в яких дрібна вафельна крихта змішана з шоколадно-горіховим праліне, що вкрите шовковистою на смак шоколадною глазур’ю, – це цукерки, смаком із дитинства. Якщо ж це були ваші улюблені цукерки, то варто їх скушувати, щоб пригадати ті миті насолоди, які ви відчували тоді.",
+        "slug": "tsukerka-milenium",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-milenium--metro28326300000000/"
+      },
+      {
+        "normalized_title": "цукерки delights апельсинове желе в шоколаді",
+        "title": "Цукерки Goplana Delights апельсинове желе в шоколаді 190г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 83.1,
+        "weight": "190.0",
+        "producer": {
+          "trademark": "Goplana ",
+          "trademark_slug": "goplana"
+        },
+        "description": "",
+        "slug": "tsukerka-goplana-190g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-goplana-190g--05900352014524/"
+      },
+      {
+        "normalized_title": "цукерки желейні хеппі кола",
+        "title": "Цукерки желейні Haribo Хеппі Кола 80г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 46.98,
+        "weight": "80.0",
+        "producer": {
+          "trademark": "Haribo",
+          "trademark_slug": "haribo"
+        },
+        "description": "Пориньте в радісний і різнокольоровий світ Haribo! Натуральна сировина, рослинні концентрати і ароматизатори - ось секрет успіху різноманітного фруктового мармеладу, лакричніх цукерок та інших солодощів Haribo, покликаних дарувати радість багатьом.",
+        "slug": "tsukerka-kharibo-80g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-kharibo-80g--09002975318556/"
+      },
+      {
+        "normalized_title": "цукерки minky binky з желейною начинкою",
+        "title": "Цукерки Roshen Minky Binky з желейною начинкою",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 154.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Тоффі з желейними начинками та додаванням фруктових соків: полуниці, апельсину, чорниці, абрикосу.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28819200000000/"
+      },
+      {
+        "normalized_title": "цукерки happy cherries желейні",
+        "title": "Цукерки Haribo Happy Cherries желейні 80г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 46.98,
+        "weight": "80.0",
+        "producer": {
+          "trademark": "Haribo",
+          "trademark_slug": "haribo"
+        },
+        "description": "",
+        "slug": "tsukerka-kharibo-80g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-kharibo-80g--09002975395496/"
+      },
+      {
+        "normalized_title": "цукерки ocean story шоколадні з горіховим праліне",
+        "title": "Цукерки Millennium Ocean Story шоколадні з горіховим праліне 170г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 111.18,
+        "weight": "220.0",
+        "producer": {
+          "trademark": "Millennium",
+          "trademark_slug": "millennium"
+        },
+        "description": "Ексклюзивна колекція шоколадних цукерок Millennium \"Історія Океану\" - це вишуканий смак ніжного горіхового праліне, покритого унікальним мармуровим шоколадом.",
+        "slug": "tsukerka-milenium-170g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-milenium-170g--04820075500078/"
+      },
+      {
+        "normalized_title": "цукерки candy nut нуга і мяка карамель з арахісом та хрустким рисом вагові",
+        "title": "Цукерки Roshen Candy Nut Нуга і м'яка карамель з арахісом та хрустким рисом вагові",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 194.38,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28225400000000/"
+      },
+      {
+        "normalized_title": "цукерки монблан шоколад з сезамом",
+        "title": "Цукерки Roshen Монблан шоколад з сезамом",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 414.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Цукерки з шоколадно-горіхового праліне зі смаженим кунжутом, декоровані чорним та білим шоколадом.\nГармонійне поєднання декількох видів шоколаду, праліне і обсмаженого сезаму.",
+        "slug": "tsukerka-roshen",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28873900000000/"
+      },
+      {
+        "normalized_title": "цукерки ліщина",
+        "title": "Цукерки Roshen Ліщина 1кг",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 313.09,
+        "weight": "1002.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Праліне з додаванням подрібненої та тертої ліщини та мигдалю.\n Цукерка покрита шоколадною глазур’ю.",
+        "slug": "tsukerka-roshen-1000g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g-ukrayina--04823077608933/"
+      },
+      {
+        "normalized_title": "цукерки mont blanc шоколадні з цілим лісовим горіхом",
+        "title": "Цукерки Roshen Mont Blanc шоколадні з цілим лісовим горіхом 240г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 119.5,
+        "weight": "240.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Шоколадні цукерки з кремовою горіховою начинкою, з додаванням ядер горіхів фундука. Декоровані білим шоколадом.",
+        "slug": "tsukerka-roshen-240g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-240g-ukrayina--04823077635755/"
+      },
+      {
+        "normalized_title": "цукерки королівський шарм горіховий крем",
+        "title": "Цукерки АВК Королівський шарм горіховий крем",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 306.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "АВК",
+          "trademark_slug": "avk"
+        },
+        "description": "Цукерки з ніжним горіховим кремом в хрусткій вафельці, вкриті молочно-шоколадною глазур’ю і прикрашені декором.",
+        "slug": "tsukerka-avk-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-avk-ukrayina--metro28089000000000/"
+      },
+      {
+        "normalized_title": "цукерки lemon cheesecake",
+        "title": "Цукерки Chocolatier Lemon Cheesecake",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 280.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Chocolatier",
+          "trademark_slug": "chocolatier"
+        },
+        "description": "",
+        "slug": "tsukerka-shokolatie",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-shokolatie--metro28333100000000/"
+      },
+      {
+        "normalized_title": "цукерки шоколадні історії джек вафельні",
+        "title": "Цукерки Konti Шоколадні історії Джек вафельні",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 233.9,
+        "weight": "0",
+        "producer": {
+          "trademark": "Konti",
+          "trademark_slug": "konti"
+        },
+        "description": "Збільшена глазурована вафельна цукерка.  Складається з п'яти хрустких вафельних шарів світлого кольору та з чотирьох ароматних шарів начинки з додаванням какао-порошку.",
+        "slug": "tsukerka-konti",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-konti--metro28048300000000/"
+      },
+      {
+        "normalized_title": "цукерки асорті жувальні",
+        "title": "Цукерки Mamba Асорті жувальні",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 409.66,
+        "weight": "0",
+        "producer": {
+          "trademark": "Mamba",
+          "trademark_slug": "mamba"
+        },
+        "description": "Жувальні цукерки Мамба асорті зі смаками малини, полуниці, апельсина, вишні, лимона.",
+        "slug": "tsukerka-shtork",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-shtork--metro28022000000000/"
+      },
+      {
+        "normalized_title": "цукерки марія прометей з родзинками",
+        "title": "Цукерки Марія Прометей з родзинками",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 296.3,
+        "weight": "0",
+        "producer": {
+          "trademark": "Maria",
+          "trademark_slug": "maria"
+        },
+        "description": "М'який грильяж з смаженого подрібненого арахісу з родзинками куполоподібної форми.",
+        "slug": "tsukerka-mariia",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-mariia--metro28816900000000/"
+      },
+      {
+        "normalized_title": "цукерки candy nut карамель з арахісом",
+        "title": "Цукерки Roshen Candy Nut карамель з арахісом 1кг",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 226.69,
+        "weight": "1000.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "М'яка карамель з арахісом, покриті ніжною глазур’ю.\nЯкщо покласти цукерку в прохолодне місце — м'яка карамель перетвориться в більш тверду, що характерно для грильяжа.",
+        "slug": "tsukerka-roshen",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--04823077624001/"
+      },
+      {
+        "normalized_title": "цукерки konafetto nero",
+        "title": "Цукерки Roshen Konafetto Nero",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 207.9,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Глазуровані шоколадною глазур’ю цукерки, корпус – вафельна трубочка з кремовою молочно-горіховою начинкою всередені.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28066600000000/"
+      },
+      {
+        "normalized_title": "цукерки mont blanc з шоколадом та сезамом",
+        "title": "Цукерки Roshen Mont Blanc з шоколадом та сезамом 240г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 119.5,
+        "weight": "240.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Цукерки з шоколадно-горіхового праліне зі смаженим кунжутом. Декоровані чорним і білим шоколадом.",
+        "slug": "tsukerka-roshen-240g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-240g--04823077635748/"
+      },
+      {
+        "normalized_title": "цукерки лукас пташине молоко",
+        "title": "Цукерки Лукас Пташине молоко",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 197.5,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lukas",
+          "trademark_slug": "lukas"
+        },
+        "description": "Цукерки «Пташине молоко «Лукас» не потребують ні коментарів, ні реклами. Ці цукерки мають масову популярність по всьому світу. Звісно, Компанія «Лукас» не могла лишитись осторонь цієї легенди кондитерського мистецтва і пропонує власний варіант «Пташиного молока «Лукас». Ми приготували суфле вражаючої легкості. До речі, саме наш продукт став переможцем програми «Знак якості», що проводилася на телеканалі «Інтер». Тепер Ваша черга отримати насолоду від цих солодощів та оцінити їх рівень.",
+        "slug": "tsukerka-lukas",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-lukas--metro28817800000000/"
+      },
+      {
+        "normalized_title": "цукерки з молочного шоколаду кремово-полунична начинка",
+        "title": "Цукерки з молочного шоколаду Milka кремово-полунична начинка 110г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 72.7,
+        "weight": "110.0",
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "tsukerka-milka-110g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-milka-110g--07622201410407/"
+      },
+      {
+        "normalized_title": "цукерки yummi`s жувальні зі смаком фруктів",
+        "title": "Цукерки Roshen Yummi`s жувальні зі смаком фруктів",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 154.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-1000g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g-ukrayina--metro28531100000000/"
+      },
+      {
+        "normalized_title": "цукерки toffife з кремовою нугой і лісовим горіхом",
+        "title": "Цукерки Toffife з кремовою нугой і лісовим горіхом 125г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 111.18,
+        "weight": "150.0",
+        "producer": {
+          "trademark": "Toffifee",
+          "trademark_slug": "toffifee"
+        },
+        "description": "Не дивно, що популярність цукерок Toffifee у всьому світі зростає з кожним днем на протязі ось вже більше 40 років, адже в Toffifee ми об'єднали все найсмачніше! Секрет цукерок Toffifee в цікавому поєднанні смачних інгредієнтів: добірний цільний лісовий горіх в чашечці з м'якої карамелі, наповненою ніжною кремовою нугою і покритою чудовим шоколадом! Toffifee - це неймовірно смачні цукерки, які сподобаються і дорослим, і дітям!",
+        "slug": "tsukerka-tofifi-125g-nimechchina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-tofifi-125g-nimechchina--04014400400007/"
+      },
+      {
+        "normalized_title": "цукерки світоч зоряне сяйво смак капучино вагові",
+        "title": "Цукерки СВІТОЧ® Зоряне Сяйво смак Капучино вагові",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 295.26,
+        "weight": "0",
+        "producer": {
+          "trademark": "Світоч",
+          "trademark_slug": "svitoch"
+        },
+        "description": "Улюблене Зоряне Сяйво®, доповнене ніжною начинкою зі смаком капучино та присипане хрусткими крихтами.",
+        "slug": "tsukerka-svitoch",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-svitoch--metro28813800000000/"
+      },
+      {
+        "normalized_title": "цукерки delights вишневе желе в шоколаді",
+        "title": "Цукерки Goplana Delights вишневе желе в шоколаді 190г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 83.1,
+        "weight": "190.0",
+        "producer": {
+          "trademark": "Goplana ",
+          "trademark_slug": "goplana"
+        },
+        "description": "",
+        "slug": "tsukerka-goplana-190g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-goplana-190g--05900352014531/"
+      },
+      {
+        "normalized_title": "цукерки nestlé nesquik смак какао вафельні вагові",
+        "title": "Цукерки NESTLÉ® NESQUIK® смак какао вафельні вагові",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 300.46,
+        "weight": "0",
+        "producer": {
+          "trademark": "Nesquik",
+          "trademark_slug": "nesquik"
+        },
+        "description": "Цукерки “Несквік” класичний –  це поєднання хрусткої вафлі, справжнього молочного шоколаду та начинки зі смаком какао Nesquik®.",
+        "slug": "tsukerka-neskvik",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-neskvik--metro28818500000000/"
+      },
+      {
+        "normalized_title": "цукерки стріла подільська",
+        "title": "Цукерки Roshen Стріла Подільська 208г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 149.66,
+        "weight": "200.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Глазуровані шоколадною глазур'ю цукерки конусоподібної форми, корпус - помадно-кремовий з додаванням спирту і коньяку.",
+        "slug": "tsukerka-roshen-200g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077611902/"
+      },
+      {
+        "normalized_title": "цукерки монблан с карамелізованим мигдалем вагові",
+        "title": "Цукерки Roshen Монблан с карамелізованим мигдалем вагові",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 414.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мигдальне праліне з карамелізованим мигдалем глазуроване білим та темним шоколадом.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28066900000000/"
+      },
+      {
+        "normalized_title": "цукерки johnny krocker молоко",
+        "title": "Цукерки Roshen Johnny Krocker молоко",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 224.54,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Темні хрусткі вафлі та молочна начинка, покриті глазур’ю.",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28966800000000/"
+      },
+      {
+        "normalized_title": "цукерки mont blanc крем-праліне з подрібненим горіхом",
+        "title": "Цукерки Roshen Mont Blanc крем-праліне з подрібненим горіхом 240г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 119.5,
+        "weight": "268.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Шоколадні цукерки з комбінованою начинкою: праліне з подрібненими лісовими горіхами та горіхово-кремова начинка. Декоровані білим і чорним шоколадом.",
+        "slug": "tsukerka-roshen-240g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-240g-ukrayina--04823077635731/"
+      },
+      {
+        "normalized_title": "цукерки nestlé after eight класичні",
+        "title": "Цукерки NESTLÉ® AFTER EIGHT® класичні 200г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 124.7,
+        "weight": "222.0",
+        "producer": {
+          "trademark": "After Eight",
+          "trademark_slug": "nestle"
+        },
+        "description": "Nestle After Eight - тонкі цукерки з темного шоколаду з ментоловою начинкою. Мають приємний солодкий смак з м'ятними нотками. Освіжають, заспокоюють, особливо рекомендуються для вживання ввечері.",
+        "slug": "tsukerka-nestle-200g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-nestle-200g--05000189363069/"
+      },
+      {
+        "normalized_title": "цукерки трюфельні екстрачорні",
+        "title": "Цукерки трюфельні Bianca екстрачорні 150г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 103.9,
+        "weight": "150.0",
+        "producer": {
+          "trademark": "Bianca",
+          "trademark_slug": "bianca"
+        },
+        "description": "Цукерки Bianca Truffles Extra Dark - бельгійські цукерки зі смаком темного шоколаду. Вони традиційно виконані у формі конуса і обсипані найдрібнішим какао-порошком. Цукерки упаковані в герметичний пакет і стильно оформлену коробку. Підійдуть для елегантного подарунка.",
+        "slug": "tsukerka-bianka-150g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bianka-150g--05420066370032/"
+      },
+      {
+        "normalized_title": "цукерки nestlé lion white rock вафельні",
+        "title": "Цукерки NESTLÉ® LION® White Rock вафельні",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 335.82,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lion",
+          "trademark_slug": "lion"
+        },
+        "description": "",
+        "slug": "tsukerka-lain",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-lain--metro28994500000000/"
+      },
+      {
+        "normalized_title": "цукерки ritter sport schokowürfel vielfalt асорті",
+        "title": "Цукерки Ritter Sport Schokowürfel Vielfalt асорті 176г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 206.86,
+        "weight": "176.0",
+        "producer": {
+          "trademark": "Ritter SPORT",
+          "trademark_slug": "ritter-sport"
+        },
+        "description": "Подарунковий набір шоколадних цукерок з начинкою асорті Ritter Sport ідеально підійдуть як подарунок, комплімент або знак уваги. Ці цукерки для справжнього поціновувача німецького шоколаду найвищої якості.",
+        "slug": "tsukerka-ritter-176g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-ritter-176g--04000417651006/"
+      },
+      {
+        "normalized_title": "цукерки монблан лісовий горіх",
+        "title": "Цукерки Roshen Монблан лісовий горіх",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 414.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28634000000000/"
+      },
+      {
+        "normalized_title": "цукерки storck ірис вершковий",
+        "title": "Цукерки Storck Werther's Original Ірис вершковий 48г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 45.25,
+        "weight": "48.0",
+        "producer": {
+          "trademark": "Werther's Original",
+          "trademark_slug": "werthers-original"
+        },
+        "description": "Класичний ірис зі справжнім смаком вершкового ірису.",
+        "slug": "tsukerka-verters-oridzhinal-48g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-verters-oridzhinal-48g--metro00000040144900/"
+      },
+      {
+        "normalized_title": "цукерки трюфель оригінальний",
+        "title": "Цукерки АВК Трюфель оригінальний",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 286.94,
+        "weight": "0",
+        "producer": {
+          "trademark": "АВК",
+          "trademark_slug": "avk"
+        },
+        "description": "Ніжна трюфельна начинка в тонкому корпусі з шоколаду.",
+        "slug": "tsukerka-avk-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-avk-ukrayina--metro28092600000000/"
+      },
+      {
+        "normalized_title": "цукерки bifesti смак лайму",
+        "title": "Цукерки Lukas Bifesti смак лайму",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 161.1,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lukas",
+          "trademark_slug": "lukas"
+        },
+        "description": "Це щось неймовірне! Яскравий представник найулюбленіших цукерок від кондитерської компанії «Лукас». На перший погляд вони нічим не відрізняються від решти цукерок з асортименту: традиційна чітка форма, вкрита впізнаваною для ласунів глазур’ю. Однак, уже після першого ж шматочка, відчувається реальний вибух солодкої свіжості! Це – желейний прошарок, смак якого нескладно вгадати – екзотичний та ароматний лайм! Желе займає майже половину цукерки, а решту ми вирішили заповнити молочним грильяжем зі смаженого насіння соняшника.",
+        "slug": "tsukerka",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka--metro28957200000000/"
+      },
+      {
+        "normalized_title": "цукерки lulu глазуровані",
+        "title": "Цукерки Lukas Lulu глазуровані",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 176.7,
+        "weight": "0",
+        "producer": {
+          "trademark": "Lukas",
+          "trademark_slug": "lukas"
+        },
+        "description": "LuLu – кохання має бути солодким! Ця парочка створена для романтичного настрою та для того, щоб дарувати його щоразу, як цукерочка опиняється у твоїх руках.\nПовітряні кукурудзяні кульки, відібраний подрібнений арахіс та насичений смак молока з ваніллю.\nДаруй ніжність разом з LuLu!",
+        "slug": "tsukerka-lukas-1000g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-lukas-1000g-ukrayina--metro28795700000000/"
+      },
+      {
+        "normalized_title": "цукерки асорті шоколадні з мигдалем",
+        "title": "Цукерки Merci Асорті шоколадні з мигдалем 250г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 216.22,
+        "weight": "255.0",
+        "producer": {
+          "trademark": "Merci",
+          "trademark_slug": "merci"
+        },
+        "description": "Merci Finest Selection \"Асорті з шоколаду з мигдалем\" - це 4 чудових, ретельно відібраних сорти шоколаду з додаванням дробленого мигдалю, для виробництва яких використовуються тільки найкращі інгредієнти.",
+        "slug": "tsukerka-mersi-250g-nimechchina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-mersi-250g-nimechchina--04014400917956/"
+      },
+      {
+        "normalized_title": "цукерки finest selection асорті",
+        "title": "Цукерки Merci Finest Selection асорті 250г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 216.22,
+        "weight": "280.0",
+        "producer": {
+          "trademark": "Merci",
+          "trademark_slug": "merci"
+        },
+        "description": "Смак, який сподобається кожному.\nmerci Finest Selection - це чудове асорті з унікальної колекції вишуканого шоколаду, для виробництва якого використовуються інгредієнти високої якості. Набори шоколадних цукерок merci представлені в чотирьох смаках: Асорті, Асорті Молочний, Асорті Темний, Асорті Мигдаль. Як ще висловити подяку від усього серця близькій Вам людині?",
+        "slug": "tsukerka-mersi-250g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-mersi-250g--04014400901412/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi duo mix",
+        "title": "Цукерки Roshen Yummi Gummi Duo Mix 70г",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636295/"
+      },
+      {
+        "normalized_title": "цукерки монблан крем-праліне з подрібненим лісовим горіхом",
+        "title": "Цукерки Roshen Монблан крем-праліне з подрібненим лісовим горіхом",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 414.86,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Шоколадні цукерки з комбінованою начинкою: праліне з подрібненими лісовими горіхами та горіхово-кремова начинка. Декоровані білим і чорним шоколадом.",
+        "slug": "tsukerka-roshen",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28874000000000/"
+      },
+      {
+        "normalized_title": "цукерки lollipops йогурт",
+        "title": "Цукерки Roshen Lollipops йогурт",
+        "category_id": "candies-and-chocolate-bars-metro",
+        "price": 162.14,
+        "weight": "0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс карамелі на паличці зі смаками «йогурт-малина», «йогурт-полуниця» та «йогурт-ананас».",
+        "slug": "tsukerka-roshen-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28818700000000/"
+      },
+      {
+        "normalized_title": "цукерки асорті страйпи",
+        "title": "Цукерки Bob Snail Асорті страйпи 98г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 86.29,
+        "weight": "122.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "marmelad-bob-sneil-98g",
+        "web_url": "https://metro.zakaz.ua/uk/products/marmelad-bob-sneil-98g--04820219343851/"
+      },
+      {
+        "normalized_title": "цукерки фрутім натуральні асорті 120г",
+        "title": "Цукерки Фрутім натуральні асорті 12шт 120г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 101.41,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-120g--04820200260334/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi sour sticks желейні",
+        "title": "Цукерки Roshen Yummi Gummi Sour Sticks желейні 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-70g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/"
+      },
+      {
+        "normalized_title": "цукерки фрутім натуральні яблучно-грушеві",
+        "title": "Цукерки Фрутім натуральні яблучно-грушеві 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 13.5,
+        "weight": "22.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Склад: 70% яблуко, 30% груша. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260150/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi mini bear mix",
+        "title": "Цукерки Roshen Yummi Gummi Mini Bear Mix 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс желатинових цукерок у формі ведмедиків зі смаками вишні, яблука, абрикоса, смородини, ананаса та апельсина. \nУ цукерках міститься 25% фруктового соку.",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636349/"
+      },
+      {
+        "normalized_title": "цукерки bonny-fruit желейні літній мікс",
+        "title": "Цукерки Roshen Bonny-Fruit желейні літній мікс 200г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 36.61,
+        "weight": "200.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаком і в формі літніх фруктів і ягід: яблука, груші, абрикоса, кавуна, вишні та полуниці.",
+        "slug": "marmelad-roshen-200g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624223/"
+      },
+      {
+        "normalized_title": "цукерки фрутім смачне яблуко натуральні",
+        "title": "Цукерки Фрутім Смачне яблуко натуральні 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 13.5,
+        "weight": "22.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260174/"
+      },
+      {
+        "normalized_title": "цукерки фрутiм соковита вишня яблучно-вишневi натуральні без цукру",
+        "title": "Цукерки Фрутiм Соковита Вишня яблучно-вишневi натуральні без цукру 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 17.17,
+        "weight": "20.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Склад: 70% яблуко, 30% вишня. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260204/"
+      },
+      {
+        "normalized_title": "цукерки натуральні фрутiм солодкий персик яблучно-персиковi без цукру",
+        "title": "Цукерки натуральні Фрутiм Солодкий Персик яблучно-персиковi без цукру",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 17.17,
+        "weight": "20.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-50g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-50g--04820200260181/"
+      },
+      {
+        "normalized_title": "цукерки фрутім стигла малина яблучно-малинові натуральні без глютену та цукру",
+        "title": "Цукерки Фрутім Стигла Малина яблучно-малинові натуральні без глютену та цукру 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 17.17,
+        "weight": "25.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Склад: 70% яблуко, 30% слива. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260143/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi twists желейні",
+        "title": "Цукерки Roshen Yummi Gummi Twists желейні 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-70g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636271/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi fizzy worms",
+        "title": "Цукерки Roshen Yummi Gummi Fizzy Worms 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс желатинових цукерок у формі смугастих черв'ячків у кислій присипці та з подвійними смаками: виноград – яблуко, чорниця – апельсин, вишня – лимон.",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636387/"
+      },
+      {
+        "normalized_title": "цукерки фрутім натуральні яблучно-полуничні",
+        "title": "Цукерки Фрутім натуральні яблучно-полуничні 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 17.17,
+        "weight": "22.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Склад: 70% яблуко, 30% полуниця. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260211/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi galaxy life",
+        "title": "Цукерки Roshen Yummi Gummi Galaxy Life 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс двошарових желатинових цукерок на основі спіненої маси зі смаками лимона, кавуна, апельсина, вишні, чорниці та яблука.",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636356/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi funny cola",
+        "title": "Цукерки Roshen Yummi Gummi Funny Cola 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс желатинових цукерок у формі пляшечок солодких газованих напоїв зі смаком коли.",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636394/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi rainbow belts желейні",
+        "title": "Цукерки Roshen Yummi Gummi Rainbow Belts желейні 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "",
+        "slug": "tsukerka-roshen-70g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636264/"
+      },
+      {
+        "normalized_title": "цукерки bonny-fruit желейні ягідний мікс",
+        "title": "Цукерки Roshen Bonny-Fruit желейні ягідний мікс 200г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 36.61,
+        "weight": "200.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаками та у формі лісовихі садових ягід: чорниці, суниці, журавлини, малини, винограду та чорної смородини.",
+        "slug": "marmelad-roshen-200g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624261/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi donuts",
+        "title": "Цукерки Roshen Yummi Gummi Donuts 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс желатинових цукерок у формі пончиків зі шматочками печива.",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636370/"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi frozen yogo",
+        "title": "Цукерки Roshen Yummi Gummi Frozen Yogo 70г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 29.05,
+        "weight": "70.0",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": "roshen"
+        },
+        "description": "Мікс желатинових цукерок у формі морозива з йогуртовими смаками: малина-йогурт, полуниця-йогурт, ананас-йогурт.",
+        "slug": "tsukerka-roshen-70g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636363/"
+      },
+      {
+        "normalized_title": "цукерки snail bob хурма фруктові",
+        "title": "Цукерки Snail Bob Хурма фруктові 14г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 19.98,
+        "weight": "14.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-14g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-14g--04820219342458/"
+      },
+      {
+        "normalized_title": "цукерки фрутім смородина-яблуко натуральні без цукру",
+        "title": "Цукерки Фрутім Смородина-яблуко натуральні без цукру 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 17.17,
+        "weight": "20.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260372/"
+      },
+      {
+        "normalized_title": "цукерки натуральні фрутім мрійлива слива яблуко-слива",
+        "title": "Цукерки натуральні Фрутім Мрійлива слива яблуко-слива 20г",
+        "category_id": "marshmallow-and-gumdrop-metro",
+        "price": 17.17,
+        "weight": "20.0",
+        "producer": {
+          "trademark": "ФРУТІМ",
+          "trademark_slug": "frutim"
+        },
+        "description": "Натуральні цукерки ФРУТІМ - це насолода смаком та користю улюбленних фруктів цілий рік! Ми створили фруктово - ягідну смакоту без додавання жодного граму цукру. Яблука, вирощені під яскравим українським сонцем, ми поєднали з солодким персиком, ніжним абрикосом, апетитною полуницею, соковитою вишнею, стиглою малиною, ароматною грушею, стиглою солодкою сливою, чорною смородиною, а ще з корисною морквою, усі разом вони пройшли спеціальну термічну обробку, завдяки якій збереглися усі корисні вітаміни та мікроелементи. З натуральними цукерками Фрутім ти отримуєш солодкий смак та максиальну користь лише від фруктів. Не містить цукру, ароматизаторів, ГМО, барвників, підсилювачів смаку.",
+        "slug": "tsukerka-frutim-20g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-frutim-20g--04820200260365/"
+      },
+      {
+        "normalized_title": "цукерки яблуко-смородина",
+        "title": "Цукерки Bob Snail яблуко-смородина 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 79.81,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-ukrayina--04820219345701/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-вишневі натуральні",
+        "title": "Цукерки Bob Snail яблучно-вишневі натуральні 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 79.81,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні яблучні цукерки Bob Snail - це природний продукт, для їх приготування використовуються добірні українські фрукти, корисні вітаміни і мінерали яких, так необхідні для здоров'я дорослих та дітей, максимально збережені. Πacтілa випycĸaeтcя в видe cвepнyтoй cпіpaльĸі, як дoміĸ yлітĸі.",
+        "slug": "tsukerka-bob-sneil-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-120g--04820162520354/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-малинові натуральні",
+        "title": "Цукерки Bob Snail яблучно-малинові натуральні 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 79.81,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Равлик Боб пропонує тобі спробувати смачні солодощі, приготовані з натуральних фруктів без додавання цукру. Кожна цукерка за формою нагадує равлика - це фруктова стрічка, закручена спіраллю. Вибирай на свій смак!",
+        "slug": "tsukerka-bob-sneil-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-120g--04820162520460/"
+      },
+      {
+        "normalized_title": "цукерки манго-яблуко",
+        "title": "Цукерки Bob Snail манго-яблуко 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 79.81,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-ukrayina--04820219345657/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-полуничні натуральні",
+        "title": "Цукерки Bob Snail яблучно-полуничні натуральні 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 79.81,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Равлик Боб пропонує тобі спробувати смачні солодощі, приготовані з натуральних фруктів без додавання цукру. Кожна цукерка за формою нагадує равлика - це фруктова стрічка, закручена спіраллю. Вибирай на свій смак!",
+        "slug": "tsukerka-bob-sneil-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-120g--04820162520422/"
+      },
+      {
+        "normalized_title": "цукерки асорті страйпи",
+        "title": "Цукерки Bob Snail Асорті страйпи 98г",
+        "category_id": "for-diabetics-metro",
+        "price": 86.29,
+        "weight": "122.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "marmelad-bob-sneil-98g",
+        "web_url": "https://metro.zakaz.ua/uk/products/marmelad-bob-sneil-98g--04820219343851/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-полуничні в молочному шоколаді",
+        "title": "Цукерки Bob Snail яблучно-полуничні в молочному шоколаді 60г",
+        "category_id": "for-diabetics-metro",
+        "price": 62.53,
+        "weight": "80.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-60g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-60g--04820219341369/"
+      },
+      {
+        "normalized_title": "набір цукерки яблуко-груша та іграшка",
+        "title": "Набір Цукерки Bob Snail яблуко-груша 20г та іграшка",
+        "category_id": "for-diabetics-metro",
+        "price": 53.89,
+        "weight": "50.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-20g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-20g-ukrayina--04820219342748/"
+      },
+      {
+        "normalized_title": "цукерки мангові в молочному шоколаді",
+        "title": "Цукерки Bob Snail мангові в молочному шоколаді  60г",
+        "category_id": "for-diabetics-metro",
+        "price": 62.53,
+        "weight": "72.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-60g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-60g--04820219341352/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-полуничні cтрайпси",
+        "title": "Цукерки Bob Snail Яблучно-полуничні cтрайпси 14г",
+        "category_id": "for-diabetics-metro",
+        "price": 15.88,
+        "weight": "16.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні фруктові цукерки Bob Snail - це продукт самої природи, так як для їх приготування використані тільки фрукти, і більше нічого! Це дозволяє максимально зберегти корисні вітаміни і мінерали, які так необхідні для здоров'я дорослих і, особливо, дітей.",
+        "slug": "tsukerka-bob-sneil-14g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-14g--04820206080721/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-вишневий страйп",
+        "title": "Цукерки Bob Snail Яблучно-вишневий страйп 14г",
+        "category_id": "for-diabetics-metro",
+        "price": 15.88,
+        "weight": "14.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні фруктові цукерки Bob Snail - це продукт самої природи, так як для їх приготування використані тільки фрукти, і більше нічого! Це дозволяє максимально зберегти корисні вітаміни і мінерали, які так необхідні для здоров'я дорослих і, особливо, дітей.",
+        "slug": "tsukerka-bob-sneil-14g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-14g--04820206080622/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-грушеві натуральні",
+        "title": "Цукерки Bob Snail яблучно-грушеві натуральні 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 89.53,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні яблучні цукерки Bob Snail - це природний продукт, для їх приготування використовуються добірні українські фрукти, корисні вітаміни і мінерали яких, так необхідні для здоров'я дорослих та дітей, максимально збережені. Πacтілa випycĸaeтcя в видe cвepнyтoй cпіpaльĸі, як дoміĸ yлітĸі.",
+        "slug": "tsukerka-bob-sneil-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-120g--04820162520194/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-грушево-чорничний страйп",
+        "title": "Цукерки Bob Snail яблучно-грушево-чорничний страйп 14г",
+        "category_id": "for-diabetics-metro",
+        "price": 19.98,
+        "weight": "14.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні фруктові цукерки Bob Snail - це продукт самої природи, так як для їх приготування використані тільки фрукти, і більше нічого! Це дозволяє максимально зберегти корисні вітаміни і мінерали, які так необхідні для здоров'я дорослих і, особливо, дітей.",
+        "slug": "tsukerka-bob-sneil-14g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-14g--04820206080745/"
+      },
+      {
+        "normalized_title": "цукерки бісквіт-шоколад вафельні на фруктозі з арахисом глазуровані",
+        "title": "Цукерки Бісквіт-шоколад Вафельні на фруктозі з арахисом глазуровані 200г",
+        "category_id": "for-diabetics-metro",
+        "price": 70.91,
+        "weight": "202.0",
+        "producer": {
+          "trademark": "бісквіт-шоколад",
+          "trademark_slug": "biscuit-chocolate"
+        },
+        "description": "Цукерки Вафельні на фруктозі з арахісом - цукерки, глазуровані кондитерською глазур'ю з начинкою між трьома шарами вафель. Начинка складається з кремової маси з додаванням арахісу. Цукерки зі зниженим вмістом цукру (16%).",
+        "slug": "tsukerka-biskvit-shokolad-200g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-biskvit-shokolad-200g-ukrayina--04820112367893/"
+      },
+      {
+        "normalized_title": "цукерки грушево-ананасові cтрайпси",
+        "title": "Цукерки Bob Snail Грушево-ананасові cтрайпси 14г",
+        "category_id": "for-diabetics-metro",
+        "price": 19.98,
+        "weight": "14.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні фруктові цукерки Bob Snail - це продукт самої природи, так як для їх приготування використані тільки фрукти, і більше нічого! Це дозволяє максимально зберегти корисні вітаміни і мінерали, які так необхідні для здоров'я дорослих і, особливо, дітей.",
+        "slug": "tsukerka-bob-sneil-14g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-14g--04820206080912/"
+      },
+      {
+        "normalized_title": "цукерки яблучні натуральні",
+        "title": "Цукерки Bob Snail яблучні натуральні 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 89.53,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Пастила нa ocнoвe нaтypaльниx інгpeдіeнтoв бeз дoбaвлeнія зaгycтітeлeй, лімoннoй ĸіcлoти і caxapa. Bмecтo них іcпoльзyeтcя яблoчний пeĸтін, зa cчeт ĸoтopoгo і yдaeтcя дocтічь плoтнoй ĸoнcіcтeнціі і піĸaнтнoй ĸіcлінĸі. Oнa oттeняeт cлaдĸій пpівĸyc яблoчнoгo пюpe і дoбaвляeт в нeгo пpянyю ізюмінĸy.",
+        "slug": "tsukerka-bob-sneil-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-120g--04820162520156/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-грушеві в молочному шоколаді",
+        "title": "Цукерки Bob Snail яблучно-грушеві в молочному шоколаді 60г",
+        "category_id": "for-diabetics-metro",
+        "price": 62.53,
+        "weight": "60.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-60g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-60g--04820219341604/"
+      },
+      {
+        "normalized_title": "цукерки яблуко-малина",
+        "title": "Цукерки Bob Snail Яблуко-Малина 10г",
+        "category_id": "for-diabetics-metro",
+        "price": 399.49,
+        "weight": "10.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-10g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-10g-ukrayina--04820219345039/"
+      },
+      {
+        "normalized_title": "цукерки яблуко-груша",
+        "title": "Цукерки Bob Snail Яблуко-Груша 10г",
+        "category_id": "for-diabetics-metro",
+        "price": 399.49,
+        "weight": "10.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-10g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-10g-ukrayina--04820219344995/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-вишневі в чорному шоколаді без цукру",
+        "title": "Цукерки Bob Snail яблучно-вишневі в чорному шоколаді без цукру 60г",
+        "category_id": "for-diabetics-metro",
+        "price": 62.53,
+        "weight": "76.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-60g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-60g--04820219341338/"
+      },
+      {
+        "normalized_title": "цукерки яблучно-малинові в чорному шоколаді",
+        "title": "Цукерки Bob Snail яблучно-малинові в чорному шоколаді 60г",
+        "category_id": "for-diabetics-metro",
+        "price": 62.53,
+        "weight": "80.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-60g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-60g--04820219341345/"
+      },
+      {
+        "normalized_title": "цукерки мангові натуральні",
+        "title": "Цукерки  Bob Snail мангові натуральні 120г",
+        "category_id": "for-diabetics-metro",
+        "price": 99.25,
+        "weight": "120.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Bob Snail - натуральні фруктові цукерки. Можна сміливо заявити, що цукерки Bob Snail - це продукт самої природи, так як для їх приготування використані тільки фрукти, і більше нічого! Добірні фрукти проходять два ступені обробки, уникаючи високих температур. Це дозволяє максимально зберегти корисні вітаміни і мінерали, які так необхідні для здоров'я.",
+        "slug": "tsukerka-bob-sneil-120g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-120g--04820219340577/"
+      },
+      {
+        "normalized_title": "цукерки грушево-мангові cтрайпси",
+        "title": "Цукерки Bob Snail Грушево-мангові cтрайпси 14г",
+        "category_id": "for-diabetics-metro",
+        "price": 19.98,
+        "weight": "14.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "Натуральні фруктові цукерки Bob Snail - це продукт самої природи, так як для їх приготування використані тільки фрукти, і більше нічого! Це дозволяє максимально зберегти корисні вітаміни і мінерали, які так необхідні для здоров'я дорослих і, особливо, дітей.",
+        "slug": "tsukerka-bob-sneil-14g",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-14g--04820206080752/"
+      },
+      {
+        "normalized_title": "цукерки яблуко-манго у шоколаді",
+        "title": "Цукерки Bob Snail яблуко-манго у шоколаді 60г",
+        "category_id": "for-diabetics-metro",
+        "price": 62.53,
+        "weight": "60.0",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": "bob-snail"
+        },
+        "description": "",
+        "slug": "tsukerka-bob-sneil-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-bob-sneil-ukrayina--04820219345756/"
+      },
+      {
+        "normalized_title": "набір какао-напій та цукерки 191г з настільною грою",
+        "title": "Набір Nesquik какао-напій 140г та цукерки 191г з настільною грою",
+        "category_id": "cocoa-drinks-metro",
+        "price": 172.69,
+        "weight": "581.0",
+        "producer": {
+          "trademark": "Nesquik",
+          "trademark_slug": "nesquik"
+        },
+        "description": "",
+        "slug": "kakao-ugorshchina",
+        "web_url": "https://metro.zakaz.ua/uk/products/kakao-ugorshchina--08445290625113/"
+      }
+    ]
+  }
+]

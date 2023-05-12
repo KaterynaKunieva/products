@@ -299,7 +299,7 @@ async def form_buy_list(input_file_path):
     file_product_info = "normalized_products.json"
 
     user_basket: Dict[str, List[ProductsRequest]] = defaultdict(list)
-    # end_price = 0
+    end_price = 0
 
     #1. dont write to output file for each buy_list, do it in the end when all buy_lists are resolved
     #2. read files using parse_file_as
@@ -342,12 +342,21 @@ async def form_buy_list(input_file_path):
                         product_item: ProductInfo
                         if buy_preference.title_filter in title_key.split(" "):
                             print('Found request in product_location')
-                            if product_item not in products:
-                                if shop != "silpo":
-                                    product_item.price /= 100
-                                print("Appended product")
+                            # задані і бренд, і вага
+                            if buy_preference.brand_filter == product_item.producer.trademark \
+                                    and buy_preference.weight_filter == product_item.weight \
+                                    and product_item not in products:
                                 products.append(product_item)
-                    # products.sort(key=sort_products_by_price)
+                            # заданий бренд (не задана вага)
+                            elif buy_preference.brand_filter == product_item.producer.trademark \
+                                    and product_item not in products:
+                                products.append(product_item)
+                            # задана вага (не заданий бренд)
+                            elif buy_preference.weight_filter == product_item.weight and product_item not in products:
+                                products.append(product_item)
+                            # не задані ні бренд, ні вага
+                            elif product_item not in products:
+                                products.append(product_item)
             products_in_request.append(ProductsRequest(request=buy_preference, products=products))
             user_basket[shop].extend(products_in_request)
 
@@ -430,4 +439,4 @@ async def form_buy_list(input_file_path):
     # print(end_price)
 
 if __name__ == '__main__':
-    form_buy_list()
+    cli()

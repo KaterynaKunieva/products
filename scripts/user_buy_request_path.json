@@ -1,8 +1,8 @@
 {
   "buy_list":[
     {
-      "title_filter": "гриби",
-      "shop_filter": ["varus", "silpo"]
+      "title_filter": "напій",
+      "shop_filter": ["silpo"]
     }
   ],
   "buy_location_preference": "isolate_shops_check"

@@ -1,29 +1,13 @@
 [
   {
     "request": {
-      "title_filter": "гриби",
+      "title_filter": "напій енергетичний",
       "brand_filter": null,
       "weight_filter": null,
       "shop_filter": [
-        "varus",
         "silpo"
       ]
     },
-    "products": [
-      {
-        "normalized_title": "гриби печерицi",
-        "title": "Гриби печерицi",
-        "category_id": "385",
-        "price": 9.3,
-        "weight": "100г",
-        "producer": {
-          "trademark": null,
-          "trademark_slug": null
-        },
-        "description": null,
-        "slug": "gryby-pecherytsi-32571",
-        "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-32571"
-      }
-    ]
+    "products": []
   }
 ]

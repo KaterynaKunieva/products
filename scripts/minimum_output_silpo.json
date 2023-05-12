@@ -1,13 +1,61 @@
-[
-  {
-    "request": {
-      "title_filter": "напій енергетичний",
-      "brand_filter": null,
-      "weight_filter": null,
-      "shop_filter": [
-        "silpo"
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "гриби",
+        "brand_filter": null,
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "гриби печерицi",
+          "title": "Гриби печерицi",
+          "category_id": "385",
+          "price": 9.3,
+          "weight": "100г",
+          "producer": {
+            "trademark": null,
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "gryby-pecherytsi-32571",
+          "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-32571"
+        }
       ]
     },
-    "products": []
-  }
-]
+    {
+      "request": {
+        "title_filter": "цукерки",
+        "brand_filter": null,
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "цукерки джеллі желейні",
+          "title": "Цукерки Roshen «Джеллі» желейні",
+          "category_id": "520",
+          "price": 12.3,
+          "weight": "100г",
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011"
+        }
+      ]
+    }
+  ],
+  "sum_price": 21.6
+}

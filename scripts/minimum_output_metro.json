@@ -14,17 +14,17 @@
       "products": [
         {
           "normalized_title": "гриби шиітаке rio мариновані з овочами",
-          "title": "Гриби шиітаке Rio мариновані з овочами 250г",
-          "category_id": "canned-mushrooms-varus",
-          "price": 59.9,
-          "weight": "506.0",
+          "title": "Гриби шиітаке Rio мариновані з овочами 1330г",
+          "category_id": "canned-mushrooms-metro",
+          "price": 222.49,
+          "weight": "2076.0",
           "producer": {
             "trademark": "RIO",
             "trademark_slug": "rio"
           },
           "description": "Шиітаке – деревні гриби, які ростуть на дереві шиі. Вони мають вишуканий смак і цілющі властивості.Шиитаке вважаються делікатесом, їх цінують за специфічний приємний смак та аромат, який нагадує щось середнє між смаком білих грибів та печериць.",
-          "slug": "gribi-shiitake-rio-250g",
-          "web_url": "https://varus.zakaz.ua/uk/products/gribi-shiitake-rio-250g--04820178190947/"
+          "slug": "gribi-shiitake-rio-1350g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/gribi-shiitake-rio-1350g-ukrayina--04820178190930/"
         }
       ]
     },
@@ -41,21 +41,21 @@
       },
       "products": [
         {
-          "normalized_title": "цукерки желейні jelly",
-          "title": "Цукерки желейні Roshen Jelly 200г",
-          "category_id": "packed-candy-varus",
-          "price": 25.1,
+          "normalized_title": "цукерки bonny-fruit желейні літній мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні літній мікс 200г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 36.61,
           "weight": "200.0",
           "producer": {
             "trademark": "Roshen",
             "trademark_slug": "roshen"
           },
-          "description": "Желейні цукерки, обсипані дрібнокристалічним цукром, корпус - желейна маса на основі пектину з додаванням концентрованих фруктових соків.",
-          "slug": "tsukerka-roshen-200g-ukrayina",
-          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077602801/"
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаком і в формі літніх фруктів і ягід: яблука, груші, абрикоса, кавуна, вишні та полуниці.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624223/"
         }
       ]
     }
   ],
-  "sum_price": 85.0
+  "sum_price": 259.1
 }

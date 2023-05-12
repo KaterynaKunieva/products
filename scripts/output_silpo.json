@@ -5,7 +5,9 @@
       "brand_filter": null,
       "weight_filter": null,
       "shop_filter": [
-        "silpo"
+        "silpo",
+        "varus",
+        "metro"
       ]
     },
     "products": [
@@ -5538,6 +5540,1546 @@
         "description": null,
         "slug": "napii-energetychnyi-revo-vyshnia-slaboalkogolnyi-z-b-470926",
         "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-revo-vyshnia-slaboalkogolnyi-z-b-470926"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "цукерки",
+      "brand_filter": null,
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "цукерки корисна кондитерська насолода желейні",
+        "title": "Цукерки «Корисна кондитерська» «Насолода» желейні",
+        "category_id": "75",
+        "price": 65.49,
+        "weight": "150г",
+        "producer": {
+          "trademark": "Корисна Кондитерська",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-korysna-kondyterska-nasoloda-zheleini-493904",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-korysna-kondyterska-nasoloda-zheleini-493904"
+      },
+      {
+        "normalized_title": "цукерки корисна кондитерська мрія желейні",
+        "title": "Цукерки «Корисна кондитерська» «Мрія» желейні",
+        "category_id": "75",
+        "price": 70.99,
+        "weight": "150г",
+        "producer": {
+          "trademark": "Корисна Кондитерська",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-korysna-kondyterska-mriia-zheleini-493902",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-korysna-kondyterska-mriia-zheleini-493902"
+      },
+      {
+        "normalized_title": "цукерки фінікові іриски",
+        "title": "Цукерки SunFill фінікові іриски",
+        "category_id": "75",
+        "price": 99.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "SunFill",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-sunfill-finikovi-irysky-804845",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-sunfill-finikovi-irysky-804845"
+      },
+      {
+        "normalized_title": "цукерки з апельсином шоколадні",
+        "title": "Цукерки SunFill з апельсином шоколадні",
+        "category_id": "75",
+        "price": 99.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "SunFill",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-sunfill-z-apelsynom-shokoladni-804846",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-sunfill-z-apelsynom-shokoladni-804846"
+      },
+      {
+        "normalized_title": "цукерки пані candy малин-фундук",
+        "title": "Цукерки Healthy Generation Пані Candy малин-фундук",
+        "category_id": "75",
+        "price": 87.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Healthy Generation",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-healthy-generation-pani-candy-malyn-funduk-912938",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-healthy-generation-pani-candy-malyn-funduk-912938"
+      },
+      {
+        "normalized_title": "цукерки корисна кондитерська чорнослив з горіхом",
+        "title": "Цукерки «Корисна кондитерська» чорнослив з горіхом",
+        "category_id": "75",
+        "price": 159.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "Корисна Кондитерська",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-korysna-kondyterska-chornoslyv-z-gorikhom-493901",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-korysna-kondyterska-chornoslyv-z-gorikhom-493901"
+      },
+      {
+        "normalized_title": "цукерки пані candy апел-мигдаль",
+        "title": "Цукерки Healthy Generation Пані Candy апел-мигдаль",
+        "category_id": "75",
+        "price": 87.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Healthy Generation",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-healthy-generation-pani-candy-apel-mygdal-912939",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-healthy-generation-pani-candy-apel-mygdal-912939"
+      },
+      {
+        "normalized_title": "цукерки з журавлиною та кокосом",
+        "title": "Цукерки SunFill з журавлиною та кокосом",
+        "category_id": "75",
+        "price": 99.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "SunFill",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-sunfill-z-zhuravlynoiu-ta-kokosom-804849",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-sunfill-z-zhuravlynoiu-ta-kokosom-804849"
+      },
+      {
+        "normalized_title": "цукерки марципан",
+        "title": "Цукерки SunFill марципан",
+        "category_id": "75",
+        "price": 134.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "SunFill",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-sunfill-martsypan-804847",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-sunfill-martsypan-804847"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі пташка з фруктозою",
+        "title": "Цукерки «Житомирські Ласощі» «Пташка» з фруктозою",
+        "category_id": "75",
+        "price": 34.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "ЖЛ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-ptashka-z-fruktozoiu-468190",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-ptashka-z-fruktozoiu-468190"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі батончик з фруктозою",
+        "title": "Цукерки «Житомирські Ласощі» «Батончик» з фруктозою",
+        "category_id": "75",
+        "price": 20.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "ЖЛ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-batonchyk-z-fruktozoiu-719537",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-batonchyk-z-fruktozoiu-719537"
+      },
+      {
+        "normalized_title": "цукерки корисна кондитерська горіховий бум",
+        "title": "Цукерки «Корисна кондитерська» «Горіховий бум»",
+        "category_id": "75",
+        "price": 84.49,
+        "weight": "150г",
+        "producer": {
+          "trademark": "Корисна Кондитерська",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-korysna-kondyterska-gorikhovyi-bum-493896",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-korysna-kondyterska-gorikhovyi-bum-493896"
+      },
+      {
+        "normalized_title": "цукерки корисна кондитерська курага з горіхом",
+        "title": "Цукерки «Корисна кондитерська» «Курага з горіхом»",
+        "category_id": "75",
+        "price": 154.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "Корисна Кондитерська",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-korysna-kondyterska-kuraga-z-gorikhom-493898",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-korysna-kondyterska-kuraga-z-gorikhom-493898"
+      },
+      {
+        "normalized_title": "набір : цукерки яблуко-груша + іграшка",
+        "title": "Набір Bob Snail: цукерки яблуко-груша + іграшка",
+        "category_id": "504",
+        "price": 50.49,
+        "weight": "20г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "nabir-bob-snail-tsukerky-iabluko-grusha-igrashka-851931",
+        "web_url": "https://shop.silpo.ua/product/nabir-bob-snail-tsukerky-iabluko-grusha-igrashka-851931"
+      },
+      {
+        "normalized_title": "цукерки stripe хурма",
+        "title": "Цукерки Bob Snail Stripe хурма",
+        "category_id": "504",
+        "price": 16.99,
+        "weight": "14г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-stripe-khurma-875977",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-stripe-khurma-875977"
+      },
+      {
+        "normalized_title": "цукерки натуральні яблучно-грушеві",
+        "title": "Цукерки Bob Snail натуральні яблучно-грушеві",
+        "category_id": "504",
+        "price": 92.49,
+        "weight": "120г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-iabluchno-grushevi-788251",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-iabluchno-grushevi-788251"
+      },
+      {
+        "normalized_title": "цукерки натуральні яблучно-малинові",
+        "title": "Цукерки Bob Snail натуральні яблучно-малинові",
+        "category_id": "504",
+        "price": 11.99,
+        "weight": "10г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-iabluchno-malynovi-918699",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-iabluchno-malynovi-918699"
+      },
+      {
+        "normalized_title": "цукерки stripes фруктово-ягідні асорті",
+        "title": "Цукерки Bob Snail Stripes фруктово-ягідні асорті",
+        "category_id": "504",
+        "price": 95.99,
+        "weight": "98г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-stripes-fruktovo-iagidni-asorti-862281",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-stripes-fruktovo-iagidni-asorti-862281"
+      },
+      {
+        "normalized_title": "цукерки натуральні яблучні",
+        "title": "Цукерки Bob Snail натуральні яблучні",
+        "category_id": "504",
+        "price": 42.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-iabluchni-719646",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-iabluchni-719646"
+      },
+      {
+        "normalized_title": "цукерки мангові",
+        "title": "Цукерки Bob Snail мангові",
+        "category_id": "504",
+        "price": 57.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-mangovi-817011",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-mangovi-817011"
+      },
+      {
+        "normalized_title": "цукерки натуральні яблучно-вишневі",
+        "title": "Цукерки Bob Snail натуральні яблучно-вишневі",
+        "category_id": "504",
+        "price": 65.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-iabluchno-vyshnevi-719649",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-iabluchno-vyshnevi-719649"
+      },
+      {
+        "normalized_title": "цукерки bonnyfruit цитрусові фрукти желейні",
+        "title": "Цукерки Roshen BonnyFruit «Цитрусові фрукти» желейні",
+        "category_id": "504",
+        "price": 32.99,
+        "weight": "200г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-bonnyfruit-tsytrusovi-frukty-zheleini-776040",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-bonnyfruit-tsytrusovi-frukty-zheleini-776040"
+      },
+      {
+        "normalized_title": "цукерки натуральні яблучно-гарбузові",
+        "title": "Цукерки Bob Snail натуральні яблучно-гарбузові",
+        "category_id": "504",
+        "price": 48.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-iabluchno-garbuzovi-719648",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-iabluchno-garbuzovi-719648"
+      },
+      {
+        "normalized_title": "цукерки bonny fruit літній мікс желейні",
+        "title": "Цукерки Roshen Bonny Fruit літній мікс желейні",
+        "category_id": "504",
+        "price": 35.99,
+        "weight": "200г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-bonny-fruit-litnii-miks-zheleini-776039",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-bonny-fruit-litnii-miks-zheleini-776039"
+      },
+      {
+        "normalized_title": "цукерки roll фрукт яблуко-банан натурал",
+        "title": "Цукерки Bob Snail Roll фрукт Яблуко-банан натурал",
+        "category_id": "504",
+        "price": 58.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-roll-frukt-yabluko-banan-natural-924018",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-roll-frukt-yabluko-banan-natural-924018"
+      },
+      {
+        "normalized_title": "цукерки натуральні манго-яблуко",
+        "title": "Цукерки Bob Snail натуральні манго-яблуко",
+        "category_id": "504",
+        "price": 58.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-mango-iabluko-915364",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-mango-iabluko-915364"
+      },
+      {
+        "normalized_title": "цукерки bonnyfruit ягідний мікс желейні",
+        "title": "Цукерки Roshen BonnyFruit ягідний мікс желейні",
+        "category_id": "504",
+        "price": 32.99,
+        "weight": "200г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-bonnyfruit-iagidnyi-miks-zheleini-774116",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-bonnyfruit-iagidnyi-miks-zheleini-774116"
+      },
+      {
+        "normalized_title": "цукерки натуральні яблучно-полуничні",
+        "title": "Цукерки Bob Snail натуральні яблучно-полуничні",
+        "category_id": "504",
+        "price": 65.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-naturalni-iabluchno-polunychni-719650",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-naturalni-iabluchno-polunychni-719650"
+      },
+      {
+        "normalized_title": "цукерки хурма-апельсин",
+        "title": "Цукерки Bob Snail хурма-апельсин",
+        "category_id": "504",
+        "price": 57.99,
+        "weight": "60г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-khurma-apelsyn-851932",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-khurma-apelsyn-851932"
+      },
+      {
+        "normalized_title": "цукерки з кремово-полуничною начинкою в молочному шоколаді",
+        "title": "Цукерки Milka з кремово-полуничною начинкою в молочному шоколаді",
+        "category_id": "520",
+        "price": 72.79,
+        "weight": "110г",
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-milka-z-kremovo-polunychnoiu-nachynkoiu-v-molochnomu-shokoladi-832866",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-milka-z-kremovo-polunychnoiu-nachynkoiu-v-molochnomu-shokoladi-832866"
+      },
+      {
+        "normalized_title": "цукерки зі смаком кавуна жувальні",
+        "title": "Цукерки Halls зі смаком кавуна жувальні",
+        "category_id": "520",
+        "price": 18.29,
+        "weight": "47г",
+        "producer": {
+          "trademark": "Halls",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-halls-zi-smakom-kavuna-zhuvalni-911713",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-halls-zi-smakom-kavuna-zhuvalni-911713"
+      },
+      {
+        "normalized_title": "цукерки ромашка",
+        "title": "Цукерки Roshen «Ромашка»",
+        "category_id": "520",
+        "price": 17.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-romashka-17697",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-romashka-17697"
+      },
+      {
+        "normalized_title": "цукерки джек великі шоколадні історії",
+        "title": "Цукерки Konti «Джек» великі «Шоколадні історії»",
+        "category_id": "520",
+        "price": 17.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Konti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-konti-dzhek-velyki-shokoladni-istorii-67220",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-konti-dzhek-velyki-shokoladni-istorii-67220"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi sour belts",
+        "title": "Цукерки Roshen Yummi Gummi Sour Belts",
+        "category_id": "520",
+        "price": 30.29,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-sour-belts-904791",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-sour-belts-904791"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi fizzy worms желейні",
+        "title": "Цукерки Roshen Yummi Gummi Fizzy Worms желейні",
+        "category_id": "520",
+        "price": 27.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-fizzy-worms-zheleini-907936",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-fizzy-worms-zheleini-907936"
+      },
+      {
+        "normalized_title": "цукерки зі смаком мяти жувальні",
+        "title": "Цукерки Halls зі смаком м'яти жувальні",
+        "category_id": "520",
+        "price": 18.29,
+        "weight": "47г",
+        "producer": {
+          "trademark": "Halls",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-halls-zi-smakom-m-iaty-zhuvalni-912064",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-halls-zi-smakom-m-iaty-zhuvalni-912064"
+      },
+      {
+        "normalized_title": "цукерки сливки-ленивки вафельні",
+        "title": "Цукерки Roshen «Сливки-Ленивки» вафельні",
+        "category_id": "520",
+        "price": 21.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-slyvky-lenyvky-vafelni-500788",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-slyvky-lenyvky-vafelni-500788"
+      },
+      {
+        "normalized_title": "цукерки ліщина",
+        "title": "Цукерки Roshen «Ліщина»",
+        "category_id": "520",
+        "price": 27.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-lishchyna-17687",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-lishchyna-17687"
+      },
+      {
+        "normalized_title": "цукерки яблучні кільця жувальні",
+        "title": "Цукерки Pedro «Яблучні кільця» жувальні",
+        "category_id": "520",
+        "price": 27.39,
+        "weight": "80г",
+        "producer": {
+          "trademark": "Pedro",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-pedro-yabluchni-kiltsia-zhuvalni-907545",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-pedro-yabluchni-kiltsia-zhuvalni-907545"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi mini bear mix желейні",
+        "title": "Цукерки Roshen Yummi Gummi Mini Bear Mix желейні",
+        "category_id": "520",
+        "price": 30.29,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-mini-bear-mix-zheleini-907932",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-mini-bear-mix-zheleini-907932"
+      },
+      {
+        "normalized_title": "цукерки корівка київська",
+        "title": "Цукерки Roshen «Корівка Київська»",
+        "category_id": "520",
+        "price": 12.5,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-korivka-kyivska-17684",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-korivka-kyivska-17684"
+      },
+      {
+        "normalized_title": "цукерки шалена бджілка",
+        "title": "Цукерки Roshen «Шалена бджілка»",
+        "category_id": "520",
+        "price": 14.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-shalena-bdzhilka-373380",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-shalena-bdzhilka-373380"
+      },
+      {
+        "normalized_title": "цукерки червоний мак",
+        "title": "Цукерки «Світоч» «Червоний мак»",
+        "category_id": "520",
+        "price": 26.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Світоч",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-svitoch-chervonyi-mak-467185",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-svitoch-chervonyi-mak-467185"
+      },
+      {
+        "normalized_title": "цукерки жувальні асорті",
+        "title": "Цукерки Mamba жувальні асорті",
+        "category_id": "520",
+        "price": 42.89,
+        "weight": "79,5г",
+        "producer": {
+          "trademark": "Mamba",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-mamba-zhuvalni-asorti-861913",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-mamba-zhuvalni-asorti-861913"
+      },
+      {
+        "normalized_title": "цукерки 2 в 1 жувальні асорті",
+        "title": "Цукерки Mamba 2 в 1 жувальні асорті",
+        "category_id": "520",
+        "price": 42.89,
+        "weight": "79,5г",
+        "producer": {
+          "trademark": "Mamba",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-mamba-2-v-1-zhuvalni-asorti-861914",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-mamba-2-v-1-zhuvalni-asorti-861914"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi funny cola желейні",
+        "title": "Цукерки Roshen Yummi Gummi Funny Cola желейні",
+        "category_id": "520",
+        "price": 28.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-funny-cola-zheleini-907937",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-funny-cola-zheleini-907937"
+      },
+      {
+        "normalized_title": "цукерки джеллі желейні",
+        "title": "Цукерки Roshen «Джеллі» желейні",
+        "category_id": "520",
+        "price": 12.3,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011"
+      },
+      {
+        "normalized_title": "цукерки тропікс жувальні асорті",
+        "title": "Цукерки Mamba «Тропікс» жувальні асорті",
+        "category_id": "520",
+        "price": 42.89,
+        "weight": "79,5г",
+        "producer": {
+          "trademark": "Mamba",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-mamba-tropiks-zhuvalni-asorti-861912",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-mamba-tropiks-zhuvalni-asorti-861912"
+      },
+      {
+        "normalized_title": "цукерки choco crunch арахіс-мигдаль-рисові кульки",
+        "title": "Цукерки Millennium Choco Crunch арахіс-мигдаль-рисові кульки",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Millennium",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-millennium-choco-crunch-arakhis-mygdal-rysovi-kulky-857543",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-millennium-choco-crunch-arakhis-mygdal-rysovi-kulky-857543"
+      },
+      {
+        "normalized_title": "цукерки choco crunch мигдаль-пластівці-рисові кульки",
+        "title": "Цукерки Millennium Choco Crunch мигдаль-пластівці-рисові кульки",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Millennium",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-millennium-choco-crunch-mygdal-plastivtsi-rysovi-kulky-857542",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-millennium-choco-crunch-mygdal-plastivtsi-rysovi-kulky-857542"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi cherry желейні",
+        "title": "Цукерки Roshen Yummi Gummi Cherry желейні",
+        "category_id": "520",
+        "price": 28.19,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-cherry-zheleini-916766",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-cherry-zheleini-916766"
+      },
+      {
+        "normalized_title": "цукерки київ вечірній",
+        "title": "Цукерки Roshen «Київ Вечірній»",
+        "category_id": "520",
+        "price": 119.0,
+        "weight": "176г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-kyiv-vechirnii-703206",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-kyiv-vechirnii-703206"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi donuts желейні",
+        "title": "Цукерки Roshen Yummi Gummi Donuts желейні",
+        "category_id": "520",
+        "price": 28.49,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-donuts-zheleini-907935",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-donuts-zheleini-907935"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi sour sticks",
+        "title": "Цукерки Roshen Yummi Gummi Sour Sticks",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-sour-sticks-904790",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-sour-sticks-904790"
+      },
+      {
+        "normalized_title": "цукерки minis",
+        "title": "Цукерки Snickers minis",
+        "category_id": "520",
+        "price": 33.65,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Snickers",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-snickers-minis-665182",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-snickers-minis-665182"
+      },
+      {
+        "normalized_title": "цукерки джек з молоком і вершками",
+        "title": "Цукерки Konti «Джек» з молоком і вершками",
+        "category_id": "520",
+        "price": 17.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Konti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-konti-dzhek-z-molokom-i-vershkamy-794449",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-konti-dzhek-z-molokom-i-vershkamy-794449"
+      },
+      {
+        "normalized_title": "цукерки yummis зі смаком фруктів жувальні",
+        "title": "Цукерки Roshen Yummi's зі смаком фруктів жувальні",
+        "category_id": "520",
+        "price": 14.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-s-zi-smakom-fruktiv-zhuvalni-887123",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-s-zi-smakom-fruktiv-zhuvalni-887123"
+      },
+      {
+        "normalized_title": "цукерки fruittella садові фрукти жувальні",
+        "title": "Цукерки Fruittella «Садові фрукти» жувальні",
+        "category_id": "520",
+        "price": 25.79,
+        "weight": "41г",
+        "producer": {
+          "trademark": "Fruit-tella",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-fruittella-sadovi-frukty-zhuvalni-807118",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-fruittella-sadovi-frukty-zhuvalni-807118"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi banana land",
+        "title": "Цукерки Roshen Yummi Gummi Banana Land",
+        "category_id": "520",
+        "price": 30.29,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-banana-land-916767",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-banana-land-916767"
+      },
+      {
+        "normalized_title": "цукерки fruittella асорті жувальні",
+        "title": "Цукерки Fruittella асорті жувальні",
+        "category_id": "520",
+        "price": 25.79,
+        "weight": "41г",
+        "producer": {
+          "trademark": "Fruit-tella",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-fruittella-asorti-zhuvalni-682383",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-fruittella-asorti-zhuvalni-682383"
+      },
+      {
+        "normalized_title": "цукерки весела кола",
+        "title": "Цукерки Haribo «Весела кола»",
+        "category_id": "520",
+        "price": 52.49,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Haribo",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-haribo-vesela-kola-18601",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-haribo-vesela-kola-18601"
+      },
+      {
+        "normalized_title": "цукерки galaretka шоколадні",
+        "title": "Цукерки Roshen Galaretka шоколадні",
+        "category_id": "520",
+        "price": 18.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-galaretka-shokoladni-780657",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-galaretka-shokoladni-780657"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi twists",
+        "title": "Цукерки Roshen Yummi Gummi Twists",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-twists-904789",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-twists-904789"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi galaxy life желейні",
+        "title": "Цукерки Roshen Yummi Gummi Galaxy Life желейні",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-galaxy-life-zheleini-907933",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-galaxy-life-zheleini-907933"
+      },
+      {
+        "normalized_title": "цукерки глазуровані червоний мак",
+        "title": "Цукерки Golski глазуровані «Червоний мак»",
+        "category_id": "520",
+        "price": 14.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Golski",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-golski-glazurovani-chervonyi-mak-894280",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-golski-glazurovani-chervonyi-mak-894280"
+      },
+      {
+        "normalized_title": "цукерки fruittella полуниця жувальні",
+        "title": "Цукерки Fruittella «Полуниця» жувальні",
+        "category_id": "520",
+        "price": 25.79,
+        "weight": "41г",
+        "producer": {
+          "trademark": "Fruit-tella",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-fruittella-polunytsia-zhuvalni-807117",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-fruittella-polunytsia-zhuvalni-807117"
+      },
+      {
+        "normalized_title": "цукерки карамелькино барбарис",
+        "title": "Цукерки Roshen «Карамелькино» «Барбарис»",
+        "category_id": "520",
+        "price": 12.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-karamelkyno-barbarys-603910",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-karamelkyno-barbarys-603910"
+      },
+      {
+        "normalized_title": "цукерки стефанія",
+        "title": "Цукерки Konti «Стефанія»",
+        "category_id": "520",
+        "price": 18.5,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Konti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-konti-stefaniia-914646",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-konti-stefaniia-914646"
+      },
+      {
+        "normalized_title": "цукерки еден джой кокос",
+        "title": "Цукерки Zhytomyr Lasoshchi Еден Джой кокос",
+        "category_id": "520",
+        "price": 16.99,
+        "weight": "40г",
+        "producer": {
+          "trademark": "Zhytomyr Lasoshchi",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyr-lasoshchi-eden-dzhoi-kokos-711076",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyr-lasoshchi-eden-dzhoi-kokos-711076"
+      },
+      {
+        "normalized_title": "цукерки шоколапки",
+        "title": "Цукерки Roshen «Шоколапки»",
+        "category_id": "520",
+        "price": 18.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-shokolapky-321976",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-shokolapky-321976"
+      },
+      {
+        "normalized_title": "цукерки шалена бджілка фрутті желейна",
+        "title": "Цукерки Roshen «Шалена бджілка» фрутті желейна",
+        "category_id": "520",
+        "price": 34.79,
+        "weight": "200г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-shalena-bdzhilka-frutti-zheleina-664298",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-shalena-bdzhilka-frutti-zheleina-664298"
+      },
+      {
+        "normalized_title": "цукерки тропічні фрукти",
+        "title": "Цукерки Haribo «Тропічні фрукти»",
+        "category_id": "520",
+        "price": 53.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Haribo",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-haribo-tropichni-frukty-18602",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-haribo-tropichni-frukty-18602"
+      },
+      {
+        "normalized_title": "цукерки lion арахіс",
+        "title": "Цукерки Nestle Lion арахіс",
+        "category_id": "520",
+        "price": 26.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Nestle",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-nestle-lion-arakhis-457074",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-nestle-lion-arakhis-457074"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi cupсakes желейні",
+        "title": "Цукерки Roshen Yummi Gummi Cupсakes желейні",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-cupsakes-zheleini-918367",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-cupsakes-zheleini-918367"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі батонсhik хрусткий",
+        "title": "Цукерки «Житомирські Ласощі» «БатонСhik» хрусткий",
+        "category_id": "520",
+        "price": 38.69,
+        "weight": "180г",
+        "producer": {
+          "trademark": "ЖЛ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-batonshik-khrustkyi-719525",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-batonshik-khrustkyi-719525"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi duo mix желейні",
+        "title": "Цукерки Roshen Yummi Gummi Duo Mix желейні",
+        "category_id": "520",
+        "price": 30.29,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-duo-mix-zheleini-917267",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-duo-mix-zheleini-917267"
+      },
+      {
+        "normalized_title": "цукерки яблучно-грушеві в бельгійському молочному шоколаді",
+        "title": "Цукерки Bob Snail яблучно-грушеві в бельгійському молочному шоколаді",
+        "category_id": "520",
+        "price": 31.99,
+        "weight": "30г",
+        "producer": {
+          "trademark": "Bob Snail",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-bob-snail-iabluchno-grushevi-v-belgiiskomu-molochnomu-shokoladi-875976",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-bob-snail-iabluchno-grushevi-v-belgiiskomu-molochnomu-shokoladi-875976"
+      },
+      {
+        "normalized_title": "цукерки korivka",
+        "title": "Цукерки Roshen Korivka",
+        "category_id": "520",
+        "price": 35.99,
+        "weight": "205г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-korivka-687058",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-korivka-687058"
+      },
+      {
+        "normalized_title": "цукерки монблан шоколад і сезам",
+        "title": "Цукерки Roshen «Монблан» шоколад і сезам",
+        "category_id": "520",
+        "price": 42.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-monblan-shokolad-i-sezam-357903",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-monblan-shokolad-i-sezam-357903"
+      },
+      {
+        "normalized_title": "цукерки монблан мигдаль та кокосовий крем",
+        "title": "Цукерки Roshen «Монблан» мигдаль та кокосовий крем",
+        "category_id": "520",
+        "price": 43.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-monblan-mygdal-ta-kokosovyi-krem-913957",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-monblan-mygdal-ta-kokosovyi-krem-913957"
+      },
+      {
+        "normalized_title": "цукерки крем-йогурт смак вишня-черешня",
+        "title": "Цукерки Konti «Крем-йогурт» смак вишня-черешня",
+        "category_id": "520",
+        "price": 19.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Konti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-konti-krem-iogurt-smak-vyshnia-chereshnia-911037",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-konti-krem-iogurt-smak-vyshnia-chereshnia-911037"
+      },
+      {
+        "normalized_title": "цукерки yummi gummi frozen yogo желейні",
+        "title": "Цукерки Roshen Yummi Gummi Frozen Yogo желейні",
+        "category_id": "520",
+        "price": 29.99,
+        "weight": "70г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-yummi-gummi-frozen-yogo-zheleini-907934",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-frozen-yogo-zheleini-907934"
+      },
+      {
+        "normalized_title": "цукерки toffix stick жувальні",
+        "title": "Цукерки Elvan Toffix Stick жувальні",
+        "category_id": "520",
+        "price": 34.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Elvan",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-elvan-toffix-stick-zhuvalni-789238",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-elvan-toffix-stick-zhuvalni-789238"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко",
+        "title": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
+        "category_id": "520",
+        "price": 36.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Zhytomyr Lasoshchi",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyr-lasoshchi-ptashyne-moloko-918433",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyr-lasoshchi-ptashyne-moloko-918433"
+      },
+      {
+        "normalized_title": "цукерки еклер",
+        "title": "Цукерки Roshen «Еклер»",
+        "category_id": "520",
+        "price": 17.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-ekler-139007",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-ekler-139007"
+      },
+      {
+        "normalized_title": "цукерки krock з арахісовою пастою",
+        "title": "Цукерки Roshen Krock з арахісовою пастою",
+        "category_id": "520",
+        "price": 18.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-krock-z-arakhisovoiu-pastoiu-886246",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-krock-z-arakhisovoiu-pastoiu-886246"
+      },
+      {
+        "normalized_title": "цукерки johnny krocker milk",
+        "title": "Цукерки Roshen Johnny Krocker Milk",
+        "category_id": "520",
+        "price": 22.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-johnny-krocker-milk-570848",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-johnny-krocker-milk-570848"
+      },
+      {
+        "normalized_title": "цукерки зоряне сяйво смак капучино",
+        "title": "Цукерки «Світоч» «Зоряне сяйво» смак капучино",
+        "category_id": "520",
+        "price": 26.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Світоч",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-svitoch-zoriane-siaivo-smak-kapuchyno-690953",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-svitoch-zoriane-siaivo-smak-kapuchyno-690953"
+      },
+      {
+        "normalized_title": "цукерки кара кум",
+        "title": "Цукерки Roshen «Кара Кум»",
+        "category_id": "520",
+        "price": 27.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-kara-kum-17698",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-kara-kum-17698"
+      },
+      {
+        "normalized_title": "цукерки карамелькино дюшес",
+        "title": "Цукерки Roshen «Карамелькино Дюшес»",
+        "category_id": "520",
+        "price": 12.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-karamelkyno-diushes-603913",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-karamelkyno-diushes-603913"
+      },
+      {
+        "normalized_title": "цукерки труфє золота лілія",
+        "title": "Цукерки Konti «Труф'є» «Золота лілія»",
+        "category_id": "520",
+        "price": 19.9,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Konti",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-konti-truf-ie-zolota-liliia-886245",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-konti-truf-ie-zolota-liliia-886245"
+      },
+      {
+        "normalized_title": "цукерки white rock",
+        "title": "Цукерки Lion White Rock",
+        "category_id": "520",
+        "price": 26.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Lion",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-lion-white-rock-759343",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-lion-white-rock-759343"
+      },
+      {
+        "normalized_title": "цукерки з горіховим праліне в молочному шоколаді",
+        "title": "Цукерки «Любимов» з горіховим праліне в молочному шоколаді",
+        "category_id": "520",
+        "price": 51.99,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Любимов",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-liubymov-z-gorikhovym-praline-v-molochnomu-shokoladi-151125",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-liubymov-z-gorikhovym-praline-v-molochnomu-shokoladi-151125"
+      },
+      {
+        "normalized_title": "цукерки candy nut карамель з арахісом",
+        "title": "Цукерки Roshen Candy Nut карамель з арахісом",
+        "category_id": "520",
+        "price": 19.4,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Roshen",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-roshen-candy-nut-karamel-z-arakhisom-662543",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-candy-nut-karamel-z-arakhisom-662543"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі hyper глазуровані",
+        "title": "Цукерки «Житомирські ласощі» Hyper глазуровані",
+        "category_id": "525",
+        "price": 5.99,
+        "weight": "35г",
+        "producer": {
+          "trademark": "Zhytomyr Lasoshchi",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-hyper-glazurovani-905208",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-hyper-glazurovani-905208"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі milk wow глазуровані",
+        "title": "Цукерки «Житомирські ласощі» Milk wow глазуровані",
+        "category_id": "525",
+        "price": 5.99,
+        "weight": "30г",
+        "producer": {
+          "trademark": "Zhytomyr Lasoshchi",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-milk-wow-glazurovani-905281",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-milk-wow-glazurovani-905281"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі driver глазуровані",
+        "title": "Цукерки «Житомирські ласощі» Driver глазуровані",
+        "category_id": "525",
+        "price": 13.99,
+        "weight": "40г",
+        "producer": {
+          "trademark": "Zhytomyr Lasoshchi",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-driver-glazurovani-905207",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-driver-glazurovani-905207"
+      },
+      {
+        "normalized_title": "цукерки житомирські ласощі sunnyland глазуровані",
+        "title": "Цукерки «Житомирські ласощі» Sunnyland глазуровані",
+        "category_id": "525",
+        "price": 13.99,
+        "weight": "38г",
+        "producer": {
+          "trademark": "Zhytomyr Lasoshchi",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-zhytomyrski-lasoshchi-sunnyland-glazurovani-905209",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-zhytomyrski-lasoshchi-sunnyland-glazurovani-905209"
+      },
+      {
+        "normalized_title": "цукерки рошер із чорного шоколаду",
+        "title": "Цукерки «Рошер» із чорного шоколаду",
+        "category_id": "511",
+        "price": 94.0,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-rosher-iz-chornogo-shokoladu-670969",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-rosher-iz-chornogo-shokoladu-670969"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко у молочному шоколаді",
+        "title": "Цукерки «Пташине молоко» у молочному шоколаді",
+        "category_id": "511",
+        "price": 114.0,
+        "weight": "145г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-ptashyne-moloko-u-molochnomu-shokoladi-594858",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-u-molochnomu-shokoladi-594858"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко у чорному шоколаді",
+        "title": "Цукерки «Пташине молоко» у чорному шоколаді",
+        "category_id": "511",
+        "price": 114.0,
+        "weight": "150г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-ptashyne-moloko-u-chornomu-shokoladi-594607",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-u-chornomu-shokoladi-594607"
+      },
+      {
+        "normalized_title": "цукерки рошер з молочного шоколаду",
+        "title": "Цукерки «Рошер» з молочного шоколаду",
+        "category_id": "511",
+        "price": 94.0,
+        "weight": "100г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-rosher-z-molochnogo-shokoladu-666466",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-rosher-z-molochnogo-shokoladu-666466"
+      },
+      {
+        "normalized_title": "цукерки метеорит",
+        "title": "Цукерки «Метеорит»",
+        "category_id": "511",
+        "price": 89.99,
+        "weight": "140г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-meteoryt-603870",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-meteoryt-603870"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко з цукатами",
+        "title": "Цукерки «Пташине молоко» з цукатами",
+        "category_id": "511",
+        "price": 144.0,
+        "weight": "165г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-ptashyne-moloko-z-tsukatamy-594863",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-z-tsukatamy-594863"
+      },
+      {
+        "normalized_title": "цукерки трюфель чорний шоколад з ромом",
+        "title": "Цукерки «Трюфель» чорний шоколад з ромом",
+        "category_id": "511",
+        "price": 194.0,
+        "weight": "155г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-triufel-chornyi-shokolad-z-romom-594604",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-triufel-chornyi-shokolad-z-romom-594604"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко в молочному шоколаді",
+        "title": "Цукерки «Пташине молоко» в молочному шоколаді",
+        "category_id": "511",
+        "price": 229.0,
+        "weight": "170г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-ptashyne-moloko-v-molochnomu-shokoladi-638531",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-v-molochnomu-shokoladi-638531"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко в чорному шоколаді",
+        "title": "Цукерки «Пташине молоко» в чорному шоколаді",
+        "category_id": "511",
+        "price": 229.0,
+        "weight": "170г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-ptashyne-moloko-v-chornomu-shokoladi-638534",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-v-chornomu-shokoladi-638534"
+      },
+      {
+        "normalized_title": "цукерки пташине молоко асорті",
+        "title": "Цукерки «Пташине молоко» асорті",
+        "category_id": "511",
+        "price": 249.0,
+        "weight": "180г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-ptashyne-moloko-asorti-643505",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-asorti-643505"
+      },
+      {
+        "normalized_title": "цукерки шоколадні трюфель асорті",
+        "title": "Цукерки шоколадні «Трюфель» асорті",
+        "category_id": "511",
+        "price": 104.0,
+        "weight": "88г",
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "tsukerky-shokoladni-triufel-asorti-841295",
+        "web_url": "https://shop.silpo.ua/product/tsukerky-shokoladni-triufel-asorti-841295"
       }
     ]
   }

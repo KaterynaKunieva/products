@@ -21,8 +21,13 @@ async def get_zakaz_categories(shop: str, location: str, popular: bool = False) 
         response = await get_http_response(category_url, headers={"Accept-Language": "uk"})
         if response:
             categories: List[CategoryInfo] = parse_obj_as(List[CategoryInfo], response)
-            for category in categories:
-                category.slug = category.slug or category.id
+            def set_slug(category_list: List[CategoryInfo]):
+                for category in category_list:
+                    category.slug = category.slug or category.id
+                    if category.children:
+                        set_slug(category.children)
+
+            set_slug(category_list=categories)
             return categories
         else:
             logging.warning(f"Failed to parse categories of shop {shop}, location: {location}")

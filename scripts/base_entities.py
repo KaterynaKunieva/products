@@ -65,11 +65,11 @@ class UserBuyRequest(BaseModel):
 
 
 class Shop(BaseModel):
-    name: str
+    name: Optional[str]
     id: int
 
 
-class ShopInfo(BaseModel):
+class ShopInfo(Shop):
     id: int
     location: Optional[str] = "default"
     title: Optional[str]

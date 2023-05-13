@@ -9,8 +9,8 @@ from typing import List, Dict, Set, Any, Tuple
 import functools as ft
 import click
 from constants import STORE_INFO_PATH
-from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, ProductsShop, \
-    ShopLocationPreference, WeightInfo
+from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, \
+    ShopLocationPreference, WeightInfo, ChequeShop, ChequeMulti, ProductsShop
 from silpo_helper import silpo_shops, get_silpo_categories, get_silpo_products
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as, BaseModel
@@ -377,7 +377,7 @@ async def form_buy_list(input_file_path):
 
         with open(f'minimum_output_{shop}.json', 'w', **file_open_settings) as f:
             json.dump(
-                {"buy_list": [product_request.dict() for product_request in product_requests], "sum_price": sum_price},
+                ChequeShop(end_price=sum_price, buy_list=product_requests).dict(),
                 f, **json_write_settings)
 
     buy_preferences: Dict[BuyPreference, Tuple[str, ProductInfo]] = {}
@@ -401,10 +401,8 @@ async def form_buy_list(input_file_path):
             sum_price += info[1].price
 
         with open(f'multi_shop_output.json', 'w', **file_open_settings) as f:
-            json.dump({"buy_list": {shop: [product_request.dict() for product_request in product_requests] for
-                                    shop, product_requests in final_result.items()},
-                       "sum_price": sum_price}, f, **json_write_settings)
+            json.dump(ChequeMulti(end_price=sum_price, buy_list=[ProductsShop(shop=shop, requests=product_requests) for shop, product_requests in final_result.items()]).dict(), f, **json_write_settings)
 
 
 if __name__ == '__main__':
-    cli()
+    form_buy_list()

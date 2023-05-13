@@ -1,11 +1,12 @@
 {
-  "sum_price": 21.6,
   "buy_list": {
-    "silpo": [
+    "varus": [
       {
         "request": {
-          "title_filter": "гриби",
-          "brand_filter": null,
+          "title_filter": "напій енергетичний",
+          "brand_filter": [
+            "Monster Energy"
+          ],
           "weight_filter": null,
           "shop_filter": [
             "silpo",
@@ -15,21 +16,27 @@
         },
         "products": [
           {
-            "normalized_title": "гриби печерицi",
-            "title": "Гриби печерицi",
-            "category_id": "385",
-            "price": 9.3,
-            "weight": "100г",
+            "normalized_title": "напій енергетичний торнадо red",
+            "title": "Напій енергетичний Торнадо Red 0,5л",
+            "category_id": "energy-drinks-varus",
+            "price": 18.5,
+            "weight": "500.0",
+            "weight_info": {
+              "weight": 500.0,
+              "unit": ""
+            },
             "producer": {
               "trademark": null,
               "trademark_slug": null
             },
-            "description": null,
-            "slug": "gryby-pecherytsi-32571",
-            "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-32571"
+            "description": "",
+            "slug": "energetik-500ml",
+            "web_url": "https://varus.zakaz.ua/uk/products/energetik-500ml--04820137820878/"
           }
         ]
-      },
+      }
+    ],
+    "silpo": [
       {
         "request": {
           "title_filter": "цукерки",
@@ -48,6 +55,10 @@
             "category_id": "520",
             "price": 12.3,
             "weight": "100г",
+            "weight_info": {
+              "weight": 100.0,
+              "unit": "г"
+            },
             "producer": {
               "trademark": "Roshen",
               "trademark_slug": null
@@ -59,5 +70,6 @@
         ]
       }
     ]
-  }
+  },
+  "sum_price": 30.8
 }

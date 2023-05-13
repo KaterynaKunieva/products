@@ -22,13 +22,18 @@ class ProducerInfo(BaseModel):
     trademark_slug: Optional[str]
 
 
+class WeightInfo(BaseModel):
+    weight: float
+    unit: str
+
+
 class ProductInfo(BaseModel):
     normalized_title: Optional[str]
     title: str 
     category_id: str
     price: float
-    weight: Optional[str] #to float
-    weight_info: Optional[Any] #
+    weight: Optional[str]
+    weight_info: Optional[WeightInfo]
     producer: ProducerInfo
     description: Optional[str]
     slug: Optional[str]
@@ -53,23 +58,38 @@ class BuyPreference(BaseModel):
     def __hash__(self):
         return hash((self.title_filter, frozenset(self.brand_filter) if self.brand_filter else frozenset(), self.weight_filter, frozenset(self.shop_filter) if self.shop_filter else frozenset()))
 
+
 class UserBuyRequest(BaseModel):
     buy_list: List[BuyPreference]
     buy_location_preference: ShopLocationPreference = ShopLocationPreference.IsolateShopsCheck
 
+
 class Shop(BaseModel):
     name: str
     id: int
+
 
 class ShopInfo(BaseModel):
     id: int
     location: Optional[str] = "default"
     title: Optional[str]
 
+
 class ProductsRequest(BaseModel):
     request: Optional[BuyPreference]
     products: Optional[List[ProductInfo]]
 
+
 class ProductsShop(BaseModel):
     shop: str
     requests: Optional[List[ProductsRequest]]
+
+
+class ChequeShop(BaseModel):
+    buy_list: List[ProductsRequest]
+    end_price: int
+
+
+class ChequeMulti(BaseModel):
+    buy_list: List[ProductsShop]
+    end_price: int

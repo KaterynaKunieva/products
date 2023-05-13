@@ -11,7 +11,7 @@ from constants import BASE_silpo_UA_URL
 from extensions import get_http_response, chunks, HttpMethod
 
 silpo_shops = {
-    "silpo": [ShopInfo(id=2043, location="default")]
+    "silpo": [ShopInfo(id=2043, title="silpo", location="default")]
 }
 
 

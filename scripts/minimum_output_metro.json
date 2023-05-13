@@ -2,8 +2,10 @@
   "buy_list": [
     {
       "request": {
-        "title_filter": "гриби",
-        "brand_filter": null,
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy"
+        ],
         "weight_filter": null,
         "shop_filter": [
           "silpo",
@@ -11,22 +13,7 @@
           "metro"
         ]
       },
-      "products": [
-        {
-          "normalized_title": "гриби шиітаке rio мариновані з овочами",
-          "title": "Гриби шиітаке Rio мариновані з овочами 1330г",
-          "category_id": "canned-mushrooms-metro",
-          "price": 222.49,
-          "weight": "2076.0",
-          "producer": {
-            "trademark": "RIO",
-            "trademark_slug": "rio"
-          },
-          "description": "Шиітаке – деревні гриби, які ростуть на дереві шиі. Вони мають вишуканий смак і цілющі властивості.Шиитаке вважаються делікатесом, їх цінують за специфічний приємний смак та аромат, який нагадує щось середнє між смаком білих грибів та печериць.",
-          "slug": "gribi-shiitake-rio-1350g-ukrayina",
-          "web_url": "https://metro.zakaz.ua/uk/products/gribi-shiitake-rio-1350g-ukrayina--04820178190930/"
-        }
-      ]
+      "products": []
     },
     {
       "request": {
@@ -46,6 +33,10 @@
           "category_id": "marshmallow-and-gumdrop-metro",
           "price": 36.61,
           "weight": "200.0",
+          "weight_info": {
+            "weight": 200.0,
+            "unit": ""
+          },
           "producer": {
             "trademark": "Roshen",
             "trademark_slug": "roshen"
@@ -57,5 +48,5 @@
       ]
     }
   ],
-  "sum_price": 259.1
+  "sum_price": 36.61
 }

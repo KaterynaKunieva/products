@@ -10,7 +10,7 @@ import functools as ft
 import click
 from constants import STORE_INFO_PATH
 from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, ProductsShop, \
-    ShopLocationPreference
+    ShopLocationPreference, WeightInfo
 from silpo_helper import silpo_shops, get_silpo_categories, get_silpo_products
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as, BaseModel
@@ -23,7 +23,6 @@ json_write_settings = {"ensure_ascii": False, "indent": 2}
 curr_dir = os.path.dirname(__file__)
 datat_dir = os.path.join(curr_dir, STORE_INFO_PATH)
 Path(datat_dir).mkdir(parents=True, exist_ok=True)
-
 
 
 def async_cmd(func):  # to do, write your function decorator
@@ -98,12 +97,43 @@ def normalize_title(product_title: str, product_brand: str = ""):
         return product_title
 
 
+def normalize_weight(weight) -> WeightInfo:
+    if not weight or weight == 0 or weight == "0":
+        weight_value = 1
+        weight_unit = ''
+    else:
+        weight_value = re.search("\d+(,?\d+|.?\d+)*", weight)
+        weight_unit = re.search("[a-zа-яЇїІіЄєҐґ]+", weight)
+        if weight_value:
+            weight_value = weight_value.group()
+            weight_value = weight_value.replace(',', '.')
+            try:
+                weight_value = float(weight_value)
+            except Exception as ex:
+                weight_value = eval(weight_value)
+        else:
+            weight_value = 1
+        if weight_unit:
+            weight_unit = weight_unit.group()
+        else:
+            weight_unit = ''
+        if weight_unit == 'л':
+            weight_value *= 1000
+            weight_unit = 'мл'
+        elif weight_unit == 'кг':
+            weight_value *= 1000
+            weight_unit = 'г'
+    return WeightInfo(weight=weight_value, unit=weight_unit)
+
+
 shop_infos = {**zakaz_shops, **silpo_shops}
 
 allowed_shops = list(shop_infos.keys())
 
+
 def get_shop_locations(shop: str) -> List[str]:
     return [shopinfo.location for shopinfo in shop_infos.get(shop)]
+
 
 @cli.command()
 @async_cmd
@@ -200,8 +230,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                             product: ProductInfo
                             product.normalized_title = normalize_title(product_title=product.title,
                                                                        product_brand=product.producer.trademark)
-                            #to do, weight to float + fill weight unit with normalize function
-
+                            product.weight_info = normalize_weight(product.weight)
                     print(f"Available products for '{shop_full_name}', categories count: {len(category_products)}")
                     if not products_cached or force_reload:
                         logging.info(f"Saving raw products to {raw_product_path}")
@@ -263,40 +292,17 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
             else:
                 logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 
-class WeightInfo(BaseModel): #to base entities
-    weight: float
-    unit: str
-#
-def sort_products_by_price(product_element: ProductInfo) -> float: #create function that accepts weight:str argument and returns WeigtInfo and using this new function in function sort_products_by_price(that is below)
+
+def sort_products_by_price(
+        product_element: ProductInfo) -> float:  # create function that accepts weight:str argument and returns WeigtInfo and using this new function in function sort_products_by_price(that is below)
     try:
-        if product_element.weight is None or product_element.weight == 0 or product_element.weight == "0":
-            weight = 1
-        else:
-            weight = re.search("\d+(,?\d+|.?\d+)*", product_element.weight)
-            weight_unit = re.search("[a-zа-яЇїІіЄєҐґ]+", product_element.weight)
-            if weight:
-                weight = weight.group()
-                weight = weight.replace(',', '.')
-                try:
-                    weight = float(weight)
-                except Exception as ex:
-                    weight = eval(weight)
-            else:
-                weight = 1
-            if weight_unit:
-                weight_unit = weight_unit.group()
-            else:
-                weight_unit = ''
-            if weight_unit == 'л':
-                weight *= 1000
-            elif weight_unit == 'кг':
-                weight *= 1000
+        weight = product_element.weight_info.weight
         price = product_element.price
-        # if product_element["found_in_shop"] == 'silpo' else product_element.price/ 100
         return price / weight
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
     return 0
+
 
 @cli.command()
 @async_cmd
@@ -312,16 +318,7 @@ async def form_buy_list(input_file_path):
     file_product_info = "normalized_products.json"
 
     user_basket: Dict[str, List[ProductsRequest]] = defaultdict(list)
-    end_price = 0
 
-    #1. dont write to output file for each buy_list, do it in the end when all buy_lists are resolved
-    #2. read files using parse_file_as
-    #3. Algo:
-    """
-        find minimum buy list for each shop
-        write it to file per each shop
-        additionally, if user_query.buy_location_preference == 'multi_shop_check' form one more output file with minimum buy list across all shops Dict[str, List[ProductInfo]] 
-    """
     for buy_preference in buy_list:
         paths_to_shops = []
         paths_to_navigators = []
@@ -335,12 +332,12 @@ async def form_buy_list(input_file_path):
             paths_to_shops.append(path_to_shop)
             paths_to_navigators.append(path_to_navigator)
             examined_categories = set()
+
             # find category of buy_preference
             file_navigation = parse_file_as(Dict[str, List[str]], path_to_navigator)
             for product_key in list(file_navigation.keys()):
-                for path_to_category in  file_navigation[product_key]:
+                for path_to_category in file_navigation[product_key]:
                     if buy_preference.title_filter + " " in product_key and path_to_category not in examined_categories:
-                        #print('Found request in file_navigation')
                         logging.debug(f"Scanning products of category {path_to_category}")
                         examined_categories.add(path_to_category)
                         product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
@@ -350,13 +347,16 @@ async def form_buy_list(input_file_path):
                         for title_key, product_item in list(file_info.items()):
                             product_item: ProductInfo
                             if buy_preference.title_filter + " " in title_key:
-                                #print('Found request in product_location')
-                                if product_item not in products:
-                                    # if shop != "silpo":
-                                    #     product_item.price /= 100
-                                    #print("Appended product")
+                                if (buy_preference.brand_filter is None
+                                    or buy_preference.brand_filter == ""
+                                    or product_item.producer.trademark is None
+                                    or product_item.producer.trademark == "") \
+                                        and product_item not in products:
                                     products.append(product_item)
-                        # products.sort(key=sort_products_by_price)
+                                else:
+                                    for brand in buy_preference.brand_filter:
+                                        if brand in product_item.producer.trademark and product_item not in products:
+                                            products.append(product_item)
             products_in_request.append(ProductsRequest(request=buy_preference, products=products))
             user_basket[shop].extend(products_in_request)
 
@@ -370,10 +370,15 @@ async def form_buy_list(input_file_path):
         for product_request in product_requests:
             product_request.products.sort(key=sort_products_by_price)
             product_request.products = product_request.products[:1]
-            sum_price += product_request.products[0].price
+            try:
+                sum_price += product_request.products[0].price
+            except Exception as exc:
+                print(f'{len(product_request.products)} in {shop}')
 
         with open(f'minimum_output_{shop}.json', 'w', **file_open_settings) as f:
-            json.dump({"buy_list": [product_request.dict() for product_request in product_requests], "sum_price":sum_price}, f, **json_write_settings)
+            json.dump(
+                {"buy_list": [product_request.dict() for product_request in product_requests], "sum_price": sum_price},
+                f, **json_write_settings)
 
     buy_preferences: Dict[BuyPreference, Tuple[str, ProductInfo]] = {}
     if user_query.buy_location_preference == ShopLocationPreference.MultiShopCheck:
@@ -382,8 +387,9 @@ async def form_buy_list(input_file_path):
                 product_request: ProductsRequest
                 if product_request.products:
                     if product_request.request in buy_preferences:
-                        existing_product_info: ProductInfo =  buy_preferences.get(product_request.request)[1]
-                        if sort_products_by_price(existing_product_info) > sort_products_by_price(product_request.products[0]):
+                        existing_product_info: ProductInfo = buy_preferences.get(product_request.request)[1]
+                        if sort_products_by_price(existing_product_info) > sort_products_by_price(
+                                product_request.products[0]):
                             buy_preferences[product_request.request] = (shop, product_request.products[0])
                     else:
                         buy_preferences[product_request.request] = (shop, product_request.products[0])
@@ -395,7 +401,9 @@ async def form_buy_list(input_file_path):
             sum_price += info[1].price
 
         with open(f'multi_shop_output.json', 'w', **file_open_settings) as f:
-            json.dump({"sum_price": sum_price, "buy_list": {shop: [product_request.dict() for product_request in product_requests] for shop, product_requests in final_result.items()}}, f, **json_write_settings)
+            json.dump({"buy_list": {shop: [product_request.dict() for product_request in product_requests] for
+                                    shop, product_requests in final_result.items()},
+                       "sum_price": sum_price}, f, **json_write_settings)
 
 
 if __name__ == '__main__':

@@ -2,8 +2,10 @@
   "buy_list": [
     {
       "request": {
-        "title_filter": "гриби",
-        "brand_filter": null,
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy"
+        ],
         "weight_filter": null,
         "shop_filter": [
           "silpo",
@@ -13,18 +15,22 @@
       },
       "products": [
         {
-          "normalized_title": "гриби шиітаке rio мариновані з овочами",
-          "title": "Гриби шиітаке Rio мариновані з овочами 250г",
-          "category_id": "canned-mushrooms-varus",
-          "price": 59.9,
-          "weight": "506.0",
-          "producer": {
-            "trademark": "RIO",
-            "trademark_slug": "rio"
+          "normalized_title": "напій енергетичний торнадо red",
+          "title": "Напій енергетичний Торнадо Red 0,5л",
+          "category_id": "energy-drinks-varus",
+          "price": 18.5,
+          "weight": "500.0",
+          "weight_info": {
+            "weight": 500.0,
+            "unit": ""
           },
-          "description": "Шиітаке – деревні гриби, які ростуть на дереві шиі. Вони мають вишуканий смак і цілющі властивості.Шиитаке вважаються делікатесом, їх цінують за специфічний приємний смак та аромат, який нагадує щось середнє між смаком білих грибів та печериць.",
-          "slug": "gribi-shiitake-rio-250g",
-          "web_url": "https://varus.zakaz.ua/uk/products/gribi-shiitake-rio-250g--04820178190947/"
+          "producer": {
+            "trademark": null,
+            "trademark_slug": null
+          },
+          "description": "",
+          "slug": "energetik-500ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-500ml--04820137820878/"
         }
       ]
     },
@@ -46,6 +52,10 @@
           "category_id": "packed-candy-varus",
           "price": 25.1,
           "weight": "200.0",
+          "weight_info": {
+            "weight": 200.0,
+            "unit": ""
+          },
           "producer": {
             "trademark": "Roshen",
             "trademark_slug": "roshen"
@@ -57,5 +67,5 @@
       ]
     }
   ],
-  "sum_price": 85.0
+  "sum_price": 43.6
 }

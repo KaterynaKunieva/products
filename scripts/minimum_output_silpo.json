@@ -2,8 +2,10 @@
   "buy_list": [
     {
       "request": {
-        "title_filter": "гриби",
-        "brand_filter": null,
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy"
+        ],
         "weight_filter": null,
         "shop_filter": [
           "silpo",
@@ -13,18 +15,22 @@
       },
       "products": [
         {
-          "normalized_title": "гриби печерицi",
-          "title": "Гриби печерицi",
-          "category_id": "385",
-          "price": 9.3,
-          "weight": "100г",
+          "normalized_title": "напій енергетичний the doctor безалкогольний сильногазований",
+          "title": "Напій енергетичний Monster Energy The Doctor безалкогольний сильногазований",
+          "category_id": "59",
+          "price": 54.02,
+          "weight": "355мл",
+          "weight_info": {
+            "weight": 355.0,
+            "unit": "мл"
+          },
           "producer": {
-            "trademark": null,
+            "trademark": "Monster Energy",
             "trademark_slug": null
           },
           "description": null,
-          "slug": "gryby-pecherytsi-32571",
-          "web_url": "https://shop.silpo.ua/product/gryby-pecherytsi-32571"
+          "slug": "napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697"
         }
       ]
     },
@@ -46,6 +52,10 @@
           "category_id": "520",
           "price": 12.3,
           "weight": "100г",
+          "weight_info": {
+            "weight": 100.0,
+            "unit": "г"
+          },
           "producer": {
             "trademark": "Roshen",
             "trademark_slug": null
@@ -57,5 +67,5 @@
       ]
     }
   ],
-  "sum_price": 21.6
+  "sum_price": 66.32000000000001
 }

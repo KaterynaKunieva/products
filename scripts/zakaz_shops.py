@@ -7,19 +7,19 @@ import asyncio
 from base_entities import ShopInfo, Shop
 
 zakaz_shops = {
-    "novus": [ShopInfo(id=48201070)],
-    "metro": [ShopInfo(id=48215611)],
-    'таврія': [ShopInfo(id=48221130)],
-    'космос': [ShopInfo(id=48225131)],
-    'восторг': [ShopInfo(id=48231001)],
-    'харків': [ShopInfo(id=482320001)],
-    "varus": [ShopInfo(id=48241001)],
-    "auchan": [ShopInfo(id=48246401)],
-    'winetime': [ShopInfo(id=482550001)],
-    'столичний': [ShopInfo(id=48257001)],
-    "megamarket": [ShopInfo(id=48267602)],
-    "ultramarket": [ShopInfo(id=48277601)],
-    'екомаркет': [ShopInfo(id=482800030)]
+    "novus": [ShopInfo(id=48201070, title="novus")],
+    "metro": [ShopInfo(id=48215611, title="metro")],
+    'таврія': [ShopInfo(id=48221130, title="таврія")],
+    'космос': [ShopInfo(id=48225131, title="космос")],
+    'восторг': [ShopInfo(id=48231001, title="восторг")],
+    'харків': [ShopInfo(id=482320001, title="харків")],
+    "varus": [ShopInfo(id=48241001, title="varus")],
+    "auchan": [ShopInfo(id=48246401, title="auchan")],
+    'winetime': [ShopInfo(id=482550001, title="winetime")],
+    'столичний': [ShopInfo(id=48257001, title="столичний")],
+    "megamarket": [ShopInfo(id=48267602, title="megamarket")],
+    "ultramarket": [ShopInfo(id=48277601, title="ultramarket")],
+    'екомаркет': [ShopInfo(id=482800030, title="екомаркет")]
 }
 
 # zakaz_shops = {'novus': [ShopInfo(id=482010105, location='SkyMall'), ShopInfo(id=48201022, location='Рівне'),

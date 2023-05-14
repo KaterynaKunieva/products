@@ -90,7 +90,7 @@ def parse_weight_info(amount: str) -> SizeInfo:
 def parse_weight_info_with_validation(product_info: ProductInfo) -> SizeInfo:
     weight_info = product_info.weight_info
     if not weight_info:
-        weight_info = parse_weight_info(product_info.weight)
+        weight_info = parse_weight_info(product_info.weight or product_info.unit or product_info.volume)
 
     weight_value, weight_unit, type = weight_info.value, weight_info.unit, weight_info.type
     title, volume, weight = product_info.title, product_info.volume, product_info.weight

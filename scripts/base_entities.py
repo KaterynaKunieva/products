@@ -38,6 +38,7 @@ class ProductInfo(BaseModel):
     title: str 
     category_id: str
     price: float
+    unit: Optional[str]
     weight: Optional[str]
     bundle: Optional[int]
     volume: Optional[float]

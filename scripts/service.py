@@ -31,11 +31,10 @@ class ProductService():
     def form_buy_list(self, buy_request: UserBuyRequest) -> List[ProductInfo]:
         pass
 
-class FileBaseProductService(ProductService):
-    def __init__(self, input_file_path: str = os.path.join(os.path.dirname(__file__), 'data')):
-        self.input_file_path = input_file_path
 
-        # решила брать данные с сохраненных файлов, а не запросами к апи, чтобы по ним потом можно было найти что-то
+class FileBaseProductService(ProductService):
+    def __init__(self, input_file_path: str):
+        self.input_file_path = input_file_path
 
     def get_shops(self) -> List[ShopInfo]:
         zakaz = [shop_info for shop_key, shop_info in zakaz_shops.items()]
@@ -45,15 +44,15 @@ class FileBaseProductService(ProductService):
 
     def get_categories(self, shop: ShopInfo) -> List[CategoryInfo]:
         categories_list: List[CategoryInfo] = []
-        path_to_categories_file = os.path.join(self.input_file_path, shop.title, shop.location,
+        path_to_categories_file = os.path.join(self.input_file_path, shop.name, shop.location,
                                                'raw_categories_info.json')
         if os.path.isfile(path_to_categories_file):
-            categories_list = parse_file_as(List[CategoryInfo], path_to_categories_file)
+            categories_list = parse_file_as(List[CategoryInfo], path_to_categories_file) # найдет ли эта запись только верхние категории?
         return categories_list
 
     def get_products(self, shop: ShopInfo, category: CategoryInfo = None) -> List[ProductInfo]:
         products_list: Dict[str, ProductInfo] = {}
-        path_to_file_products = os.path.join(self.input_file_path, shop.title, category.slug, "normalized_products.json") #title -> name
+        path_to_file_products = os.path.join(self.input_file_path, shop.name, category.slug, "normalized_products.json")
         if os.path.isfile(path_to_file_products):
             products_list = parse_file_as(Dict[str, ProductInfo], path_to_file_products)
         return list(products_list.values())
@@ -61,11 +60,11 @@ class FileBaseProductService(ProductService):
     def get_shop_locations(self, shop: ShopInfo) -> List[str]:
         shop_locations: List[str] = []
         for shop_key, shop_infos in zakaz_shops.items():
-            if shop_key == shop.title: #title -> name
+            if shop_key == shop.name:
                 for shop_info in shop_infos:
                     shop_locations.append(shop_info.location)
         for shop_key, shop_infos in silpo_shops.items():
-            if shop_key == shop.title:  #title -> name
+            if shop_key == shop.name:
                 for shop_info in shop_infos:
                     shop_locations.append(shop_info.location)
         return shop_locations
@@ -87,7 +86,7 @@ class FileBaseProductService(ProductService):
         return buy_list
 
 
-test = FileBaseProductService()
+test = FileBaseProductService(input_file_path=os.path.join(os.path.dirname(__file__), 'data'))
 shops = test.get_shops()
 locations = test.get_shop_locations(ShopInfo(id=48201070, title='novus'))
 categories = test.get_categories(ShopInfo(id=48221130, title='таврія'))

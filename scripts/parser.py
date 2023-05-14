@@ -97,32 +97,71 @@ def normalize_title(product_title: str, product_brand: str = ""):
         return product_title
 
 
-def normalize_weight(weight) -> WeightInfo:
-    if not weight or weight == 0 or weight == "0":
-        weight_value = 1
-        weight_unit = ''
+def normalize_amount(amount: str) -> List[float, str]:
+    regexp_num = '\d+(,?\d+|.?\d+)*'
+    regexp_unit = '[a-zа-яЇїІіЄєҐґ]+'
+    if not amount:
+        value = 1
+        unit = ''
     else:
-        weight_value = re.search("\d+(,?\d+|.?\d+)*", weight)
-        weight_unit = re.search("[a-zа-яЇїІіЄєҐґ]+", weight)
-        if weight_value:
-            weight_value = weight_value.group()
-            weight_value = weight_value.replace(',', '.')
+        value = re.search(regexp_num, amount)
+        unit = re.search(regexp_unit, amount)
+        if value:
+            value = value.group()
+            value = value.replace(',', '.')
             try:
-                weight_value = float(weight_value)
+                value = float(value)
             except Exception as ex:
-                weight_value = eval(weight_value)
+                value = eval(value)
         else:
-            weight_value = 1
-        if weight_unit:
-            weight_unit = weight_unit.group()
+            value = 1
+        if unit:
+            unit = unit.group()
         else:
-            weight_unit = ''
-        if weight_unit == 'л':
-            weight_value *= 1000
-            weight_unit = 'мл'
-        elif weight_unit == 'кг':
-            weight_value *= 1000
-            weight_unit = 'г'
+            unit = ''
+    return [value, unit]
+
+
+def get_amount(title: str, weight: str, volume: str):
+    weight_value, weight_unit = normalize_amount(weight)
+
+    if weight and volume:
+        if weight_value == volume:
+            # delete weight
+            return volume
+        else:
+            if weight_value + weight_unit in title:
+                return weight
+            elif weight_value in title:
+                return weight
+            elif volume in title: # add check units after volume in title
+                return volume
+            else:
+                return min(weight_value, volume) # (brutto bigger)
+
+    elif weight:
+        if weight_value + weight_unit in title: # а також між величиною і одиницею виміру може бути пробіл
+            return weight
+        elif weight_value in title:
+            return weight
+    elif volume:
+        if volume in title:  # add check units after volume in title
+            return volume
+    else:
+        regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
+        amount = re.search(regexp_amount, title)
+        if amount:
+            return amount.group()
+
+
+def cast_weight(weight: str) -> WeightInfo:
+    weight_value, weight_unit = normalize_amount(weight)
+    if weight_unit == 'л':
+        weight_value *= 1000
+        weight_unit = 'мл'
+    elif weight_unit == 'кг':
+        weight_value *= 1000
+        weight_unit = 'г'
     return WeightInfo(weight=weight_value, unit=weight_unit)
 
 
@@ -230,7 +269,7 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                             product: ProductInfo
                             product.normalized_title = normalize_title(product_title=product.title,
                                                                        product_brand=product.producer.trademark)
-                            product.weight_info = normalize_weight(product.weight)
+                            product.weight_info = normalize_weight(product.weight) # какое значение записывать?
                     print(f"Available products for '{shop_full_name}', categories count: {len(category_products)}")
                     if not products_cached or force_reload:
                         logging.info(f"Saving raw products to {raw_product_path}")
@@ -293,116 +332,23 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
                 logging.debug(f"No shop infos found for shop '{shop_key}', locations: {locations}'")
 
 
-def sort_products_by_price(
-        product_element: ProductInfo) -> float:  # create function that accepts weight:str argument and returns WeigtInfo and using this new function in function sort_products_by_price(that is below)
+def sort_products_by_price(product_element: ProductInfo) -> float:
+    # create function that accepts weight:str argument and returns WeigtInfo and using this new function in function sort_products_by_price(that is below)
+    # add checking bundle
     try:
         weight = product_element.weight_info.weight
+        # тут не обязательно вейт, тут поле по которому идет сравнение,
+        # может быть волум (а значит надо при поиске удалить неактуальное поле)
         price = product_element.price
-        return price / weight
+        bundle = product_element.bundle
+        if bundle:
+            return price / (weight*bundle)
+        else:
+            return price / weight
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
     return 0
 
 
-@cli.command()
-@async_cmd
-@click.option('--input_file_path', default="./user_buy_request_path.json", type=str, help='list of shops.')
-# @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
-async def form_buy_list(input_file_path):
-    user_query: UserBuyRequest = parse_file_as(UserBuyRequest, input_file_path)
-    if user_query:
-        print('Stored user_query')
-    buy_list: List[BuyPreference] = user_query.buy_list
-    base_path = os.path.join(os.path.dirname(__file__), STORE_INFO_PATH)  # path to data
-    file_navigator = os.path.join('default', 'products_categories.json')
-    file_product_info = "normalized_products.json"
-
-    user_basket: Dict[str, List[ProductsRequest]] = defaultdict(list)
-
-    for buy_preference in buy_list:
-        paths_to_shops = []
-        paths_to_navigators = []
-        for shop in buy_preference.shop_filter:
-            products_in_request: List[ProductsRequest] = []
-            print(f'Started scanning shop {shop} for buy_preference')
-            products = []
-            path_to_shop = os.path.join(base_path, shop)
-            path_to_navigator = os.path.join(path_to_shop, file_navigator)
-
-            paths_to_shops.append(path_to_shop)
-            paths_to_navigators.append(path_to_navigator)
-            examined_categories = set()
-
-            # find category of buy_preference
-            file_navigation = parse_file_as(Dict[str, List[str]], path_to_navigator)
-            for product_key in list(file_navigation.keys()):
-                for path_to_category in file_navigation[product_key]:
-                    if buy_preference.title_filter + " " in product_key and path_to_category not in examined_categories:
-                        logging.debug(f"Scanning products of category {path_to_category}")
-                        examined_categories.add(path_to_category)
-                        product_location = os.path.join(path_to_shop, 'default', path_to_category, file_product_info)
-
-                        # find buy_preference in category
-                        file_info: Dict[str, ProductInfo] = parse_file_as(Dict[str, ProductInfo], product_location)
-                        for title_key, product_item in list(file_info.items()):
-                            product_item: ProductInfo
-                            if buy_preference.title_filter + " " in title_key:
-                                if (buy_preference.brand_filter is None
-                                    or buy_preference.brand_filter == ""
-                                    or product_item.producer.trademark is None
-                                    or product_item.producer.trademark == "") \
-                                        and product_item not in products:
-                                    products.append(product_item)
-                                else:
-                                    for brand in buy_preference.brand_filter:
-                                        if brand in product_item.producer.trademark and product_item not in products:
-                                            products.append(product_item)
-            products_in_request.append(ProductsRequest(request=buy_preference, products=products))
-            user_basket[shop].extend(products_in_request)
-
-    logging.info("Saving results...")
-    for shop, product_requests in user_basket.items():
-        with open(f'output_{shop}.json', 'w', **file_open_settings) as f:
-            json.dump([product_request.dict() for product_request in product_requests], f, **json_write_settings)
-
-    for shop, product_requests in user_basket.items():
-        sum_price = 0
-        for product_request in product_requests:
-            product_request.products.sort(key=sort_products_by_price)
-            product_request.products = product_request.products[:1]
-            try:
-                sum_price += product_request.products[0].price
-            except Exception as exc:
-                print(f'{len(product_request.products)} in {shop}')
-
-        with open(f'minimum_output_{shop}.json', 'w', **file_open_settings) as f:
-            json.dump(
-                ChequeShop(end_price=sum_price, buy_list=product_requests).dict(),
-                f, **json_write_settings)
-
-    buy_preferences: Dict[BuyPreference, Tuple[str, ProductInfo]] = {}
-    if user_query.buy_location_preference == ShopLocationPreference.MultiShopCheck:
-        for shop, product_requests in user_basket.items():
-            for product_request in product_requests:
-                product_request: ProductsRequest
-                if product_request.products:
-                    if product_request.request in buy_preferences:
-                        existing_product_info: ProductInfo = buy_preferences.get(product_request.request)[1]
-                        if sort_products_by_price(existing_product_info) > sort_products_by_price(
-                                product_request.products[0]):
-                            buy_preferences[product_request.request] = (shop, product_request.products[0])
-                    else:
-                        buy_preferences[product_request.request] = (shop, product_request.products[0])
-
-        final_result: Dict[str, List[ProductsRequest]] = defaultdict(list)
-        sum_price = 0
-        for buy_preference, info in buy_preferences.items():
-            final_result[info[0]].append(ProductsRequest(request=buy_preference, products=[info[1]]))
-            sum_price += info[1].price
-
-        with open(f'multi_shop_output.json', 'w', **file_open_settings) as f:
-            json.dump(ChequeMulti(end_price=sum_price, buy_list=[ProductsShop(shop=shop, requests=product_requests) for shop, product_requests in final_result.items()]).dict(), f, **json_write_settings)
-
-
-if __name__ == '__main__':
-    form_buy_list()
+def find_filters():
+    regexp_filters = '(\"filters\": \[(\s(.*\s))*\]){1}'

@@ -1,0 +1,57 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy"
+        ],
+        "weight_filter": "0,5л",
+        "shop_filter": [
+          "silpo",
+          "metro",
+          "varus",
+          "таврія"
+        ]
+      },
+      "products": []
+    },
+    {
+      "request": {
+        "title_filter": "хліб",
+        "brand_filter": null,
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "metro",
+          "varus",
+          "таврія"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "хліб паланга половинка нарізаний скибками",
+          "title": "Хліб Цар Хліб Паланга половинка нарізаний скибками 350г",
+          "category_id": "rye-wheat-bread-metro",
+          "price": 15.5,
+          "weight": "386.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 386.0,
+            "unit": "",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "Цар Хліб",
+            "trademark_slug": "tsar-khlib"
+          },
+          "description": "Що в ньому такого особливого? Його неперевершений кисло-солодкий смак і пряний аромат кмину. Цей хліб створений для того, аби смакувати з першими та основними стравами, бутербродами. Гарячий борщик, цибулька и шматочок “Паланги” з салом   - ідеальний метч для холодних осінніх днів.",
+          "slug": "khlib-tsar-khlib-350g",
+          "web_url": "https://metro.zakaz.ua/uk/products/khlib-tsar-khlib-350g--04820159022137/"
+        }
+      ]
+    }
+  ],
+  "end_price": 15
+}

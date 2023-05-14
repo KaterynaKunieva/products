@@ -1,0 +1,306 @@
+[
+  {
+    "request": {
+      "title_filter": "напій енергетичний",
+      "brand_filter": [
+        "Monster Energy"
+      ],
+      "weight_filter": "0,5л",
+      "shop_filter": [
+        "silpo",
+        "metro",
+        "varus",
+        "таврія"
+      ]
+    },
+    "products": []
+  },
+  {
+    "request": {
+      "title_filter": "хліб",
+      "brand_filter": null,
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "metro",
+        "varus",
+        "таврія"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "хліб столичний подовий половинка нарізаний",
+        "title": "Хліб Кулиничі Столичний подовий половинка нарізаний 500г",
+        "category_id": "tm-kulinichi",
+        "price": 14.0,
+        "weight": "500.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": "kulinichi"
+        },
+        "description": "",
+        "slug": "khlib-kulinichi-500g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-kulinichi-500g--04820174301439/"
+      },
+      {
+        "normalized_title": "хліб європейський тостовий висівковий",
+        "title": "Хліб Кулиничі Європейський тостовий висівковий 350г",
+        "category_id": "bread-tavriav",
+        "price": 23.1,
+        "weight": "350.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": "kulinichi"
+        },
+        "description": "",
+        "slug": "khlib-kulinichi-350g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-kulinichi-350g--04820174301507/"
+      },
+      {
+        "normalized_title": "хліб салтівський без дріжджів половинка нарізка",
+        "title": "Хліб Рома Салтівський без дріжджів половинка нарізка 450г",
+        "category_id": "bread-tavriav",
+        "price": 16.7,
+        "weight": "450.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 450.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-450g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-450g--04820041525494/"
+      },
+      {
+        "normalized_title": "хліб європейський тостовий білий",
+        "title": "Хліб Кулиничі Європейський тостовий білий 330г",
+        "category_id": "bread-tavriav",
+        "price": 22.4,
+        "weight": "330.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 330.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": "kulinichi"
+        },
+        "description": "",
+        "slug": "khlib-kulinichi-330g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-kulinichi-330g--04820174301491/"
+      },
+      {
+        "normalized_title": "хліб столичний подовий половинка нарізаний",
+        "title": "Хліб Кулиничі Столичний подовий половинка нарізаний 500г",
+        "category_id": "bread-tavriav",
+        "price": 14.0,
+        "weight": "500.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": "kulinichi"
+        },
+        "description": "",
+        "slug": "khlib-kulinichi-500g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-kulinichi-500g--04820174301439/"
+      },
+      {
+        "normalized_title": "хліб гетьманський половинка в нарізці",
+        "title": "Хліб Рома Гетьманський половинка в нарізці 250г",
+        "category_id": "bread-tavriav",
+        "price": 12.0,
+        "weight": "275.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 275.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-250g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-250g--04820041526125/"
+      },
+      {
+        "normalized_title": "хліб білий нарізаний без глютену",
+        "title": "Хліб Balviten білий нарізаний без глютену 190г",
+        "category_id": "bread-tavriav",
+        "price": 109.0,
+        "weight": "190.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 190.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Balviten ",
+          "trademark_slug": "balviten"
+        },
+        "description": "",
+        "slug": "khlib-190g-polshcha",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-190g-polshcha--05907653104091/"
+      },
+      {
+        "normalized_title": "хліб український новий",
+        "title": "Хліб Рома Український новий 750г",
+        "category_id": "bread-tavriav",
+        "price": 23.1,
+        "weight": "750.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 750.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-750g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-750g-ukrayina--04820041520185/"
+      },
+      {
+        "normalized_title": "хліб бородинський нарізаний",
+        "title": "Хліб Рома Бородинський нарізаний 300г",
+        "category_id": "bread-tavriav",
+        "price": 16.9,
+        "weight": "300.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-300g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-300g--04820041522622/"
+      },
+      {
+        "normalized_title": "хліб салтівський без дріжджів",
+        "title": "Хліб Рома Салтівський без дріжджів 900г",
+        "category_id": "bread-tavriav",
+        "price": 28.4,
+        "weight": "900.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-900g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-900g-ukrayina--04820041525487/"
+      },
+      {
+        "normalized_title": "хліб орільський нарізаний",
+        "title": "Хліб Рома Орільський нарізаний 550г",
+        "category_id": "bread-tavriav",
+        "price": 23.0,
+        "weight": "550.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 550.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-550g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-550g--04820041525081/"
+      },
+      {
+        "normalized_title": "хліб орільський пшеничний половина нарізаний",
+        "title": "Хліб Рома Орільський пшеничний половина нарізаний 275г",
+        "category_id": "bread-tavriav",
+        "price": 11.7,
+        "weight": "275.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 275.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Рома",
+          "trademark_slug": "roma"
+        },
+        "description": "",
+        "slug": "khlib-roma-275g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/khlib-roma-275g-ukrayina--04820041525098/"
+      },
+      {
+        "normalized_title": "батончик енергетичний солодкий світ фруктовий хліб з яблучним пирогом",
+        "title": "Батончик енергетичний Солодкий світ Фруктовий хліб з яблучним пирогом 60г",
+        "category_id": "cereal-bars-tavriav",
+        "price": 30.7,
+        "weight": "60.0",
+        "bundle": 1,
+        "volume": null,
+        "weight_info": {
+          "value": 60.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Сладкий Мир",
+          "trademark_slug": "sladkii-mir"
+        },
+        "description": "Батончики «Fruit Bread» - це натуральний продукт без цукру, виготовлений за технологією «холодного преса», що дозволяє зберегти в цілості всі вітаміни і мікроелементи натуральних фруктів.\n«Fruit bread» яблучний пиріг містить вітаміни В2, В1, PP, β-каротин, С, які є природними антиоксидантами, що сповільнюють старіння клітин.\nБатончики відповідають всім вимогам здорового харчування і відмінно підійдуть для людей, які ведуть активний спосіб життя.\nПродукт містить клітковину, що запобігає розвитку діабету та інших захворювань, а також сприяє зниженню рівня холестерину в крові.\nОснова батончика - корисний та поживний фінік.",
+        "slug": "batonchik-solodkii-svit-815g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/batonchik-solodkii-svit-815g--04820078232013/"
+      }
+    ]
+  }
+]

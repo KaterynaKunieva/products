@@ -1,0 +1,57 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy"
+        ],
+        "weight_filter": "0,5л",
+        "shop_filter": [
+          "silpo",
+          "metro",
+          "varus",
+          "таврія"
+        ]
+      },
+      "products": []
+    },
+    {
+      "request": {
+        "title_filter": "цукерки",
+        "brand_filter": null,
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "metro",
+          "varus",
+          "таврія"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "цукерки гулівер",
+          "title": "Цукерки АВК Гулівер",
+          "category_id": "tm-avk",
+          "price": 332.4,
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 0.0,
+            "unit": "",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "АВК",
+            "trademark_slug": "avk"
+          },
+          "description": "",
+          "slug": "tsukerka-avk-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-avk-ukrayina--04823105803897/"
+        }
+      ]
+    }
+  ],
+  "end_price": 332
+}

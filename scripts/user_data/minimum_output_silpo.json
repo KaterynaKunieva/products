@@ -6,17 +6,20 @@
         "brand_filter": [
           "Monster Energy"
         ],
-        "weight_filter": null,
+        "weight_filter": "0,5л",
         "shop_filter": [
-          "silpo"
+          "silpo",
+          "metro",
+          "varus",
+          "таврія"
         ]
       },
       "products": [
         {
-          "normalized_title": "напій енергетичний the doctor безалкогольний сильногазований",
-          "title": "Напій енергетичний Monster Energy The Doctor безалкогольний сильногазований",
+          "normalized_title": "напій енергетичний ultra безалкогольний з/б",
+          "title": "Напій енергетичний Monster Energy Ultra безалкогольний з/б",
           "category_id": "59",
-          "price": 54.02,
+          "price": 56.55,
           "weight": "355мл",
           "bundle": null,
           "volume": null,
@@ -30,26 +33,29 @@
             "trademark_slug": null
           },
           "description": null,
-          "slug": "napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697",
-          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697"
+          "slug": "napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232"
         }
       ]
     },
     {
       "request": {
-        "title_filter": "цукерки",
+        "title_filter": "хліб",
         "brand_filter": null,
         "weight_filter": null,
         "shop_filter": [
-          "silpo"
+          "silpo",
+          "metro",
+          "varus",
+          "таврія"
         ]
       },
       "products": [
         {
-          "normalized_title": "цукерки джеллі желейні",
-          "title": "Цукерки Roshen «Джеллі» желейні",
-          "category_id": "520",
-          "price": 12.3,
+          "normalized_title": "хліб скандинавський",
+          "title": "Хліб «Крафтяр» «Скандинавський»",
+          "category_id": "497",
+          "price": 6.5,
           "weight": "100г",
           "bundle": null,
           "volume": null,
@@ -59,15 +65,15 @@
             "type": "mass"
           },
           "producer": {
-            "trademark": "Roshen",
+            "trademark": "Крафтяр",
             "trademark_slug": null
           },
           "description": null,
-          "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
-          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011"
+          "slug": "khlib-kraftiar-skandynavskyi-758013",
+          "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-skandynavskyi-758013"
         }
       ]
     }
   ],
-  "end_price": 66
+  "end_price": 63
 }

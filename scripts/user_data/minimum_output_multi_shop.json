@@ -1,0 +1,89 @@
+{
+  "buy_list": [
+    {
+      "shop": "silpo",
+      "requests": [
+        {
+          "request": {
+            "title_filter": "напій енергетичний",
+            "brand_filter": [
+              "Monster Energy"
+            ],
+            "weight_filter": "0,5л",
+            "shop_filter": [
+              "silpo",
+              "metro",
+              "varus",
+              "таврія"
+            ]
+          },
+          "products": [
+            {
+              "normalized_title": "напій енергетичний ultra безалкогольний з/б",
+              "title": "Напій енергетичний Monster Energy Ultra безалкогольний з/б",
+              "category_id": "59",
+              "price": 56.55,
+              "weight": "355мл",
+              "bundle": null,
+              "volume": null,
+              "weight_info": {
+                "value": 355.0,
+                "unit": "мл",
+                "type": "capacity"
+              },
+              "producer": {
+                "trademark": "Monster Energy",
+                "trademark_slug": null
+              },
+              "description": null,
+              "slug": "napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232",
+              "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shop": "metro",
+      "requests": [
+        {
+          "request": {
+            "title_filter": "цукерки",
+            "brand_filter": null,
+            "weight_filter": null,
+            "shop_filter": [
+              "silpo",
+              "metro",
+              "varus",
+              "таврія"
+            ]
+          },
+          "products": [
+            {
+              "normalized_title": "цукерки ромашка",
+              "title": "Цукерки Roshen Ромашка",
+              "category_id": "candies-and-chocolate-bars-metro",
+              "price": 185.02,
+              "weight": "0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 0.0,
+                "unit": "",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "Roshen",
+                "trademark_slug": "roshen"
+              },
+              "description": "Глазуровані шоколадною глазур'ю цукерки, корпус - помадка вершкова крем-брюле з додаванням какао-порошку та коньяку.",
+              "slug": "tsukerka-roshen-ukrayina",
+              "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28064100000000/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "end_price": 241
+}

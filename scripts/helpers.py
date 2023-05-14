@@ -17,7 +17,13 @@ shop_infos = {**zakaz_shops, **silpo_shops}
 def normalize_title(product_title: str, product_brand: str = ""):
     try:
         product_key = product_title.lower()
-        regexp_brand = product_brand.lower() if product_brand else ''
+        if product_brand:
+            regexp_brand = product_brand.lower()
+        else:
+            rb_first_letter = "(?<=\s)([A-ZА-ЯЇІЄҐ]"
+            rb_word = rb_first_letter + "[A-ZА-Яa-zа-яЇїІіЄєҐґ\-\—\.®']+\s?)+\s*"
+            rb_exc = "[a-zа-яїієґ\-\—\.®']{0,5}\s*"
+            regexp_brand = rb_word + '(' + rb_word + ')*' + '(' + rb_exc + rb_word + '){0,1}' + '(' + rb_word + ')*'
         regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
         regexp_percentage = "(?<=\s)\d+(,\d+|.\d+)*\s*%"
         regexp_number = "№\d*"
@@ -30,6 +36,7 @@ def normalize_title(product_title: str, product_brand: str = ""):
         amount = re.search(regexp_amount, product_key, flags=re.IGNORECASE)
         percentages = re.search(regexp_percentage, product_key, flags=re.IGNORECASE)
         number = re.search(regexp_number, product_key, flags=re.IGNORECASE)
+        brand = re.search(regexp_brand, product_key, flags=re.IGNORECASE)
 
         if amount is not None:
             amount = amount.group().strip()
@@ -40,8 +47,9 @@ def normalize_title(product_title: str, product_brand: str = ""):
         if number is not None:
             number = number.group().strip()
             product_key = product_key.replace(number, '')
-
-        product_key = product_key.replace(regexp_brand, '')
+        if brand is not None:
+            brand = brand.group().strip()
+            product_key = product_key.replace(brand, '')
 
         product_key = re.sub(regexp_symbols, '', product_key, flags=re.IGNORECASE)
         product_key = re.sub(regexp_quotes, '', product_key, flags=re.IGNORECASE)
@@ -137,25 +145,29 @@ def normalize_weight_info(weight_info: SizeInfo) -> SizeInfo:
     return SizeInfo(value=weight_value, unit=weight_unit, type=weight_info.type)
 
 
-def sort_products_by_price(product_element: ProductInfo, min_size: str) -> float:
+def sort_products_by_price(product_element: ProductInfo, min_size: str = "") -> float:
+    # может сделать 2 режима?
+    # интересует ли ровно столько или можно больше (если ровно, то quantity должна получаться целой)
+    end_price: float = 0
+    normalized_weight_info: SizeInfo = normalize_weight_info(product_element.weight_info)
     try:
-        normalized_weight_info = normalize_weight_info(product_element.weight_info)
-        min_size_weight_info: SizeInfo = normalize_weight_info(parse_weight_info(min_size)) if min_size else None
-
-        unit_quantity = normalized_weight_info.value
-        price = product_element.price
-        bundle = product_element.bundle
-        if bundle:
-            #coeff =  math.ceil(min_size_weight_info.value / min_size_weight_info.value) if min_size_weight_info else 1
-            coeff = 1
-            return (price * coeff) / (unit_quantity * bundle) #end price for this setup of products, which suites our min size if it is specified
+        price: float = product_element.price
+        quantity: float = 0 # количество, которое нужно взять, чтобы собрать min_size
+        normalized_min_size_info: SizeInfo = normalize_weight_info(parse_weight_info(min_size)) if min_size else None
+        if normalized_min_size_info:
+            if normalized_min_size_info == product_element.weight_info.unit:  # можно ли их сравнивать
+                if product_element.bundle:
+                    quantity = math.ceil(normalized_min_size_info.value /
+                                         (normalized_weight_info.value * product_element.bundle))
+                else:
+                    quantity = math.ceil(normalized_min_size_info.value / normalized_weight_info.value)
         else:
-            #coeff =  math.ceil(min_size_weight_info.value / min_size_weight_info.value) if min_size_weight_info else 1
-            coeff = 1
-            return (price * coeff) / unit_quantity #end price for this setup of products, which suites our min size if it is specified
+            quantity = normalized_weight_info.value
+        end_price = price * quantity
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
-    return 0
+    return end_price / normalized_weight_info.value
+
 
 
 # def find_filters():

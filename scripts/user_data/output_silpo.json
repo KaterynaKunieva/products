@@ -1,0 +1,2050 @@
+[
+  {
+    "request": {
+      "title_filter": "напій енергетичний",
+      "brand_filter": [
+        "Monster Energy"
+      ],
+      "weight_filter": "0,5л",
+      "shop_filter": [
+        "silpo",
+        "metro",
+        "varus",
+        "таврія"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "напій енергетичний ultra безалкогольний з/б",
+        "title": "Напій енергетичний Monster Energy Ultra безалкогольний з/б",
+        "category_id": "59",
+        "price": 56.55,
+        "weight": "355мл",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 355.0,
+          "unit": "мл",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232"
+      },
+      {
+        "normalized_title": "напій енергетичний the doctor безалкогольний сильногазований",
+        "title": "Напій енергетичний Monster Energy The Doctor безалкогольний сильногазований",
+        "category_id": "59",
+        "price": 54.02,
+        "weight": "355мл",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 355.0,
+          "unit": "мл",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697"
+      },
+      {
+        "normalized_title": "напій енергетичний mango loco безалкогольний з/б",
+        "title": "Напій енергетичний Monster Energy Mango Loco безалкогольний з/б",
+        "category_id": "59",
+        "price": 56.55,
+        "weight": "355мл",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 355.0,
+          "unit": "мл",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-mango-loco-bezalkogolnyi-z-b-890962",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-mango-loco-bezalkogolnyi-z-b-890962"
+      },
+      {
+        "normalized_title": "напій енергетичний ultra blue з/б",
+        "title": "Напій енергетичний Monster Energy Ultra Blue з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-ultra-blue-z-b-915061",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-blue-z-b-915061"
+      },
+      {
+        "normalized_title": "напій енергетичний monster hamilton zero б/а з/б",
+        "title": "Напій енергетичний Monster Hamilton Zero б/а з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-hamilton-zero-b-a-z-b-923256",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-hamilton-zero-b-a-z-b-923256"
+      },
+      {
+        "normalized_title": "напій енергетичний monster ultra fiesta безалкогольний газований з/б",
+        "title": "Напій енергетичний Monster Ultra Fiesta безалкогольний газований з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-ultra-fiesta-bezalkogolnyi-gazovanyi-z-b-896728",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-ultra-fiesta-bezalkogolnyi-gazovanyi-z-b-896728"
+      },
+      {
+        "normalized_title": "напій енергетичний pipeline punch безалкогольний з/б",
+        "title": "Напій енергетичний Monster Energy Pipeline Punch безалкогольний з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-pipeline-punch-bezalkogolnyi-z-b-895481",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-pipeline-punch-bezalkogolnyi-z-b-895481"
+      },
+      {
+        "normalized_title": "напій енергетичний безалкогольний з/б",
+        "title": "Напій енергетичний Monster Energy безалкогольний з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-bezalkogolnyi-z-b-895483",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-bezalkogolnyi-z-b-895483"
+      },
+      {
+        "normalized_title": "напій енергетичний monster pacific punch",
+        "title": "Напій енергетичний Monster Pacific Punch",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-pacific-punch-896053",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-pacific-punch-896053"
+      },
+      {
+        "normalized_title": "напій енергетичний ultra paradise",
+        "title": "Напій енергетичний Monster Energy Ultra Paradise",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-ultra-paradise-896056",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-paradise-896056"
+      },
+      {
+        "normalized_title": "напій енергетичний monarch з/б",
+        "title": "Напій енергетичний Monster Energy Monarch з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-monarch-z-b-917553",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-monarch-z-b-917553"
+      },
+      {
+        "normalized_title": "напій енергетичний khaotic з/б",
+        "title": "Напій енергетичний Monster Energy Khaotic з/б",
+        "category_id": "59",
+        "price": 79.99,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-energy-khaotic-z-b-917554",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-khaotic-z-b-917554"
+      },
+      {
+        "normalized_title": "напій енергетичний monster nitro б/а газов з/б",
+        "title": "Напій енергетичний Monster Nitro б/а газов з/б",
+        "category_id": "59",
+        "price": 80.79,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-nitro-b-a-gazov-z-b-896730",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-nitro-b-a-gazov-z-b-896730"
+      },
+      {
+        "normalized_title": "напій енергетичний monster mule безалкогольний газований з/б",
+        "title": "Напій енергетичний Monster Mule безалкогольний газований з/б",
+        "category_id": "59",
+        "price": 80.79,
+        "weight": "0,5л",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 0.5,
+          "unit": "л",
+          "type": "capacity"
+        },
+        "producer": {
+          "trademark": "Monster Energy",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "napii-energetychnyi-monster-mule-bezalkogolnyi-gazovanyi-z-b-896729",
+        "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-mule-bezalkogolnyi-gazovanyi-z-b-896729"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "хліб",
+      "brand_filter": null,
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "metro",
+        "varus",
+        "таврія"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "хліб тостовий світлий нарізаний",
+        "title": "Хліб «Київхліб» тостовий світлий нарізаний",
+        "category_id": "497",
+        "price": 26.59,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tostovyi-svitlyi-narizanyi-764208",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tostovyi-svitlyi-narizanyi-764208"
+      },
+      {
+        "normalized_title": "хліб європейський тостовий білий",
+        "title": "Хліб «Кулиничі» «Європейський» тостовий білий",
+        "category_id": "497",
+        "price": 31.19,
+        "weight": "330г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 330.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-yevropeiskyi-tostovyi-bilyi-526712",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-yevropeiskyi-tostovyi-bilyi-526712"
+      },
+      {
+        "normalized_title": "хліб подовий житньо-пшеничний мультизерновий",
+        "title": "Хліб «Крафтяр» подовий житньо-пшеничний мультизерновий",
+        "category_id": "497",
+        "price": 7.6,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-podovyi-zhytno-pshenychnyi-multyzernovyi-363713",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-podovyi-zhytno-pshenychnyi-multyzernovyi-363713"
+      },
+      {
+        "normalized_title": "хліб подовий гречаний",
+        "title": "Хліб «Крафтяр» подовий гречаний",
+        "category_id": "497",
+        "price": 7.6,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-podovyi-grechanyi-591899",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-podovyi-grechanyi-591899"
+      },
+      {
+        "normalized_title": "хліб скандинавський",
+        "title": "Хліб «Крафтяр» «Скандинавський»",
+        "category_id": "497",
+        "price": 6.5,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-skandynavskyi-758013",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-skandynavskyi-758013"
+      },
+      {
+        "normalized_title": "хліб вулкан подовий",
+        "title": "Хліб «Крафтяр» «Вулкан» подовий",
+        "category_id": "497",
+        "price": 29.99,
+        "weight": "600г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 600.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-vulkan-podovyi-491534",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-vulkan-podovyi-491534"
+      },
+      {
+        "normalized_title": "хліб альзас подовий солодовий",
+        "title": "Хліб «Крафтяр» «Альзас» подовий солодовий",
+        "category_id": "497",
+        "price": 7.3,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-alzas-podovyi-solodovyi-533310",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-alzas-podovyi-solodovyi-533310"
+      },
+      {
+        "normalized_title": "хліб страсбурзький подовий",
+        "title": "Хліб «Крафтяр» «Страсбурзький» подовий",
+        "category_id": "497",
+        "price": 6.5,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-strasburzkyi-podovyi-517852",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-strasburzkyi-podovyi-517852"
+      },
+      {
+        "normalized_title": "хліб подовий берлінський з висівками",
+        "title": "Хліб Крафтяр подовий Берлінський з висівками",
+        "category_id": "497",
+        "price": 7.3,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-podovyi-berlinskyi-z-vysivkamy-510054",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-podovyi-berlinskyi-z-vysivkamy-510054"
+      },
+      {
+        "normalized_title": "хліб оксамитовий",
+        "title": "Хліб «Київхліб» «Оксамитовий»",
+        "category_id": "497",
+        "price": 26.99,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-oksamytovyi-725133",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-oksamytovyi-725133"
+      },
+      {
+        "normalized_title": "хліб паризький подовий",
+        "title": "Хліб «Крафтяр» «Паризький» подовий",
+        "category_id": "497",
+        "price": 7.3,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-paryzkyi-podovyi-511176",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-paryzkyi-podovyi-511176"
+      },
+      {
+        "normalized_title": "хліб альзас подовий",
+        "title": "Хліб «Крафтяр» «Альзас» подовий",
+        "category_id": "497",
+        "price": 7.3,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-alzas-podovyi-510065",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-alzas-podovyi-510065"
+      },
+      {
+        "normalized_title": "хліб прибалтійський темний нарізаний",
+        "title": "Хліб «Київхліб» «Прибалтійський» темний нарізаний",
+        "category_id": "497",
+        "price": 23.39,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-prybaltiiskyi-temnyi-narizanyi-743353",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-prybaltiiskyi-temnyi-narizanyi-743353"
+      },
+      {
+        "normalized_title": "хліб ризький половинка нарізаний",
+        "title": "Хліб «Кулиничі» «Ризький» половинка нарізаний",
+        "category_id": "497",
+        "price": 18.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-ryzkyi-polovynka-narizanyi-777814",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-ryzkyi-polovynka-narizanyi-777814"
+      },
+      {
+        "normalized_title": "хліб селянський подовий",
+        "title": "Хліб «Крафтяр» «Селянський» подовий",
+        "category_id": "497",
+        "price": 7.3,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-selianskyi-podovyi-563448",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-selianskyi-podovyi-563448"
+      },
+      {
+        "normalized_title": "хліб український столичний половинка нарізаний в/у",
+        "title": "Хліб «Київхліб» «Український столичний» половинка нарізаний в/у",
+        "category_id": "497",
+        "price": 18.99,
+        "weight": "475г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 475.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-ukrainskyi-stolychnyi-polovynka-narizanyi-v-u-460515",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-ukrainskyi-stolychnyi-polovynka-narizanyi-v-u-460515"
+      },
+      {
+        "normalized_title": "хліб київська русь половинка нарізаний",
+        "title": "Хліб «Кулиничі» «Київська Русь» половинка нарізаний",
+        "category_id": "497",
+        "price": 17.99,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-kyivska-rus-polovynka-narizanyi-911723",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-kyivska-rus-polovynka-narizanyi-911723"
+      },
+      {
+        "normalized_title": "хліб бородинський нарізаний",
+        "title": "Хліб «Київхліб» «Бородинський» нарізаний",
+        "category_id": "497",
+        "price": 20.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-borodynskyi-narizanyi-763538",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-borodynskyi-narizanyi-763538"
+      },
+      {
+        "normalized_title": "хліб подовий тоскана з борошном твердих сортів",
+        "title": "Хліб «Крафтяр» подовий «Тоскана» з борошном твердих сортів",
+        "category_id": "497",
+        "price": 8.5,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-podovyi-toskana-z-boroshnom-tverdykh-sortiv-563453",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-podovyi-toskana-z-boroshnom-tverdykh-sortiv-563453"
+      },
+      {
+        "normalized_title": "хліб ризький половинка, нарізаний упакований",
+        "title": "Хліб «Цар-Хліб» «Ризький» половинка, нарізаний упакований",
+        "category_id": "497",
+        "price": 20.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-ryzkyi-polovynka-narizanyi-upakovanyi-705067",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-ryzkyi-polovynka-narizanyi-upakovanyi-705067"
+      },
+      {
+        "normalized_title": "хліб європейський тостовий висівковий",
+        "title": "Хліб «Кулиничі» «Європейський» тостовий висівковий",
+        "category_id": "497",
+        "price": 31.59,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-yevropeiskyi-tostovyi-vysivkovyi-526715",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-yevropeiskyi-tostovyi-vysivkovyi-526715"
+      },
+      {
+        "normalized_title": "хліб український новий подовий нарізаний, упаковка",
+        "title": "Хліб «Цар-хліб» «Український» новий подовий нарізаний, упаковка",
+        "category_id": "497",
+        "price": 19.49,
+        "weight": "475г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 475.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-ukrainskyi-novyi-podovyi-narizanyi-upakovka-591965",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-ukrainskyi-novyi-podovyi-narizanyi-upakovka-591965"
+      },
+      {
+        "normalized_title": "хліб сімейний пшеничний половинка нарізаний",
+        "title": "Хліб «Київхліб» «Сімейний» пшеничний половинка нарізаний",
+        "category_id": "497",
+        "price": 14.99,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-simeinyi-pshenychnyi-polovynka-narizanyi-794355",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-simeinyi-pshenychnyi-polovynka-narizanyi-794355"
+      },
+      {
+        "normalized_title": "хліб пушкарівський житньо-пшеничний формовий нарізаний",
+        "title": "Хліб «Кулиничі» «Пушкарівський» житньо-пшеничний формовий нарізаний",
+        "category_id": "497",
+        "price": 26.39,
+        "weight": "600г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 600.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-pushkarivskyi-zhytno-pshenychnyi-formovyi-narizanyi-526716",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-pushkarivskyi-zhytno-pshenychnyi-formovyi-narizanyi-526716"
+      },
+      {
+        "normalized_title": "хліб український подовий нарізаний упакований",
+        "title": "Хліб «Кулиничі» «Український» подовий нарізаний упакований",
+        "category_id": "497",
+        "price": 34.59,
+        "weight": "950г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-ukrainskyi-podovyi-narizanyi-upakovanyi-533046",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-ukrainskyi-podovyi-narizanyi-upakovanyi-533046"
+      },
+      {
+        "normalized_title": "хліб сімейний пшеничний 600 г",
+        "title": "Хліб «Київхліб» «Сімейний» пшеничний 600 г",
+        "category_id": "497",
+        "price": 19.49,
+        "weight": "бух",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 1.0,
+          "unit": "бух",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-simeinyi-pshenychnyi-600-g-794354",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-simeinyi-pshenychnyi-600-g-794354"
+      },
+      {
+        "normalized_title": "хліб тост злаковий нарізаний",
+        "title": "Хліб «Київхліб» «Тост» злаковий нарізаний",
+        "category_id": "497",
+        "price": 27.39,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tost-zlakovyi-narizanyi-764207",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tost-zlakovyi-narizanyi-764207"
+      },
+      {
+        "normalized_title": "хліб отаманський заварний нарізаний, половинка",
+        "title": "Хліб «Київхліб» «Отаманський» заварний нарізаний, половинка",
+        "category_id": "497",
+        "price": 17.39,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-otamanskyi-zavarnyi-narizanyi-polovynka-901829",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-otamanskyi-zavarnyi-narizanyi-polovynka-901829"
+      },
+      {
+        "normalized_title": "хліб домашній на заквасці половинка нарізаний",
+        "title": "Хліб «Кулиничі» «Домашній» на заквасці половинка нарізаний",
+        "category_id": "497",
+        "price": 24.99,
+        "weight": "450г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 450.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-domashnii-na-zakvastsi-polovynka-narizanyi-917619",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-domashnii-na-zakvastsi-polovynka-narizanyi-917619"
+      },
+      {
+        "normalized_title": "хліб тостовий томатний нарізаний",
+        "title": "Хліб «Київхліб» тостовий томатний нарізаний",
+        "category_id": "497",
+        "price": 39.99,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tostovyi-tomatnyi-narizanyi-822169",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tostovyi-tomatnyi-narizanyi-822169"
+      },
+      {
+        "normalized_title": "хліб фінський нарізаний",
+        "title": "Хліб «Київхліб» «Фінський» нарізаний",
+        "category_id": "497",
+        "price": 29.69,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-finskyi-narizanyi-764701",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-finskyi-narizanyi-764701"
+      },
+      {
+        "normalized_title": "хліб фітнес",
+        "title": "Хліб «VitoГрано» «Фітнес»",
+        "category_id": "497",
+        "price": 44.49,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "VitoГрано",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-vitograno-fitnes-878711",
+        "web_url": "https://shop.silpo.ua/product/khlib-vitograno-fitnes-878711"
+      },
+      {
+        "normalized_title": "хліб гірчичний подовий нарізаний в/с",
+        "title": "Хліб «Кулиничі» «Гірчичний» подовий нарізаний в/с",
+        "category_id": "497",
+        "price": 27.19,
+        "weight": "500г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-girchychnyi-podovyi-narizanyi-v-s-702045",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-girchychnyi-podovyi-narizanyi-v-s-702045"
+      },
+      {
+        "normalized_title": "хліб тостовий темний нарізаний",
+        "title": "Хліб «Київхліб» тостовий темний нарізаний",
+        "category_id": "497",
+        "price": 29.39,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tostovyi-temnyi-narizanyi-764209",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tostovyi-temnyi-narizanyi-764209"
+      },
+      {
+        "normalized_title": "хліб родинний упакований",
+        "title": "Хліб Цар-Хліб Родинний упакований",
+        "category_id": "497",
+        "price": 29.99,
+        "weight": "600г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 600.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-rodynnyi-upakovanyi-496299",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-rodynnyi-upakovanyi-496299"
+      },
+      {
+        "normalized_title": "хліб грехемський",
+        "title": "Хліб Boulangerie «Грехемський»",
+        "category_id": "497",
+        "price": 44.99,
+        "weight": "480г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 480.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Boulangerie",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-boulangerie-grekhemskyi-568222",
+        "web_url": "https://shop.silpo.ua/product/khlib-boulangerie-grekhemskyi-568222"
+      },
+      {
+        "normalized_title": "хліб пшеничний нарізаний упакований",
+        "title": "Хліб «Кулиничі» пшеничний нарізаний упакований",
+        "category_id": "497",
+        "price": 28.59,
+        "weight": "650г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 650.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-pshenychnyi-narizanyi-upakovanyi-533056",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-pshenychnyi-narizanyi-upakovanyi-533056"
+      },
+      {
+        "normalized_title": "хліб литовський",
+        "title": "Хліб «Рум'янець» «Литовський»",
+        "category_id": "497",
+        "price": 29.59,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-lytovskyi-604579",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-lytovskyi-604579"
+      },
+      {
+        "normalized_title": "хліб київська русь нарізаний",
+        "title": "Хліб «Кулиничі» «Київська Русь» нарізаний",
+        "category_id": "497",
+        "price": 36.29,
+        "weight": "700г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 700.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-kyivska-rus-narizanyi-911725",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-kyivska-rus-narizanyi-911725"
+      },
+      {
+        "normalized_title": "хліб фінський",
+        "title": "Хліб «Фінський»",
+        "category_id": "497",
+        "price": 41.99,
+        "weight": "285г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 285.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Panerini",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-finskyi-739479",
+        "web_url": "https://shop.silpo.ua/product/khlib-finskyi-739479"
+      },
+      {
+        "normalized_title": "хліб європейський тостовий зерновий",
+        "title": "Хліб «Кулиничі» «Європейський» тостовий зерновий",
+        "category_id": "497",
+        "price": 27.19,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-yevropeiskyi-tostovyi-zernovyi-748024",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-yevropeiskyi-tostovyi-zernovyi-748024"
+      },
+      {
+        "normalized_title": "хліб житній заварний класичний нарізаний",
+        "title": "Хліб «Кулиничі» «Житній» заварний класичний нарізаний",
+        "category_id": "497",
+        "price": 26.39,
+        "weight": "500г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-zhytnii-zavarnyi-klasychnyi-narizanyi-731829",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-zhytnii-zavarnyi-klasychnyi-narizanyi-731829"
+      },
+      {
+        "normalized_title": "хліб цільнозерновий нарізаний",
+        "title": "Хліб «Київхліб» цільнозерновий нарізаний",
+        "category_id": "497",
+        "price": 30.29,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-tsilnozernovyi-narizanyi-865566",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-tsilnozernovyi-narizanyi-865566"
+      },
+      {
+        "normalized_title": "хліб румяний формовий нарізаний",
+        "title": "Хліб «Рум'янець» «Рум'яний» формовий нарізаний",
+        "category_id": "497",
+        "price": 21.49,
+        "weight": "600г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 600.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-rum-ianyi-formovyi-narizanyi-755238",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-rum-ianyi-formovyi-narizanyi-755238"
+      },
+      {
+        "normalized_title": "хліб цар хліб родинний половинка, нарізаний",
+        "title": "Хліб «Цар Хліб» «Родинний» половинка, нарізаний",
+        "category_id": "497",
+        "price": 18.19,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-rodynnyi-polovynka-narizanyi-756090",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-rodynnyi-polovynka-narizanyi-756090"
+      },
+      {
+        "normalized_title": "хліб бородинський з насінням соняшнику нарізаний",
+        "title": "Хліб «Рум'янець» «Бородинський» з насінням соняшнику нарізаний",
+        "category_id": "497",
+        "price": 29.99,
+        "weight": "500г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-borodynskyi-z-nasinniam-soniashnyku-narizanyi-539168",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-borodynskyi-z-nasinniam-soniashnyku-narizanyi-539168"
+      },
+      {
+        "normalized_title": "хліб домашній житній половинка нарізаний",
+        "title": "Хліб «Київхліб» «Домашній» житній половинка нарізаний",
+        "category_id": "497",
+        "price": 17.19,
+        "weight": "450г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 450.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-domashnii-zhytnii-polovynka-narizanyi-751282",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-domashnii-zhytnii-polovynka-narizanyi-751282"
+      },
+      {
+        "normalized_title": "хліб бездріжджовий з висівками",
+        "title": "Хліб Boulangerie бездріжджовий з висівками",
+        "category_id": "497",
+        "price": 24.99,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Boulangerie",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-boulangerie-bezdrizhdzhovyi-z-vysivkamy-711838",
+        "web_url": "https://shop.silpo.ua/product/khlib-boulangerie-bezdrizhdzhovyi-z-vysivkamy-711838"
+      },
+      {
+        "normalized_title": "хліб бездріжджовий",
+        "title": "Хліб «Кулиничі» бездріжджовий",
+        "category_id": "497",
+        "price": 23.49,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-bezdrizhdzhovyi-914360",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-bezdrizhdzhovyi-914360"
+      },
+      {
+        "normalized_title": "хліб пшеничний на заквасці",
+        "title": "Хліб пшеничний на заквасці",
+        "category_id": "497",
+        "price": 21.99,
+        "weight": "250г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 250.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-pshenychnyi-na-zakvastsi-924419",
+        "web_url": "https://shop.silpo.ua/product/khlib-pshenychnyi-na-zakvastsi-924419"
+      },
+      {
+        "normalized_title": "хліб з льоном нарізаний",
+        "title": "Хліб «Рум'янець» з льоном нарізаний",
+        "category_id": "497",
+        "price": 32.99,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-z-lonom-narizanyi-650611",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-z-lonom-narizanyi-650611"
+      },
+      {
+        "normalized_title": "хліб фермерський",
+        "title": "Хліб «Хліб Житомира» «Фермерський»",
+        "category_id": "497",
+        "price": 18.59,
+        "weight": "800г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 800.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Хліб Житомира",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-khlib-zhytomyra-fermerskyi-868729",
+        "web_url": "https://shop.silpo.ua/product/khlib-khlib-zhytomyra-fermerskyi-868729"
+      },
+      {
+        "normalized_title": "хліб житнє диво, упаковка",
+        "title": "Хліб «Цар-хліб» «Житнє диво», упаковка",
+        "category_id": "497",
+        "price": 30.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-zhytnie-dyvo-upakovka-569693",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-zhytnie-dyvo-upakovka-569693"
+      },
+      {
+        "normalized_title": "хліб паланга половинка нарізаний",
+        "title": "Хліб «Цар-Хліб» «Паланга» половинка нарізаний",
+        "category_id": "497",
+        "price": 14.99,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-palanga-polovynka-narizanyi-852199",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-palanga-polovynka-narizanyi-852199"
+      },
+      {
+        "normalized_title": "хліб козацький",
+        "title": "Хліб «Цар-хліб» «Козацький»",
+        "category_id": "497",
+        "price": 22.29,
+        "weight": "325г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 325.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-kozatskyi-906287",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-kozatskyi-906287"
+      },
+      {
+        "normalized_title": "хліб тост ранковий нарізаний",
+        "title": "Хліб «Цар-хліб» «Тост ранковий» нарізаний",
+        "category_id": "497",
+        "price": 29.99,
+        "weight": "330г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 330.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-tost-rankovyi-narizanyi-830925",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-tost-rankovyi-narizanyi-830925"
+      },
+      {
+        "normalized_title": "хліб вегіпан веганський",
+        "title": "Хліб «Крафтяр» «Вегіпан» веганський",
+        "category_id": "497",
+        "price": 18.4,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-vegipan-veganskyi-724394",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-vegipan-veganskyi-724394"
+      },
+      {
+        "normalized_title": "хліб родинний 600 г",
+        "title": "Хліб «Цар-хліб» «Родинний» 600 г",
+        "category_id": "497",
+        "price": 20.59,
+        "weight": "бух",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 1.0,
+          "unit": "бух",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-rodynnyi-600-g-496298",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-rodynnyi-600-g-496298"
+      },
+      {
+        "normalized_title": "хліб отаманський заварний",
+        "title": "Хліб «Київхліб» «Отаманський» заварний",
+        "category_id": "497",
+        "price": 39.19,
+        "weight": "700г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 700.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kyivkhlib-otamanskyi-zavarnyi-893737",
+        "web_url": "https://shop.silpo.ua/product/khlib-kyivkhlib-otamanskyi-zavarnyi-893737"
+      },
+      {
+        "normalized_title": "хліб тост ранковий фітнес нарізаний",
+        "title": "Хліб «Цар-хліб» «Тост» «Ранковий фітнес» нарізаний",
+        "category_id": "497",
+        "price": 38.19,
+        "weight": "330г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 330.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-tost-rankovyi-fitnes-narizanyi-830926",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-tost-rankovyi-fitnes-narizanyi-830926"
+      },
+      {
+        "normalized_title": "хліб житній фінський міні",
+        "title": "Хліб 100% житній «Фінський» міні",
+        "category_id": "497",
+        "price": 40.49,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-100-zhytnii-finskyi-mini-770357",
+        "web_url": "https://shop.silpo.ua/product/khlib-100-zhytnii-finskyi-mini-770357"
+      },
+      {
+        "normalized_title": "хліб український новий подовий нарізаний упакований",
+        "title": "Хліб «Цар-Хліб» «Український» новий подовий нарізаний упакований",
+        "category_id": "497",
+        "price": 33.89,
+        "weight": "950г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-ukrainskyi-novyi-podovyi-narizanyi-upakovanyi-589226",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-ukrainskyi-novyi-podovyi-narizanyi-upakovanyi-589226"
+      },
+      {
+        "normalized_title": "хліб житній бездріжджовий",
+        "title": "Хліб житній бездріжджовий",
+        "category_id": "497",
+        "price": 31.99,
+        "weight": "300г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 300.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Без ТМ",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-zhytnii-bezdrizhdzhovyi-812011",
+        "web_url": "https://shop.silpo.ua/product/khlib-zhytnii-bezdrizhdzhovyi-812011"
+      },
+      {
+        "normalized_title": "хліб пшеничний формовий нарізаний",
+        "title": "Хліб «Рум'янець» пшеничний формовий нарізаний",
+        "category_id": "497",
+        "price": 23.99,
+        "weight": "600г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 600.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-pshenychnyi-formovyi-narizanyi-755237",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-pshenychnyi-formovyi-narizanyi-755237"
+      },
+      {
+        "normalized_title": "хліб тост ранковий з висівками нарізаний",
+        "title": "Хліб «Цар-хліб» «Тост» «Ранковий» з висівками нарізаний",
+        "category_id": "497",
+        "price": 30.99,
+        "weight": "330г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 330.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-tost-rankovyi-z-vysivkamy-narizanyi-830927",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-tost-rankovyi-z-vysivkamy-narizanyi-830927"
+      },
+      {
+        "normalized_title": "хліб шварцброт 500 г",
+        "title": "Хліб «Шварцброт» 500 г",
+        "category_id": "497",
+        "price": 31.49,
+        "weight": "бух",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 1.0,
+          "unit": "бух",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Мілльвілль - душевні пекарні",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-shvartsbrot-500-g-441703",
+        "web_url": "https://shop.silpo.ua/product/khlib-shvartsbrot-500-g-441703"
+      },
+      {
+        "normalized_title": "хліб бородинський різаний",
+        "title": "Хліб «Бородинський» «Рум'янець» різаний",
+        "category_id": "497",
+        "price": 29.99,
+        "weight": "500г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-borodynskyi-rum-ianets-rizanyi-167550",
+        "web_url": "https://shop.silpo.ua/product/khlib-borodynskyi-rum-ianets-rizanyi-167550"
+      },
+      {
+        "normalized_title": "хліб домашній на заквасці нарізаний",
+        "title": "Хліб «Кулиничі» «Домашній» на заквасці нарізаний",
+        "category_id": "497",
+        "price": 46.99,
+        "weight": "900г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-domashnii-na-zakvastsi-narizanyi-917620",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-domashnii-na-zakvastsi-narizanyi-917620"
+      },
+      {
+        "normalized_title": "хліб житній з яблуками",
+        "title": "Хліб «Крафтяр» житній з яблуками",
+        "category_id": "497",
+        "price": 13.7,
+        "weight": "100г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-zhytnii-z-iablukamy-912009",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-zhytnii-z-iablukamy-912009"
+      },
+      {
+        "normalized_title": "хліб юріївський заварний упакований",
+        "title": "Хліб «Цар-хліб» «Юріївський» заварний упакований",
+        "category_id": "497",
+        "price": 19.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-tsar-khlib-yuriivskyi-zavarnyi-upakovanyi-519533",
+        "web_url": "https://shop.silpo.ua/product/khlib-tsar-khlib-yuriivskyi-zavarnyi-upakovanyi-519533"
+      },
+      {
+        "normalized_title": "хліб пшеничний 1 ґ 650 г",
+        "title": "Хліб «Кулиничі» пшеничний 1 ґ 650 г",
+        "category_id": "497",
+        "price": 23.89,
+        "weight": "бух",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 1.0,
+          "unit": "бух",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Кулиничі",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kulynychi-pshenychnyi-1-g-650-g-536025",
+        "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-pshenychnyi-1-g-650-g-536025"
+      },
+      {
+        "normalized_title": "хліб vito грано житній",
+        "title": "Хліб Vito «Грано» житній",
+        "category_id": "497",
+        "price": 38.99,
+        "weight": "440г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 440.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "VitoГрано",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-vito-grano-zhytnii-644064",
+        "web_url": "https://shop.silpo.ua/product/khlib-vito-grano-zhytnii-644064"
+      },
+      {
+        "normalized_title": "хліб селянський",
+        "title": "Хліб «Хліб Житомира» «Селянський»",
+        "category_id": "497",
+        "price": 13.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Хліб Житомира",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-khlib-zhytomyra-selianskyi-749440",
+        "web_url": "https://shop.silpo.ua/product/khlib-khlib-zhytomyra-selianskyi-749440"
+      },
+      {
+        "normalized_title": "хліб тостовий виcівковий",
+        "title": "Хліб «Крафтяр» тостовий виcівковий",
+        "category_id": "497",
+        "price": 23.49,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-tostovyi-vycivkovyi-753887",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-tostovyi-vycivkovyi-753887"
+      },
+      {
+        "normalized_title": "хліб німецький нарізаний",
+        "title": "Хліб «Рум'янець» «Німецький» нарізаний",
+        "category_id": "497",
+        "price": 33.99,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-nimetskyi-narizanyi-878704",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-nimetskyi-narizanyi-878704"
+      },
+      {
+        "normalized_title": "хліб гречаний на заквасці",
+        "title": "Хліб «Хліб Житомира» «Гречаний» на заквасці",
+        "category_id": "497",
+        "price": 16.59,
+        "weight": "350г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 350.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Хліб Житомира",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-khlib-zhytomyra-grechanyi-na-zakvastsi-815858",
+        "web_url": "https://shop.silpo.ua/product/khlib-khlib-zhytomyra-grechanyi-na-zakvastsi-815858"
+      },
+      {
+        "normalized_title": "хліб тостовий солодовий",
+        "title": "Хліб «Крафтяр» тостовий солодовий",
+        "category_id": "497",
+        "price": 25.49,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Крафтяр",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-kraftiar-tostovyi-solodovyi-753886",
+        "web_url": "https://shop.silpo.ua/product/khlib-kraftiar-tostovyi-solodovyi-753886"
+      },
+      {
+        "normalized_title": "хліб vito грано пшеничний з пророщеним зерном",
+        "title": "Хліб Vito «Грано» пшеничний з пророщеним зерном",
+        "category_id": "497",
+        "price": 38.99,
+        "weight": "380г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 380.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "VitoГрано",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-vito-grano-pshenychnyi-z-proroshchenym-zernom-803727",
+        "web_url": "https://shop.silpo.ua/product/khlib-vito-grano-pshenychnyi-z-proroshchenym-zernom-803727"
+      },
+      {
+        "normalized_title": "хліб соняшний з насінням соняшнику",
+        "title": "Хліб «Рум'янець» «Соняшний» з насінням соняшнику",
+        "category_id": "497",
+        "price": 37.49,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-soniashnyi-z-nasinniam-soniashnyku-700576",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-soniashnyi-z-nasinniam-soniashnyku-700576"
+      },
+      {
+        "normalized_title": "хліб естонський нарізаний",
+        "title": "Хліб «Рум'янець» «Естонський» нарізаний",
+        "category_id": "497",
+        "price": 28.49,
+        "weight": "400г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 400.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Рум'янець",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-rum-ianets-estonskyi-narizanyi-878703",
+        "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-estonskyi-narizanyi-878703"
+      },
+      {
+        "normalized_title": "лаваш цар хліб вірменський",
+        "title": "Лаваш «Цар Хліб» «Вірменський»",
+        "category_id": "490",
+        "price": 18.99,
+        "weight": "210г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 210.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Цар-Хліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "lavash-tsar-khlib-virmenskyi-740536",
+        "web_url": "https://shop.silpo.ua/product/lavash-tsar-khlib-virmenskyi-740536"
+      },
+      {
+        "normalized_title": "хліб фруктовий сладкий мир асорті",
+        "title": "Хліб фруктовий «Сладкий мир» асорті",
+        "category_id": "104",
+        "price": 33.79,
+        "weight": "60г",
+        "bundle": null,
+        "volume": null,
+        "weight_info": {
+          "value": 60.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Shoud'e",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "khlib-fruktovyi-sladkyi-myr-asorti-474945",
+        "web_url": "https://shop.silpo.ua/product/khlib-fruktovyi-sladkyi-myr-asorti-474945"
+      }
+    ]
+  }
+]

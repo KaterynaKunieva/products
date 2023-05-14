@@ -3,14 +3,21 @@
     {
       "title_filter": "напій енергетичний",
       "shop_filter": [
-        "silpo"
+        "silpo",
+        "metro",
+        "varus",
+        "таврія"
       ],
+      "weight_filter": "0,5л",
       "brand_filter": ["Monster Energy"]
     },
     {
-      "title_filter": "цукерки",
+      "title_filter": "хліб",
       "shop_filter": [
-        "silpo"
+        "silpo",
+        "metro",
+        "varus",
+        "таврія"
       ]
     }
   ],

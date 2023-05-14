@@ -201,4 +201,4 @@ async def parse_shop_products(shops, locations, page_count, product_count, force
 
 
 if __name__ == '__main__':
-    parse_shop_products()
+    cli()

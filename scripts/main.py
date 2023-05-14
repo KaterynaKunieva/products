@@ -15,7 +15,7 @@ from helpers import sort_products_by_price
 json_handler = logging.StreamHandler()
 logging.basicConfig(level='INFO', handlers=[json_handler])
 
-
+from datetime import date, datetime
 @click.group()
 def cli():
     pass

@@ -1,18 +1,18 @@
 import logging
-import math
-import os
 import re
-from typing import List
+from typing import List, Dict
 
-from base_entities import ProductInfo, SizeInfo, SizeInfoType
-from silpo_helper import silpo_shops
+from base_entities import ProductInfo, SizeInfo, SizeInfoType, CategoryInfo
+from service_base import ShopScrapperService
+from zakaz_helper import ZakazoShopScrapperService
+from silpo_helper import silpo_shops, SilpoShopScrapperService
 from zakaz_shops import zakaz_shops
+
+shop_infos = {**zakaz_shops, **silpo_shops}
+shop_parsers: Dict[str, ShopScrapperService] = {**{shop: ZakazoShopScrapperService() for shop in zakaz_shops.keys()}, **{shop: SilpoShopScrapperService() for shop in silpo_shops.keys()}}
 
 capacity_measures = ["л", "мл"]
 mass_measures = ["кг", "г"]
-
-shop_infos = {**zakaz_shops, **silpo_shops}
-
 
 def normalize_title(product_title: str, product_brand: str = ""):
     try:

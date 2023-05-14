@@ -2,7 +2,7 @@ from enum import Enum
 from typing import Optional, List, Dict, Any
 
 from pydantic import BaseModel
-
+from datetime import datetime, date
 
 class BaseCategoryInfo(BaseModel):
     id: Optional[str]
@@ -33,6 +33,13 @@ class SizeInfo(BaseModel):
     class Config:
         use_enum_values = True
 
+class PromoInfo(BaseModel):
+    title: Optional[str]
+    old_price: Optional[float]
+    start_date: Optional[datetime]
+    stop_date: Optional[datetime]
+    description: Optional[str]
+
 class ProductInfo(BaseModel):
     normalized_title: Optional[str]
     title: str 
@@ -47,6 +54,7 @@ class ProductInfo(BaseModel):
     description: Optional[str]
     slug: Optional[str]
     web_url: Optional[str]
+    promotion: Optional[PromoInfo]
 
 
 class ShopLocationPreference(str, Enum):

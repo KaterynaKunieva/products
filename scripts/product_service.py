@@ -1,35 +1,10 @@
 from typing import List, Dict
 from pydantic import parse_file_as
-from zakaz_shops import zakaz_shops
-from silpo_helper import silpo_shops
 from base_entities import CategoryInfo, ShopInfo, ProductInfo, UserBuyRequest
 import os
 
-class ProductService():
-
-    def get_shops(self) -> List[ShopInfo]:
-        pass
-
-    def get_categories(self, shop: ShopInfo) -> List[CategoryInfo]:
-        pass
-
-    def get_products(self, shop: ShopInfo, category: CategoryInfo = None) -> List[ProductInfo]:
-        pass
-
-    def get_shop_locations(self, shop: ShopInfo) -> List[str]:
-        pass
-
-    ##########
-    def get_promotion_categories(self, shop: ShopInfo) -> List[CategoryInfo]:
-        pass
-        # это категории, в которых есть акционные товары?
-        # или категория акций?
-
-    def get_promotion_products(self, shop: ShopInfo, category: CategoryInfo = None) -> List[ProductInfo]:
-        pass
-
-    def form_buy_list(self, buy_request: UserBuyRequest) -> List[ProductInfo]:
-        pass
+from helpers import shop_infos
+from service_base import ProductService
 
 
 class FileBaseProductService(ProductService):
@@ -37,10 +12,7 @@ class FileBaseProductService(ProductService):
         self.input_file_path = input_file_path
 
     def get_shops(self) -> List[ShopInfo]:
-        zakaz = [shop_info for shop_key, shop_info in zakaz_shops.items()]
-        silpo = [shop_info for shop_key, shop_info in silpo_shops.items()]
-        shops_list: List[ShopInfo] = [*zakaz, *silpo]
-        return shops_list
+        return list(shop_infos.values())
 
     def get_categories(self, shop: ShopInfo) -> List[CategoryInfo]:
         categories_list: List[CategoryInfo] = []
@@ -59,13 +31,9 @@ class FileBaseProductService(ProductService):
 
     def get_shop_locations(self, shop: ShopInfo) -> List[str]:
         shop_locations: List[str] = []
-        for shop_key, shop_infos in zakaz_shops.items():
+        for shop_key, shop_info_list in shop_infos.items():
             if shop_key == shop.name:
-                for shop_info in shop_infos:
-                    shop_locations.append(shop_info.location)
-        for shop_key, shop_infos in silpo_shops.items():
-            if shop_key == shop.name:
-                for shop_info in shop_infos:
+                for shop_info in shop_info_list:
                     shop_locations.append(shop_info.location)
         return shop_locations
 

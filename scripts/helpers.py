@@ -4,9 +4,9 @@ import os
 import re
 from typing import List
 
-from scripts.base_entities import ProductInfo, SizeInfo, SizeInfoType
-from scripts.silpo_helper import silpo_shops
-from scripts.zakaz_shops import zakaz_shops
+from base_entities import ProductInfo, SizeInfo, SizeInfoType
+from silpo_helper import silpo_shops
+from zakaz_shops import zakaz_shops
 
 capacity_measures = ["л", "мл"]
 mass_measures = ["кг", "г"]

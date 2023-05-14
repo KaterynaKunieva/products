@@ -10,7 +10,7 @@ from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreferen
     ShopLocationPreference, SizeInfo, ChequeShop, ChequeMulti, ProductsShop
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as, BaseModel
 from parser import file_open_settings, json_write_settings, async_cmd, cli
-from scripts.helpers import sort_products_by_price
+from helpers import sort_products_by_price
 
 json_handler = logging.StreamHandler()
 logging.basicConfig(level='INFO', handlers=[json_handler])

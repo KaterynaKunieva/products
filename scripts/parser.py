@@ -10,8 +10,8 @@ from pydantic import parse_file_as
 
 from base_entities import CategoryInfo, ProductInfo
 from constants import STORE_INFO_PATH
-from scripts.extensions import async_cmd
-from scripts.helpers import parse_weight_info_with_validation, normalize_title, get_shop_locations, shop_infos
+from extensions import async_cmd
+from helpers import parse_weight_info_with_validation, normalize_title, get_shop_locations, shop_infos
 from silpo_helper import get_silpo_categories, get_silpo_products
 from zakaz_helper import get_zakaz_categories, get_zakaz_products
 from zakaz_shops import zakaz_shops
@@ -92,7 +92,7 @@ async def parse_categories(shops, locations, popular, force_reload):
 
 @cli.command()
 @async_cmd
-@click.option('--shops', default="silpo", type=str, help='list of shops.')
+@click.option('--shops', default="таврія", type=str, help='list of shops.')
 @click.option('--locations', default="all", type=str, help='list of locations.')
 @click.option('--page_count', default=1, help='number of pages_count to scrape from shops.')
 @click.option('--product_count', default=100, help='number of products to scrape from shops.')

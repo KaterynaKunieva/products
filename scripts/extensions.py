@@ -1,13 +1,12 @@
 import asyncio
+import functools as ft
+import logging
 from enum import Enum
 from http.client import InvalidURL
 from typing import Dict, Any
-import functools as ft
+
 from aiohttp import ClientSession, ClientResponse, ClientResponseError, ClientConnectionError, ClientPayloadError, \
     ServerTimeoutError
-import logging
-
-from scripts.base_entities import ProductInfo
 
 
 class HttpMethod(str, Enum):

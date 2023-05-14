@@ -3,18 +3,14 @@
     {
       "title_filter": "напій енергетичний",
       "shop_filter": [
-        "silpo",
-        "varus",
-        "metro"
+        "silpo"
       ],
       "brand_filter": ["Monster Energy"]
     },
     {
       "title_filter": "цукерки",
       "shop_filter": [
-        "silpo",
-        "varus",
-        "metro"
+        "silpo"
       ]
     }
   ],

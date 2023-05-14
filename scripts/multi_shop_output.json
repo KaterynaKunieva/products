@@ -1,75 +1,78 @@
 {
-  "buy_list": {
-    "varus": [
-      {
-        "request": {
-          "title_filter": "напій енергетичний",
-          "brand_filter": [
-            "Monster Energy"
-          ],
-          "weight_filter": null,
-          "shop_filter": [
-            "silpo",
-            "varus",
-            "metro"
+  "buy_list": [
+    {
+      "shop": "silpo",
+      "requests": [
+        {
+          "request": {
+            "title_filter": "напій енергетичний",
+            "brand_filter": [
+              "Monster Energy"
+            ],
+            "weight_filter": null,
+            "shop_filter": [
+              "silpo"
+            ]
+          },
+          "products": [
+            {
+              "normalized_title": "напій енергетичний the doctor безалкогольний сильногазований",
+              "title": "Напій енергетичний Monster Energy The Doctor безалкогольний сильногазований",
+              "category_id": "59",
+              "price": 54.02,
+              "weight": "355мл",
+              "bundle": null,
+              "volume": null,
+              "weight_info": {
+                "value": 355.0,
+                "unit": "мл",
+                "type": "capacity"
+              },
+              "producer": {
+                "trademark": "Monster Energy",
+                "trademark_slug": null
+              },
+              "description": null,
+              "slug": "napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697",
+              "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697"
+            }
           ]
         },
-        "products": [
-          {
-            "normalized_title": "напій енергетичний торнадо red",
-            "title": "Напій енергетичний Торнадо Red 0,5л",
-            "category_id": "energy-drinks-varus",
-            "price": 18.5,
-            "weight": "500.0",
-            "weight_info": {
-              "weight": 500.0,
-              "unit": ""
-            },
-            "producer": {
-              "trademark": null,
-              "trademark_slug": null
-            },
-            "description": "",
-            "slug": "energetik-500ml",
-            "web_url": "https://varus.zakaz.ua/uk/products/energetik-500ml--04820137820878/"
-          }
-        ]
-      }
-    ],
-    "silpo": [
-      {
-        "request": {
-          "title_filter": "цукерки",
-          "brand_filter": null,
-          "weight_filter": null,
-          "shop_filter": [
-            "silpo",
-            "varus",
-            "metro"
+        {
+          "request": {
+            "title_filter": "цукерки",
+            "brand_filter": null,
+            "weight_filter": null,
+            "shop_filter": [
+              "silpo"
+            ]
+          },
+          "products": [
+            {
+              "normalized_title": "цукерки джеллі желейні",
+              "title": "Цукерки Roshen «Джеллі» желейні",
+              "category_id": "520",
+              "price": 12.3,
+              "weight": "100г",
+              "bundle": null,
+              "volume": null,
+              "weight_info": {
+                "value": 100.0,
+                "unit": "г",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Roshen",
+                "trademark_slug": null
+              },
+              "description": null,
+              "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
+              "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011"
+            }
           ]
-        },
-        "products": [
-          {
-            "normalized_title": "цукерки джеллі желейні",
-            "title": "Цукерки Roshen «Джеллі» желейні",
-            "category_id": "520",
-            "price": 12.3,
-            "weight": "100г",
-            "weight_info": {
-              "weight": 100.0,
-              "unit": "г"
-            },
-            "producer": {
-              "trademark": "Roshen",
-              "trademark_slug": null
-            },
-            "description": null,
-            "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
-            "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011"
-          }
-        ]
-      }
-    ]
-  },
-  "sum_price": 30.8
+        }
+      ]
+    }
+  ],
+  "end_price": 66
 }

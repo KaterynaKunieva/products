@@ -7,10 +7,18 @@ from typing import List, Dict, Set, Any, Tuple
 import click
 from constants import STORE_INFO_PATH
 from base_entities import CategoryInfo, ProductInfo, UserBuyRequest, BuyPreference, ProductsRequest, \
-    ShopLocationPreference, WeightInfo, ChequeShop, ChequeMulti, ProductsShop
+    ShopLocationPreference, SizeInfo, ChequeShop, ChequeMulti, ProductsShop
 from pydantic import parse_obj_as, parse_raw_as, parse_file_as, BaseModel
-from parser import file_open_settings, json_write_settings, sort_products_by_price, async_cmd, cli
+from parser import file_open_settings, json_write_settings, async_cmd, cli
+from scripts.helpers import sort_products_by_price
 
+json_handler = logging.StreamHandler()
+logging.basicConfig(level='INFO', handlers=[json_handler])
+
+
+@click.group()
+def cli():
+    pass
 
 @cli.command()
 @async_cmd
@@ -55,13 +63,13 @@ async def form_buy_list(input_file_path):
                         for title_key, product_item in list(file_info.items()):
                             product_item: ProductInfo
                             if buy_preference.title_filter + " " in title_key:
-                                if buy_preference.brand_filter and product_item.producer.trademark \
-                                        and product_item not in products:
-                                    products.append(product_item)
-                                else:
-                                    for brand in buy_preference.brand_filter:
-                                        if brand in product_item.producer.trademark and product_item not in products:
-                                            products.append(product_item)
+                                if product_item not in products:
+                                    if buy_preference.brand_filter and product_item.producer.trademark:
+                                        for brand in buy_preference.brand_filter:
+                                            if brand in product_item.producer.trademark:
+                                                products.append(product_item)
+                                    elif not buy_preference.brand_filter:
+                                        products.append(product_item)
             products_in_request.append(ProductsRequest(request=buy_preference, products=products))
             user_basket[shop].extend(products_in_request)
 
@@ -73,7 +81,8 @@ async def form_buy_list(input_file_path):
     for shop, product_requests in user_basket.items():
         sum_price = 0
         for product_request in product_requests:
-            product_request.products.sort(key=sort_products_by_price)
+            product_request: ProductsRequest
+            product_request.products.sort(key= lambda x: sort_products_by_price(x, product_request.request.weight_filter))
             product_request.products = product_request.products[:1]
             if product_request.products:
                 sum_price += product_request.products[0].price
@@ -90,8 +99,8 @@ async def form_buy_list(input_file_path):
                 if product_request.products:
                     if product_request.request in buy_preferences:
                         existing_product_info: ProductInfo = buy_preferences.get(product_request.request)[1]
-                        if sort_products_by_price(existing_product_info) > sort_products_by_price(
-                                product_request.products[0]):
+                        if sort_products_by_price(existing_product_info, product_request.request.weight_filter) > sort_products_by_price(
+                                product_request.products[0], product_request.request.weight_filter):
                             buy_preferences[product_request.request] = (shop, product_request.products[0])
                     else:
                         buy_preferences[product_request.request] = (shop, product_request.products[0])
@@ -107,4 +116,4 @@ async def form_buy_list(input_file_path):
 
 
 if __name__ == '__main__':
-    cli()
+    form_buy_list()

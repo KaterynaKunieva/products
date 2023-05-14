@@ -8,9 +8,7 @@
         ],
         "weight_filter": null,
         "shop_filter": [
-          "silpo",
-          "varus",
-          "metro"
+          "silpo"
         ]
       },
       "products": [
@@ -20,9 +18,12 @@
           "category_id": "59",
           "price": 54.02,
           "weight": "355мл",
+          "bundle": null,
+          "volume": null,
           "weight_info": {
-            "weight": 355.0,
-            "unit": "мл"
+            "value": 355.0,
+            "unit": "мл",
+            "type": "capacity"
           },
           "producer": {
             "trademark": "Monster Energy",
@@ -40,9 +41,7 @@
         "brand_filter": null,
         "weight_filter": null,
         "shop_filter": [
-          "silpo",
-          "varus",
-          "metro"
+          "silpo"
         ]
       },
       "products": [
@@ -52,9 +51,12 @@
           "category_id": "520",
           "price": 12.3,
           "weight": "100г",
+          "bundle": null,
+          "volume": null,
           "weight_info": {
-            "weight": 100.0,
-            "unit": "г"
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
           },
           "producer": {
             "trademark": "Roshen",
@@ -67,5 +69,5 @@
       ]
     }
   ],
-  "sum_price": 66.32000000000001
+  "end_price": 66
 }

@@ -1,10 +1,14 @@
+import asyncio
 from enum import Enum
 from http.client import InvalidURL
 from typing import Dict, Any
-
+import functools as ft
 from aiohttp import ClientSession, ClientResponse, ClientResponseError, ClientConnectionError, ClientPayloadError, \
     ServerTimeoutError
 import logging
+
+from scripts.base_entities import ProductInfo
+
 
 class HttpMethod(str, Enum):
     Get = "get",
@@ -65,3 +69,10 @@ async def get_http_response(url: str, params: Dict[str, str] = None,
 def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
+
+def async_cmd(func):  # to do, write your function decorator
+    @ft.wraps(func)
+    def wrapper(*args, **kwargs):
+        return asyncio.run(func(*args, **kwargs))
+
+    return wrapper

@@ -21,11 +21,17 @@ class ProducerInfo(BaseModel):
     trademark: Optional[str]
     trademark_slug: Optional[str]
 
+class SizeInfoType(str, Enum):
+    Mass = "mass"
+    Capacity = "capacity"
+    Quantity = "quantity"
 
-class WeightInfo(BaseModel):
-    weight: float
+class SizeInfo(BaseModel):
+    value: float
     unit: str
-
+    type: SizeInfoType
+    class Config:
+        use_enum_values = True
 
 class ProductInfo(BaseModel):
     normalized_title: Optional[str]
@@ -35,7 +41,7 @@ class ProductInfo(BaseModel):
     weight: Optional[str]
     bundle: Optional[int]
     volume: Optional[float]
-    weight_info: Optional[WeightInfo]
+    weight_info: Optional[SizeInfo]
     producer: ProducerInfo
     description: Optional[str]
     slug: Optional[str]
@@ -50,7 +56,7 @@ class ShopLocationPreference(str, Enum):
 class BuyPreference(BaseModel):
     title_filter: Optional[str]
     brand_filter: Optional[List[str]]
-    weight_filter: Optional[str]
+    weight_filter: Optional[str] #100мг, 1кг, 500мл, 1л, 1шт
     shop_filter: Optional[List[str]]
 
     def __eq__(self, othr):

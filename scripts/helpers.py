@@ -8,8 +8,8 @@ from base_entities import ProductInfo, SizeInfo, SizeInfoType
 from silpo_helper import silpo_shops
 from zakaz_shops import zakaz_shops
 
-capacity_measures = ["л", "мл"]
-mass_measures = ["кг", "г"]
+capacity_measures = ["л", "мл", "l", "ml"]
+mass_measures = ["кг", "г", "kg", "g"]
 
 shop_infos = {**zakaz_shops, **silpo_shops}
 
@@ -64,7 +64,7 @@ def normalize_title(product_title: str, product_brand: str = ""):
 
 def parse_weight_info(amount: str) -> SizeInfo:
     regexp_num = '\d+(,?\d+|.?\d+)*'
-    regexp_unit = '[a-zа-яЇїІіЄєҐґ]+'
+    regexp_unit = '[a-zа-яЇїІіЄєҐґ^х]+'
     if not amount:
         value = 1
         unit = ''
@@ -77,7 +77,11 @@ def parse_weight_info(amount: str) -> SizeInfo:
             try:
                 value = float(value)
             except Exception as ex:
-                value = eval(value)
+                try:
+                    value = value.replace('х', "*")
+                    value = eval(value)
+                except SyntaxError as se:
+                    value = 0
         else:
             value = 1
 
@@ -91,47 +95,43 @@ def parse_weight_info(amount: str) -> SizeInfo:
     elif unit in mass_measures:
         type = SizeInfoType.Mass
 
-    return SizeInfo(value=value, unit=unit,
-                    type=type)
+    return SizeInfo(value=value, unit=unit, type=type)
 
 
 def parse_weight_info_with_validation(product_info: ProductInfo) -> SizeInfo:
-    weight_info = product_info.weight_info
-    if not weight_info:
-        weight_info = parse_weight_info(product_info.weight)
-
-    weight_value, weight_unit, type = weight_info.value, weight_info.unit, weight_info.type
     title, volume, weight = product_info.title, product_info.volume, product_info.weight
 
-    # if weight and volume:
-    #     if weight_value == volume:
-    #         # delete weight
-    #         return volume
-    #     else:
-    #         if weight_value + weight_unit in title:
-    #             return weight
-    #         elif weight_value in title:
-    #             return weight
-    #         elif volume in title: # add check units after volume in title
-    #             return volume
-    #         else:
-    #             return min(weight_value, volume)# (brutto bigger)
-    #
-    # elif weight:
-    #     if weight_value + weight_unit in title:# а також між величиною і одиницею виміру може бути пробіл
-    #         return weight
-    #     elif weight_value in title:
-    #         return weight
-    # elif volume:
-    #     if volume in title:  # add check units after volume in title
-    #         return volume
-    # else:
-    #     regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
-    #     amount = re.search(regexp_amount, title)
-    #     if amount:
-    #         return amount.group()
+    # weight in product model
+    weight_info = product_info.weight_info
 
-    return SizeInfo(value=weight_value, unit=weight_unit, type=type)
+    # default: weight_info - weight
+    if not weight_info:
+        weight_info = parse_weight_info(product_info.weight)
+    weight_info_formatted = weight_info
+    weight_value, weight_unit, type = weight_info.value, weight_info.unit, weight_info.type
+
+    # weight in title
+    regexp_amount = "(?<=\s)\d+(,?\d+|.?\d+)*[a-zа-яЇїІіЄєҐґ]+"
+    weight_in_title = re.search(regexp_amount, title)
+    if weight_in_title:
+        weight_in_title = weight_in_title.group()
+
+        # formating
+        if volume and (str(volume) in weight_in_title or str(volume/1000) in weight_in_title or str(volume*1000)
+                       in weight_in_title):
+            weight_info_formatted = parse_weight_info(weight_in_title)
+        elif weight_value and (str(weight_value) in weight_in_title or str(weight_value/1000)
+                               in weight_in_title or str(weight_value*1000) in weight_in_title):
+            weight_info_formatted = parse_weight_info(weight_in_title)
+        elif not weight_value and not volume:
+            weight_info_formatted = parse_weight_info(weight_in_title)
+
+        formatted_value, formatted_unit, formatted_type = weight_info_formatted
+
+        if not formatted_value:
+            weight_info_formatted = weight_info
+
+    return weight_info_formatted
 
 
 def normalize_weight_info(weight_info: SizeInfo) -> SizeInfo:
@@ -152,22 +152,24 @@ def sort_products_by_price(product_element: ProductInfo, min_size: str = "") -> 
     normalized_weight_info: SizeInfo = normalize_weight_info(product_element.weight_info)
     try:
         price: float = product_element.price
-        quantity: float = 0 # количество, которое нужно взять, чтобы собрать min_size
+        quantity: float = 0  # количество, которое нужно взять, чтобы собрать min_size
         normalized_min_size_info: SizeInfo = normalize_weight_info(parse_weight_info(min_size)) if min_size else None
         if normalized_min_size_info:
             if normalized_min_size_info == product_element.weight_info.unit:  # можно ли их сравнивать
-                if product_element.bundle:
+                if product_element.bundle and normalized_weight_info.value:
                     quantity = math.ceil(normalized_min_size_info.value /
                                          (normalized_weight_info.value * product_element.bundle))
-                else:
+                elif product_element.bundle:
+                    quantity = math.ceil(normalized_min_size_info.value / product_element.bundle)
+                elif normalized_weight_info.value:
                     quantity = math.ceil(normalized_min_size_info.value / normalized_weight_info.value)
-        else:
+            end_price = price * quantity / normalized_min_size_info.value
+        elif normalized_weight_info.value:
             quantity = normalized_weight_info.value
-        end_price = price * quantity
+            end_price = price * quantity / normalized_weight_info.value
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
-    return end_price / normalized_weight_info.value
-
+    return end_price
 
 
 # def find_filters():

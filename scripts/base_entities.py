@@ -24,6 +24,7 @@ class ProducerInfo(BaseModel):
 class SizeInfoType(str, Enum):
     Mass = "mass"
     Capacity = "capacity"
+    Length = "length"
     Quantity = "quantity"
 
 class SizeInfo(BaseModel):
@@ -37,9 +38,10 @@ class ProductInfo(BaseModel):
     normalized_title: Optional[str]
     title: str 
     category_id: str
-    price: float
+    price: Optional[float]
     weight: Optional[str]
     bundle: Optional[int]
+    unit: Optional[str]
     volume: Optional[float]
     weight_info: Optional[SizeInfo]
     producer: ProducerInfo

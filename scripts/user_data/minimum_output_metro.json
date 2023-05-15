@@ -1,0 +1,86 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": [
+          "Яготинське",
+          "Селянське"
+        ],
+        "weight_filter": "5л",
+        "shop_filter": [
+          "silpo",
+          "таврія",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "молоко ультрапастеризоване вітамінізоване від 9 місяців",
+          "title": "Молоко Яготинське для дітей ультрапастеризоване вітамінізоване від 9 місяців 3,2% 1кг",
+          "category_id": "uht-milk-metro",
+          "price": 43.57,
+          "weight": "1000.0",
+          "bundle": 1,
+          "unit": "pcs",
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-1000g--04823005203742/"
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "печиво",
+        "brand_filter": [
+          "Київхліб",
+          "Yarych",
+          "Milka"
+        ],
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "таврія",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "печиво марія класична",
+          "title": "Печиво Yarych Марія класична 1кг",
+          "category_id": "cookies-metro",
+          "price": 101.23,
+          "weight": "1000.0",
+          "bundle": 1,
+          "unit": "pcs",
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Yarych",
+            "trademark_slug": "yarych"
+          },
+          "description": "",
+          "slug": "pechivo-iarich-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-1000g--04820154483117/"
+        }
+      ]
+    }
+  ],
+  "end_price": 144
+}

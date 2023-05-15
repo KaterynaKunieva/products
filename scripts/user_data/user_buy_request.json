@@ -1,24 +1,26 @@
 {
   "buy_list": [
     {
-      "title_filter": "напій енергетичний",
+      "title_filter": "молоко",
       "shop_filter": [
         "silpo",
-        "metro",
+        "таврія",
         "varus",
-        "таврія"
+        "metro"
       ],
-      "weight_filter": "0,5л",
-      "brand_filter": ["Monster Energy"]
+      "brand_filter": ["Яготинське", "Селянське"],
+      "weight_filter": "5л"
     },
     {
-      "title_filter": "хліб",
+      "title_filter": "печиво",
       "shop_filter": [
         "silpo",
-        "metro",
+        "таврія",
         "varus",
-        "таврія"
-      ]
+        "metro"
+      ],
+      "brand_filter": ["Київхліб", "Yarych", "Milka"],
+      "weight_filter": "1кг"
     }
   ],
   "buy_location_preference": "multi_shop_check"

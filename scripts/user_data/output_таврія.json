@@ -1,0 +1,281 @@
+[
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": [
+        "Яготинське",
+        "Селянське"
+      ],
+      "weight_filter": "5л",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "молоко мікрофільтроване незбиране",
+        "title": "Молоко Селянське мікрофільтроване незбиране 3,4-3,8% 950г",
+        "category_id": "pasteurized-milk-tavriav",
+        "price": 48.6,
+        "weight": "950.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "",
+        "slug": "moloko-selianske-950g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-selianske-950g--04820254400496/"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване",
+        "title": "Молоко Яготинське ультрапастеризоване 2,6% 950г",
+        "category_id": "uht-milk-tavriav",
+        "price": 42.1,
+        "weight": "950.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": "iagotinske"
+        },
+        "description": "Ультрапастеризоване молоко ТМ «Яготинське» — це високоякісне натуральне молоко, яке випускається в надсучасній упаковці Тетра Пак та має термін зберігання до 180 діб. Тривалий термін зберігання молока забезпечується особливою технологією ультрапастеризації. Так, найкраще фермерське молоко нагрівається до температури +135°С протягом кількох секунд, а потім швидко охолоджується і розливається в асептичну упаковку в стерильних умовах без контакту із зовнішнім середовищем. Таким чином у продукті знищуються шкідливі бактерії і зберігається максимальна кількість корисних речовин. Молоко ТМ «Яготинське» в упаковці Тетра Пак зручно брати з собою в дорогу, подорож або на природу, адже його можна зберігати за кімнатної температури.",
+        "slug": "moloko-iagotin-950g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-iagotin-950g--04823005205234/"
+      },
+      {
+        "normalized_title": "молоко родинне ультрапастеризоване",
+        "title": "Молоко Селянське Родинне ультрапастеризоване 2,5% 1,5кг",
+        "category_id": "uht-milk-tavriav",
+        "price": 65.1,
+        "weight": "1547.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 1.5,
+          "unit": "кг",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+        "slug": "moloko-selianske-1500g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-selianske-1500g-ukrayina--04820003486221/"
+      },
+      {
+        "normalized_title": "молоко малюкам дитяче ультрапастеризоване",
+        "title": "Молоко Селянське Малюкам дитяче ультрапастеризоване 3,2% 950г",
+        "category_id": "uht-milk-tavriav",
+        "price": 51.6,
+        "weight": "985.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "Молоко питне ультрапастеризоване для дитячого харчування від 9-ти місяців. Для коханих малюків.",
+        "slug": "moloko-selianske-950g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-selianske-950g--04820003485781/"
+      },
+      {
+        "normalized_title": "молоко малюкам ультрапастеризоване",
+        "title": "Молоко Селянське Малюкам ультрапастеризоване 2,5% 900г",
+        "category_id": "uht-milk-tavriav",
+        "price": 38.3,
+        "weight": "913.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+        "slug": "moloko-selianske-900g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-selianske-900g-ukrayina--04820003486160/"
+      },
+      {
+        "normalized_title": "молоко особливе ультрапастеризоване",
+        "title": "Молоко Селянське Особливе ультрапастеризоване 2,5% 950г",
+        "category_id": "uht-milk-tavriav",
+        "price": 43.4,
+        "weight": "985.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "Молоко питне ультрапастеризоване, 2,5% жиру Особливе. Інноваційна технологія обробки молочної сировини парою дає можливість м'яко очистити її від шкідливих бактерій і зберегти природну цінність.",
+        "slug": "moloko-selianske-950g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-selianske-950g-ukrayina--04820003482407/"
+      },
+      {
+        "normalized_title": "молоко стерилізоване вітамінізоване з 9 місяців",
+        "title": "Молоко Яготинське для дітей стерилізоване вітамінізоване з 9 місяців 3,2% 500г",
+        "category_id": "uht-milk-tavriav",
+        "price": 27.9,
+        "weight": "500.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+        "slug": "moloko-iagotinske-dlia-ditei-500g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-500g--04823005203735/"
+      },
+      {
+        "normalized_title": "молоко від 9 місяців",
+        "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+        "category_id": "uht-milk-tavriav",
+        "price": 42.9,
+        "weight": "986.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/"
+      },
+      {
+        "normalized_title": "молоко від 9 місяців",
+        "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+        "category_id": "dairy-foods-for-babies-tavriav",
+        "price": 42.9,
+        "weight": "986.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "печиво",
+      "brand_filter": [
+        "Київхліб",
+        "Yarych",
+        "Milka"
+      ],
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "печиво марія з висівками",
+        "title": "Печиво Yarych Марія з висівками 155г",
+        "category_id": "cookies-tavriav",
+        "price": 21.3,
+        "weight": "166.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "Ароматне печиво з додаванням висівок. Це печиво вибирають люди, які слідкують за своєю вагою та дотримуються принципів здорового харчування. Містить клітковину 4,1%. Висівки корисні для травлення, продукт в підтримку теми ЗОЖ.",
+        "slug": "pechivo-iarich-155g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/pechivo-iarich-155g--04820154480130/"
+      },
+      {
+        "normalized_title": "печиво choco sticks вкрите молочним шоколадом",
+        "title": "Печиво Milka Choco Sticks вкрите молочним шоколадом 112г",
+        "category_id": "cookies-tavriav",
+        "price": 44.9,
+        "weight": "112.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 112.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "pechivo-milka-112g",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/pechivo-milka-112g--07622201137632/"
+      }
+    ]
+  }
+]

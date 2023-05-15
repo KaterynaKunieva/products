@@ -1,0 +1,721 @@
+[
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": [
+        "Яготинське",
+        "Селянське"
+      ],
+      "weight_filter": "5л",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "молоко ультрапастеризоване безлактозне від 9 міс.",
+        "title": "Молоко «Яготинське для дітей» ультрапастеризоване безлактозне від 9 міс. 3,2%",
+        "category_id": "253",
+        "price": 43.99,
+        "weight": "950г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-dlia-ditei-ultrapasteryzovane-bezlaktozne-vid-9-mis-3-2-777701",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-dlia-ditei-ultrapasteryzovane-bezlaktozne-vid-9-mis-3-2-777701"
+      },
+      {
+        "normalized_title": "молоко пряжене",
+        "title": "Молоко «Яготинське» пряжене 2,6%",
+        "category_id": "253",
+        "price": 48.19,
+        "weight": "870г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 870.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-priazhene-2-6-880464",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-priazhene-2-6-880464"
+      },
+      {
+        "normalized_title": "молоко п/е",
+        "title": "Молоко «Яготинське» 3,2% п/е",
+        "category_id": "253",
+        "price": 37.69,
+        "weight": "900г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-3-2-p-e-548448",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-3-2-p-e-548448"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване особливе",
+        "title": "Молоко ультрапастеризоване «Селянське» особливе 2,5%",
+        "category_id": "253",
+        "price": 33.99,
+        "weight": "950г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079",
+        "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079"
+      },
+      {
+        "normalized_title": "молоко велике жиру",
+        "title": "Молоко «Яготинське» «Велике» 2,6% жиру",
+        "category_id": "253",
+        "price": 83.29,
+        "weight": "2000г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 2000.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-velyke-2-6-zhyru-547009",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-velyke-2-6-zhyru-547009"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване т/б",
+        "title": "Молоко ультрапастеризоване «Яготинське» 3,2% т/б",
+        "category_id": "253",
+        "price": 50.49,
+        "weight": "950г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-ultrapasteryzovane-yagotynske-3-2-t-b-646105",
+        "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-yagotynske-3-2-t-b-646105"
+      },
+      {
+        "normalized_title": "молоко пастеризоване мікрофільтроване питне",
+        "title": "Молоко пастеризоване «Селянське» мікрофільтроване питне 2.5%",
+        "category_id": "253",
+        "price": 39.99,
+        "weight": "950г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-pasteryzovane-selianske-mikrofiltrovane-pytne-2-5-917294",
+        "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-selianske-mikrofiltrovane-pytne-2-5-917294"
+      },
+      {
+        "normalized_title": "молоко пряжене п/е",
+        "title": "Молоко «Яготинське» пряжене 2,6% п/е",
+        "category_id": "253",
+        "price": 37.19,
+        "weight": "900г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-priazhene-2-6-p-e-647784",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-priazhene-2-6-p-e-647784"
+      },
+      {
+        "normalized_title": "молоко яготинське для дітей від 9 місяців",
+        "title": "Молоко «Яготинське» для дітей від 9 місяців 3,2%",
+        "category_id": "253",
+        "price": 28.77,
+        "weight": "500г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-547027",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-547027"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване родинне",
+        "title": "Молоко ультрапастеризоване «Селянське» «Родинне» 2,5%",
+        "category_id": "253",
+        "price": 68.67,
+        "weight": "1500г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 1500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-ultrapasteryzovane-selianske-rodynne-2-5-724312",
+        "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-rodynne-2-5-724312"
+      },
+      {
+        "normalized_title": "молоко особливе",
+        "title": "Молоко «Селянське» особливе 1,5%",
+        "category_id": "253",
+        "price": 50.49,
+        "weight": "950г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-selianske-osoblyve-1-5-705675",
+        "web_url": "https://shop.silpo.ua/product/moloko-selianske-osoblyve-1-5-705675"
+      },
+      {
+        "normalized_title": "молоко малюкам від 3 років",
+        "title": "Молоко «Селянське» малюкам від 3 років 2,5%",
+        "category_id": "253",
+        "price": 38.57,
+        "weight": "900г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-selianske-maliukam-vid-3-rokiv-2-5-719167",
+        "web_url": "https://shop.silpo.ua/product/moloko-selianske-maliukam-vid-3-rokiv-2-5-719167"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване сімейне особливе",
+        "title": "Молоко ультрапастеризоване «Селянське» «Сімейне» особливе 2,5%",
+        "category_id": "253",
+        "price": 81.8,
+        "weight": "2000г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 2000.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-ultrapasteryzovane-selianske-simeine-osoblyve-2-5-726270",
+        "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-simeine-osoblyve-2-5-726270"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване малюкам для дітей",
+        "title": "Молоко ультрапастеризоване «Селянське» «Малюкам» для дітей 3,2%",
+        "category_id": "253",
+        "price": 50.49,
+        "weight": "950г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-ultrapasteryzovane-selianske-maliukam-dlia-ditei-3-2-846423",
+        "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-maliukam-dlia-ditei-3-2-846423"
+      },
+      {
+        "normalized_title": "молоко від 9 місяців",
+        "title": "Молоко «Яготинське для дітей» від 9 місяців 3,2%",
+        "category_id": "4373",
+        "price": 17.99,
+        "weight": "200г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 200.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-739879",
+        "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-739879"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "печиво",
+      "brand_filter": [
+        "Київхліб",
+        "Yarych",
+        "Milka"
+      ],
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "печиво марія з молоком та кальцієм",
+        "title": "Печиво Yarych «Марія» з молоком та кальцієм",
+        "category_id": "501",
+        "price": 16.99,
+        "weight": "155г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-mariia-z-molokom-ta-kaltsiiem-441072",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-z-molokom-ta-kaltsiiem-441072"
+      },
+      {
+        "normalized_title": "печиво марія оригінальна",
+        "title": "Печиво Yarych «Марія» оригінальна",
+        "category_id": "501",
+        "price": 16.99,
+        "weight": "155г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-mariia-oryginalna-704589",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-oryginalna-704589"
+      },
+      {
+        "normalized_title": "печиво до чаю та кави з ароматом пряженого молока",
+        "title": "Печиво Yarych «До чаю та кави» з ароматом пряженого молока",
+        "category_id": "501",
+        "price": 22.99,
+        "weight": "200г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 200.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-do-chaiu-ta-kavy-z-aromatom-priazhenogo-moloka-910505",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-do-chaiu-ta-kavy-z-aromatom-priazhenogo-moloka-910505"
+      },
+      {
+        "normalized_title": "печиво марія класична",
+        "title": "Печиво Yarych «Марія» класична",
+        "category_id": "501",
+        "price": 10.3,
+        "weight": "100г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 100.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-mariia-klasychna-530242",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-klasychna-530242"
+      },
+      {
+        "normalized_title": "печиво марія цільнозернова",
+        "title": "Печиво Yarych «Марія» цільнозернова",
+        "category_id": "501",
+        "price": 16.99,
+        "weight": "155г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-mariia-tsilnozernova-719780",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-tsilnozernova-719780"
+      },
+      {
+        "normalized_title": "печиво крендельки з цукром",
+        "title": "Печиво «Київхліб» крендельки з цукром",
+        "category_id": "501",
+        "price": 35.99,
+        "weight": "260г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 260.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-kyivkhlib-krendelky-z-tsukrom-728269",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-kyivkhlib-krendelky-z-tsukrom-728269"
+      },
+      {
+        "normalized_title": "печиво petit beurre з какао",
+        "title": "Печиво Yarych Petit Beurre з какао",
+        "category_id": "501",
+        "price": 22.99,
+        "weight": "155г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-petit-beurre-z-kakao-624591",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-petit-beurre-z-kakao-624591"
+      },
+      {
+        "normalized_title": "печиво petit beurre з ароматом масла",
+        "title": "Печиво Yarych Petit Beurre з ароматом масла",
+        "category_id": "501",
+        "price": 22.99,
+        "weight": "155г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-petit-beurre-z-aromatom-masla-905971",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-petit-beurre-z-aromatom-masla-905971"
+      },
+      {
+        "normalized_title": "печиво в шоколадній глазурі",
+        "title": "Печиво Milka в шоколадній глазурі",
+        "category_id": "501",
+        "price": 83.99,
+        "weight": "200г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 200.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-milka-v-shokoladnii-glazuri-742151",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-milka-v-shokoladnii-glazuri-742151"
+      },
+      {
+        "normalized_title": "печиво choco pause з начинкою з молочного шоколаду",
+        "title": "Печиво Milka Choco Pause з начинкою з молочного шоколаду",
+        "category_id": "501",
+        "price": 64.99,
+        "weight": "260г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 260.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-milka-choco-pause-z-nachynkoiu-z-molochnogo-shokoladu-923325",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-milka-choco-pause-z-nachynkoiu-z-molochnogo-shokoladu-923325"
+      },
+      {
+        "normalized_title": "печиво ліла стікс в молочному шоколаді",
+        "title": "Печиво Milka «Ліла Стікс» в молочному шоколаді",
+        "category_id": "501",
+        "price": 43.99,
+        "weight": "112г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 112.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-milka-lila-stiks-v-molochnomu-shokoladi-832869",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-milka-lila-stiks-v-molochnomu-shokoladi-832869"
+      },
+      {
+        "normalized_title": "печиво марія класична з соняшниковою олією",
+        "title": "Печиво Yarych «Марія» класична з соняшниковою олією",
+        "category_id": "501",
+        "price": 36.99,
+        "weight": "320г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 320.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-mariia-klasychna-z-soniashnykovoiu-oliieiu-874066",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-klasychna-z-soniashnykovoiu-oliieiu-874066"
+      },
+      {
+        "normalized_title": "печиво крендельки з кунжутом",
+        "title": "Печиво «Київхліб» крендельки з кунжутом",
+        "category_id": "501",
+        "price": 39.99,
+        "weight": "260г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 260.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Київхліб",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-kyivkhlib-krendelky-z-kunzhutom-728268",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-kyivkhlib-krendelky-z-kunzhutom-728268"
+      },
+      {
+        "normalized_title": "печиво чокогрейнс",
+        "title": "Печиво Milka «ЧокоГрейнс»",
+        "category_id": "501",
+        "price": 83.99,
+        "weight": "168г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 168.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-milka-chokogreins-685647",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-milka-chokogreins-685647"
+      },
+      {
+        "normalized_title": "печиво марія молоко + са затяжне",
+        "title": "Печиво Yarych «Марія» молоко + Са затяжне",
+        "category_id": "501",
+        "price": 36.99,
+        "weight": "310г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 310.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-mariia-moloko-sa-zatiazhne-874065",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-moloko-sa-zatiazhne-874065"
+      },
+      {
+        "normalized_title": "печиво petit beurre з висівками",
+        "title": "Печиво Yarych Petit Beurre з висівками",
+        "category_id": "501",
+        "price": 22.99,
+        "weight": "155г",
+        "bundle": null,
+        "unit": null,
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": null
+        },
+        "description": null,
+        "slug": "pechyvo-yarych-petit-beurre-z-vysivkamy-624589",
+        "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-petit-beurre-z-vysivkamy-624589"
+      }
+    ]
+  }
+]

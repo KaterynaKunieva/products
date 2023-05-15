@@ -1,0 +1,391 @@
+[
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": [
+        "Яготинське",
+        "Селянське"
+      ],
+      "weight_filter": "5л",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "молоко мікрофільтроване незбиране",
+        "title": "Молоко Селянське мікрофільтроване незбиране 3,4-3,8% 950г",
+        "category_id": "pasteurized-milk-varus",
+        "price": 44.9,
+        "weight": "950.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "",
+        "slug": "moloko-selianske-950g",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g--04820254400496/"
+      },
+      {
+        "normalized_title": "молоко мікрофільтроване",
+        "title": "Молоко Селянське мікрофільтроване 2,5% 950г",
+        "category_id": "pasteurized-milk-varus",
+        "price": 39.9,
+        "weight": "950.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "",
+        "slug": "moloko",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko--04820254400236/"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване",
+        "title": "Молоко Яготинське ультрапастеризоване 2,6% 900г",
+        "category_id": "uht-milk-varus",
+        "price": 35.3,
+        "weight": "900.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": "iagotinske"
+        },
+        "description": "Молоко ультрапастеризоване ТМ «Яготинське» в упаковці Tetra fino – це  високоякісне молоко «екстра» гатунку.\nМолоко виробляється шляхом температурної обробки 137 °С з витримкою 4 секунди і фасується в упаковку Tetra fino, яка дозволяє зберігати продукт до 90 діб за відсутності прямого сонячного світла і температури не вище 25 градусів. \nУпаковка Tetra fino  дозволяє зберігати всю свіжість і користь молока на тривалий час навіть без холодильника. Але найголовніше в упаковці Tetra fino   - це її екологічність, адже приблизно на 75% вона складається з картону та повністю переробляється. \nМолоко ультрапастеризоване ТМ «Яготиньске» виробляється на ТДВ «Яготинський маслозавод» на сучасному обладнанні закритого циклу, яке виключає прямий контакт рук з продукцією під час її виробництва. Весь виробничий цикл – від прийому молока на завод до фасування готової продукції – відбувається в закритому режимі без втручання людини.",
+        "slug": "moloko-iagotin-900g",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotin-900g--04823005208259/"
+      },
+      {
+        "normalized_title": "молоко малюкам ультрапастеризоване",
+        "title": "Молоко Селянське Малюкам ультрапастеризоване 2,5% 900г",
+        "category_id": "uht-milk-varus",
+        "price": 34.3,
+        "weight": "913.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 900.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+        "slug": "moloko-selianske-900g-ukrayina",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-900g-ukrayina--04820003486160/"
+      },
+      {
+        "normalized_title": "молоко від 9 місяців",
+        "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+        "category_id": "uht-milk-varus",
+        "price": 45.9,
+        "weight": "986.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/"
+      },
+      {
+        "normalized_title": "молоко особливе ультрапастеризоване",
+        "title": "Молоко Селянське Особливе ультрапастеризоване 6% 950г",
+        "category_id": "uht-milk-varus",
+        "price": 64.9,
+        "weight": "985.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна вітчизняна високоякісна молочна продукція, вироблена з високосортної сировини найвищого ґатунку за технологією суперпастерізаціі.",
+        "slug": "moloko-selianske-950g-ukrayina",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g-ukrayina--04820003486054/"
+      },
+      {
+        "normalized_title": "молоко родинне ультрапастеризоване",
+        "title": "Молоко Селянське Родинне ультрапастеризоване 2,5% 2кг",
+        "category_id": "uht-milk-varus",
+        "price": 80.9,
+        "weight": "2088.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 2.0,
+          "unit": "кг",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+        "slug": "moloko-selianske-2000g-ukrayina",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-2000g-ukrayina--04820003486115/"
+      },
+      {
+        "normalized_title": "молоко малюкам дитяче ультрапастеризоване",
+        "title": "Молоко Селянське Малюкам дитяче ультрапастеризоване 3,2% 950г",
+        "category_id": "uht-milk-varus",
+        "price": 54.9,
+        "weight": "985.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "Молоко питне ультрапастеризоване для дитячого харчування від 9-ти місяців. Для коханих малюків.",
+        "slug": "moloko-selianske-950g",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g--04820003485781/"
+      },
+      {
+        "normalized_title": "молоко від 9 місяців",
+        "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+        "category_id": "dairy-foods-for-babies-varus",
+        "price": 45.9,
+        "weight": "986.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/"
+      },
+      {
+        "normalized_title": "молоко малюкам дитяче ультрапастеризоване",
+        "title": "Молоко Селянське Малюкам дитяче ультрапастеризоване 3,2% 950г",
+        "category_id": "dairy-foods-for-babies-varus",
+        "price": 54.9,
+        "weight": "985.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "Молоко питне ультрапастеризоване для дитячого харчування від 9-ти місяців. Для коханих малюків.",
+        "slug": "moloko-selianske-950g",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g--04820003485781/"
+      },
+      {
+        "normalized_title": "молоко стерилізоване вітамінізоване з 9 місяців",
+        "title": "Молоко Яготинське для дітей стерилізоване вітамінізоване з 9 місяців 3,2% 500г",
+        "category_id": "sterilized-milk-varus",
+        "price": 25.2,
+        "weight": "500.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 500.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+        "slug": "moloko-iagotinske-dlia-ditei-500g",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-500g--04823005203735/"
+      },
+      {
+        "normalized_title": "молоко коровяче питне стерилізоване вітамінізоване з 9 місяців",
+        "title": "Молоко Яготинське для дітей коров’яче питне стерилізоване вітамінізоване з 9 місяців 3.2% 200г",
+        "category_id": "sterilized-milk-varus",
+        "price": 15.9,
+        "weight": "200.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 200.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+        "slug": "moloko-iagotinske-dlia-ditei-200g",
+        "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-200g--04823005206989/"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "печиво",
+      "brand_filter": [
+        "Київхліб",
+        "Yarych",
+        "Milka"
+      ],
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "печиво марія оригінальна",
+        "title": "Печиво Yarych Марія оригінальна 155г",
+        "category_id": "cookies-varus",
+        "price": 19.4,
+        "weight": "155.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "Технологи КФ «Ярич» спеціально розробили рецептуру печива «Марія», зробивши його максимально хрумким та легким. Це печиво відповідає\n«Марії», яку знають та люблять в європейських країнах.",
+        "slug": "pechivo-iarich-155g",
+        "web_url": "https://varus.zakaz.ua/uk/products/pechivo-iarich-155g--04820154482486/"
+      },
+      {
+        "normalized_title": "печиво choco grain з вівсяними пластівцями",
+        "title": "Печиво Milka Choco Grain з вівсяними пластівцями 168г",
+        "category_id": "cookies-varus",
+        "price": 71.4,
+        "weight": "168.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 168.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "pechivo-milka-168g",
+        "web_url": "https://varus.zakaz.ua/uk/products/pechivo-milka-168g--07622300270506/"
+      },
+      {
+        "normalized_title": "печиво до чаю та кави з ароматом пряженого молока",
+        "title": "Печиво Yarych До чаю та кави з ароматом пряженого молока 200г",
+        "category_id": "cookies-varus",
+        "price": 21.4,
+        "weight": "200.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 200.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "",
+        "slug": "pechivo-iarich-200g",
+        "web_url": "https://varus.zakaz.ua/uk/products/pechivo-iarich-200g--04820154486026/"
+      },
+      {
+        "normalized_title": "печиво choco sticks вкрите молочним шоколадом",
+        "title": "Печиво Milka Choco Sticks вкрите молочним шоколадом 112г",
+        "category_id": "cookies-varus",
+        "price": 59.2,
+        "weight": "112.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 112.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "pechivo-milka-112g",
+        "web_url": "https://varus.zakaz.ua/uk/products/pechivo-milka-112g--07622201137632/"
+      }
+    ]
+  }
+]

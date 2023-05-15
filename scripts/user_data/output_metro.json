@@ -1,0 +1,457 @@
+[
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": [
+        "Яготинське",
+        "Селянське"
+      ],
+      "weight_filter": "5л",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "молоко пастеризоване",
+        "title": "Молоко Селянське пастеризоване 2,5% 950г",
+        "category_id": "pasteurized-milk-metro",
+        "price": 36.67,
+        "weight": "981.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+        "slug": "moloko-selianske-950g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-950g-ukrayina--04820003486245/"
+      },
+      {
+        "normalized_title": "молоко мікрофільтроване",
+        "title": "Молоко Селянське мікрофільтроване 2,5% 950г",
+        "category_id": "pasteurized-milk-metro",
+        "price": 41.5,
+        "weight": "950.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "",
+        "slug": "moloko",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko--04820254400236/"
+      },
+      {
+        "normalized_title": "молоко мікрофільтроване незбиране",
+        "title": "Молоко Селянське мікрофільтроване незбиране 3,4-3,8% 950г",
+        "category_id": "pasteurized-milk-metro",
+        "price": 46.7,
+        "weight": "950.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "",
+        "slug": "moloko-selianske-950g",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-950g--04820254400496/"
+      },
+      {
+        "normalized_title": "молоко особливе ультрапастеризоване",
+        "title": "Молоко Селянське Особливе ультрапастеризоване 6% 950г",
+        "category_id": "uht-milk-metro",
+        "price": 53.56,
+        "weight": "985.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "Молоко питне ультрапастеризоване, 6,0% жиру Особливе. Інноваційна технологія обробки молочної сировини парою дає можливість м'яко очистити її від шкідливих бактерій і зберегти природну цінність.",
+        "slug": "moloko-selianske-1000g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-1000g-ukrayina--04820003485057/"
+      },
+      {
+        "normalized_title": "молоко від 9 місяців",
+        "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+        "category_id": "uht-milk-metro",
+        "price": 48.78,
+        "weight": "986.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/"
+      },
+      {
+        "normalized_title": "молоко родинне ультрапастеризоване",
+        "title": "Молоко Селянське Родинне ультрапастеризоване 3,2% 2кг",
+        "category_id": "uht-milk-metro",
+        "price": 82.68,
+        "weight": "2088.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 2.0,
+          "unit": "кг",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Селянське",
+          "trademark_slug": "selianske"
+        },
+        "description": "ТМ Селянське - це традиційна вітчизняна високоякісна молочна продукція, вироблена з високосортної сировини найвищого ґатунку за технологією суперпастерізаціі. Якщо любиш свіженьке!",
+        "slug": "moloko-selianske-2000ml-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-2000ml-ukrayina--04820003486108/"
+      },
+      {
+        "normalized_title": "молоко ультрапастеризоване вітамінізоване від 9 місяців",
+        "title": "Молоко Яготинське для дітей ультрапастеризоване вітамінізоване від 9 місяців 3,2% 1кг",
+        "category_id": "uht-milk-metro",
+        "price": 43.57,
+        "weight": "1000.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 1.0,
+          "unit": "кг",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+        "slug": "moloko-iagotinske-dlia-ditei-1000g",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-1000g--04823005203742/"
+      },
+      {
+        "normalized_title": "молоко без лактози ультрапастеризоване",
+        "title": "Молоко Яготинське для дітей Без лактози ультрапастеризоване 2,5% 950г",
+        "category_id": "lactose-free-milk-metro",
+        "price": 55.02,
+        "weight": "978.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Виготовляється із молока «екстра» гатунку, яке поставляють на підприємство великі фермерські господарства, що мають відповідну сертифікацію. Безлактозне молоко ТМ «Яготинське для дітей» вже пройшло низку досліджень. Його безпечність та якість підтверджена Висновком державної санітарно-гігієнічної експертизи. За рахунок розщеплення лактози на глюкозу і галактозу продукт має солодкий присмак і зберігає всю користь натурального молока. Безлактозне молоко ТМ «Яготинське для дітей» 2,5% жиру можуть вживати діти у віці від 2-х років і дорослі, які мають непереносимість лактози.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005208020/"
+      },
+      {
+        "normalized_title": "молоко безлактозне ультрапастеризоване",
+        "title": "Молоко Яготинське для дітей безлактозне ультрапастеризоване 3,2%  950г",
+        "category_id": "dairy-free-food-and-drinks-metro",
+        "price": 57.1,
+        "weight": "970.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 950.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське для дітей",
+          "trademark_slug": "iagotinske-dlia-ditei"
+        },
+        "description": "Виготовляється із молока «екстра» гатунку, яке поставляють на підприємство великі фермерські господарства, що мають відповідну сертифікацію. Безлактозне молоко ТМ «Яготинське для дітей» вже пройшло низку досліджень. Його безпечність та якість підтверджена Висновком державної санітарно-гігієнічної експертизи. За рахунок розщеплення лактози на глюкозу і галактозу продукт має солодкий присмак і зберігає всю користь натурального молока. Унікальність безлактозного молока ТМ «Яготинське для дітей» перед безлактозним молоком інших виробників полягає у тому, що молоко ТМ «Яготинське для дітей» входить до категорії «дитяче» і призначене для дітей від 9 місяців. Але його можуть вживати й дорослі, які мають непереносимість лактози.",
+        "slug": "moloko-iagotinske-dlia-ditei-950g",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g--04823005207344/"
+      },
+      {
+        "normalized_title": "молоко пряжене",
+        "title": "Молоко Яготинське пряжене 2,6% 870г",
+        "category_id": "baked-milk-metro",
+        "price": 51.69,
+        "weight": "890.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 870.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Яготинське",
+          "trademark_slug": "iagotinske"
+        },
+        "description": "Молоко коров’яче питне пряжене ТМ «Яготинське» — це високоякісний натуральний продукт, виготовлений виключно з коров’ячого молока шляхом пряження протягом 3,5-4 годин до набуття молоком кремового кольору та приємного горіхового присмаку.",
+        "slug": "moloko-iagotin-900g",
+        "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotin-900g--04823005203933/"
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "печиво",
+      "brand_filter": [
+        "Київхліб",
+        "Yarych",
+        "Milka"
+      ],
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "таврія",
+        "varus",
+        "metro"
+      ]
+    },
+    "products": [
+      {
+        "normalized_title": "печиво choco sticks вкрите молочним шоколадом",
+        "title": "Печиво Milka Choco Sticks вкрите молочним шоколадом 112г",
+        "category_id": "cookies-metro",
+        "price": 50.77,
+        "weight": "112.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 112.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "pechivo-milka-112g",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-milka-112g--07622201137632/"
+      },
+      {
+        "normalized_title": "печиво марія оригінальна",
+        "title": "Печиво Yarych Марія оригінальна 155г",
+        "category_id": "cookies-metro",
+        "price": 17.91,
+        "weight": "155.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "Технологи КФ «Ярич» спеціально розробили рецептуру печива «Марія», зробивши його максимально хрумким та легким. Це печиво відповідає\n«Марії», яку знають та люблять в європейських країнах.",
+        "slug": "pechivo-iarich-155g",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-155g--04820154482486/"
+      },
+      {
+        "normalized_title": "печиво марія класична",
+        "title": "Печиво Yarych Марія класична 1кг",
+        "category_id": "cookies-metro",
+        "price": 101.23,
+        "weight": "1000.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 1.0,
+          "unit": "кг",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "",
+        "slug": "pechivo-iarich-1000g",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-1000g--04820154483117/"
+      },
+      {
+        "normalized_title": "печиво марія з молоком і кальцієм",
+        "title": "Печиво Yarych Марія з молоком і кальцієм 155г",
+        "category_id": "cookies-metro",
+        "price": 17.91,
+        "weight": "152.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "Ніжне печиво з приємним смаком та ароматом молока. Це печиво особливо полюбляють діти. Додавання молока та кальцію дозволяє зробити печиво не лише смачним, а й корисним для організму.",
+        "slug": "pechivo-iarich-155g",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-155g--04820154480178/"
+      },
+      {
+        "normalized_title": "печиво в шоколадній глазурі",
+        "title": "Печиво Milka в шоколадній глазурі 200г",
+        "category_id": "cookies-metro",
+        "price": 63.49,
+        "weight": "200.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 200.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "Пісочне печиво, вкрите шоколадом.",
+        "slug": "pechivo-milka-200g-polshcha",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-milka-200g-polshcha--07622201635688/"
+      },
+      {
+        "normalized_title": "печиво марія з молоком та кальцієм",
+        "title": "Печиво Yarych Марія з молоком та кальцієм 310г",
+        "category_id": "cookies-metro",
+        "price": 35.93,
+        "weight": "310.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 310.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "",
+        "slug": "pechivo-iarich-310g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-310g-ukrayina--04820154485739/"
+      },
+      {
+        "normalized_title": "печиво марія з висівками",
+        "title": "Печиво Yarych Марія з висівками 155г",
+        "category_id": "cookies-metro",
+        "price": 17.91,
+        "weight": "166.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 155.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "Ароматне печиво з додаванням висівок. Це печиво вибирають люди, які слідкують за своєю вагою та дотримуються принципів здорового харчування. Містить клітковину 4,1%. Висівки корисні для травлення, продукт в підтримку теми ЗОЖ.",
+        "slug": "pechivo-iarich-155g",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-155g--04820154480130/"
+      },
+      {
+        "normalized_title": "печиво марія класична з соняшниковою олією",
+        "title": "Печиво Yarych Марія класична з соняшниковою олією 320г",
+        "category_id": "cookies-metro",
+        "price": 35.93,
+        "weight": "320.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 320.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Yarych",
+          "trademark_slug": "yarych"
+        },
+        "description": "",
+        "slug": "pechivo-iarich-320g-ukrayina",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-320g-ukrayina--04820154485715/"
+      },
+      {
+        "normalized_title": "печиво choco grain з вівсяними пластівцями",
+        "title": "Печиво Milka Choco Grain з вівсяними пластівцями 168г",
+        "category_id": "cookies-metro",
+        "price": 70.91,
+        "weight": "168.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": null,
+        "weight_info": {
+          "value": 168.0,
+          "unit": "г",
+          "type": "mass"
+        },
+        "producer": {
+          "trademark": "Milka",
+          "trademark_slug": "milka"
+        },
+        "description": "",
+        "slug": "pechivo-milka-168g",
+        "web_url": "https://metro.zakaz.ua/uk/products/pechivo-milka-168g--07622210893031/"
+      }
+    ]
+  }
+]

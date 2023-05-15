@@ -1,0 +1,86 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": [
+          "Яготинське",
+          "Селянське"
+        ],
+        "weight_filter": "5л",
+        "shop_filter": [
+          "silpo",
+          "таврія",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "молоко ультрапастеризоване особливе",
+          "title": "Молоко ультрапастеризоване «Селянське» особливе 2,5%",
+          "category_id": "253",
+          "price": 33.99,
+          "weight": "950г",
+          "bundle": null,
+          "unit": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079"
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "печиво",
+        "brand_filter": [
+          "Київхліб",
+          "Yarych",
+          "Milka"
+        ],
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "таврія",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "печиво марія класична",
+          "title": "Печиво Yarych «Марія» класична",
+          "category_id": "501",
+          "price": 10.3,
+          "weight": "100г",
+          "bundle": null,
+          "unit": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Yarych",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "pechyvo-yarych-mariia-klasychna-530242",
+          "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-klasychna-530242"
+        }
+      ]
+    }
+  ],
+  "end_price": 44
+}

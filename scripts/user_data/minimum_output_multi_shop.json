@@ -1,0 +1,96 @@
+{
+  "buy_list": [
+    {
+      "shop": "silpo",
+      "requests": [
+        {
+          "request": {
+            "title_filter": "молоко",
+            "brand_filter": [
+              "Яготинське",
+              "Селянське"
+            ],
+            "weight_filter": "5л",
+            "shop_filter": [
+              "silpo",
+              "таврія",
+              "varus",
+              "metro"
+            ]
+          },
+          "products": [
+            {
+              "normalized_title": "молоко ультрапастеризоване особливе",
+              "title": "Молоко ультрапастеризоване «Селянське» особливе 2,5%",
+              "category_id": "253",
+              "price": 33.99,
+              "weight": "950г",
+              "bundle": null,
+              "unit": null,
+              "volume": null,
+              "weight_info": {
+                "value": 950.0,
+                "unit": "г",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Селянське",
+                "trademark_slug": null
+              },
+              "description": null,
+              "slug": "moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079",
+              "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shop": "metro",
+      "requests": [
+        {
+          "request": {
+            "title_filter": "печиво",
+            "brand_filter": [
+              "Київхліб",
+              "Yarych",
+              "Milka"
+            ],
+            "weight_filter": "1кг",
+            "shop_filter": [
+              "silpo",
+              "таврія",
+              "varus",
+              "metro"
+            ]
+          },
+          "products": [
+            {
+              "normalized_title": "печиво марія класична",
+              "title": "Печиво Yarych Марія класична 1кг",
+              "category_id": "cookies-metro",
+              "price": 101.23,
+              "weight": "1000.0",
+              "bundle": 1,
+              "unit": "pcs",
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "кг",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Yarych",
+                "trademark_slug": "yarych"
+              },
+              "description": "",
+              "slug": "pechivo-iarich-1000g",
+              "web_url": "https://metro.zakaz.ua/uk/products/pechivo-iarich-1000g--04820154483117/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "end_price": 135
+}

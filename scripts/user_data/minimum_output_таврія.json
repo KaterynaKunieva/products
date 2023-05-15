@@ -1,0 +1,86 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": [
+          "Яготинське",
+          "Селянське"
+        ],
+        "weight_filter": "5л",
+        "shop_filter": [
+          "silpo",
+          "таврія",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "молоко малюкам ультрапастеризоване",
+          "title": "Молоко Селянське Малюкам ультрапастеризоване 2,5% 900г",
+          "category_id": "uht-milk-tavriav",
+          "price": 38.3,
+          "weight": "913.0",
+          "bundle": 1,
+          "unit": "pcs",
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+          "slug": "moloko-selianske-900g-ukrayina",
+          "web_url": "https://tavriav.zakaz.ua/uk/products/moloko-selianske-900g-ukrayina--04820003486160/"
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "печиво",
+        "brand_filter": [
+          "Київхліб",
+          "Yarych",
+          "Milka"
+        ],
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "таврія",
+          "varus",
+          "metro"
+        ]
+      },
+      "products": [
+        {
+          "normalized_title": "печиво марія з висівками",
+          "title": "Печиво Yarych Марія з висівками 155г",
+          "category_id": "cookies-tavriav",
+          "price": 21.3,
+          "weight": "166.0",
+          "bundle": 1,
+          "unit": "pcs",
+          "volume": null,
+          "weight_info": {
+            "value": 155.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Yarych",
+            "trademark_slug": "yarych"
+          },
+          "description": "Ароматне печиво з додаванням висівок. Це печиво вибирають люди, які слідкують за своєю вагою та дотримуються принципів здорового харчування. Містить клітковину 4,1%. Висівки корисні для травлення, продукт в підтримку теми ЗОЖ.",
+          "slug": "pechivo-iarich-155g",
+          "web_url": "https://tavriav.zakaz.ua/uk/products/pechivo-iarich-155g--04820154480130/"
+        }
+      ]
+    }
+  ],
+  "end_price": 59
+}

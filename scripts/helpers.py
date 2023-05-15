@@ -232,7 +232,7 @@ def get_products_buy_info(product_element: ProductInfo, min_size: str = "") -> P
         price: float = product_element.price
         if normalized_min_size_info:
             if normalized_weight_info.unit == normalized_min_size_info.unit and \
-                    (normalized_weight_info.type != SizeInfoType.Length or
+                    (normalized_weight_info.type != SizeInfoType.Length and
                      normalized_min_size_info.type != SizeInfoType.Length):
                 if product_element.bundle and normalized_weight_info.value:
                     quantity = math.ceil(normalized_min_size_info.value /
@@ -241,18 +241,16 @@ def get_products_buy_info(product_element: ProductInfo, min_size: str = "") -> P
                     quantity = math.ceil(normalized_min_size_info.value / product_element.bundle)
                 elif normalized_weight_info.value:
                     quantity = math.ceil(normalized_min_size_info.value / normalized_weight_info.value)
-            else:
-                quantity = 1
             end_price = price * quantity
         elif normalized_weight_info.value:
             end_price = price * quantity
-        print(f"{product_element.title}")
-        print(
-            f"\tNeed {int(quantity)} with amount {normalized_weight_info.value} {normalized_weight_info.unit} "
-            f"and price {price} uah")
-        print(
-            f"\tResult: {quantity * normalized_weight_info.value} {normalized_weight_info.unit} by "
-            f"{(math.ceil(price * quantity)) * 100 / 100} uah")
+        # print(f"{product_element.title}")
+        # print(
+        #     f"\tNeed {int(quantity)} with amount {normalized_weight_info.value} {normalized_weight_info.unit} "
+        #     f"and price {price} uah")
+        # print(
+        #     f"\tResult: {quantity * normalized_weight_info.value} {normalized_weight_info.unit} by "
+        #     f"{(math.ceil(price * quantity)) * 100 / 100} uah")
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
     return ProductBuyInfo(end_price=end_price, product=product_element, quantity=quantity)

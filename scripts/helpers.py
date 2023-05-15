@@ -3,7 +3,7 @@ import math
 import re
 from typing import List, Dict
 
-from base_entities import ProductInfo, SizeInfo, SizeInfoType, CategoryInfo
+from base_entities import ProductInfo, SizeInfo, SizeInfoType, CategoryInfo, ProductBuyInfo
 from service_base import ShopScrapperService
 from zakaz_helper import ZakazoShopScrapperService
 from silpo_helper import silpo_shops, SilpoShopScrapperService
@@ -178,7 +178,7 @@ def parse_weight_info_with_validation(product_info: ProductInfo) -> SizeInfo:
     return weight_info_formatted
 
 
-def normalize_weight_info(weight_info: SizeInfo, filter_unit: str = "") -> SizeInfo:
+def normalize_weight_info(weight_info: SizeInfo, filter_unit: SizeInfoType = SizeInfoType.Unknown) -> SizeInfo:
     weight_value, weight_unit, weight_type = weight_info.value, weight_info.unit, weight_info.type
     if weight_unit == 'л' or weight_unit == 'l':
         weight_value *= 1000
@@ -196,9 +196,9 @@ def normalize_weight_info(weight_info: SizeInfo, filter_unit: str = "") -> SizeI
         weight_value *= 1000
         weight_unit = 'м'
     if filter_unit == SizeInfoType.Capacity:
-        weight_value, weight_unit, weight_type = mass_to_capacity(weight_info)
+        return mass_to_capacity(weight_info)
     elif filter_unit == SizeInfoType.Mass:
-        weight_value, weight_unit, weight_type = capacity_to_mass(weight_info)
+        return capacity_to_mass(weight_info)
     return SizeInfo(value=weight_value, unit=weight_unit, type=weight_info.type)
 
 
@@ -219,18 +219,17 @@ def mass_to_capacity(weight_info: SizeInfo) -> SizeInfo:
     return SizeInfo(value=weight_value, unit=weight_unit, type=weight_info.type)
 
 
-def sort_products_by_price(product_element: ProductInfo, min_size: str = "") -> float:
-    end_price: float = 0
+def get_products_buy_info(product_element: ProductInfo, min_size: str = "") -> ProductBuyInfo:
+    end_price: float = product_element.price
+    quantity: float = 1
     normalized_min_size_info: SizeInfo = normalize_weight_info(parse_weight_info(min_size)) if min_size else None
     normalized_weight_info: SizeInfo
-    if normalized_min_size_info.unit:
-        normalized_weight_info = normalize_weight_info(product_element.weight_info,
-                                                       filter_unit=normalized_min_size_info.unit)
+    if normalized_min_size_info and normalized_min_size_info.unit:
+        normalized_weight_info = normalize_weight_info(product_element.weight_info, filter_unit=normalized_min_size_info.type)
     else:
         normalized_weight_info = normalize_weight_info(product_element.weight_info)
     try:
         price: float = product_element.price
-        quantity: float = 0
         if normalized_min_size_info:
             if product_element.bundle and normalized_weight_info.value:
                 quantity = math.ceil(normalized_min_size_info.value /
@@ -239,21 +238,18 @@ def sort_products_by_price(product_element: ProductInfo, min_size: str = "") -> 
                 quantity = math.ceil(normalized_min_size_info.value / product_element.bundle)
             elif normalized_weight_info.value:
                 quantity = math.ceil(normalized_min_size_info.value / normalized_weight_info.value)
-            end_price = price * quantity / normalized_min_size_info.value
+            end_price = price * quantity
 
         elif normalized_weight_info.value:
-            quantity = normalized_weight_info.value / normalized_weight_info.value
-            end_price = price * quantity / normalized_weight_info.value
-        print(f"{product_element.title}")
-        print(
-            f"\tNeed {int(quantity)} with amount {normalized_weight_info.value} {normalized_weight_info.unit} and price {price} uah")
-        print(
-            f"\tResult: {quantity * normalized_weight_info.value} {normalized_weight_info.unit} by {(math.ceil(price * quantity)) * 100 / 100} uah")
+            end_price = price * quantity
+        # print(f"{product_element.title}")
+        # print(
+        #     f"\tNeed {int(quantity)} with amount {normalized_weight_info.value} {normalized_weight_info.unit} and price {price} uah")
+        # print(
+        #     f"\tResult: {quantity * normalized_weight_info.value} {normalized_weight_info.unit} by {(math.ceil(price * quantity)) * 100 / 100} uah")
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
-    return end_price
-
-
+    return ProductBuyInfo(end_price=end_price, product=product_element, quantity=quantity)
 
 
 # def find_filters():

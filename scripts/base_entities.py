@@ -22,6 +22,7 @@ class ProducerInfo(BaseModel):
     trademark_slug: Optional[str]
 
 class SizeInfoType(str, Enum):
+    Unknown = "unknown"
     Mass = "mass"
     Capacity = "capacity"
     Length = "length"
@@ -92,22 +93,23 @@ class ShopInfo(Shop):
     location: Optional[str] = "default"
     title: Optional[str]
 
+class ProductBuyInfo(BaseModel):
+    product: ProductInfo
+    quantity: int
+    end_price: float
 
 class ProductsRequest(BaseModel):
     request: Optional[BuyPreference]
-    products: Optional[List[ProductInfo]]
-
-
-class ProductsShop(BaseModel):
-    shop: str
-    requests: Optional[List[ProductsRequest]]
-
+    product_buy_infos: Optional[List[ProductBuyInfo]]
 
 class ChequeShop(BaseModel):
     buy_list: List[ProductsRequest]
     end_price: int
 
+class ProductsShopRequest(BaseModel):
+    shop: str
+    product_request: Optional[ProductsRequest]
 
 class ChequeMulti(BaseModel):
-    buy_list: List[ProductsShop]
+    buy_list: List[ProductsShopRequest]
     end_price: int

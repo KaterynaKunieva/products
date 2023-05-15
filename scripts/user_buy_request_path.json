@@ -3,14 +3,35 @@
     {
       "title_filter": "напій енергетичний",
       "shop_filter": [
-        "silpo"
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
       ],
-      "brand_filter": ["Monster Energy"]
+      "brand_filter": [
+        "Monster Energy"
+      ]
     },
     {
       "title_filter": "цукерки",
       "shop_filter": [
-        "silpo"
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ],
+      "brand_filter": [
+        "Roshen", "Milka"
+      ]
+    },
+    {
+      "title_filter": "молоко",
+      "weight_filter": "1л",
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
       ]
     }
   ],

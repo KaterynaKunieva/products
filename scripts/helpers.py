@@ -13,7 +13,7 @@ shop_infos = {**zakaz_shops, **silpo_shops}
 shop_parsers: Dict[str, ShopScrapperService] = {**{shop: ZakazoShopScrapperService() for shop in zakaz_shops.keys()}, **{shop: SilpoShopScrapperService() for shop in silpo_shops.keys()}}
 
 capacity_measures = ["л", "мл"]
-mass_measures = ["кг", "г"]
+mass_measures = ["кг", "г", "гр"]
 length_measures = ['м', 'см', 'мм', 'км', 'm', 'cm', 'mm', 'km']
 
 def normalize_title(product_title: str, product_brand: str = ""):
@@ -187,9 +187,6 @@ def normalize_weight_info(weight_info: SizeInfo, filter_unit: str = "") -> SizeI
     elif weight_unit == 'км' or weight_unit == 'km':
         weight_value *= 1000
         weight_unit = 'м'
-    if weight_type == SizeInfoType.Capacity:
-        if weight_unit == 'мл':
-            weight_unit = 'г'
     if filter_unit == SizeInfoType.Capacity:
         weight_value, weight_unit, weight_type = mass_to_capacity(weight_info)
     elif filter_unit == SizeInfoType.Mass:

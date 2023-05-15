@@ -3,6 +3,29 @@ from helpers import parse_weight_info_with_validation, normalize_title
 
 
 def test():
+    data23 = {
+        "normalized_title": "крем з бальзамічний оцтом з модени",
+        "title": "Крем Metro Chef з бальзамічний оцтом з Модени",
+        "category_id": "balsamic-vinegar-metro",
+        "price": 89.8,
+        "bundle": 1,
+        "volume": 250.0,
+        "weight_info": {
+          "value": 250.0,
+          "unit": "",
+          "type": "quantity"
+        },
+        "producer": {
+          "trademark": "Metro Chef",
+          "trademark_slug": "metro-chef"
+        },
+        "description": "",
+        "slug": "krem-metro-shef-250ml-italiia",
+        "web_url": "https://metro.zakaz.ua/uk/products/krem-metro-shef-250ml-italiia--04333465133829/"
+    }
+    output: SizeInfo = parse_weight_info_with_validation(ProductInfo.parse_obj(data23))
+    assert output == SizeInfo(value=250.0, unit="мл", type=SizeInfoType.Capacity)
+
     data1 = {
         "normalized_title": "крем з бальзамічний оцтом з модени",
         "title": "Крем Metro Chef з бальзамічний оцтом з Модени 250мл",

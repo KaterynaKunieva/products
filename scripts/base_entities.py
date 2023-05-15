@@ -36,8 +36,8 @@ class SizeInfo(BaseModel):
 
 class ProductInfo(BaseModel):
     normalized_title: Optional[str]
-    title: str 
-    category_id: str
+    title: str
+    category_id: Optional[str]
     price: Optional[float]
     weight: Optional[str]
     bundle: Optional[int]

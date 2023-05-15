@@ -162,6 +162,14 @@ def parse_weight_info_with_validation(product_info: ProductInfo) -> SizeInfo:
             weight_unit = 'кг'
         weight_info_formatted = parse_weight_info(str(weight_value) + weight_unit)
 
+    elif volume and (weight_info.type == SizeInfoType.Capacity or not weight_unit):
+        weight_unit = ''
+        if float(weight_value) >= 10:
+            weight_unit = 'мл'
+        elif float(weight_value) < 10:
+            weight_unit = 'л'
+        weight_info_formatted = parse_weight_info(str(volume) + weight_unit)
+
     formatted_value, formatted_unit, formatted_type = weight_info_formatted
 
     if not formatted_value:

@@ -148,7 +148,8 @@ async def parse_shop_products(shops, locations, promotions_only, page_count, per
                     product.normalized_title = normalize_title(product_title=product.title,
                                                                product_brand=product.producer.trademark)
                     product.weight_info = parse_weight_info_with_validation(product)
-
+                    #if product.weight_info.type == SizeInf
+                    #overwrite bundle
             print(
                 f"Available {promotion_str} products for '{shop_full_name}', categories count: {len(category_products)}")
             if not products_cached or force_reload:

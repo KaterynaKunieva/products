@@ -224,6 +224,8 @@ def get_products_buy_info(product_element: ProductInfo, min_size: str = "") -> P
     quantity: float = 1
     normalized_min_size_info: SizeInfo = normalize_weight_info(parse_weight_info(min_size)) if min_size else None
     normalized_weight_info: SizeInfo
+
+    #if normalized_weight_info/.type != Length and normalized_min_size_info.type 1= :emgthj
     if normalized_min_size_info and normalized_min_size_info.unit:
         normalized_weight_info = normalize_weight_info(product_element.weight_info, filter_unit=normalized_min_size_info.type)
     else:

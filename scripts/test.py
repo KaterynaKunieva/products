@@ -1,5 +1,5 @@
 from base_entities import SizeInfo, ProductInfo, SizeInfoType
-from helpers import parse_weight_info_with_validation, normalize_title
+from helpers import parse_weight_info_with_validation, normalize_title, normalize_weight_info, get_products_buy_info
 
 
 def test():
@@ -535,6 +535,34 @@ def test():
     }
     output: SizeInfo = parse_weight_info_with_validation(ProductInfo.parse_obj(data21))
     assert output == SizeInfo(value=350.0, unit="г", type=SizeInfoType.Mass)
+
+    data33 = {
+        "normalized_title": "сковорода quantanium",
+        "title": "Сковорода Maxmark Quantanium 24см",
+        "category_id": "tm-maxmark",
+        "price": 912.0,
+        "weight": "350.0",
+        "bundle": 1,
+        "unit": "pcs",
+        "volume": None,
+        "weight_info": {
+            "value": 24.0,
+            "unit": "см",
+            "type": "length"
+        },
+        "producer": {
+            "trademark": "Maxmark",
+            "trademark_slug": "maxmark"
+        },
+        "description": "",
+        "slug": "patelnia-maksmark",
+        "web_url": "https://tavriav.zakaz.ua/uk/products/patelnia-maksmark--06902019570380/"
+    }
+    output_size: SizeInfo = normalize_weight_info(ProductInfo.parse_obj(data33).weight_info)
+    print(output_size.dict())
+
+    output_buy_info = get_products_buy_info(ProductInfo.parse_obj(data33))
+    print(output_buy_info.dict())
 
 if __name__ =="__main__":
     test()

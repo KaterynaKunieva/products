@@ -1,0 +1,137 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy",
+          "Non stop"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "напій енергетичний jungle evolution fresh з/б",
+            "title": "Напій енергетичний Non Stop Jungle Evolution Fresh з/б",
+            "category_id": "59",
+            "price": 17.9,
+            "unit": null,
+            "weight": "250мл",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 250.0,
+              "unit": "мл",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": "Non Stop",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
+            "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 17.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "цукерки",
+        "brand_filter": [
+          "Roshen",
+          "Milka"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цукерки джеллі желейні",
+            "title": "Цукерки Roshen «Джеллі» желейні",
+            "category_id": "520",
+            "price": 12.3,
+            "unit": null,
+            "weight": "100г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 100.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Roshen",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
+            "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 12.3
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": null,
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "молоко дитяче харчування від 9 місяців",
+            "title": "Молоко «Злагода» дитяче харчування від 9 місяців 3,2%",
+            "category_id": "4373",
+            "price": 15.99,
+            "unit": null,
+            "weight": "0,2кг",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 0.2,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Злагода",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-744676",
+            "web_url": "https://shop.silpo.ua/product/moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-744676",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 15.99
+        }
+      ]
+    }
+  ],
+  "end_price": 46
+}

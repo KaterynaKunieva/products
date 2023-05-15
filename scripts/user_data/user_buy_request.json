@@ -9,7 +9,8 @@
         "varus"
       ],
       "brand_filter": [
-        "Monster Energy"
+        "Monster Energy",
+        "Non stop"
       ]
     },
     {
@@ -26,7 +27,7 @@
     },
     {
       "title_filter": "молоко",
-      "weight_filter": "1л",
+      "weight_filter": "1кг",
       "shop_filter": [
         "silpo",
         "novus",

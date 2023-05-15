@@ -1,0 +1,3914 @@
+[
+  {
+    "request": {
+      "title_filter": "напій енергетичний",
+      "brand_filter": [
+        "Monster Energy",
+        "Non stop"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra безалкогольний з/б",
+          "title": "Напій енергетичний Monster Energy Ultra безалкогольний з/б",
+          "category_id": "59",
+          "price": 56.55,
+          "unit": null,
+          "weight": "355мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 355.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-bezalkogolnyi-z-b-842232",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 56.55
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний the doctor безалкогольний сильногазований",
+          "title": "Напій енергетичний Monster Energy The Doctor безалкогольний сильногазований",
+          "category_id": "59",
+          "price": 54.02,
+          "unit": null,
+          "weight": "355мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 355.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-the-doctor-bezalkogolnyi-sylnogazovanyi-815697",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 54.02
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний mango loco безалкогольний з/б",
+          "title": "Напій енергетичний Monster Energy Mango Loco безалкогольний з/б",
+          "category_id": "59",
+          "price": 56.55,
+          "unit": null,
+          "weight": "355мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 355.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-mango-loco-bezalkogolnyi-z-b-890962",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-mango-loco-bezalkogolnyi-z-b-890962",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 56.55
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний сильногазований",
+          "title": "Напій енергетичний Non Stop сильногазований",
+          "category_id": "59",
+          "price": 31.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-sylnogazovanyi-319269",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-sylnogazovanyi-319269",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний jungle evolution fresh з/б",
+          "title": "Напій енергетичний Non Stop Jungle Evolution Fresh з/б",
+          "category_id": "59",
+          "price": 17.9,
+          "unit": null,
+          "weight": "250мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 17.9
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra blue з/б",
+          "title": "Напій енергетичний Monster Energy Ultra Blue з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-ultra-blue-z-b-915061",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-blue-z-b-915061",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster hamilton zero б/а з/б",
+          "title": "Напій енергетичний Monster Hamilton Zero б/а з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-hamilton-zero-b-a-z-b-923256",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-hamilton-zero-b-a-z-b-923256",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний green energy сильногазований з/б",
+          "title": "Напій енергетичний Green Energy сильногазований з/б",
+          "category_id": "59",
+          "price": 35.04,
+          "unit": null,
+          "weight": "500мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-green-energy-sylnogazovanyi-z-b-819157",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-green-energy-sylnogazovanyi-z-b-819157",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 35.04
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster pacific punch",
+          "title": "Напій енергетичний Monster Pacific Punch",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-pacific-punch-896053",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-pacific-punch-896053",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra безалкогольний сильногазований з/б",
+          "title": "Напій енергетичний Non Stop Ultra безалкогольний сильногазований з/б",
+          "category_id": "59",
+          "price": 31.99,
+          "unit": null,
+          "weight": "500мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-ultra-bezalkogolnyi-sylnogazovanyi-z-b-912964",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-ultra-bezalkogolnyi-sylnogazovanyi-z-b-912964",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний pipeline punch безалкогольний з/б",
+          "title": "Напій енергетичний Monster Energy Pipeline Punch безалкогольний з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-pipeline-punch-bezalkogolnyi-z-b-895481",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-pipeline-punch-bezalkogolnyi-z-b-895481",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний безалкогольний",
+          "title": "Напій енергетичний Non Stop безалкогольний",
+          "category_id": "59",
+          "price": 36.99,
+          "unit": null,
+          "weight": "0,75л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.75,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-bezalkogolnyi-456612",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-bezalkogolnyi-456612",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 36.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний boost безалкогольний сильногазований з/б",
+          "title": "Напій енергетичний Non Stop Boost безалкогольний сильногазований з/б",
+          "category_id": "59",
+          "price": 31.99,
+          "unit": null,
+          "weight": "500мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-boost-bezalkogolnyi-sylnogazovanyi-z-b-836170",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-boost-bezalkogolnyi-sylnogazovanyi-z-b-836170",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster ultra fiesta безалкогольний газований з/б",
+          "title": "Напій енергетичний Monster Ultra Fiesta безалкогольний газований з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-ultra-fiesta-bezalkogolnyi-gazovanyi-z-b-896728",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-ultra-fiesta-bezalkogolnyi-gazovanyi-z-b-896728",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний безалкогольний з/б",
+          "title": "Напій енергетичний Monster Energy безалкогольний з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-bezalkogolnyi-z-b-895483",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-bezalkogolnyi-z-b-895483",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra paradise",
+          "title": "Напій енергетичний Monster Energy Ultra Paradise",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-ultra-paradise-896056",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-ultra-paradise-896056",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monarch з/б",
+          "title": "Напій енергетичний Monster Energy Monarch з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-monarch-z-b-917553",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-monarch-z-b-917553",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний boost б/а сил/газ з/б",
+          "title": "Напій енергетичний Non Stop Boost б/а сил/газ з/б",
+          "category_id": "59",
+          "price": 17.9,
+          "unit": null,
+          "weight": "250мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-boost-b-a-syl-gaz-z-b-921763",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-boost-b-a-syl-gaz-z-b-921763",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 17.9
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний evolution безалкогольний сильногазований з/б",
+          "title": "Напій енергетичний Non Stop Evolution безалкогольний сильногазований з/б",
+          "category_id": "59",
+          "price": 22.9,
+          "unit": null,
+          "weight": "250мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-non-stop-evolution-bezalkogolnyi-sylnogazovanyi-z-b-827253",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-evolution-bezalkogolnyi-sylnogazovanyi-z-b-827253",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 22.9
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний khaotic з/б",
+          "title": "Напій енергетичний Monster Energy Khaotic з/б",
+          "category_id": "59",
+          "price": 79.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-energy-khaotic-z-b-917554",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-energy-khaotic-z-b-917554",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster nitro б/а газов з/б",
+          "title": "Напій енергетичний Monster Nitro б/а газов з/б",
+          "category_id": "59",
+          "price": 80.79,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-nitro-b-a-gazov-z-b-896730",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-nitro-b-a-gazov-z-b-896730",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 80.79
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster mule безалкогольний газований з/б",
+          "title": "Напій енергетичний Monster Mule безалкогольний газований з/б",
+          "category_id": "59",
+          "price": 80.79,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster Energy",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "napii-energetychnyi-monster-mule-bezalkogolnyi-gazovanyi-z-b-896729",
+          "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-monster-mule-bezalkogolnyi-gazovanyi-z-b-896729",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 80.79
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "цукерки",
+      "brand_filter": [
+        "Roshen",
+        "Milka"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "цукерки bonnyfruit ягідний мікс желейні",
+          "title": "Цукерки Roshen BonnyFruit ягідний мікс желейні",
+          "category_id": "504",
+          "price": 32.99,
+          "unit": null,
+          "weight": "200г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-bonnyfruit-iagidnyi-miks-zheleini-774116",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-bonnyfruit-iagidnyi-miks-zheleini-774116",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 32.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonnyfruit цитрусові фрукти желейні",
+          "title": "Цукерки Roshen BonnyFruit «Цитрусові фрукти» желейні",
+          "category_id": "504",
+          "price": 32.99,
+          "unit": null,
+          "weight": "200г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-bonnyfruit-tsytrusovi-frukty-zheleini-776040",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-bonnyfruit-tsytrusovi-frukty-zheleini-776040",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 32.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny fruit літній мікс желейні",
+          "title": "Цукерки Roshen Bonny Fruit літній мікс желейні",
+          "category_id": "504",
+          "price": 35.99,
+          "unit": null,
+          "weight": "200г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-bonny-fruit-litnii-miks-zheleini-776039",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-bonny-fruit-litnii-miks-zheleini-776039",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 35.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi fizzy worms желейні",
+          "title": "Цукерки Roshen Yummi Gummi Fizzy Worms желейні",
+          "category_id": "520",
+          "price": 27.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-fizzy-worms-zheleini-907936",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-fizzy-worms-zheleini-907936",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 27.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi sour belts",
+          "title": "Цукерки Roshen Yummi Gummi Sour Belts",
+          "category_id": "520",
+          "price": 30.29,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-sour-belts-904791",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-sour-belts-904791",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.29
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки сливки-ленивки вафельні",
+          "title": "Цукерки Roshen «Сливки-Ленивки» вафельні",
+          "category_id": "520",
+          "price": 21.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-slyvky-lenyvky-vafelni-500788",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-slyvky-lenyvky-vafelni-500788",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 21.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi mini bear mix желейні",
+          "title": "Цукерки Roshen Yummi Gummi Mini Bear Mix желейні",
+          "category_id": "520",
+          "price": 30.29,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-mini-bear-mix-zheleini-907932",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-mini-bear-mix-zheleini-907932",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.29
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки ліщина",
+          "title": "Цукерки Roshen «Ліщина»",
+          "category_id": "520",
+          "price": 27.9,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-lishchyna-17687",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-lishchyna-17687",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 27.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки корівка київська",
+          "title": "Цукерки Roshen «Корівка Київська»",
+          "category_id": "520",
+          "price": 12.5,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-korivka-kyivska-17684",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-korivka-kyivska-17684",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 12.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка",
+          "title": "Цукерки Roshen «Шалена бджілка»",
+          "category_id": "520",
+          "price": 14.9,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-shalena-bdzhilka-373380",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-shalena-bdzhilka-373380",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 14.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi cherry желейні",
+          "title": "Цукерки Roshen Yummi Gummi Cherry желейні",
+          "category_id": "520",
+          "price": 28.19,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-cherry-zheleini-916766",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-cherry-zheleini-916766",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.19
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi funny cola желейні",
+          "title": "Цукерки Roshen Yummi Gummi Funny Cola желейні",
+          "category_id": "520",
+          "price": 28.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-funny-cola-zheleini-907937",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-funny-cola-zheleini-907937",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки київ вечірній",
+          "title": "Цукерки Roshen «Київ Вечірній»",
+          "category_id": "520",
+          "price": 199.0,
+          "unit": null,
+          "weight": "176г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 176.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-kyiv-vechirnii-703206",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-kyiv-vechirnii-703206",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 199.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi twists",
+          "title": "Цукерки Roshen Yummi Gummi Twists",
+          "category_id": "520",
+          "price": 29.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-twists-904789",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-twists-904789",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi banana land",
+          "title": "Цукерки Roshen Yummi Gummi Banana Land",
+          "category_id": "520",
+          "price": 30.29,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-banana-land-916767",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-banana-land-916767",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.29
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi donuts желейні",
+          "title": "Цукерки Roshen Yummi Gummi Donuts желейні",
+          "category_id": "520",
+          "price": 28.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-donuts-zheleini-907935",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-donuts-zheleini-907935",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummis зі смаком фруктів жувальні",
+          "title": "Цукерки Roshen Yummi's зі смаком фруктів жувальні",
+          "category_id": "520",
+          "price": 14.9,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-s-zi-smakom-fruktiv-zhuvalni-887123",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-s-zi-smakom-fruktiv-zhuvalni-887123",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 14.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколапки",
+          "title": "Цукерки Roshen «Шоколапки»",
+          "category_id": "520",
+          "price": 18.9,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-shokolapky-321976",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-shokolapky-321976",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 18.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi sour sticks",
+          "title": "Цукерки Roshen Yummi Gummi Sour Sticks",
+          "category_id": "520",
+          "price": 29.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-sour-sticks-904790",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-sour-sticks-904790",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан мигдаль та кокосовий крем",
+          "title": "Цукерки Roshen «Монблан» мигдаль та кокосовий крем",
+          "category_id": "520",
+          "price": 43.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-monblan-mygdal-ta-kokosovyi-krem-913957",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-monblan-mygdal-ta-kokosovyi-krem-913957",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 43.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi galaxy life желейні",
+          "title": "Цукерки Roshen Yummi Gummi Galaxy Life желейні",
+          "category_id": "520",
+          "price": 29.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-galaxy-life-zheleini-907933",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-galaxy-life-zheleini-907933",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка фрутті желейна",
+          "title": "Цукерки Roshen «Шалена бджілка» фрутті желейна",
+          "category_id": "520",
+          "price": 34.79,
+          "unit": null,
+          "weight": "200г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-shalena-bdzhilka-frutti-zheleina-664298",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-shalena-bdzhilka-frutti-zheleina-664298",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 34.79
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi cupсakes желейні",
+          "title": "Цукерки Roshen Yummi Gummi Cupсakes желейні",
+          "category_id": "520",
+          "price": 29.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-cupsakes-zheleini-918367",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-cupsakes-zheleini-918367",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки карамелькино барбарис",
+          "title": "Цукерки Roshen «Карамелькино» «Барбарис»",
+          "category_id": "520",
+          "price": 12.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-karamelkyno-barbarys-603910",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-karamelkyno-barbarys-603910",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 12.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки krock з арахісовою пастою",
+          "title": "Цукерки Roshen Krock з арахісовою пастою",
+          "category_id": "520",
+          "price": 18.9,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-krock-z-arakhisovoiu-pastoiu-886246",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-krock-z-arakhisovoiu-pastoiu-886246",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 18.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки джеллі желейні",
+          "title": "Цукерки Roshen «Джеллі» желейні",
+          "category_id": "520",
+          "price": 12.3,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 12.3
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки еклер",
+          "title": "Цукерки Roshen «Еклер»",
+          "category_id": "520",
+          "price": 17.9,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-ekler-139007",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-ekler-139007",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 17.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки galaretka шоколадні",
+          "title": "Цукерки Roshen Galaretka шоколадні",
+          "category_id": "520",
+          "price": 18.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-galaretka-shokoladni-780657",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-galaretka-shokoladni-780657",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 18.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з цільним лісовим горіхом",
+          "title": "Цукерки Roshen «Монблан» з цільним лісовим горіхом",
+          "category_id": "520",
+          "price": 43.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-monblan-z-tsilnym-lisovym-gorikhom-780659",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-monblan-z-tsilnym-lisovym-gorikhom-780659",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 43.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi frozen yogo желейні",
+          "title": "Цукерки Roshen Yummi Gummi Frozen Yogo желейні",
+          "category_id": "520",
+          "price": 29.99,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-frozen-yogo-zheleini-907934",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-frozen-yogo-zheleini-907934",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi duo mix желейні",
+          "title": "Цукерки Roshen Yummi Gummi Duo Mix желейні",
+          "category_id": "520",
+          "price": 30.29,
+          "unit": null,
+          "weight": "70г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-yummi-gummi-duo-mix-zheleini-917267",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-yummi-gummi-duo-mix-zheleini-917267",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.29
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker chocolate",
+          "title": "Цукерки Roshen Johnny Krocker chocolate",
+          "category_id": "520",
+          "price": 22.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-johnny-krocker-chocolate-570846",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-johnny-krocker-chocolate-570846",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 22.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки candy nut карамель з арахісом",
+          "title": "Цукерки Roshen Candy Nut карамель з арахісом",
+          "category_id": "520",
+          "price": 19.4,
+          "unit": null,
+          "weight": "100г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 100.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-roshen-candy-nut-karamel-z-arakhisom-662543",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-candy-nut-karamel-z-arakhisom-662543",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 19.4
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": null,
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "молоко згущене кокосове солона карамель",
+          "title": "Молоко згущене Bi food кокосове солона карамель",
+          "category_id": "380",
+          "price": 114.0,
+          "unit": null,
+          "weight": "240г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Bi food",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-bi-food-kokosove-solona-karamel-916205",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-bi-food-kokosove-solona-karamel-916205",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 570.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене кокосове на тростинному цукрі",
+          "title": "Молоко згущене Bi food кокосове на тростинному цукрі",
+          "category_id": "380",
+          "price": 114.0,
+          "unit": null,
+          "weight": "240г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Bi food",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-bi-food-kokosove-na-trostynnomu-tsukri-916206",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-bi-food-kokosove-na-trostynnomu-tsukri-916206",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 570.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене кокосове на кокосовому цукрі",
+          "title": "Молоко згущене Bi food кокосове на кокосовому цукрі",
+          "category_id": "380",
+          "price": 159.0,
+          "unit": null,
+          "weight": "240г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Bi food",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-bi-food-kokosove-na-kokosovomu-tsukri-916207",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-bi-food-kokosove-na-kokosovomu-tsukri-916207",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 795.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове сухе",
+          "title": "Молоко Bi food кокосове сухе",
+          "category_id": "380",
+          "price": 294.0,
+          "unit": null,
+          "weight": "400г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Bi food",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-bi-food-kokosove-sukhe-916214",
+          "web_url": "https://shop.silpo.ua/product/moloko-bi-food-kokosove-sukhe-916214",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 882.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване безлактозне від 9 міс.",
+          "title": "Молоко «Яготинське для дітей» ультрапастеризоване безлактозне від 9 міс. 3,2%",
+          "category_id": "253",
+          "price": 43.99,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-dlia-ditei-ultrapasteryzovane-bezlaktozne-vid-9-mis-3-2-777701",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-dlia-ditei-ultrapasteryzovane-bezlaktozne-vid-9-mis-3-2-777701",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 87.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване питне з вітаміном d",
+          "title": "Молоко ультрапастеризоване Lactel питне з вітаміном D 3,2%",
+          "category_id": "253",
+          "price": 57.05,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-lactel-pytne-z-vitaminom-d-3-2-871984",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-lactel-pytne-z-vitaminom-d-3-2-871984",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 114.1
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване",
+          "title": "Молоко пастеризоване «Волошкове поле» 2,5%",
+          "category_id": "253",
+          "price": 38.99,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Волошкове поле",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-voloshkove-pole-2-5-755012",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-voloshkove-pole-2-5-755012",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пряжене",
+          "title": "Молоко «Яготинське» пряжене 2,6%",
+          "category_id": "253",
+          "price": 48.19,
+          "unit": null,
+          "weight": "870г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-priazhene-2-6-880464",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-priazhene-2-6-880464",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 96.38
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване",
+          "title": "Молоко ультрапастеризоване «Слов'яночка» 3,2%",
+          "category_id": "253",
+          "price": 49.98,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Слов'яночка",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-slov-ianochka-3-2-677647",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-slov-ianochka-3-2-677647",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 49.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко п/е",
+          "title": "Молоко «Яготинське» 3,2% п/е",
+          "category_id": "253",
+          "price": 37.69,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-3-2-p-e-548448",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-3-2-p-e-548448",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 75.38
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване пл",
+          "title": "Молоко пастеризоване Молокія 2,5% пл",
+          "category_id": "253",
+          "price": 32.99,
+          "unit": null,
+          "weight": "870г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молокія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-molokiia-2-5-pl-917218",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-molokiia-2-5-pl-917218",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 65.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко питне пастеризоване",
+          "title": "Молоко «Премія»® питне пастеризоване 2,5%",
+          "category_id": "253",
+          "price": 29.99,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Премія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-premiia-pytne-pasteryzovane-2-5-815586",
+          "web_url": "https://shop.silpo.ua/product/moloko-premiia-pytne-pasteryzovane-2-5-815586",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 59.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко українське",
+          "title": "Молоко «Галичина» «Українське» 2,5%",
+          "category_id": "253",
+          "price": 38.49,
+          "unit": null,
+          "weight": "870г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-galychyna-ukrainske-2-5-682859",
+          "web_url": "https://shop.silpo.ua/product/moloko-galychyna-ukrainske-2-5-682859",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 76.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване особливе",
+          "title": "Молоко ультрапастеризоване «Селянське» особливе 2,5%",
+          "category_id": "253",
+          "price": 33.99,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-osoblyve-2-5-716079",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 67.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко питне ультрапастеризоване",
+          "title": "Молоко «Бурьонка» питне ультрапастеризоване 2,5%",
+          "category_id": "253",
+          "price": 65.64,
+          "unit": null,
+          "weight": "1,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Бурьонка",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-buronka-pytne-ultrapasteryzovane-2-5-255333",
+          "web_url": "https://shop.silpo.ua/product/moloko-buronka-pytne-ultrapasteryzovane-2-5-255333",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 65.64
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване органічне",
+          "title": "Молоко пастеризоване Organic Milk органічне 3,5%",
+          "category_id": "253",
+          "price": 51.99,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-organic-milk-organichne-3-5-576679",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-organic-milk-organichne-3-5-576679",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 51.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко велике жиру",
+          "title": "Молоко «Яготинське» «Велике» 2,6% жиру",
+          "category_id": "253",
+          "price": 83.29,
+          "unit": null,
+          "weight": "2000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 2000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-velyke-2-6-zhyru-547009",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-velyke-2-6-zhyru-547009",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 83.29
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване т/п",
+          "title": "Молоко «Галичина» ультрапастеризоване 1% т/п",
+          "category_id": "253",
+          "price": 49.48,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-galychyna-ultrapasteryzovane-1-t-p-815589",
+          "web_url": "https://shop.silpo.ua/product/moloko-galychyna-ultrapasteryzovane-1-t-p-815589",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 98.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване від 3 років",
+          "title": "Молоко ультрапастеризоване «Локо Моко» від 3 років 2,5%",
+          "category_id": "253",
+          "price": 55.54,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Локо Моко",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-loko-moko-vid-3-rokiv-2-5-777584",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-loko-moko-vid-3-rokiv-2-5-777584",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 55.54
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне ультрапастеризоване",
+          "title": "Молоко безлактозне «На здоров'я» ультрапастеризоване 2,5%",
+          "category_id": "253",
+          "price": 38.19,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На здоров'я",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-bezlaktozne-na-zdorov-ia-ultrapasteryzovane-2-5-859622",
+          "web_url": "https://shop.silpo.ua/product/moloko-bezlaktozne-na-zdorov-ia-ultrapasteryzovane-2-5-859622",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 76.38
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване т/б",
+          "title": "Молоко ультрапастеризоване «Яготинське» 3,2% т/б",
+          "category_id": "253",
+          "price": 50.49,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-yagotynske-3-2-t-b-646105",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-yagotynske-3-2-t-b-646105",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 100.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване мікрофільтроване питне",
+          "title": "Молоко пастеризоване «Селянське» мікрофільтроване питне 2.5%",
+          "category_id": "253",
+          "price": 39.99,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-selianske-mikrofiltrovane-pytne-2-5-917294",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-selianske-mikrofiltrovane-pytne-2-5-917294",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 79.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пряжене п/е",
+          "title": "Молоко «Яготинське» пряжене 2,6% п/е",
+          "category_id": "253",
+          "price": 37.19,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-priazhene-2-6-p-e-647784",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-priazhene-2-6-p-e-647784",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 74.38
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне органічне",
+          "title": "Молоко Organic Milk безлактозне органічне 2,5%",
+          "category_id": "253",
+          "price": 58.49,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-organic-milk-bezlaktozne-organichne-2-5-844117",
+          "web_url": "https://shop.silpo.ua/product/moloko-organic-milk-bezlaktozne-organichne-2-5-844117",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 58.49
+      },
+      {
+        "product": {
+          "normalized_title": "молоко казкове",
+          "title": "Молоко «Молокія» «Казкове» 2,5%",
+          "category_id": "253",
+          "price": 41.99,
+          "unit": null,
+          "weight": "870г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молокія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-molokiia-kazkove-2-5-823885",
+          "web_url": "https://shop.silpo.ua/product/moloko-molokiia-kazkove-2-5-823885",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 83.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване безлактозне",
+          "title": "Молоко ультрапастеризоване Lactel безлактозне 0,2%",
+          "category_id": "253",
+          "price": 58.57,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-lactel-bezlaktozne-0-2-878541",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-lactel-bezlaktozne-0-2-878541",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 117.14
+      },
+      {
+        "product": {
+          "normalized_title": "молоко яготинське для дітей від 9 місяців",
+          "title": "Молоко «Яготинське» для дітей від 9 місяців 3,2%",
+          "category_id": "253",
+          "price": 28.77,
+          "unit": null,
+          "weight": "500г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-547027",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-547027",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 57.54
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване органічне знежирене",
+          "title": "Молоко пастеризоване Organic Milk органічне знежирене 0,5%",
+          "category_id": "253",
+          "price": 35.59,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-organic-milk-organichne-znezhyrene-0-5-792117",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-organic-milk-organichne-znezhyrene-0-5-792117",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 35.59
+      },
+      {
+        "product": {
+          "normalized_title": "молоко суперпастеризоване",
+          "title": "Молоко суперпастеризоване «Бурьонка» 3,2%",
+          "category_id": "253",
+          "price": 48.97,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Бурьонка",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-superpasteryzovane-buronka-3-2-539325",
+          "web_url": "https://shop.silpo.ua/product/moloko-superpasteryzovane-buronka-3-2-539325",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 48.97
+      },
+      {
+        "product": {
+          "normalized_title": "молоко дитяче харчування від 9 місяців , п/е",
+          "title": "Молоко «Злагода» дитяче харчування від 9 місяців 3,2%, п/е",
+          "category_id": "253",
+          "price": 23.59,
+          "unit": null,
+          "weight": "400г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Злагода",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-p-e-785544",
+          "web_url": "https://shop.silpo.ua/product/moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-p-e-785544",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 70.77
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване органічне пляшка",
+          "title": "Молоко пастеризоване Organic Milk органічне 2,5% пляшка",
+          "category_id": "253",
+          "price": 38.59,
+          "unit": null,
+          "weight": "470г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 470.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-organic-milk-organichne-2-5-pliashka-786251",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-organic-milk-organichne-2-5-pliashka-786251",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 115.77000000000001
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване питне пляшка",
+          "title": "Молоко пастеризоване «Премія»® питне 3,2% пляшка",
+          "category_id": "253",
+          "price": 79.99,
+          "unit": null,
+          "weight": "2000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 2000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Премія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-premiia-pytne-3-2-pliashka-911628",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-premiia-pytne-3-2-pliashka-911628",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване гмз",
+          "title": "Молоко пастеризоване ГМЗ №1 2,6%",
+          "category_id": "253",
+          "price": 44.99,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Гормолзавод №1",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-gmz-1-2-6-602380",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-gmz-1-2-6-602380",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 44.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване родинне",
+          "title": "Молоко ультрапастеризоване «Селянське» «Родинне» 2,5%",
+          "category_id": "253",
+          "price": 68.67,
+          "unit": null,
+          "weight": "1500г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-selianske-rodynne-2-5-724312",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-rodynne-2-5-724312",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 68.67
+      },
+      {
+        "product": {
+          "normalized_title": "молоко дитяче",
+          "title": "Молоко дитяче «На здоров'я» 3,2%",
+          "category_id": "253",
+          "price": 28.07,
+          "unit": null,
+          "weight": "500г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На здоров'я",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-dytiache-na-zdorov-ia-3-2-527083",
+          "web_url": "https://shop.silpo.ua/product/moloko-dytiache-na-zdorov-ia-3-2-527083",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 56.14
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване лавка традицій органічне",
+          "title": "Молоко пастеризоване «Лавка Традицій» «Старий Порицьк» органічне 3,6%",
+          "category_id": "253",
+          "price": 47.99,
+          "unit": null,
+          "weight": "1л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Старий Порицьк",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-pasteryzovane-lavka-tradytsii-staryi-porytsk-organichne-3-6-711180",
+          "web_url": "https://shop.silpo.ua/product/moloko-pasteryzovane-lavka-tradytsii-staryi-porytsk-organichne-3-6-711180",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 47.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко особливе",
+          "title": "Молоко «Селянське» особливе 1,5%",
+          "category_id": "253",
+          "price": 50.49,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-selianske-osoblyve-1-5-705675",
+          "web_url": "https://shop.silpo.ua/product/moloko-selianske-osoblyve-1-5-705675",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 100.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малюкам від 3 років",
+          "title": "Молоко «Селянське» малюкам від 3 років 2,5%",
+          "category_id": "253",
+          "price": 38.57,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-selianske-maliukam-vid-3-rokiv-2-5-719167",
+          "web_url": "https://shop.silpo.ua/product/moloko-selianske-maliukam-vid-3-rokiv-2-5-719167",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.14
+      },
+      {
+        "product": {
+          "normalized_title": "молоко з чистих карпат",
+          "title": "Молоко «Галичина» «З чистих Карпат» 2,5%",
+          "category_id": "253",
+          "price": 40.39,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-galychyna-z-chystykh-karpat-2-5-716286",
+          "web_url": "https://shop.silpo.ua/product/moloko-galychyna-z-chystykh-karpat-2-5-716286",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 80.78
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване organicmilk органіч2,5%",
+          "title": "Молоко ультрапастеризоване OrganicMilk органіч2,5%",
+          "category_id": "253",
+          "price": 53.99,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-organicmilk-organich2-5-923745",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-organicmilk-organich2-5-923745",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 53.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване сімейне особливе",
+          "title": "Молоко ультрапастеризоване «Селянське» «Сімейне» особливе 2,5%",
+          "category_id": "253",
+          "price": 81.8,
+          "unit": null,
+          "weight": "2000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 2000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-selianske-simeine-osoblyve-2-5-726270",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-simeine-osoblyve-2-5-726270",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 81.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване питне безлактозне",
+          "title": "Молоко ультрапастеризоване Lactel питне безлактозне 1,5%",
+          "category_id": "253",
+          "price": 61.6,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-lactel-pytne-bezlaktozne-1-5-892639",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-lactel-pytne-bezlaktozne-1-5-892639",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 123.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко козине незбиране",
+          "title": "Молоко козине Virtuoso by Lukachivka незбиране 3%",
+          "category_id": "253",
+          "price": 51.99,
+          "unit": null,
+          "weight": "500г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Virtuoso by Lukachivka",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-kozyne-virtuoso-by-lukachivka-nezbyrane-3-766726",
+          "web_url": "https://shop.silpo.ua/product/moloko-kozyne-virtuoso-by-lukachivka-nezbyrane-3-766726",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 103.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко лавка традицій пряжене з незбираного молока",
+          "title": "Молоко «Лавка традицій» «Старий Порицьк» пряжене з незбираного молока 4%",
+          "category_id": "253",
+          "price": 53.99,
+          "unit": null,
+          "weight": "1л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Старий Порицьк",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-lavka-tradytsii-staryi-porytsk-priazhene-z-nezbyranogo-moloka-4-869921",
+          "web_url": "https://shop.silpo.ua/product/moloko-lavka-tradytsii-staryi-porytsk-priazhene-z-nezbyranogo-moloka-4-869921",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 53.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване малюкам для дітей",
+          "title": "Молоко ультрапастеризоване «Селянське» «Малюкам» для дітей 3,2%",
+          "category_id": "253",
+          "price": 50.49,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-selianske-maliukam-dlia-ditei-3-2-846423",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-selianske-maliukam-dlia-ditei-3-2-846423",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 100.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване дитяче",
+          "title": "Молоко ультрапастеризоване «На здоров'я» дитяче 3,2%",
+          "category_id": "253",
+          "price": 51.5,
+          "unit": null,
+          "weight": "950г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На здоров'я",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ultrapasteryzovane-na-zdorov-ia-dytiache-3-2-854265",
+          "web_url": "https://shop.silpo.ua/product/moloko-ultrapasteryzovane-na-zdorov-ia-dytiache-3-2-854265",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 103.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко лавка традицій овець породи лакон",
+          "title": "Молоко «Лавка традицій» Soloviov овець породи Лакон 3,8-6%",
+          "category_id": "253",
+          "price": 53.99,
+          "unit": null,
+          "weight": "250г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Soloviov",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-lavka-tradytsii-soloviov-ovets-porody-lakon-3-8-6-890843",
+          "web_url": "https://shop.silpo.ua/product/moloko-lavka-tradytsii-soloviov-ovets-porody-lakon-3-8-6-890843",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 215.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко лавка традицій козяче п/п",
+          "title": "Молоко «Лавка традицій» «Доообра ферма» козяче п/п",
+          "category_id": "253",
+          "price": 52.99,
+          "unit": null,
+          "weight": "0,5л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Доообра ферма",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-lavka-tradytsii-dooobra-ferma-koziache-p-p-709777",
+          "web_url": "https://shop.silpo.ua/product/moloko-lavka-tradytsii-dooobra-ferma-koziache-p-p-709777",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 52.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко козяче пастеризоване лавка традицій коза",
+          "title": "Молоко козяче пастеризоване «Лавка традицій» «Коза» 3,8%",
+          "category_id": "253",
+          "price": 53.99,
+          "unit": null,
+          "weight": "500г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Золота Коза",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-koziache-pasteryzovane-lavka-tradytsii-koza-3-8-758134",
+          "web_url": "https://shop.silpo.ua/product/moloko-koziache-pasteryzovane-lavka-tradytsii-koza-3-8-758134",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 107.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко словяночка для ідеальної пінки",
+          "title": "Молоко «Слов’яночка» «Для ідеальної пінки» 2,5%",
+          "category_id": "253",
+          "price": 43.42,
+          "unit": null,
+          "weight": "1000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Слов'яночка",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-slov-ianochka-dlia-idealnoi-pinky-2-5-824909",
+          "web_url": "https://shop.silpo.ua/product/moloko-slov-ianochka-dlia-idealnoi-pinky-2-5-824909",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 43.42
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване , т/ф",
+          "title": "Молоко «Галичина» ультрапастеризоване 3,2%, т/ф",
+          "category_id": "253",
+          "price": 48.47,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-galychyna-ultrapasteryzovane-3-2-t-f-771997",
+          "web_url": "https://shop.silpo.ua/product/moloko-galychyna-ultrapasteryzovane-3-2-t-f-771997",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 96.94
+      },
+      {
+        "product": {
+          "normalized_title": "молоко із чистих карпат",
+          "title": "Молоко «Галичина» «Із чистих Карпат» 1%",
+          "category_id": "253",
+          "price": 39.18,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-galychyna-iz-chystykh-karpat-1-716285",
+          "web_url": "https://shop.silpo.ua/product/moloko-galychyna-iz-chystykh-karpat-1-716285",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 78.36
+      },
+      {
+        "product": {
+          "normalized_title": "молоко  питне пастеризоване , пляшка",
+          "title": "Молоко «Премія»® питне пастеризоване 2,5%, пляшка",
+          "category_id": "253",
+          "price": 69.99,
+          "unit": null,
+          "weight": "2000г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 2000.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Премія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-premiia-pytne-pasteryzovane-2-5-pliashka-904546",
+          "web_url": "https://shop.silpo.ua/product/moloko-premiia-pytne-pasteryzovane-2-5-pliashka-904546",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 69.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко дитяче харчування від 9 місяців",
+          "title": "Молоко «Злагода» дитяче харчування від 9 місяців 3,2%",
+          "category_id": "4373",
+          "price": 15.99,
+          "unit": null,
+          "weight": "0,2кг",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 0.2,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Злагода",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-744676",
+          "web_url": "https://shop.silpo.ua/product/moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-744676",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 15.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко від 9 місяців",
+          "title": "Молоко «Яготинське для дітей» від 9 місяців 3,2%",
+          "category_id": "4373",
+          "price": 17.99,
+          "unit": null,
+          "weight": "200г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-739879",
+          "web_url": "https://shop.silpo.ua/product/moloko-yagotynske-dlia-ditei-vid-9-misiatsiv-3-2-739879",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 89.94999999999999
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене незбиране з цукром",
+          "title": "Молоко згущене «Ічня» незбиране з цукром 8,5%",
+          "category_id": "255",
+          "price": 67.99,
+          "unit": null,
+          "weight": "480г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 480.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-ichnia-nezbyrane-z-tsukrom-8-5-609883",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-ichnia-nezbyrane-z-tsukrom-8-5-609883",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 203.96999999999997
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене",
+          "title": "Молоко згущене «Первомайський МКК» 8,5%",
+          "category_id": "255",
+          "price": 69.99,
+          "unit": null,
+          "weight": "440г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 440.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайський МКК",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-pervomaiskyi-mkk-8-5-647808",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-8-5-647808",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 209.96999999999997
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром",
+          "title": "Молоко згущене «Лавка традицій» з цукром 8,5%",
+          "category_id": "255",
+          "price": 89.99,
+          "unit": null,
+          "weight": "300г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 300.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Лавка традицій",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-691396",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-691396",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 359.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сгущене первамайський мкк іриска нежирне",
+          "title": "Молоко сгущене «Первамайський МКК» Іриска нежирне",
+          "category_id": "255",
+          "price": 76.99,
+          "unit": null,
+          "weight": "500г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайський МКК",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-sgushchene-pervamaiskyi-mkk-iryska-nezhyrne-914291",
+          "web_url": "https://shop.silpo.ua/product/moloko-sgushchene-pervamaiskyi-mkk-iryska-nezhyrne-914291",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 153.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з/б",
+          "title": "Молоко згущене «Первомайський МКК» 8,5% з/б",
+          "category_id": "255",
+          "price": 56.99,
+          "unit": null,
+          "weight": "370г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайський МКК",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-pervomaiskyi-mkk-8-5-z-b-584230",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-8-5-z-b-584230",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 170.97
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене первомайский мкк безлактозне",
+          "title": "Молоко згущене «Первомайский МКК» безлактозне 8,5%",
+          "category_id": "255",
+          "price": 52.99,
+          "unit": null,
+          "weight": "290г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайський МКК",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-pervomaiskyi-mkk-bezlaktozne-8-5-865848",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-bezlaktozne-8-5-865848",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 211.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене первомайский мкк з цукром",
+          "title": "Молоко згущене «Первомайский МКК» з цукром 8,5%",
+          "category_id": "255",
+          "price": 8.49,
+          "unit": null,
+          "weight": "15г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 15.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайський МКК",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-pervomaiskyi-mkk-z-tsukrom-8-5-917749",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-z-tsukrom-8-5-917749",
+          "promotion": null
+        },
+        "quantity": 67,
+        "end_price": 568.83
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром та какао",
+          "title": "Молоко згущене Mama Milla з цукром та какао 7,5%",
+          "category_id": "255",
+          "price": 67.99,
+          "unit": null,
+          "weight": "320г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 320.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Mama Milla",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-mama-milla-z-tsukrom-ta-kakao-7-5-643814",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-mama-milla-z-tsukrom-ta-kakao-7-5-643814",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 271.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене іриска варене з/б",
+          "title": "Молоко згущене «Первомайський МКК» «Іриска» варене з/б",
+          "category_id": "255",
+          "price": 79.99,
+          "unit": null,
+          "weight": "370г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайський МКК",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-pervomaiskyi-mkk-iryska-varene-z-b-599823",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-pervomaiskyi-mkk-iryska-varene-z-b-599823",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 239.96999999999997
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром варене",
+          "title": "Молоко згущене «Лавка традицій» з цукром варене 8,5%",
+          "category_id": "255",
+          "price": 94.99,
+          "unit": null,
+          "weight": "300г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 300.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Лавка традицій",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-691398",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-691398",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 379.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром варене с/б",
+          "title": "Молоко згущене «Лавка традицій» з цукром варене 8,5% с/б",
+          "category_id": "255",
+          "price": 164.0,
+          "unit": null,
+          "weight": "600г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 600.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Лавка традицій",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-s-b-691399",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-varene-8-5-s-b-691399",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 328.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром с/б",
+          "title": "Молоко згущене «Лавка традицій» з цукром 8,5% с/б",
+          "category_id": "255",
+          "price": 159.0,
+          "unit": null,
+          "weight": "600г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 600.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Лавка традицій",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-s-b-691397",
+          "web_url": "https://shop.silpo.ua/product/moloko-zghushchene-lavka-tradytsii-z-tsukrom-8-5-s-b-691397",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 318.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сто пудов сухе",
+          "title": "Молоко «Сто пудов» сухе 1,5%",
+          "category_id": "256",
+          "price": 46.69,
+          "unit": null,
+          "weight": "150г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Сто пудів",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-sto-pudov-sukhe-1-5-677184",
+          "web_url": "https://shop.silpo.ua/product/moloko-sto-pudov-sukhe-1-5-677184",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 326.83
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе знежирене",
+          "title": "Молоко «Молочний Світ» сухе знежирене",
+          "category_id": "256",
+          "price": 72.99,
+          "unit": null,
+          "weight": "250г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молочний Світ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-molochnyi-svit-sukhe-znezhyrene-619480",
+          "web_url": "https://shop.silpo.ua/product/moloko-molochnyi-svit-sukhe-znezhyrene-619480",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 291.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе незбиране",
+          "title": "Молоко «Молочний Світ» сухе незбиране 26%",
+          "category_id": "256",
+          "price": 88.99,
+          "unit": null,
+          "weight": "250г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молочний Світ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-molochnyi-svit-sukhe-nezbyrane-26-689409",
+          "web_url": "https://shop.silpo.ua/product/moloko-molochnyi-svit-sukhe-nezbyrane-26-689409",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 355.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване безлактозне",
+          "title": "Молоко «Галичина» пастеризоване безлактозне 2,5%",
+          "category_id": "3274",
+          "price": 42.49,
+          "unit": null,
+          "weight": "870г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-galychyna-pasteryzovane-bezlaktozne-2-5-830218",
+          "web_url": "https://shop.silpo.ua/product/moloko-galychyna-pasteryzovane-bezlaktozne-2-5-830218",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 84.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко органічне з кокоса без цукру",
+          "title": "Молоко Ecomil органічне з кокоса без цукру",
+          "category_id": "240",
+          "price": 199.0,
+          "unit": null,
+          "weight": "1л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Ecomil",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ecomil-organichne-z-kokosa-bez-tsukru-720202",
+          "web_url": "https://shop.silpo.ua/product/moloko-ecomil-organichne-z-kokosa-bez-tsukru-720202",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 199.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко органічне кокос та мигдаль без цукру",
+          "title": "Молоко Ecomil органічне кокос та мигдаль без цукру",
+          "category_id": "240",
+          "price": 169.0,
+          "unit": null,
+          "weight": "1л",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Ecomil",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-ecomil-organichne-kokos-ta-mygdal-bez-tsukru-751043",
+          "web_url": "https://shop.silpo.ua/product/moloko-ecomil-organichne-kokos-ta-mygdal-bez-tsukru-751043",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 169.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове",
+          "title": "Молоко кокосове Kara 17%",
+          "category_id": "76",
+          "price": 199.0,
+          "unit": null,
+          "weight": "400мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Kara",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "moloko-kokosove-kara-17-821301",
+          "web_url": "https://shop.silpo.ua/product/moloko-kokosove-kara-17-821301",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 597.0
+      },
+      {
+        "product": {
+          "normalized_title": "печиво пряжене молоко в шоколадній глазурі",
+          "title": "Печиво «Корисна кондитерська» пряжене молоко в шоколадній глазурі",
+          "category_id": "75",
+          "price": 58.99,
+          "unit": null,
+          "weight": "130г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 130.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Корисна Кондитерська",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "pechyvo-korysna-kondyterska-priazhene-moloko-v-shokoladnii-glazuri-388921",
+          "web_url": "https://shop.silpo.ua/product/pechyvo-korysna-kondyterska-priazhene-moloko-v-shokoladnii-glazuri-388921",
+          "promotion": null
+        },
+        "quantity": 8,
+        "end_price": 471.92
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко у чорному шоколаді",
+          "title": "Цукерки «Пташине молоко» у чорному шоколаді",
+          "category_id": "511",
+          "price": 114.0,
+          "unit": null,
+          "weight": "150г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-ptashyne-moloko-u-chornomu-shokoladi-594607",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-u-chornomu-shokoladi-594607",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 798.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко з цукатами",
+          "title": "Цукерки «Пташине молоко» з цукатами",
+          "category_id": "511",
+          "price": 144.0,
+          "unit": null,
+          "weight": "165г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 165.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-ptashyne-moloko-z-tsukatamy-594863",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-z-tsukatamy-594863",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 1008.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко асорті",
+          "title": "Цукерки «Пташине молоко» асорті",
+          "category_id": "511",
+          "price": 249.0,
+          "unit": null,
+          "weight": "180г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 180.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-ptashyne-moloko-asorti-643505",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-asorti-643505",
+          "promotion": null
+        },
+        "quantity": 6,
+        "end_price": 1494.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко у молочному шоколаді",
+          "title": "Цукерки «Пташине молоко» у молочному шоколаді",
+          "category_id": "511",
+          "price": 114.0,
+          "unit": null,
+          "weight": "145г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 145.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-ptashyne-moloko-u-molochnomu-shokoladi-594858",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-u-molochnomu-shokoladi-594858",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 798.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерка пташине молоко у молочному шоколаді",
+          "title": "Цукерка «Пташине молоко» у молочному шоколаді",
+          "category_id": "511",
+          "price": 14.99,
+          "unit": null,
+          "weight": "14г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 14.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerka-ptashyne-moloko-u-molochnomu-shokoladi-603301",
+          "web_url": "https://shop.silpo.ua/product/tsukerka-ptashyne-moloko-u-molochnomu-shokoladi-603301",
+          "promotion": null
+        },
+        "quantity": 72,
+        "end_price": 1079.28
+      },
+      {
+        "product": {
+          "normalized_title": "цукерка пташине молоко у чорному шоколаді",
+          "title": "Цукерка «Пташине молоко» у чорному шоколаді",
+          "category_id": "511",
+          "price": 14.99,
+          "unit": null,
+          "weight": "14г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 14.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerka-ptashyne-moloko-u-chornomu-shokoladi-594857",
+          "web_url": "https://shop.silpo.ua/product/tsukerka-ptashyne-moloko-u-chornomu-shokoladi-594857",
+          "promotion": null
+        },
+        "quantity": 72,
+        "end_price": 1079.28
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко в молочному шоколаді",
+          "title": "Цукерки «Пташине молоко» в молочному шоколаді",
+          "category_id": "511",
+          "price": 229.0,
+          "unit": null,
+          "weight": "170г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 170.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-ptashyne-moloko-v-molochnomu-shokoladi-638531",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-v-molochnomu-shokoladi-638531",
+          "promotion": null
+        },
+        "quantity": 6,
+        "end_price": 1374.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко в чорному шоколаді",
+          "title": "Цукерки «Пташине молоко» в чорному шоколаді",
+          "category_id": "511",
+          "price": 229.0,
+          "unit": null,
+          "weight": "170г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 170.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Без ТМ",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "tsukerky-ptashyne-moloko-v-chornomu-shokoladi-638534",
+          "web_url": "https://shop.silpo.ua/product/tsukerky-ptashyne-moloko-v-chornomu-shokoladi-638534",
+          "promotion": null
+        },
+        "quantity": 6,
+        "end_price": 1374.0
+      },
+      {
+        "product": {
+          "normalized_title": "печиво марія молоко + са затяжне",
+          "title": "Печиво Yarych «Марія» молоко + Са затяжне",
+          "category_id": "501",
+          "price": 36.99,
+          "unit": null,
+          "weight": "310г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 310.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Yarych",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "pechyvo-yarych-mariia-moloko-sa-zatiazhne-874065",
+          "web_url": "https://shop.silpo.ua/product/pechyvo-yarych-mariia-moloko-sa-zatiazhne-874065",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 147.96
+      },
+      {
+        "product": {
+          "normalized_title": "маска банан-молоко тканинна",
+          "title": "Маска Beauty Derm банан-молоко тканинна",
+          "category_id": "542",
+          "price": 32.59,
+          "unit": null,
+          "weight": "25мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 25.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Beauty Derm",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "maska-beauty-derm-banan-moloko-tkanynna-825487",
+          "web_url": "https://shop.silpo.ua/product/maska-beauty-derm-banan-moloko-tkanynna-825487",
+          "promotion": null
+        },
+        "quantity": 40,
+        "end_price": 1303.6000000000001
+      },
+      {
+        "product": {
+          "normalized_title": "крем-мило молоко і мед дойпак",
+          "title": "Крем-мило Shik «Молоко і мед» дойпак",
+          "category_id": "543",
+          "price": 58.49,
+          "unit": null,
+          "weight": "900г",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Shik",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "krem-mylo-shik-moloko-i-med-doipak-886828",
+          "web_url": "https://shop.silpo.ua/product/krem-mylo-shik-moloko-i-med-doipak-886828",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 116.98
+      },
+      {
+        "product": {
+          "normalized_title": "мило рідке молоко і мед",
+          "title": "Мило рідке «Премія»® «Молоко і мед»",
+          "category_id": "543",
+          "price": 32.99,
+          "unit": null,
+          "weight": "300мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 300.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Премія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "mylo-ridke-premiia-moloko-i-med-375644",
+          "web_url": "https://shop.silpo.ua/product/mylo-ridke-premiia-moloko-i-med-375644",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 131.96
+      },
+      {
+        "product": {
+          "normalized_title": "мило рідке молоко і мед, запаска",
+          "title": "Мило рідке «Премія»® «Молоко і мед», запаска",
+          "category_id": "543",
+          "price": 34.99,
+          "unit": null,
+          "weight": "300мл",
+          "bundle": null,
+          "volume": null,
+          "weight_info": {
+            "value": 300.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Премія",
+            "trademark_slug": null
+          },
+          "description": null,
+          "slug": "mylo-ridke-premiia-moloko-i-med-zapaska-375663",
+          "web_url": "https://shop.silpo.ua/product/mylo-ridke-premiia-moloko-i-med-zapaska-375663",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 139.96
+      }
+    ]
+  }
+]

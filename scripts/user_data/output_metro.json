@@ -1,0 +1,3104 @@
+[
+  {
+    "request": {
+      "title_filter": "напій енергетичний",
+      "brand_filter": [
+        "Monster Energy",
+        "Non stop"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra",
+          "title": "Напій енергетичний Non Stop Ultra 0,5л",
+          "category_id": "energy-drinks-metro",
+          "price": 772.2,
+          "unit": "pcs",
+          "weight": "530.0",
+          "bundle": 24,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-500ml-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-non-stop-500ml-ukrayina--04820252121539/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 772.2
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний mango loco",
+          "title": "Напій енергетичний Monster Energy Mango Loco 0,355л",
+          "category_id": "energy-drinks-metro",
+          "price": 51.73,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-monster-355ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-monster-355ml--05060751213062/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 51.73
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster black the doctor",
+          "title": "Напій енергетичний Monster Black The Doctor 0,355л",
+          "category_id": "energy-drinks-metro",
+          "price": 589.68,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 12,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-monster-355ml-niderlandi",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-monster-355ml-niderlandi--05060639122936/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 589.68
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний monster mango loco",
+          "title": "Напій енергетичний Monster Mango Loco 0,355л",
+          "category_id": "energy-drinks-metro",
+          "price": 589.68,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 12,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-355ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-355ml--05060751213079/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 589.68
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний boost",
+          "title": "Напій енергетичний Non Stop Boost 0,5л",
+          "category_id": "energy-drinks-metro",
+          "price": 33.8,
+          "unit": "pcs",
+          "weight": "530.0",
+          "bundle": 1,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-500ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097899167/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 33.8
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний the doctor сильногазований",
+          "title": "Напій енергетичний Monster Energy The Doctor сильногазований 0,355л",
+          "category_id": "energy-drinks-metro",
+          "price": 51.73,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "napii-monster-355ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/napii-monster-355ml--05060639122929/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 51.73
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний jungle",
+          "title": "Напій енергетичний Non Stop Jungle 250мл",
+          "category_id": "energy-drinks-metro",
+          "price": 522.61,
+          "unit": "pcs",
+          "weight": "274.0",
+          "bundle": 24,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-250ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-non-stop-250ml--04820252120983/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 522.61
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra zero сильногазований безалкогольний",
+          "title": "Напій енергетичний Monster Energy Ultra Zero сильногазований безалкогольний 0,355л",
+          "category_id": "energy-drinks-metro",
+          "price": 51.73,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-monster-355ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/energetik-monster-355ml--05060639128778/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 51.73
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "цукерки",
+      "brand_filter": [
+        "Roshen",
+        "Milka"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "цукерки ромашка",
+          "title": "Цукерки Roshen Ромашка",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 185.02,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Глазуровані шоколадною глазур'ю цукерки, корпус - помадка вершкова крем-брюле з додаванням какао-порошку та коньяку.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28064100000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 185.02
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка фрутті желейні",
+          "title": "Цукерки Roshen Шалена бджілка фрутті желейні",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 154.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс «Шалена бджілка Фрутті» складається із 6 різноманітних фруктових смаків: апельсин, грейпфрут, кисла вишня, лісові ягоди, лимон лайм та суниця. Цукерки на основі желейного агента рослинного походження – каррагінана (продукт, зроблений із морських водоростей) та з додаванням натуральних соків.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28069600000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 154.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки джеллі",
+          "title": "Цукерки Roshen Джеллі",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 128.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желейних цукерок з додаванням концентрованих фруктових соків зі смаками лимону, апельсину, яблука, полуниці, малини, груші, посипані дрібнокристалічним цукром.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28115000000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 128.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки ko-ko choco",
+          "title": "Цукерки Roshen Ko-Ko Choco 1кг",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 313.09,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з комбінацією кремових начинок: ванільної та з ароматом «яєчного лікеру».",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077607332/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 313.09
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколапки",
+          "title": "Цукерки Roshen Шоколапки",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 202.7,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тофі з подрібненим арахісом в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28065100000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 202.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки бім-бом карамельні з фруктово-ягідною начинкою вагові",
+          "title": "Цукерки Roshen Бім-Бом карамельні з фруктово-ягідною начинкою вагові",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 124.7,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Прозора карамель у формі кулі з фруктово-ягідною начинкою зі смаками груші, ананасу, суниці та тутті-фрутті.",
+          "slug": "karamel-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/karamel-roshen-ukrayina--metro28079400000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 124.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки галаретка",
+          "title": "Цукерки Roshen Галаретка",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 191.26,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки зі смаками ананасу, апельсина, манго, лайма в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28880900000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 191.26
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки сливки-ленивки",
+          "title": "Цукерки Roshen Сливки-ленивки 1кг",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 237.49,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Глазуровані екстрамолочною шоколадною глазур´ю вафельні цукерки з молочно-вершковою начинкою.",
+          "slug": "tsukerka-roshen-31g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-31g-ukrayina--04823006707911/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 237.49
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки fudgenta",
+          "title": "Цукерки Roshen Fudgenta",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 154.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Молочна цукерка типу «ірис».",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28820500000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 154.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto bianco",
+          "title": "Цукерки Roshen Konafetto Bianco",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 207.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки в шоколадній глазурі з кремовою начинкою зі смаком лісового горіха.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28114300000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 207.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker choco",
+          "title": "Цукерки Roshen Johnny Krocker choco",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 224.54,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Світлі хрусткі вафлі та шоколадно-кремова начинка, покриті глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28966500000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 224.54
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mont blanc мікс шоколадні",
+          "title": "Цукерки Roshen Mont Blanc мікс шоколадні 1кг",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 405.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077637865/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 405.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки candy nut нуга і мяка карамель з арахісом та хрустким рисом вагові",
+          "title": "Цукерки Roshen Candy Nut Нуга і м'яка карамель з арахісом та хрустким рисом вагові",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 194.38,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28225400000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 194.38
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi`s жувальні зі смаком фруктів",
+          "title": "Цукерки Roshen Yummi`s жувальні зі смаком фруктів",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 154.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-1000g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g-ukrayina--metro28531100000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 154.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан шоколад з сезамом",
+          "title": "Цукерки Roshen Монблан шоколад з сезамом",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 415.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з шоколадно-горіхового праліне зі смаженим кунжутом, декоровані чорним та білим шоколадом.\nГармонійне поєднання декількох видів шоколаду, праліне і обсмаженого сезаму.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28873900000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 415.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан лісовий горіх",
+          "title": "Цукерки Roshen Монблан лісовий горіх",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 415.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28634000000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 415.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto nero",
+          "title": "Цукерки Roshen Konafetto Nero",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 207.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Глазуровані шоколадною глазур’ю цукерки, корпус – вафельна трубочка з кремовою молочно-горіховою начинкою всередені.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28066600000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 207.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки ліщина",
+          "title": "Цукерки Roshen Ліщина 1кг",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 313.09,
+          "unit": "pcs",
+          "weight": "1002.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Праліне з додаванням подрібненої та тертої ліщини та мигдалю.\n Цукерка покрита шоколадною глазур’ю.",
+          "slug": "tsukerka-roshen-1000g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g-ukrayina--04823077608933/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 313.09
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker молоко",
+          "title": "Цукерки Roshen Johnny Krocker молоко",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 224.54,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Темні хрусткі вафлі та молочна начинка, покриті глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28966800000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 224.54
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан крем-праліне з подрібненим лісовим горіхом",
+          "title": "Цукерки Roshen Монблан крем-праліне з подрібненим лісовим горіхом",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 415.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з комбінованою начинкою: праліне з подрібненими лісовими горіхами та горіхово-кремова начинка. Декоровані білим і чорним шоколадом.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28874000000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 415.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки minky binky з желейною начинкою",
+          "title": "Цукерки Roshen Minky Binky з желейною начинкою",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 154.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тоффі з желейними начинками та додаванням фруктових соків: полуниці, апельсину, чорниці, абрикосу.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28819200000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 154.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mont blanc шоколадні з цілим лісовим горіхом",
+          "title": "Цукерки Roshen Mont Blanc шоколадні з цілим лісовим горіхом 240г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 119.5,
+          "unit": "pcs",
+          "weight": "240.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з кремовою горіховою начинкою, з додаванням ядер горіхів фундука. Декоровані білим шоколадом.",
+          "slug": "tsukerka-roshen-240g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-240g-ukrayina--04823077635755/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 119.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi duo mix",
+          "title": "Цукерки Roshen Yummi Gummi Duo Mix 70г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636295/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi cherry",
+          "title": "Цукерки Roshen Yummi Gummi Cherry 70г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/ukrayina--04823077638466/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi banana land",
+          "title": "Цукерки Roshen Yummi Gummi Banana Land 70г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "74.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/ukrayina--04823077638459/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки нуга глазуровані",
+          "title": "Цукерки Roshen Нуга глазуровані",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 206.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "shokolad-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/shokolad-roshen-ukrayina--metro28020200000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 206.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки з молочного шоколаду горіхова начинка",
+          "title": "Цукерки з молочного шоколаду Milka горіхова начинка 110г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 91.0,
+          "unit": "pcs",
+          "weight": "110.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 110.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Milka",
+            "trademark_slug": "milka"
+          },
+          "description": "",
+          "slug": "tsukerka-milka-110g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-milka-110g--07622201408145/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 91.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки в шоколаді вишня з вишневим лікером",
+          "title": "Цукерки Roshen в шоколаді вишня з вишневим лікером 155г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 79.98,
+          "unit": "pcs",
+          "weight": "155.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 155.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки в чорному шоколаді з вишневим лікером і цілою вишнею без кісточки. Коробка цукерок Roshen здатна додати святковості навіть в найпохмуріший день. Може бути як прекрасним доповненням до будь-якого подарунка, так і самостійним презентом.",
+          "slug": "tsukerka-roshen-155g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-155g-ukrayina--04823077625145/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 79.98
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки compliment шоколадні",
+          "title": "Цукерки Roshen Compliment шоколадні 145г",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 70.62,
+          "unit": "pcs",
+          "weight": "145.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 145.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асорті чотирьох видів цукерок в чорному шоколаді з різними начинками. Коробка цукерок Roshen здатна додати святковості навіть в найпохмуріший день. Може бути як прекрасним доповненням до будь-якого подарунка, так і самостійним презентом.",
+          "slug": "tsukerka-roshen-145g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-145g-ukrayina--04823077625879/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 70.62
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки lollipops йогурт",
+          "title": "Цукерки Roshen Lollipops йогурт",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 162.14,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс карамелі на паличці зі смаками «йогурт-малина», «йогурт-полуниця» та «йогурт-ананас».",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--metro28818700000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 162.14
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки нуга з арахісом та мякою карамеллю",
+          "title": "Цукерки Roshen Нуга з арахісом та м'якою карамеллю",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 206.86,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Ніжна нуга та прошарок карамелі з подрібненим арахісом, покриті глазур'ю.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--metro28694600000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 206.86
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки sorrento",
+          "title": "Цукерки Roshen Sorrento",
+          "category_id": "candies-and-chocolate-bars-metro",
+          "price": 202.7,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з ніжною помадно-кремовою начинкою з бренді, глазуровані шоколадною глазур’ю.",
+          "slug": "tsukerka",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka--metro28695000000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 202.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi sour sticks желейні",
+          "title": "Цукерки Roshen Yummi Gummi Sour Sticks желейні 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi mini bear mix",
+          "title": "Цукерки Roshen Yummi Gummi Mini Bear Mix 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі ведмедиків зі смаками вишні, яблука, абрикоса, смородини, ананаса та апельсина. \nУ цукерках міститься 25% фруктового соку.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636349/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi funny cola",
+          "title": "Цукерки Roshen Yummi Gummi Funny Cola 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі пляшечок солодких газованих напоїв зі смаком коли.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636394/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny-fruit желейні ягідний мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні ягідний мікс 200г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 36.61,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаками та у формі лісовихі садових ягід: чорниці, суниці, журавлини, малини, винограду та чорної смородини.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624261/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 36.61
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi rainbow belts желейні",
+          "title": "Цукерки Roshen Yummi Gummi Rainbow Belts желейні 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636264/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi donuts",
+          "title": "Цукерки Roshen Yummi Gummi Donuts 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі пончиків зі шматочками печива.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636370/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi fizzy worms",
+          "title": "Цукерки Roshen Yummi Gummi Fizzy Worms 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі смугастих черв'ячків у кислій присипці та з подвійними смаками: виноград – яблуко, чорниця – апельсин, вишня – лимон.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636387/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny-fruit желейні літній мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні літній мікс 200г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 36.61,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаком і в формі літніх фруктів і ягід: яблука, груші, абрикоса, кавуна, вишні та полуниці.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624223/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 36.61
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi frozen yogo",
+          "title": "Цукерки Roshen Yummi Gummi Frozen Yogo 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі морозива з йогуртовими смаками: малина-йогурт, полуниця-йогурт, ананас-йогурт.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636363/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi twists желейні",
+          "title": "Цукерки Roshen Yummi Gummi Twists желейні 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636271/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi galaxy life",
+          "title": "Цукерки Roshen Yummi Gummi Galaxy Life 70г",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 29.05,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс двошарових желатинових цукерок на основі спіненої маси зі смаками лимона, кавуна, апельсина, вишні, чорниці та яблука.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636356/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.05
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": null,
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване",
+          "title": "Молоко Селянське пастеризоване 2,5% 950г",
+          "category_id": "pasteurized-milk-metro",
+          "price": 36.67,
+          "unit": "pcs",
+          "weight": "981.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+          "slug": "moloko-selianske-950g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-950g-ukrayina--04820003486245/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 73.34
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мікрофільтроване",
+          "title": "Молоко Селянське мікрофільтроване 2,5% 950г",
+          "category_id": "pasteurized-milk-metro",
+          "price": 41.5,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "",
+          "slug": "moloko",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko--04820254400236/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 83.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко казкове пастеризоване",
+          "title": "Молоко Молокія Казкове пастеризоване 2.5% 870г",
+          "category_id": "pasteurized-milk-metro",
+          "price": 43.89,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молокія",
+            "trademark_slug": "molokiia"
+          },
+          "description": "Молоко Казкове від «Молокія» виготовлене із молока екстра ґатунку від кращих фермерських господарств. Завдяки впровадженій німецькій технології очистки молоко Казкове  є абсолютно безпечним та корисним.",
+          "slug": "moloko-molokiia-870g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-molokiia-870g-ukrayina--04820045701665/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 87.78
+      },
+      {
+        "product": {
+          "normalized_title": "молоко органічне",
+          "title": "Молоко Organic Milk органічне 0,5% 1л",
+          "category_id": "pasteurized-milk-metro",
+          "price": 34.22,
+          "unit": "pcs",
+          "weight": "1028.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": "organic-milk"
+          },
+          "description": "",
+          "slug": "moloko-organik-milk-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 34.22
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мікрофільтроване незбиране",
+          "title": "Молоко Селянське мікрофільтроване незбиране 3,4-3,8% 950г",
+          "category_id": "pasteurized-milk-metro",
+          "price": 46.7,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "",
+          "slug": "moloko-selianske-950g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-950g--04820254400496/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 93.4
+      },
+      {
+        "product": {
+          "normalized_title": "молоко к пастеризоване",
+          "title": "Молоко Organic Milkк пастеризоване 3,5% 1кг",
+          "category_id": "pasteurized-milk-metro",
+          "price": 53.98,
+          "unit": "pcs",
+          "weight": "1030.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": "organic-milk"
+          },
+          "description": "Чому \"О\"? Тому що Органічно!\nМи - органічне виробництво повного циклу, створене за швейцарською моделлю.\nМи самостійно обробляємо землю, вирощуємо корми, які споживають наші корівки на наших власних фермах і пасовищах.\nМи поєднали традиційний спосіб виробництва молока та інноваційне обладнання, щоб Ви, смакуючи, змогли сказати: \"О! Це натурально і дуже смачно!\".",
+          "slug": "moloko-organik-milk-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000g--04820178810043/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 53.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко козине пастеризоване",
+          "title": "Молоко Zinka козине пастеризоване 2,8% 930г",
+          "category_id": "pasteurized-milk-metro",
+          "price": 57.1,
+          "unit": "pcs",
+          "weight": "966.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 930.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Zinka",
+            "trademark_slug": "zinka"
+          },
+          "description": "Молочні продукти ТМ  Zinka вироблено з козиного молока, отриманого від французьких племінних кіз порід зааненська та альпіна. Процес виробництва забезпечує якість та безпечність продукції і сприяє максимальному збереженню природної користі козиного молока.",
+          "slug": "moloko-zinka-930g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-zinka-930g-ukrayina--04820196970187/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 114.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко овече",
+          "title": "Молоко Soloviov Family Farm овече 250мл",
+          "category_id": "pasteurized-milk-metro",
+          "price": 51.9,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Soloviov Family Farm",
+            "trademark_slug": "soloviov-family-farm"
+          },
+          "description": "",
+          "slug": "moloko-250ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-250ml--04820253160018/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 207.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко коровяче питне пастеризоване",
+          "title": "Молоко Aro коров'яче питне пастеризоване 2,5% 900г",
+          "category_id": "pasteurized-milk-metro",
+          "price": 25.7,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Aro",
+            "trademark_slug": "aro"
+          },
+          "description": "",
+          "slug": "moloko-aro-900g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-aro-900g--04820062321518/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 51.4
+      },
+      {
+        "product": {
+          "normalized_title": "молоко особливе ультрапастеризоване",
+          "title": "Молоко Селянське Особливе ультрапастеризоване 6% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 53.56,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "Молоко питне ультрапастеризоване, 6,0% жиру Особливе. Інноваційна технологія обробки молочної сировини парою дає можливість м'яко очистити її від шкідливих бактерій і зберегти природну цінність.",
+          "slug": "moloko-selianske-1000g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-1000g-ukrayina--04820003485057/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 107.12
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване",
+          "title": "Молоко На здоров'я ультрапастеризоване 3,2% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 48.82,
+          "unit": "pcs",
+          "weight": "1035.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "Молоко ТМ На Здоров'я 3,2% жиру - ідеальний продукт для всієї родини завдяки: традиційній жирності молока, яка підходить як для дорослих, так і для дітей, високій якості молока, зручному формату, завдяки якому продукт комфортний у зберіганні та використанні, а ще - його вдосталь для всієї родини!",
+          "slug": "moloko-na-zdorov-ia-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-na-zdorov-ia-1000ml--04820003481004/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 97.64
+      },
+      {
+        "product": {
+          "normalized_title": "молоко від 9 місяців",
+          "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 48.78,
+          "unit": "pcs",
+          "weight": "986.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+          "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 97.56
+      },
+      {
+        "product": {
+          "normalized_title": "молоко з вітаміном d3 ультрапастеризоване",
+          "title": "Молоко Lactel з вітаміном D3 ультрапастеризоване 0,5% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 45.03,
+          "unit": "pcs",
+          "weight": "1030.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Молоко Lactel збагачене вітаміном D, який допомагає краще засвоюватися кальцію в кістках. Це сприяє зростанню дітей і здоров'ю всієї родини. Стакан Lactel з вітаміном D містить до 20% добової норми вітаміну D3. З молока Lactel з вітаміном D засвоюється більше кальцію. Це сприяє зміцненню кісток і росту дітей.",
+          "slug": "moloko-laktel-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-laktel-1000g--04823065702322/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 90.06
+      },
+      {
+        "product": {
+          "normalized_title": "молоко родинне ультрапастеризоване",
+          "title": "Молоко Селянське Родинне ультрапастеризоване 3,2% 2кг",
+          "category_id": "uht-milk-metro",
+          "price": 82.68,
+          "unit": "pcs",
+          "weight": "2088.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 2.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна вітчизняна високоякісна молочна продукція, вироблена з високосортної сировини найвищого ґатунку за технологією суперпастерізаціі. Якщо любиш свіженьке!",
+          "slug": "moloko-selianske-2000ml-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-selianske-2000ml-ukrayina--04820003486108/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 82.68
+      },
+      {
+        "product": {
+          "normalized_title": "молоко питне ультрапастеризоване",
+          "title": "Молоко Metro Chef питне ультрапастеризоване 1,5% 1л",
+          "category_id": "uht-milk-metro",
+          "price": 35.9,
+          "unit": "pcs",
+          "weight": "1028.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Metro Chef",
+            "trademark_slug": "metro-chef"
+          },
+          "description": "",
+          "slug": "moloko-metro-shef-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-metro-shef-1000ml--04820001472387/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 35.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване з вітаміном d3",
+          "title": "Молоко Lactel ультрапастеризоване з вітаміном D3 3,2% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 52.94,
+          "unit": "pcs",
+          "weight": "978.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Молоко Lactel збагачене вітаміном D, який допомагає краще засвоюватися кальцію в кістках. Це сприяє зростанню дітей і здоров'ю всієї родини. Стакан Lactel з вітаміном D містить до 20% добової норми вітаміну D3. З молока Lactel з вітаміном D засвоюється більше кальцію. Це сприяє зміцненню кісток і росту дітей.",
+          "slug": "moloko-laktel-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-laktel-1000g--04823065702360/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 105.88
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне ультрапастеризоване",
+          "title": "Молоко Rioba Безлактозне ультрапастеризоване 2,5% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 44.9,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Rioba",
+            "trademark_slug": "rioba"
+          },
+          "description": "",
+          "slug": "moloko-rioba-950g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-rioba-950g--04820086633734/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 89.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко дитяче ультрапастеризоване",
+          "title": "Молоко На Здоров'я Дитяче ультрапастеризоване 3,2% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 45.14,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ На здоров'я - це широкий асортимент корисної та смачної молочної продукції для всієї родини та споживачів з особливими потребами. Висока якість, інноваційна технологія виробництва та екологічна асептична упаковка Тетра Пак, яка надійно захищає продукти і дозволяє довше зберігати їх смак та свіжість - незмінні переваги вашої улюбленної продукції.",
+          "slug": "moloko-na-zdorov-ia-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-na-zdorov-ia-1000g--04820003481134/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 90.28
+      },
+      {
+        "product": {
+          "normalized_title": "молоко вітамінізоване ультрапастеризоване",
+          "title": "Молоко На здоров'я вітамінізоване  ультрапастеризоване 2,5% 950г",
+          "category_id": "uht-milk-metro",
+          "price": 47.01,
+          "unit": "pcs",
+          "weight": "1028.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "Молоко ТМ На Здоров'я 2,6% жиру - ідеальний продукт для всієї родини завдяки: традиційній жирності молока, яка підходить як для дорослих, так і для дітей, високій якості молока, зручному формату, завдяки якому продукт комфортний у зберіганні та використанні, а ще - його вдосталь для всієї родини!",
+          "slug": "moloko-na-zdorov-ia-1000g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-na-zdorov-ia-1000g-ukrayina--04820003481981/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 94.02
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване вітамінізоване від 9 місяців",
+          "title": "Молоко Яготинське для дітей ультрапастеризоване вітамінізоване від 9 місяців 3,2% 1кг",
+          "category_id": "uht-milk-metro",
+          "price": 43.57,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-1000g--04823005203742/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 43.57
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне ультрапастеризоване",
+          "title": "Молоко На Здоров'я безлактозне ультрапастеризоване 0,5% 950г",
+          "category_id": "lactose-free-milk-metro",
+          "price": 47.53,
+          "unit": "pcs",
+          "weight": "1035.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ На здоров'я - це широкий асортимент корисної та смачної молочної продукції для всієї родини. Висока якість, інноваційна технологія виробництва та екологічна асептична упаковка Тетра Пак , яка надійно захищає продукти і дозволяє довше зберігати їх смак та свіжість - незмінні переваги продукції ТМ На здоров'я.",
+          "slug": "moloko-na-zdorov-ia-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-na-zdorov-ia-1000g--04820003486634/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 95.06
+      },
+      {
+        "product": {
+          "normalized_title": "молоко без лактози ультрапастеризоване",
+          "title": "Молоко Яготинське для дітей Без лактози ультрапастеризоване 2,5% 950г",
+          "category_id": "lactose-free-milk-metro",
+          "price": 55.02,
+          "unit": "pcs",
+          "weight": "978.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Виготовляється із молока «екстра» гатунку, яке поставляють на підприємство великі фермерські господарства, що мають відповідну сертифікацію. Безлактозне молоко ТМ «Яготинське для дітей» вже пройшло низку досліджень. Його безпечність та якість підтверджена Висновком державної санітарно-гігієнічної експертизи. За рахунок розщеплення лактози на глюкозу і галактозу продукт має солодкий присмак і зберігає всю користь натурального молока. Безлактозне молоко ТМ «Яготинське для дітей» 2,5% жиру можуть вживати діти у віці від 2-х років і дорослі, які мають непереносимість лактози.",
+          "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005208020/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 110.04
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне ультрапастеризоване",
+          "title": "Молоко Яготинське для дітей безлактозне ультрапастеризоване 3,2%  950г",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 57.1,
+          "unit": "pcs",
+          "weight": "970.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Виготовляється із молока «екстра» гатунку, яке поставляють на підприємство великі фермерські господарства, що мають відповідну сертифікацію. Безлактозне молоко ТМ «Яготинське для дітей» вже пройшло низку досліджень. Його безпечність та якість підтверджена Висновком державної санітарно-гігієнічної експертизи. За рахунок розщеплення лактози на глюкозу і галактозу продукт має солодкий присмак і зберігає всю користь натурального молока. Унікальність безлактозного молока ТМ «Яготинське для дітей» перед безлактозним молоком інших виробників полягає у тому, що молоко ТМ «Яготинське для дітей» входить до категорії «дитяче» і призначене для дітей від 9 місяців. Але його можуть вживати й дорослі, які мають непереносимість лактози.",
+          "slug": "moloko-iagotinske-dlia-ditei-950g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g--04823005207344/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 114.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоровя безлактозне ультрапастеризоване",
+          "title": "Молоко На Здоров’я безлактозне ультрапастеризоване 2,5% 900г",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 39.73,
+          "unit": "pcs",
+          "weight": "913.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ \"На здоров'я\" – це високоякісна молочна продукція. Широкий вибір молочної продукції: молоко, вершки, йогурт, молочний коктейль. \nПродукція компанії «Люстдорф» виготовляється із молочної сировини екстра та вищого гатунку. Підприємству його постачають 50 найкращих фермерських господарств Вінницької, Хмельницької, Житомирської та Черкаської областей. На кожному етапі виробництва молочної продукції здійснюється суворий професійний контроль за якістю та споживчими характеристиками.",
+          "slug": "moloko-na-zdorov-ia-900g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-na-zdorov-ia-900g--04820003488041/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 79.46
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне",
+          "title": "Молоко Mlekovita безлактозне 1,5% 1л",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 82.06,
+          "unit": "pcs",
+          "weight": "1100.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Mlekovita",
+            "trademark_slug": "mlekovita"
+          },
+          "description": "Популярне молоко Mlekovita в новому варіанті - без лактози. Продукт зберігає те, що є найбільш цінним в молоці - багатство білків, вітамінів і мінералів, і в той же час може бути корисний споживачам з непереносимістю лактози.",
+          "slug": "moloko-mlekovita-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-mlekovita-1000ml--05900512982335/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 82.06
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пмкк згущене з цукром безлактозне",
+          "title": "Молоко ПМКК згущене з цукром безлактозне 8,5% 290г",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 51.9,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "moloko-290g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-290g--04820012684434/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 207.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове kara classic",
+          "title": "Молоко кокосове Kara Classic 17% 425мл",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 192.13,
+          "unit": "pcs",
+          "weight": "498.0",
+          "bundle": 1,
+          "volume": 425.0,
+          "weight_info": {
+            "value": 425.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "JS",
+            "trademark_slug": "js"
+          },
+          "description": "Молоко кокосове 17% жирності - ідеально підходить для приготування карі, десертів, пудингів, джемів, морозива та коктейлів. Використовується замість молока в кашах, млинцях та випічці, а також при запіканні риби, курки або тушкуванні овочів.",
+          "slug": "moloko-dzhei-es-425ml-tayiland",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-dzhei-es-425ml-tayiland--08886303223016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 576.39
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мигдальне несолодке ультрапастеризоване",
+          "title": "Молоко мигдальне 137 degrees несолодке ультрапастеризоване 1л",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 397.48,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "137 Degrees",
+            "trademark_slug": "137-degrees"
+          },
+          "description": "",
+          "slug": "moloko-137-digriz-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-137-digriz-1000ml--08854761951413/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 397.48
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мигдальне оригінальне ультрапастеризоване",
+          "title": "Молоко мигдальне 137 degrees оригінальне ультрапастеризоване 180мл",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 99.81,
+          "unit": "pcs",
+          "weight": "180.0",
+          "bundle": 1,
+          "volume": 180.0,
+          "weight_info": {
+            "value": 180.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "137 Degrees",
+            "trademark_slug": "137-degrees"
+          },
+          "description": "",
+          "slug": "moloko-137-digriz-180ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-137-digriz-180ml--08854761951345/",
+          "promotion": null
+        },
+        "quantity": 6,
+        "end_price": 598.86
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове ультрапастеризоване",
+          "title": "Молоко кокосове Kara ультрапастеризоване 17% 1л",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 377.89,
+          "unit": "pcs",
+          "weight": "1100.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Kara",
+            "trademark_slug": "kara"
+          },
+          "description": "",
+          "slug": "moloko-kara-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-kara-1000ml--08886303241003/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 377.89
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове",
+          "title": "Молоко кокосове Metro Chef 1л",
+          "category_id": "dairy-free-food-and-drinks-metro",
+          "price": 89.9,
+          "unit": "pcs",
+          "weight": "1100.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Metro Chef",
+            "trademark_slug": "metro-chef"
+          },
+          "description": "",
+          "slug": "moloko-metro-shef-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-metro-shef-1000ml--04337182190387/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 89.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пряжене",
+          "title": "Молоко Яготинське пряжене 2,6% 870г",
+          "category_id": "baked-milk-metro",
+          "price": 51.69,
+          "unit": "pcs",
+          "weight": "890.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": "iagotinske"
+          },
+          "description": "Молоко коров’яче питне пряжене ТМ «Яготинське» — це високоякісний натуральний продукт, виготовлений виключно з коров’ячого молока шляхом пряження протягом 3,5-4 годин до набуття молоком кремового кольору та приємного горіхового присмаку.",
+          "slug": "moloko-iagotin-900g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-iagotin-900g--04823005203933/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 103.38
+      },
+      {
+        "product": {
+          "normalized_title": "молоко відбірне стерилізоване",
+          "title": "Молоко Злагода Відбірне стерилізоване 2,5% 2кг",
+          "category_id": "sterilized-milk-metro",
+          "price": 86.22,
+          "unit": "pcs",
+          "weight": "2070.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 2.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "",
+          "slug": "moloko-zlagoda-2000g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-zlagoda-2000g-ukrayina--04820202530763/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 86.22
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малятко вітамінізоване для дітей від 9 місяців",
+          "title": "Молоко Злагода Малятко вітамінізоване для дітей від 9 місяців 3,2% 200г",
+          "category_id": "sterilized-milk-metro",
+          "price": 16.54,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "Робиться дитяче молочко з самого кращого незбираного молока, яке проходить підвищений контроль якості, - найвища щільність, найнижчий відсоток кислотності і найбільший відсоток білку і жиру відповідно. Обробка молока відбувається на сучасному устаткуванні.\nДитяче молочко ТМ \"Злагода\" - вітамінізоване і рекомендується для живлення дітям з 9 місячного віку.",
+          "slug": "moloko-zlagoda-200ml-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-zlagoda-200ml-ukrayina--04820005421886/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 82.69999999999999
+      },
+      {
+        "product": {
+          "normalized_title": "молоко домашне стерилізоване",
+          "title": "Молоко Злагода Домашне стерилізоване 3,2% 2кг",
+          "category_id": "sterilized-milk-metro",
+          "price": 85.8,
+          "unit": "pcs",
+          "weight": "2068.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 2.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "",
+          "slug": "moloko-zlagoda-2000g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-zlagoda-2000g-ukrayina--04820202532255/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 85.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове",
+          "title": "Молоко кокосове Metro Chef 1л",
+          "category_id": "vegetable-milk-metro",
+          "price": 89.9,
+          "unit": "pcs",
+          "weight": "1100.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Metro Chef",
+            "trademark_slug": "metro-chef"
+          },
+          "description": "",
+          "slug": "moloko-metro-shef-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-metro-shef-1000ml--04337182190387/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 89.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове kara classic",
+          "title": "Молоко кокосове Kara Classic 17% 425мл",
+          "category_id": "vegetable-milk-metro",
+          "price": 192.13,
+          "unit": "pcs",
+          "weight": "498.0",
+          "bundle": 1,
+          "volume": 425.0,
+          "weight_info": {
+            "value": 425.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "JS",
+            "trademark_slug": "js"
+          },
+          "description": "Молоко кокосове 17% жирності - ідеально підходить для приготування карі, десертів, пудингів, джемів, морозива та коктейлів. Використовується замість молока в кашах, млинцях та випічці, а також при запіканні риби, курки або тушкуванні овочів.",
+          "slug": "moloko-dzhei-es-425ml-tayiland",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-dzhei-es-425ml-tayiland--08886303223016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 576.39
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове ультрапастеризоване",
+          "title": "Молоко кокосове Kara ультрапастеризоване 17% 1л",
+          "category_id": "vegetable-milk-metro",
+          "price": 377.89,
+          "unit": "pcs",
+          "weight": "1100.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Kara",
+            "trademark_slug": "kara"
+          },
+          "description": "",
+          "slug": "moloko-kara-1000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-kara-1000ml--08886303241003/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 377.89
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове",
+          "title": "Молоко кокосове Metro Chef 400мл",
+          "category_id": "for-sushi-metro",
+          "price": 59.9,
+          "unit": "pcs",
+          "weight": "472.0",
+          "bundle": 1,
+          "volume": 400.0,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Metro Chef",
+            "trademark_slug": "metro-chef"
+          },
+          "description": "",
+          "slug": "moloko-metro-shef-400ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-metro-shef-400ml--04337182190370/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 179.7
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе",
+          "title": "Молоко Молочний світ сухе 25% 250г",
+          "category_id": "powder-milk-metro",
+          "price": 86.29,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молочний Світ",
+            "trademark_slug": "molochnii-svit"
+          },
+          "description": "Молоко сухе незбиране 25% жиру - виробляється із цільного пастеризованого коров'ячого молока шляхом висушування.",
+          "slug": "moloko-molochnii-svit-250g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-molochnii-svit-250g--04820002280226/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 345.16
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сто пудов сухе незбиране",
+          "title": "Молоко Сто пудов сухе незбиране 26% 150г",
+          "category_id": "powder-milk-metro",
+          "price": 54.54,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Сто Пудів",
+            "trademark_slug": "sto-pudiv"
+          },
+          "description": "",
+          "slug": "sukhe-moloko-sto-pudov-150g",
+          "web_url": "https://metro.zakaz.ua/uk/products/sukhe-moloko-sto-pudov-150g--04820168881886/",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 381.78
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе сто пудов знежирене",
+          "title": "Молоко сухе Сто пудов знежирене 1,5% 150г",
+          "category_id": "powder-milk-metro",
+          "price": 45.25,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Сто Пудів",
+            "trademark_slug": "sto-pudiv"
+          },
+          "description": "Молоко сухе знежирене 1,5% жирності - використовується з чаєм та кавою, у випічці та різноманітних десертах.",
+          "slug": "moloko-sto-pudov-150g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-sto-pudov-150g--04820168881954/",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 316.75
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе знежирене",
+          "title": "Молоко Молочний світ сухе знежирене 250г",
+          "category_id": "powder-milk-metro",
+          "price": 70.74,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молочний Світ",
+            "trademark_slug": "molochnii-svit"
+          },
+          "description": "Молоко сухе знежирене до 1,5% жиру - виробляється із знежиреного пастеризованого коров'ячого молока шляхом висушування.",
+          "slug": "moloko-molochnii-svit-250g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-molochnii-svit-250g--04820002280219/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 282.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк незбиране з цукром дсту",
+          "title": "Молоко згущене ПМКК незбиране з цукром 8,5% 440г ДСТУ",
+          "category_id": "condensed-milk-metro",
+          "price": 64.38,
+          "unit": "pcs",
+          "weight": "446.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 440.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Молоко незбиране згущене з цукром 8,5% - виробляється за традиційною технологією тільки зі свіжого молока і цукру. Різноманітність упаковки і обсягів дозволить задовольнити найрізноманітніші запити.",
+          "slug": "zgushchene-moloko-pervomaisk-440g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-440g--04820012683154/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 193.14
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене незбиране з цукром",
+          "title": "Молоко згущене Metro Chef незбиране з цукром 8,5% 370г",
+          "category_id": "condensed-milk-metro",
+          "price": 52.9,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Metro Chef",
+            "trademark_slug": "metro-chef"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-metro-shef-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-metro-shef-ukrayina--04820261570038/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 158.7
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене іриска варене",
+          "title": "Молоко згущене Metro Chef Іриска варене 8,5% 370г",
+          "category_id": "condensed-milk-metro",
+          "price": 62.9,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Metro Chef",
+            "trademark_slug": "metro-chef"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-metro-shef-370g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-metro-shef-370g--04820261570045/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 188.7
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк іриска варене нежирне",
+          "title": "Молоко згущене ПМКК Іриска варене нежирне 500г",
+          "category_id": "condensed-milk-metro",
+          "price": 80.6,
+          "unit": "pcs",
+          "weight": "590.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-500g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-500g-ukrayina--04820012684649/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 161.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене варене з цукром",
+          "title": "Молоко згущене Фаворит варене з цукром 8,5% 360г",
+          "category_id": "condensed-milk-metro",
+          "price": 47.74,
+          "unit": "pcs",
+          "weight": "360.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 360.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Фаворит",
+            "trademark_slug": "favorit"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-favorit-360g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-favorit-360g--04820019382043/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 143.22
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пмкк згущене з цукром безлактозне",
+          "title": "Молоко ПМКК згущене з цукром безлактозне 8,5% 290г",
+          "category_id": "condensed-milk-metro",
+          "price": 51.9,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "moloko-290g",
+          "web_url": "https://metro.zakaz.ua/uk/products/moloko-290g--04820012684434/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 207.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене ий мкк незбиране з цукром",
+          "title": "Молоко згущене Первомайський МКК незбиране з цукром 8,5% 15г",
+          "category_id": "condensed-milk-metro",
+          "price": 8.22,
+          "unit": "pcs",
+          "weight": "15.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 15.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-pervomaisk-15g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-15g--04820012682850/",
+          "promotion": null
+        },
+        "quantity": 67,
+        "end_price": 550.74
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене кокосове",
+          "title": "Молоко згущене King Island кокосове 380г",
+          "category_id": "condensed-milk-metro",
+          "price": 114.3,
+          "unit": "pcs",
+          "weight": "380.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 380.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "King Island",
+            "trademark_slug": "king-island"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-380g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-380g--08850813328127/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 342.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк іриска варене",
+          "title": "Молоко згущене ПМКК Іриска варене 8,5% 3кг",
+          "category_id": "condensed-milk-metro",
+          "price": 353.5,
+          "unit": "pcs",
+          "weight": "3000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 3.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-1000g--04820012683369/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 353.5
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк незбиране з цукром",
+          "title": "Молоко згущене ПМКК незбиране з цукром 8,5% 1кг",
+          "category_id": "condensed-milk-metro",
+          "price": 180.86,
+          "unit": "pcs",
+          "weight": "1020.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Молоко незбиране згущене з цукром 8,5% - виробляється за традиційною технологією тільки зі свіжого молока і цукру. Різноманітність упаковки і обсягів дозволить задовольнити найрізноманітніші запити.",
+          "slug": "zgushchene-moloko-1000g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-1000g--04820012683079/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 180.86
+      },
+      {
+        "product": {
+          "normalized_title": "згущене молоко тм пмкк",
+          "title": "Згущене молоко ТМ ПМКК 4кг",
+          "category_id": "condensed-milk-metro",
+          "price": 436.7,
+          "unit": "pcs",
+          "weight": "4000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 4.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko--04820012683345/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 436.7
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене tradicional незбиране з цукром",
+          "title": "Молоко згущене Nestle Tradicional незбиране з цукром 8% 370г",
+          "category_id": "condensed-milk-metro",
+          "price": 127.62,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Nestle",
+            "trademark_slug": "nestle"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-nestle-370g",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-nestle-370g--05601001120503/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 382.86
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене первомайский мкк",
+          "title": "Молоко згущене Первомайский МКК 8,5% 900г",
+          "category_id": "condensed-milk-metro",
+          "price": 150.28,
+          "unit": "pcs",
+          "weight": "938.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-pervomaisk",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk--04820012683611/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 300.56
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк з цукром зі смаком ванілі",
+          "title": "Молоко згущене ПМКК з цукром зі смаком ванілі 5% 290г",
+          "category_id": "condensed-milk-metro",
+          "price": 51.9,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Смак та запах: солодкий, з вираженим смаком та запахом ванілі, без сторонніх присмаків та запахів; консистенція: однорідна за всією масою, в`язка; \nКолір: білий з кремовим відтінком, рівномірний за всією масою.",
+          "slug": "zgushchene-moloko-pervomaisk-290g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-290g-ukrayina--04820012684571/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 207.6
+      },
+      {
+        "product": {
+          "normalized_title": "вафлі wafers sandwich crunch молоко ваніль",
+          "title": "Вафлі Roshen Wafers Sandwich Crunch молоко ваніль 142г",
+          "category_id": "waffle-metro",
+          "price": 37.42,
+          "unit": "pcs",
+          "weight": "142.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 142.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафлі Wafers Sandwich Crunch – це надзвичайний хрускіт, товстий шар начинки з вмістом молока 15% та унікальна рецептура вафельного листа.",
+          "slug": "vafli-roshen-142g",
+          "web_url": "https://metro.zakaz.ua/uk/products/vafli-roshen-142g--04823077636967/",
+          "promotion": null
+        },
+        "quantity": 8,
+        "end_price": 299.36
+      },
+      {
+        "product": {
+          "normalized_title": "бісквіт золотий ключик згущене молоко *50г",
+          "title": "Бісквіт Roshen Золотий ключик згущене молоко 6шт*50г",
+          "category_id": "cakes-and-biscuits-metro",
+          "price": 77.27,
+          "unit": "pcs",
+          "weight": "300.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "pcs",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тістечка із темного бісквіту з начинкою зі згущеним молоком, декоровані глазур'ю.",
+          "slug": "biskvit-roshen-300g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/biskvit-roshen-300g-ukrayina--04823077629372/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 77.27
+      },
+      {
+        "product": {
+          "normalized_title": "зефір з начинкою згущене молоко україна",
+          "title": "Зефір Жако з начинкою згущене молоко 300г Україна",
+          "category_id": "marshmallow-and-gumdrop-metro",
+          "price": 77.65,
+          "unit": "pcs",
+          "weight": "320.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 300.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Жако",
+            "trademark_slug": "zhako"
+          },
+          "description": "Зефір виготовлений на агарі з додаванням яблучного пюре. Всередині начинка «Згущене молоко». Має ніжний аромат ванілі та молочний смак.",
+          "slug": "zefir-zhako-300g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/zefir-zhako-300g-ukrayina--04820177030039/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 310.6
+      },
+      {
+        "product": {
+          "normalized_title": "напій кавовий maccoffe згущене молоко 1 розчинний 18г х 20шт",
+          "title": "Напій кавовий MacCoffe Згущене молоко 3в1 розчинний 18г х 20шт",
+          "category_id": "coffee-drink-metro",
+          "price": 111.13,
+          "unit": "pcs",
+          "weight": "360.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 18.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "MacCoffee",
+            "trademark_slug": "maccoffee"
+          },
+          "description": "",
+          "slug": "kava-makkofe-360g-ukrayina",
+          "web_url": "https://metro.zakaz.ua/uk/products/kava-makkofe-360g-ukrayina--08887290145312/",
+          "promotion": null
+        },
+        "quantity": 56,
+        "end_price": 6223.28
+      },
+      {
+        "product": {
+          "normalized_title": "мило proservice молоко і мед",
+          "title": "Мило ProService молоко і мед 5л",
+          "category_id": "liquid-soap-metro",
+          "price": 217.19,
+          "unit": "pcs",
+          "weight": "5150.0",
+          "bundle": 1,
+          "volume": 5000.0,
+          "weight_info": {
+            "value": 5.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Pro Service",
+            "trademark_slug": "pro-service"
+          },
+          "description": "Рідке мило PRO service ефективно видаляє забруднення та мікроби на шкірі руки, не сушить шкіру, зберігаючи її м'якою та еластичною. Рекомендується використовувати з дозаторами для рідкого мила PRO service наливного типу для економного використання",
+          "slug": "milo-pro-servis-5000ml",
+          "web_url": "https://metro.zakaz.ua/uk/products/milo-pro-servis-5000ml--04823071614480/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 217.19
+      }
+    ]
+  }
+]

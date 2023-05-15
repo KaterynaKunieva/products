@@ -18,7 +18,7 @@ def cli():
 
 @cli.command()
 @async_cmd
-@click.option('--input_file_path', default="./user_buy_request_path.json", type=str, help='list of shops.')
+@click.option('--input_file_path', default="./user_data/user_buy_request.json", type=str, help='list of shops.')
 # @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
 async def form_buy_list(input_file_path):
     user_query: UserBuyRequest = parse_file_as(UserBuyRequest, input_file_path)
@@ -74,7 +74,7 @@ async def form_buy_list(input_file_path):
 
     logging.info("Saving results...")
     for shop, product_requests in user_basket.items():
-        with open(f'output_{shop}.json', 'w', **file_open_settings) as f:
+        with open(f'./user_data/output_{shop}.json', 'w', **file_open_settings) as f:
             json.dump([product_request.dict() for product_request in product_requests], f, **json_write_settings)
 
     for shop, product_requests in user_basket.items():
@@ -85,7 +85,7 @@ async def form_buy_list(input_file_path):
             product_request.product_buy_infos = product_request.product_buy_infos[:1]
             if product_request.product_buy_infos:
                 sum_price += product_request.product_buy_infos[0].end_price
-        with open(f'minimum_output_{shop}.json', 'w', **file_open_settings) as f:
+        with open(f'./user_data/minimum_output_{shop}.json', 'w', **file_open_settings) as f:
             json.dump(
                 ChequeShop(end_price=sum_price, buy_list=product_requests).dict(),
                 f, **json_write_settings)
@@ -111,7 +111,7 @@ async def form_buy_list(input_file_path):
 
             sum_price += info[1].end_price
 
-        with open(f'multi_shop_output.json', 'w', **file_open_settings) as f:
+        with open(f'./user_data/multi_shop_output.json', 'w', **file_open_settings) as f:
             json.dump(ChequeMulti(end_price=sum_price, buy_list=shops_buy_results).dict(), f, **json_write_settings)
 
 

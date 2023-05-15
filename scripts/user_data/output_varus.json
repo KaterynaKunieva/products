@@ -1,0 +1,3752 @@
+[
+  {
+    "request": {
+      "title_filter": "напій енергетичний",
+      "brand_filter": [
+        "Monster Energy",
+        "Non stop"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra zero сильногазований безалкогольний",
+          "title": "Напій енергетичний Monster Energy Ultra Zero сильногазований безалкогольний 0,355л",
+          "category_id": "energy-drinks-varus",
+          "price": 52.5,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-monster-355ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-monster-355ml--05060639128778/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 52.5
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний the doctor сильногазований",
+          "title": "Напій енергетичний Monster Energy The Doctor сильногазований 0,355л",
+          "category_id": "energy-drinks-varus",
+          "price": 58.5,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "napii-monster-355ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/napii-monster-355ml--05060639122929/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 58.5
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний original",
+          "title": "Напій енергетичний Non Stop Original 0,5л",
+          "category_id": "energy-drinks-varus",
+          "price": 30.6,
+          "unit": "pcs",
+          "weight": "510.0",
+          "bundle": 1,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "Світ став настільки тьмяним і похмурим, що навіть вузол краватки втомлено розпускається? Строгий робочий костюм перетворився на гамівну сорочку? Облиште, класика теж буває крутою і може відмінно підбадьорити. Non Stop Original – той самий легендарний класичний енергетик, який спростовує всі міфи про консерватизм. \nТому що він стабільно яскравий, стабільно крутий і стабільно потужно накачує ваше тіло бадьорістю і гарним настроєм у будь-який час доби. Non Stop Original - двадцять чотири години, не зупиняючись.",
+          "slug": "energetik-non-stop-500ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097890324/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.6
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra",
+          "title": "Напій енергетичний Non Stop Ultra 0,5л",
+          "category_id": "energy-drinks-varus",
+          "price": 31.9,
+          "unit": "pcs",
+          "weight": "526.0",
+          "bundle": 1,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-500ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097899952/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.9
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний mango loco",
+          "title": "Напій енергетичний Monster Energy Mango Loco 0,355л",
+          "category_id": "energy-drinks-varus",
+          "price": 55.5,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-monster-355ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-monster-355ml--05060751213062/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 55.5
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний boost",
+          "title": "Напій енергетичний Non Stop Boost 0,5л",
+          "category_id": "energy-drinks-varus",
+          "price": 31.9,
+          "unit": "pcs",
+          "weight": "530.0",
+          "bundle": 1,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-500ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097899167/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.9
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний non-stop original безалкогольний",
+          "title": "Напій енергетичний Non-Stop Original безалкогольний 0,75л",
+          "category_id": "energy-drinks-varus",
+          "price": 36.9,
+          "unit": "pcs",
+          "weight": "780.0",
+          "bundle": 1,
+          "volume": 750.0,
+          "weight_info": {
+            "value": 0.75,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "napii-non-stop-750ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/napii-non-stop-750ml--04820097891987/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 36.9
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний jungle",
+          "title": "Напій енергетичний Non Stop Jungle 250мл",
+          "category_id": "energy-drinks-varus",
+          "price": 21.4,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-250ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-250ml--04820097897224/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 21.4
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний еvolution",
+          "title": "Напій енергетичний Non Stop Еvolution 250мл",
+          "category_id": "energy-drinks-varus",
+          "price": 26.9,
+          "unit": "pcs",
+          "weight": "274.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-250ml-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-250ml-ukrayina--04820097898658/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 26.9
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "цукерки",
+      "brand_filter": [
+        "Roshen",
+        "Milka"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "цукерки корівка",
+          "title": "Цукерки Roshen Корівка",
+          "category_id": "bulk-candy-varus",
+          "price": 125.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Неглазуровані помадні цукерки, корпус - молочна помадка із цукровою скоринкою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600125000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 125.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки candy nut мяка карамель з арахісом вагові",
+          "title": "Цукерки Roshen Candy Nut м'яка карамель з арахісом вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 187.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "М'яка карамель з арахісом в молочній шоколадній глазурі.",
+          "slug": "karamel-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/karamel-roshen-ukrayina--varus02603326000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 187.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки джеллі",
+          "title": "Цукерки Roshen Джеллі",
+          "category_id": "bulk-candy-varus",
+          "price": 121.8,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желейних цукерок з додаванням концентрованих фруктових соків зі смаками лимону, апельсину, яблука, полуниці, малини, груші, посипані дрібнокристалічним цукром.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600188000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 121.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки червоний мак",
+          "title": "Цукерки Roshen Червоний Мак",
+          "category_id": "bulk-candy-varus",
+          "price": 278.7,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Праліне з додаванням карамельної крихти, пасти ядер горіхів фундука та мигдалю покрите шоколадною глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600127000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 278.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка фрутті желейні вагові",
+          "title": "Цукерки Roshen Шалена бджілка фрутті желейні вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 147.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желейних цукерок з фруктовими начинками на основі соків зі смаками: апельсин, грейпфрут, вишня, червоні ягоди, лимон, лайм та суниця.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600350000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 147.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки рошен сливки-лінивки вафельні вагові",
+          "title": "Цукерки Рошен Сливки-лінивки вафельні вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 210.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Світлі вафельні листи, поєднані молочно-вершковою начинкою та покриті глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02601709000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 210.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки sorrento",
+          "title": "Цукерки Roshen Sorrento",
+          "category_id": "bulk-candy-varus",
+          "price": 172.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з ніжною помадно-кремовою начинкою з бренді, глазуровані шоколадною глазур'ю.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen--04823077627248/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 172.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з лісовим горіхом вагові",
+          "title": "Цукерки Roshen Монблан з лісовим горіхом вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 399.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з кремовою горіховою начинкою з додаванням ядер горіхів фундука, декоровані білим шоколадом.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603573000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 399.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки рошен ko-ko choco white вагові",
+          "title": "Цукерки Рошен Ko-Ko Choco White вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 307.7,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з комбінацією кремових начинок: ванільної та з ароматом \"Яєчного лікеру\".",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02602000000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 307.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки krock з арахісовою пастою",
+          "title": "Цукерки Roshen Krock з арахісовою пастою",
+          "category_id": "bulk-candy-varus",
+          "price": 187.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель перешарована арахісової пастою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02604037000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 187.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker шоколад вагові",
+          "title": "Цукерки Roshen Johnny Krocker шоколад вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 216.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Світлі хрусткі вафлі та шоколадно-кремова начинка, покриті глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603680000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 216.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки кара-кум",
+          "title": "Цукерки Roshen Кара-Кум",
+          "category_id": "bulk-candy-varus",
+          "price": 278.7,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Праліне з тертим горіхом та додаванням вафельної крихти, покрите шоколадною глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600772000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 278.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки рошен milky splash з молочною начинкою вагові",
+          "title": "Цукерки Рошен Milky Splash з молочною начинкою вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 248.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вершкове тофі з молочною начинкою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02601846000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 248.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки candy nut нуга і мяка карамель з арахісом вагові",
+          "title": "Цукерки Roshen Candy Nut нуга і м'яка карамель з арахісом вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 192.1,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Ніжна нуга і шар карамелі з подрібненим арахісом, покриті глазур'ю.",
+          "slug": "karamel-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/karamel-roshen-ukrayina--varus02603325000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 192.1
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки montblanc асорті",
+          "title": "Цукерки Roshen Montblanc Асорті",
+          "category_id": "bulk-candy-varus",
+          "price": 424.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600410000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 424.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки галаретка вагові",
+          "title": "Цукерки Roshen Галаретка вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 177.3,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки зі смаками ананасу, апельсина, манго, лайма в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603323000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 177.3
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки нуга з арахісом та мякою карамеллю",
+          "title": "Цукерки Roshen Нуга з арахісом та мякою карамеллю",
+          "category_id": "bulk-candy-varus",
+          "price": 180.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Ніжна нуга і шар карамелі з подрібненим арахісом, покриті глазур'ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603671000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 180.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки рошен minky binky з желейною начинкою",
+          "title": "Цукерки Рошен Minky Binky з желейною начинкою",
+          "category_id": "bulk-candy-varus",
+          "price": 151.2,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тоффі з желейними начинками та додаванням фруктових соків: полуниці, апельсину, чорниці, абрикосу.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02602610000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 151.2
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки toffelini з шоколадною начинкою",
+          "title": "Цукерки Roshen Toffelini з шоколадною начинкою",
+          "category_id": "bulk-candy-varus",
+          "price": 199.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадне тофі з шоколадною начинкою.\nДо складу начинки входить 25% тертого какао з Кот-д´Івуару, а до складу корпусу - 25% молочних продуктів.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603805000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 199.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки нуга",
+          "title": "Цукерки Roshen Нуга",
+          "category_id": "bulk-candy-varus",
+          "price": 180.5,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Нуга Roshen - ніжний десерт в форматі цукерки зі смаками крем-брюле і крем-какао.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077627330/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 180.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки ліщина",
+          "title": "Цукерки Roshen Ліщина",
+          "category_id": "bulk-candy-varus",
+          "price": 278.8,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Праліне з додаванням подрібненої та тертої ліщини та мигдалю, покрите шоколадною глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600018000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 278.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки fudgenta",
+          "title": "Цукерки Roshen Fudgenta",
+          "category_id": "bulk-candy-varus",
+          "price": 146.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603143000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 146.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколапки",
+          "title": "Цукерки Roshen Шоколапки",
+          "category_id": "bulk-candy-varus",
+          "price": 179.6,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тоффі з подрібненим арахісом у шоколадній глазурі.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02600894000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 179.6
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto nero вагові",
+          "title": "Цукерки Roshen Konafetto Nero вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 201.8,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки в шоколадній глазурі з кремовою начинкою зі смаком лісового горіха.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603674000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 201.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки croconut вагові",
+          "title": "Цукерки Roshen CrocoNut вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 199.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen--varus02603327000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 199.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки джонні крокер молоко вагові",
+          "title": "Цукерки Roshen Джонні Крокер молоко вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 215.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Темні хрусткі вафлі та молочна начинка, покриті глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603328000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 215.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi`s жувальні",
+          "title": "Цукерки Roshen Yummi`s жувальні 1кг",
+          "category_id": "bulk-candy-varus",
+          "price": 142.6,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Жувальний ірис зі смаками яблука, вишні, апельсина та полуниці.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077635465/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 142.6
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto bianco вагові",
+          "title": "Цукерки Roshen Konafetto Bianco вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 201.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки в шоколадній глазурі з кремовою начинкою зі смаком згущеного молока.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603579000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 201.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки creamel зі смаком фундука вагові",
+          "title": "Цукерки Roshen Creamel зі смаком фундука вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 225.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерка з кремовою начинкою з додаванням натуральної пасти з фундука.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603672000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 225.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки з молочного шоколаду кремово-полунична начинка",
+          "title": "Цукерки з молочного шоколаду Milka кремово-полунична начинка 110г",
+          "category_id": "candy-in-box-varus",
+          "price": 87.5,
+          "unit": "pcs",
+          "weight": "110.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 110.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Milka",
+            "trademark_slug": "milka"
+          },
+          "description": "",
+          "slug": "tsukerka-milka-110g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-milka-110g--07622201410407/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 87.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки з молочного шоколаду з горіховою начинкою",
+          "title": "Цукерки Milka з молочного шоколаду з горіховою начинкою 110г",
+          "category_id": "candy-in-box-varus",
+          "price": 89.9,
+          "unit": "pcs",
+          "weight": "110.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 110.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Milka",
+            "trademark_slug": "milka"
+          },
+          "description": "",
+          "slug": "tsukerka-milka-110g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-milka-110g--varus02061212800008/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 89.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки assortment classic в чорному шоколаді",
+          "title": "Цукерки Roshen Assortment Classic в чорному шоколаді 154г",
+          "category_id": "candy-in-box-varus",
+          "price": 106.4,
+          "unit": "pcs",
+          "weight": "154.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 154.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки Roshen Assortment classic чорний шоколад - чотири види цукерок в чорному шоколаді з начинками: молочна помадка, молочна помадка з кавовим смаком, праліне з тертими лісовими горіхами, темне праліне з тертими лісовими горіхами.",
+          "slug": "tsukerka-roshen-154g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-154g-ukrayina--04823077611940/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 106.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки compliment шоколадні",
+          "title": "Цукерки Roshen Compliment шоколадні 145г",
+          "category_id": "candy-in-box-varus",
+          "price": 106.4,
+          "unit": "pcs",
+          "weight": "145.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 145.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асорті чотирьох видів цукерок в чорному шоколаді з різними начинками. Коробка цукерок Roshen здатна додати святковості навіть в найпохмуріший день. Може бути як прекрасним доповненням до будь-якого подарунка, так і самостійним презентом.",
+          "slug": "tsukerka-roshen-145g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-145g-ukrayina--04823077625879/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 106.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки shooters шоколадні з ромовим лікером",
+          "title": "Цукерки Roshen Shooters шоколадні з ромовим лікером 150г",
+          "category_id": "candy-in-box-varus",
+          "price": 60.4,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки у шоколаді з начинкою ромовий лікер.",
+          "slug": "tsukerka-roshen-150g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-150g-ukrayina--04823077618901/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 60.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколадні shooters з бренді-лікером",
+          "title": "Цукерки шоколадні Roshen Shooters з бренді-лікером 150г",
+          "category_id": "candy-in-box-varus",
+          "price": 63.4,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки у шоколаді з начинкою бренді-лікер.",
+          "slug": "tsukerka-roshen-150g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-150g-ukrayina--04823077618918/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 63.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки chocolateria шоколад та праліне",
+          "title": "Цукерки Roshen Chocolateria Шоколад та праліне 194г",
+          "category_id": "candy-in-box-varus",
+          "price": 193.9,
+          "unit": "pcs",
+          "weight": "194.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 194.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асортимент із восьми цукерок в преміальній золотій коробці - темний трюфель, білий трюфель, молочно-помадна, горіхово-кремова, імбирно-помадна, молочне праліне з кунжутом, молочне праліне зі шматочками мигдалю, двошарові із темного і молочного праліне.",
+          "slug": "tsukerka-roshen-194g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-194g-ukrayina--04823077624285/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 193.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з цільним лісовим горіхом",
+          "title": "Цукерки Roshen Монблан з цільним лісовим горіхом 177г",
+          "category_id": "candy-in-box-varus",
+          "price": 99.5,
+          "unit": "pcs",
+          "weight": "177.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 177.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з кремовою горіховою начинкою, додаванням ядер горіхів фундука. Декоровані білим шоколадом.",
+          "slug": "tsukerka-roshen-177g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-177g--04823077632983/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 99.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки assortment еlegant в молочному шоколаді",
+          "title": "Цукерки Roshen Assortment Еlegant в молочному шоколаді 145г",
+          "category_id": "candy-in-box-varus",
+          "price": 106.4,
+          "unit": "pcs",
+          "weight": "145.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 145.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки Roshen Assortment Elegant молочний шоколад - чотири види цукерок в молочному шоколаді з начинками: вишневий трюфель, шоколадний крем, вершкова помадка, горіховий крем та подрібнені лісові горіхи.",
+          "slug": "tsukerka-roshen-145g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-145g-ukrayina--04823077611933/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 106.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки київ вечірній",
+          "title": "Цукерки Roshen Київ вечірній 352г",
+          "category_id": "candy-in-box-varus",
+          "price": 291.7,
+          "unit": "pcs",
+          "weight": "352.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 352.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки Київ вечірній вже давно стали солодкої візитівкою української столиці. Класичне праліне з подрібненим фундуком та цілим лісовим горіхом у шоколадній глазурі не залишить байдужими нікого.",
+          "slug": "tsukerka-roshen-352g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-352g-ukrayina--04823077620737/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 291.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки в шоколаді вишня з вишневим лікером",
+          "title": "Цукерки Roshen в шоколаді вишня з вишневим лікером 155г",
+          "category_id": "candy-in-box-varus",
+          "price": 69.9,
+          "unit": "pcs",
+          "weight": "155.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 155.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки в чорному шоколаді з вишневим лікером і цілою вишнею без кісточки. Коробка цукерок Roshen здатна додати святковості навіть в найпохмуріший день. Може бути як прекрасним доповненням до будь-якого подарунка, так і самостійним презентом.",
+          "slug": "tsukerka-roshen-155g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-155g-ukrayina--04823077625145/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 69.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки shooters віскі-лікер",
+          "title": "Цукерки Roshen Shooters Віскі-лікер 150г",
+          "category_id": "candy-in-box-varus",
+          "price": 60.4,
+          "unit": "pcs",
+          "weight": "188.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки в чорному шоколаді з начинкою віскі-лікер.",
+          "slug": "tsukerka-roshen-150g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-150g--04823077633690/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 60.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi mini bear mix",
+          "title": "Цукерки Roshen Yummi Gummi Mini Bear Mix 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.8,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі ведмедиків зі смаками вишні, яблука, абрикоса, смородини, ананаса та апельсина. \nУ цукерках міститься 25% фруктового соку.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636349/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки молочна краплинка карамель з молочною начинкою",
+          "title": "Цукерки Roshen Молочна краплинка карамель з молочною начинкою 200г",
+          "category_id": "packed-candy-varus",
+          "price": 29.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель Рошен Молочна крапля - з молочною начинкою.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077612770/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi funny cola",
+          "title": "Цукерки Roshen Yummi Gummi Funny Cola 70г",
+          "category_id": "packed-candy-varus",
+          "price": 29.7,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі пляшечок солодких газованих напоїв зі смаком коли.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636394/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки milky splash ірис з молочною начинкою",
+          "title": "Цукерки Roshen Milky Splash Ірис з молочною начинкою 150г",
+          "category_id": "packed-candy-varus",
+          "price": 36.4,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вершкове тоффі з молочною начинкою. Свій колір тоффі отримують в процесі томлення молока.",
+          "slug": "iris-roshen-150g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/iris-roshen-150g-ukrayina--04823077617607/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 36.4
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка желейні неглазуровані",
+          "title": "Цукерки Roshen Шалена бджілка желейні неглазуровані 200г",
+          "category_id": "packed-candy-varus",
+          "price": 32.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асорті з карагінанових желейних цукерок з різноманітними фруктовими начинками: апельсин, грейпфрут, кисла вишня, лісові ягоди, лимон-лайм, суниця.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077602863/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 32.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки бім-бом карамельні із фруктово-ягідною начинкою",
+          "title": "Цукерки Roshen Бім-Бом карамельні із фруктово-ягідною начинкою 200г",
+          "category_id": "packed-candy-varus",
+          "price": 27.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель льодяникова Рошен Бім-Бом - прозора карамель у формі кульки з фруктово-ягідної начинкою зі смаками груші, ананаса, суниці та тутті-фрутті на основі натуральних соків та ароматизаторів.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077612732/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 27.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi donuts",
+          "title": "Цукерки Roshen Yummi Gummi Donuts 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.8,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі пончиків зі шматочками печива.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636370/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки евкаліпт-ментол карамель льодяникова",
+          "title": "Цукерки Roshen Евкаліпт-ментол карамель льодяникова 200г",
+          "category_id": "packed-candy-varus",
+          "price": 27.8,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Льодяникова карамель Рошен-Мікс евкаліпт-ментол зі смаками м'яти, ментолу та евкаліпта на основі натуральних ароматизаторів.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077612695/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 27.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi sour sticks желейні",
+          "title": "Цукерки Roshen Yummi Gummi Sour Sticks желейні 70г",
+          "category_id": "packed-candy-varus",
+          "price": 24.1,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 24.1
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки корівка",
+          "title": "Цукерки Roshen Корівка 205г",
+          "category_id": "packed-candy-varus",
+          "price": 33.5,
+          "unit": "pcs",
+          "weight": "205.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 205.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Неглазуровані цукерки, корпус - молочна помадка із цукровою скоринкою.",
+          "slug": "tsukerka-roshen-205g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-205g-ukrayina--04820046868848/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 33.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки стріла подільська",
+          "title": "Цукерки Roshen Стріла Подільська 208г",
+          "category_id": "packed-candy-varus",
+          "price": 146.3,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 208.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Глазуровані шоколадною глазур'ю цукерки конусоподібної форми, корпус - помадно-кремовий з додаванням спирту і коньяку.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077611902/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 146.3
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mont blanc з шоколадом та сезамом",
+          "title": "Цукерки Roshen Mont Blanc з шоколадом та сезамом 240г",
+          "category_id": "packed-candy-varus",
+          "price": 119.9,
+          "unit": "pcs",
+          "weight": "240.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з шоколадно-горіхового праліне зі смаженим кунжутом. Декоровані чорним і білим шоколадом.",
+          "slug": "tsukerka-roshen-240g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-240g--04823077635748/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 119.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mont blanc крем-праліне з подрібненим лісовим горіхом",
+          "title": "Цукерки Roshen Mont Blanc крем-праліне з подрібненим лісовим горіхом 240г",
+          "category_id": "packed-candy-varus",
+          "price": 119.9,
+          "unit": "pcs",
+          "weight": "240.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-240g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-240g-ukrayina--04823005307747/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 119.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mont blanc з цільним лісовим горіхом",
+          "title": "Цукерки Roshen Mont Blanc з цільним лісовим горіхом 240г",
+          "category_id": "packed-candy-varus",
+          "price": 119.9,
+          "unit": "pcs",
+          "weight": "240.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 240.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-240g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-240g-ukrayina--04823005307709/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 119.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker milk",
+          "title": "Цукерки Roshen Johnny Krocker milk 350г",
+          "category_id": "packed-candy-varus",
+          "price": 83.9,
+          "unit": "pcs",
+          "weight": "350.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 350.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-350g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-350g-ukrayina--04823077635519/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 83.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки желейні jelly",
+          "title": "Цукерки желейні Roshen Jelly 200г",
+          "category_id": "packed-candy-varus",
+          "price": 25.1,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки, обсипані дрібнокристалічним цукром, корпус - желейна маса на основі пектину з додаванням концентрованих фруктових соків.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077602801/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 25.1
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi duo mix",
+          "title": "Цукерки Roshen Yummi Gummi Duo Mix 70г",
+          "category_id": "packed-candy-varus",
+          "price": 26.7,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636295/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 26.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки montblanc праліне з карамелізованим мигдалем",
+          "title": "Цукерки Roshen Montblanc праліне з карамелізованим мигдалем",
+          "category_id": "packed-candy-varus",
+          "price": 399.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мигдальне праліне з карамелізованим мигдалем, глазуроване білим і темним шоколадом.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen--04823077632464/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 399.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi galaxy life",
+          "title": "Цукерки Roshen Yummi Gummi Galaxy Life 70г",
+          "category_id": "packed-candy-varus",
+          "price": 26.5,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс двошарових желатинових цукерок на основі спіненої маси зі смаками лимона, кавуна, апельсина, вишні, чорниці та яблука.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636356/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 26.5
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi banana land",
+          "title": "Цукерки Roshen Yummi Gummi Banana Land 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.8,
+          "unit": "pcs",
+          "weight": "74.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/ukrayina--04823077638459/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi cup cakes",
+          "title": "Цукерки Roshen Yummi Gummi Cup Cakes 70г",
+          "category_id": "packed-candy-varus",
+          "price": 26.7,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077638596/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 26.7
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi frozen yogo",
+          "title": "Цукерки Roshen Yummi Gummi Frozen Yogo 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.3,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі морозива з йогуртовими смаками: малина-йогурт, полуниця-йогурт, ананас-йогурт.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636363/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.3
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi fizzy worms",
+          "title": "Цукерки Roshen Yummi Gummi Fizzy Worms 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.8,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі смугастих черв'ячків у кислій присипці та з подвійними смаками: виноград – яблуко, чорниця – апельсин, вишня – лимон.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636387/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker choco",
+          "title": "Цукерки Roshen Johnny Krocker choco 350г",
+          "category_id": "packed-candy-varus",
+          "price": 83.9,
+          "unit": "pcs",
+          "weight": "350.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 350.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-350g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-350g-ukrayina--04823077635557/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 83.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi cherry",
+          "title": "Цукерки Roshen Yummi Gummi Cherry 70г",
+          "category_id": "packed-candy-varus",
+          "price": 25.3,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/ukrayina--04823077638466/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 25.3
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi rainbow belts желейні",
+          "title": "Цукерки Roshen Yummi Gummi Rainbow Belts желейні 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.8,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636264/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.8
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi twists желейні",
+          "title": "Цукерки Roshen Yummi Gummi Twists желейні 70г",
+          "category_id": "packed-candy-varus",
+          "price": 28.3,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636271/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.3
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny-fruit желейні ягідний мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні ягідний мікс 200г",
+          "category_id": "fruit-jelly-varus",
+          "price": 33.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаками та у формі лісовихі садових ягід: чорниці, суниці, журавлини, малини, винограду та чорної смородини.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624261/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 33.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny-fruit желейні літній мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні літній мікс 200г",
+          "category_id": "fruit-jelly-varus",
+          "price": 33.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаком і в формі літніх фруктів і ягід: яблука, груші, абрикоса, кавуна, вишні та полуниці.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624223/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 33.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки желейні bonny-fruit цитрусовий мікс",
+          "title": "Цукерки желейні Roshen Bonny-Fruit цитрусовий мікс 200г",
+          "category_id": "fruit-jelly-varus",
+          "price": 33.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаками і в формі: апельсина, грейпфрута, лимон-лайма.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624247/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 33.9
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": null,
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване",
+          "title": "Молоко Біла Лінія 2,5% пастеризоване 840г",
+          "category_id": "pasteurized-milk-varus",
+          "price": 41.1,
+          "unit": "pcs",
+          "weight": "840.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 840.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Біла Лінія",
+            "trademark_slug": "bila-liniia"
+          },
+          "description": "",
+          "slug": "moloko-bila-liniia-840g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-bila-liniia-840g--04820239241014/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 82.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мікрофільтроване незбиране",
+          "title": "Молоко Селянське мікрофільтроване незбиране 3,4-3,8% 950г",
+          "category_id": "pasteurized-milk-varus",
+          "price": 44.9,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "",
+          "slug": "moloko-selianske-950g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g--04820254400496/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 89.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мікрофільтроване",
+          "title": "Молоко Селянське мікрофільтроване 2,5% 950г",
+          "category_id": "pasteurized-milk-varus",
+          "price": 39.9,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "",
+          "slug": "moloko",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko--04820254400236/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 79.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване",
+          "title": "Молоко Яготинське ультрапастеризоване 2,6% 900г",
+          "category_id": "uht-milk-varus",
+          "price": 35.3,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": "iagotinske"
+          },
+          "description": "Молоко ультрапастеризоване ТМ «Яготинське» в упаковці Tetra fino – це  високоякісне молоко «екстра» гатунку.\nМолоко виробляється шляхом температурної обробки 137 °С з витримкою 4 секунди і фасується в упаковку Tetra fino, яка дозволяє зберігати продукт до 90 діб за відсутності прямого сонячного світла і температури не вище 25 градусів. \nУпаковка Tetra fino  дозволяє зберігати всю свіжість і користь молока на тривалий час навіть без холодильника. Але найголовніше в упаковці Tetra fino   - це її екологічність, адже приблизно на 75% вона складається з картону та повністю переробляється. \nМолоко ультрапастеризоване ТМ «Яготиньске» виробляється на ТДВ «Яготинський маслозавод» на сучасному обладнанні закритого циклу, яке виключає прямий контакт рук з продукцією під час її виробництва. Весь виробничий цикл – від прийому молока на завод до фасування готової продукції – відбувається в закритому режимі без втручання людини.",
+          "slug": "moloko-iagotin-900g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotin-900g--04823005208259/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 70.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малюкам ультрапастеризоване",
+          "title": "Молоко Селянське Малюкам ультрапастеризоване 2,5% 900г",
+          "category_id": "uht-milk-varus",
+          "price": 34.3,
+          "unit": "pcs",
+          "weight": "913.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+          "slug": "moloko-selianske-900g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-900g-ukrayina--04820003486160/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 68.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко від 9 місяців",
+          "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+          "category_id": "uht-milk-varus",
+          "price": 45.9,
+          "unit": "pcs",
+          "weight": "986.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+          "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 91.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко особливе ультрапастеризоване",
+          "title": "Молоко Селянське Особливе ультрапастеризоване 6% 950г",
+          "category_id": "uht-milk-varus",
+          "price": 64.9,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна вітчизняна високоякісна молочна продукція, вироблена з високосортної сировини найвищого ґатунку за технологією суперпастерізаціі.",
+          "slug": "moloko-selianske-950g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g-ukrayina--04820003486054/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 129.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко родинне ультрапастеризоване",
+          "title": "Молоко Селянське Родинне ультрапастеризоване 2,5% 2кг",
+          "category_id": "uht-milk-varus",
+          "price": 80.9,
+          "unit": "pcs",
+          "weight": "2088.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 2.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+          "slug": "moloko-selianske-2000g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-2000g-ukrayina--04820003486115/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 80.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко з вітаміном d3 ультрапастеризоване",
+          "title": "Молоко Lactel з вітаміном D3 ультрапастеризоване 2,5% 950г",
+          "category_id": "uht-milk-varus",
+          "price": 49.1,
+          "unit": "pcs",
+          "weight": "976.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Для того, щоб мати міцні, здорові кістки і зуби, людський організм потребує не тільки кальцій, але й достатню кількість вітаміну D3. Він допомагає засвоювати і утримувати кальцій в кістках та бере участь у підтримці нашої кісткової системи протягом усього життя. Для того, щоб Ви мали змогу отримати максимум користі від кальцію, який знаходиться в молоці, “Лактель” збагатив своє молоко вітаміном D3.",
+          "slug": "moloko-laktel-950g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-laktel-950g-ukrayina--04823065727523/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 98.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко дитяче ультрапастеризоване",
+          "title": "Молоко На Здоров'я Дитяче ультрапастеризоване 3,2% 500г",
+          "category_id": "uht-milk-varus",
+          "price": 25.9,
+          "unit": "pcs",
+          "weight": "525.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ «На здоровье» — це широкий асортимент корисної та смачної молочної продукції для всієї родини та споживачів з особливими потребами. Висока якість, інноваційна технологія виробництва та екологічна асептична упаковка Тетра Пак , яка надійно захищає продукти і дозволяє довше зберігати їх смак та свіжість - незмінні переваги вашої улюбленної продукції ТМ \"На здоровье\"",
+          "slug": "moloko-na-zdorov-ia-500g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-na-zdorov-ia-500g--04820003482575/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 51.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко локо моко ультрапастеризоване з вітамінами а та d3 для дітей від 3 років",
+          "title": "Молоко Lactel Локо Моко ультрапастеризоване з вітамінами А та D3 для дітей від 3 років 2,5% 1кг",
+          "category_id": "uht-milk-varus",
+          "price": 45.9,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 3.0,
+            "unit": "років",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Молочні продукти Локо Моко надзвичайно корисні завдяки унікальному збагаченню кальцієм, вітаміном Д3 та кислотами Омега-3. Кислоти Омега-3 забезпечують клітини енергією для кращого проходження імпульсів між ними, завдяки чому покращується пам'ять, концентрація уваги, сприйняття інформації.",
+          "slug": "moloko-laktel-1000g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-laktel-1000g-ukrayina--04823065721989/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 45.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малюкам дитяче ультрапастеризоване",
+          "title": "Молоко Селянське Малюкам дитяче ультрапастеризоване 3,2% 950г",
+          "category_id": "uht-milk-varus",
+          "price": 54.9,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "Молоко питне ультрапастеризоване для дитячого харчування від 9-ти місяців. Для коханих малюків.",
+          "slug": "moloko-selianske-950g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g--04820003485781/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 109.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко волошково поле ультрапастеризоване",
+          "title": "Молоко Волошково Поле ультрапастеризоване 3,2% 900г",
+          "category_id": "uht-milk-varus",
+          "price": 42.4,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Волошкове Поле",
+            "trademark_slug": "voloshkove-pole"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/ukrayina--04820004239796/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 84.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко від 9 місяців",
+          "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 45.9,
+          "unit": "pcs",
+          "weight": "986.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+          "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 91.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малятко вітамінізоване для дітей від 9 місяців",
+          "title": "Молоко Злагода Малятко вітамінізоване для дітей від 9 місяців 3,2% 200г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 15.7,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "Виробляється дитяче молочко з найкращого цільного молока, яке проходить підвищений контроль якості - найвища щільність, найнижчий відсоток кислотності і найбільший відсоток білка і жиру. Дитяче молочко ТМ Злагода рекомендується для харчування дітей з 9 місячного віку.",
+          "slug": "moloko-zlagoda-200g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-zlagoda-200g-ukrayina--04820202530428/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 78.5
+      },
+      {
+        "product": {
+          "normalized_title": "молоко локо моко ультрапастеризоване з вітамінами а та d3 для дітей від 3 років",
+          "title": "Молоко Lactel Локо Моко ультрапастеризоване з вітамінами А та D3 для дітей від 3 років 2,5% 1кг",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 45.9,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 3.0,
+            "unit": "років",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Молочні продукти Локо Моко надзвичайно корисні завдяки унікальному збагаченню кальцієм, вітаміном Д3 та кислотами Омега-3. Кислоти Омега-3 забезпечують клітини енергією для кращого проходження імпульсів між ними, завдяки чому покращується пам'ять, концентрація уваги, сприйняття інформації.",
+          "slug": "moloko-laktel-1000g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-laktel-1000g-ukrayina--04823065721989/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 45.9
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малятко для харчування дітей від 9 місяців стерилізоване",
+          "title": "Молоко Злагода Малятко для харчування дітей від 9 місяців стерилізоване 3,2% 400г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 20.7,
+          "unit": "pcs",
+          "weight": "400.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "",
+          "slug": "moloko-zlagoda-400g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-zlagoda-400g-ukrayina--04820202530442/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 62.099999999999994
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малюкам дитяче ультрапастеризоване",
+          "title": "Молоко Селянське Малюкам дитяче ультрапастеризоване 3,2% 950г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 54.9,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "Молоко питне ультрапастеризоване для дитячого харчування від 9-ти місяців. Для коханих малюків.",
+          "slug": "moloko-selianske-950g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-selianske-950g--04820003485781/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 109.8
+      },
+      {
+        "product": {
+          "normalized_title": "коктейль молочний молоко з печивом від 12-ти місяців",
+          "title": "Коктейль молочний Чудо-Чадо Молоко з печивом від 12-ти місяців 200г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 20.9,
+          "unit": "pcs",
+          "weight": "225.0",
+          "bundle": 1,
+          "volume": 200.0,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Чудо-Чадо",
+            "trademark_slug": "chudo-chado"
+          },
+          "description": "Унікальний продукт у дитячому харчуванні. Молочні коктейлі \"Чудо-Чадо\" об'єднали користь молока (кальцій, вітамін D, вуглеводи) з фруктами та печивом, щоб малюк із задоволенням поласував на прогулянці або вдома. \n100% натуральні складові. З фруктозою. Без барвників. Без консервантів. Ультрапастеризоване.",
+          "slug": "napii-chudo-chado-200ml-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/napii-chudo-chado-200ml-ukrayina--04820016253971/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 104.5
+      },
+      {
+        "product": {
+          "normalized_title": "коктейль молочний молоко з малиною від 12-ти місяців",
+          "title": "Коктейль молочний Чудо-Чадо Молоко з малиною від 12-ти місяців 200г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 20.9,
+          "unit": "pcs",
+          "weight": "225.0",
+          "bundle": 1,
+          "volume": 200.0,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Чудо-Чадо",
+            "trademark_slug": "chudo-chado"
+          },
+          "description": "Унікальний продукт у дитячому харчуванні. Молочні коктейлі \"Чудо-Чадо\" об'єднали користь молока (кальцій, вітамін D, вуглеводи) з фруктами та печивом, щоб малюк із задоволенням поласував на прогулянці або вдома. \n100% натуральні складові. З фруктозою. Без барвників. Без консервантів. Ультрапастеризоване.",
+          "slug": "napii-chudo-chado-200ml-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/napii-chudo-chado-200ml-ukrayina--04820016253964/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 104.5
+      },
+      {
+        "product": {
+          "normalized_title": "коктейль молочний молоко з бананом від 12-ти місяців",
+          "title": "Коктейль молочний Чудо-Чадо Молоко з бананом від 12-ти місяців 200г",
+          "category_id": "dairy-foods-for-babies-varus",
+          "price": 19.9,
+          "unit": "pcs",
+          "weight": "225.0",
+          "bundle": 1,
+          "volume": 200.0,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Чудо-Чадо",
+            "trademark_slug": "chudo-chado"
+          },
+          "description": "Унікальний продукт у дитячому харчуванні. Молочні коктейлі \"Чудо-Чадо\" об'єднали користь молока (кальцій, вітамін D, вуглеводи) з фруктами та печивом, щоб малюк із задоволенням поласував на прогулянці або вдома. \n100% натуральні складові. З фруктозою. Без барвників. Без консервантів. Ультрапастеризоване.",
+          "slug": "napii-chudo-chado-200ml-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/napii-chudo-chado-200ml-ukrayina--04820016253957/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 99.5
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пряжене",
+          "title": "Молоко Varto пряжене 4% 930г",
+          "category_id": "baked-milk-varus",
+          "price": 35.7,
+          "unit": "pcs",
+          "weight": "930.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 930.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Varto",
+            "trademark_slug": "varto"
+          },
+          "description": "",
+          "slug": "moloko-varto-930g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-varto-930g--varus02059218800009/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 71.4
+      },
+      {
+        "product": {
+          "normalized_title": "молоко відбірне стерилізоване",
+          "title": "Молоко Злагода Відбірне стерилізоване 2,5% 2кг",
+          "category_id": "sterilized-milk-varus",
+          "price": 83.0,
+          "unit": "pcs",
+          "weight": "2070.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 2.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "",
+          "slug": "moloko-zlagoda-2000g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-zlagoda-2000g-ukrayina--04820202530763/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 83.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко стерилізоване вітамінізоване з 9 місяців",
+          "title": "Молоко Яготинське для дітей стерилізоване вітамінізоване з 9 місяців 3,2% 500г",
+          "category_id": "sterilized-milk-varus",
+          "price": 25.2,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-500g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-500g--04823005203735/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 50.4
+      },
+      {
+        "product": {
+          "normalized_title": "молоко домашне стерилізоване",
+          "title": "Молоко Злагода Домашне стерилізоване 3,2% 2кг",
+          "category_id": "sterilized-milk-varus",
+          "price": 82.4,
+          "unit": "pcs",
+          "weight": "2068.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 2.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "",
+          "slug": "moloko-zlagoda-2000g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-zlagoda-2000g-ukrayina--04820202532255/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 82.4
+      },
+      {
+        "product": {
+          "normalized_title": "молоко коровяче питне стерилізоване вітамінізоване з 9 місяців",
+          "title": "Молоко Яготинське для дітей коров’яче питне стерилізоване вітамінізоване з 9 місяців 3.2% 200г",
+          "category_id": "sterilized-milk-varus",
+          "price": 15.9,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-200g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-200g--04823005206989/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 79.5
+      },
+      {
+        "product": {
+          "normalized_title": "сирок згущене молоко глазурований",
+          "title": "Сирок Волошкове Поле згущене молоко глазурований 26% 36г",
+          "category_id": "glazed-curds-varus",
+          "price": 11.8,
+          "unit": "pcs",
+          "weight": "32.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 36.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Волошкове Поле",
+            "trademark_slug": "voloshkove-pole"
+          },
+          "description": "Сирки глазуровані ТМ \"Волошкове поле\" -  це улюблений продукт дітей і дорослих завдяки різноманітності смаків. Приємно поласувати смачним сирком з користю для організму, тому сирки глазуровані виготовляються тільки зі свіжого сиру з додаванням тільки натуральних компонентів.",
+          "slug": "sir-voloshkove-pole-36g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/sir-voloshkove-pole-36g-ukrayina--04820004236344/",
+          "promotion": null
+        },
+        "quantity": 28,
+        "end_price": 330.40000000000003
+      },
+      {
+        "product": {
+          "normalized_title": "сирки 1 молоко згущене 60г",
+          "title": "Сирки Злагода 2в1 Молоко згущене 15% 60г",
+          "category_id": "glazed-curds-varus",
+          "price": 16.1,
+          "unit": "pcs",
+          "weight": "60.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 60.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "Два смаку в одній упаковці! Сирки з натуральним і вареним згущеним молоком ідеально доповнюють один одного. Ніжна сирна маса з додаванням ароматного ваніліну, всіма улюблена натуральна сгущенка в одному сирку і варена, що нагадує карамельну іриску, в іншому. І вся ця спокуса покрита скоринкою хрусткого шоколаду.",
+          "slug": "sir-zlagoda-60g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/sir-zlagoda-60g-ukrayina--04820202530213/",
+          "promotion": null
+        },
+        "quantity": 17,
+        "end_price": 273.70000000000005
+      },
+      {
+        "product": {
+          "normalized_title": "сирок фані згущене молоко глазурований на печиві",
+          "title": "Сирок Фані згущене молоко глазурований на печиві 15% 50г",
+          "category_id": "glazed-curds-varus",
+          "price": 15.9,
+          "unit": "pcs",
+          "weight": "74.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 50.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Фанні",
+            "trademark_slug": "fanni"
+          },
+          "description": "Смачний і корисний молочний продукт для всієї родини.",
+          "slug": "sir-fanni-50g",
+          "web_url": "https://varus.zakaz.ua/uk/products/sir-fanni-50g--04823065704623/",
+          "promotion": null
+        },
+        "quantity": 20,
+        "end_price": 318.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк незбиране з цукром дсту",
+          "title": "Молоко згущене ПМКК незбиране з цукром 8,5% 440г ДСТУ",
+          "category_id": "condensed-milk-varus",
+          "price": 71.9,
+          "unit": "pcs",
+          "weight": "446.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 440.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Молоко незбиране згущене з цукром 8,5% - виробляється за традиційною технологією тільки зі свіжого молока і цукру. Різноманітність упаковки і обсягів дозволить задовольнити найрізноманітніші запити.",
+          "slug": "zgushchene-moloko-pervomaisk-440g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-440g--04820012683154/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 215.70000000000002
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк незбиране з цукром",
+          "title": "Молоко згущене ПМКК незбиране з цукром 8,5% 370г",
+          "category_id": "condensed-milk-varus",
+          "price": 45.6,
+          "unit": "pcs",
+          "weight": "440.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Молоко незбиране згущене з цукром 8,5% - виробляється за традиційною технологією тільки зі свіжого молока і цукру. Різноманітність упаковки і обсягів дозволить задовольнити найрізноманітніші запити.",
+          "slug": "zgushchene-moloko-pervomaisk-370g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-370g--04820012682935/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 136.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене ірис",
+          "title": "Молоко згущене Полтавочка ірис 8.5% 370г",
+          "category_id": "condensed-milk-varus",
+          "price": 53.9,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Полтавочка",
+            "trademark_slug": "poltavochka"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-poltavochka-370g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-poltavochka-370g--04820144811883/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 161.7
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене іриска варене",
+          "title": "Молоко згущене Полтавочка Іриска варене 8,5% 370г",
+          "category_id": "condensed-milk-varus",
+          "price": 58.3,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Полтавочка",
+            "trademark_slug": "poltavochka"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-poltavochka-370g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-poltavochka-370g--04820144811623/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 174.89999999999998
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене чорний шоколад незбиране з цукром",
+          "title": "Молоко згущене Varto Чорний Шоколад незбиране з цукром 320г",
+          "category_id": "condensed-milk-varus",
+          "price": 31.9,
+          "unit": "pcs",
+          "weight": "320.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 320.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Varto",
+            "trademark_slug": "varto"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-varto-320g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-varto-320g--varus02059704200009/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 127.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк іриска варене нежирне",
+          "title": "Молоко згущене ПМКК Іриска варене нежирне 500г",
+          "category_id": "condensed-milk-varus",
+          "price": 86.7,
+          "unit": "pcs",
+          "weight": "590.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-500g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-500g-ukrayina--04820012684649/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 173.4
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром преміум",
+          "title": "Молоко згущене Полтавочка з цукром Преміум 8,5% 370г",
+          "category_id": "condensed-milk-varus",
+          "price": 80.9,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Полтавочка",
+            "trademark_slug": "poltavochka"
+          },
+          "description": "У молоці згущеному «Преміум» 8,5% - використовуються тільки натуральні складові. Сировину отримують з декількох спеціалізованих фермерських господарств власного сировинного регіону. Молоко «Преміум» дуже поживне, має еталонний смак, незмінний з часів радянських ГОСТів.",
+          "slug": "zgushchene-moloko-poltavochka-370g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-poltavochka-370g--04820144811401/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 242.70000000000002
+      },
+      {
+        "product": {
+          "normalized_title": "згущене молоко з какао",
+          "title": "Згущене молоко з какао 7.5% 290г",
+          "category_id": "condensed-milk-varus",
+          "price": 56.3,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-290g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-290g--04820012683451/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 225.2
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пмкк згущене з цукром безлактозне",
+          "title": "Молоко ПМКК згущене з цукром безлактозне 8,5% 290г",
+          "category_id": "condensed-milk-varus",
+          "price": 37.7,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "moloko-290g",
+          "web_url": "https://varus.zakaz.ua/uk/products/moloko-290g--04820012684434/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 150.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром",
+          "title": "Молоко згущене Полтавочка з цукром 8,5% 920г",
+          "category_id": "condensed-milk-varus",
+          "price": 127.8,
+          "unit": "pcs",
+          "weight": "920.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 920.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Полтавочка",
+            "trademark_slug": "poltavochka"
+          },
+          "description": "Згущене молоко - це незабутнє лакомство, яке  може прикрасити будь-який десерт. Цінується згущене молоко і за те, що в ньому містяться незамінні амінокислоти і насичені жирні кислоти.",
+          "slug": "zgushchene-moloko-poltavochka-920g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-poltavochka-920g--04820144811180/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 255.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене happy motley cows з цукром нежирне",
+          "title": "Молоко згущене Happy Motley Cows з цукром нежирне 440г",
+          "category_id": "condensed-milk-varus",
+          "price": 64.3,
+          "unit": "pcs",
+          "weight": "440.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 440.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Нappy Motley Cows",
+            "trademark_slug": "nappy-motley-cows"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-khepi-motli-kaus-440g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-khepi-motli-kaus-440g--04820012683871/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 192.89999999999998
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене ий мкк незбиране з цукром",
+          "title": "Молоко згущене Первомайський МКК незбиране з цукром 8,5% 15г",
+          "category_id": "condensed-milk-varus",
+          "price": 8.1,
+          "unit": "pcs",
+          "weight": "15.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 15.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-pervomaisk-15g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-15g--04820012682850/",
+          "promotion": null
+        },
+        "quantity": 67,
+        "end_price": 542.6999999999999
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмк іриска зі смаком горіху варене",
+          "title": "Молоко згущене ПМК Іриска зі смаком горіху варене 8,5% 370г",
+          "category_id": "condensed-milk-varus",
+          "price": 80.6,
+          "unit": "pcs",
+          "weight": "370.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/ukrayina--04820012684663/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 241.79999999999998
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк з цукром зі смаком ванілі",
+          "title": "Молоко згущене ПМКК з цукром зі смаком ванілі 5% 290г",
+          "category_id": "condensed-milk-varus",
+          "price": 44.7,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Смак та запах: солодкий, з вираженим смаком та запахом ванілі, без сторонніх присмаків та запахів; консистенція: однорідна за всією масою, в`язка; \nКолір: білий з кремовим відтінком, рівномірний за всією масою.",
+          "slug": "zgushchene-moloko-pervomaisk-290g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-290g-ukrayina--04820012684571/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 178.8
+      },
+      {
+        "product": {
+          "normalized_title": "згущене молоко незбиране з цукром",
+          "title": "Згущене молоко Varto незбиране з цукром 8,5% 500г",
+          "category_id": "condensed-milk-varus",
+          "price": 59.9,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Varto",
+            "trademark_slug": "varto"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-varto-500g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-varto-500g--varus02057693300007/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 119.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене крем-брюле незбиране з цукром",
+          "title": "Молоко згущене Varto Крем-брюле незбиране з цукром 320г",
+          "category_id": "condensed-milk-varus",
+          "price": 39.9,
+          "unit": "pcs",
+          "weight": "320.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 320.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Varto",
+            "trademark_slug": "varto"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-varto-320g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-varto-320g--varus02059704300006/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 159.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене незбиране з цукром",
+          "title": "Молоко згущене Ічня незбиране з цукром 8,5% 480г",
+          "category_id": "condensed-milk-varus",
+          "price": 64.6,
+          "unit": "pcs",
+          "weight": "498.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 480.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Незбиране згущене молоко з цукром \"Ічня\" - це якісний продукт! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру.",
+          "slug": "zgushchene-moloko-ichnia-480g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-ichnia-480g--04820103342250/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 193.79999999999998
+      },
+      {
+        "product": {
+          "normalized_title": "молоко незбиране згущене з цукром",
+          "title": "Молоко Вигода незбиране згущене з цукром 8,5% 250г",
+          "category_id": "condensed-milk-varus",
+          "price": 29.9,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Вигода ",
+            "trademark_slug": "vigoda"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-vigoda-250g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-vigoda-250g-ukrayina--varus02061371500009/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 119.6
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк іриска нежирне",
+          "title": "Молоко згущене ПМКК Іриска нежирне 500г",
+          "category_id": "condensed-milk-varus",
+          "price": 72.9,
+          "unit": "pcs",
+          "weight": "796.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Недоліком практично будь-яких солодощів є відсутність користі! На щастя, з будь-якого правила бувають винятки! Хороший приклад тому - згущене молоко! Його переваги: ​​повністю засвоюється більшістю людей, досить тривалий термін зберігання, альтернатива для любителів солодкого, висока енергетична цінність/користь. Купити згущене молоко варене Іриска, в Україні просто. Відмінність від звичайної згущенки, в тому що, вона проходить додаткову термічну обробку. Після неї з'являється характерний колір і смак, що відрізняється від оригінального!",
+          "slug": "zgushchene-moloko-pervomaisk-530g",
+          "web_url": "https://varus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-530g--04820012683291/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 145.8
+      },
+      {
+        "product": {
+          "normalized_title": "морозиво пташине молоко жар-птиці",
+          "title": "Морозиво Рудь Пташине молоко Жар-птиці 65г",
+          "category_id": "tm-rud",
+          "price": 28.1,
+          "unit": "pcs",
+          "weight": "65.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 65.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Рудь",
+            "trademark_slug": "rud"
+          },
+          "description": "",
+          "slug": "morozivo-rud-65g-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/morozivo-rud-65g-ukrayina--04823097813195/",
+          "promotion": null
+        },
+        "quantity": 16,
+        "end_price": 449.6
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко глазуровані вагові",
+          "title": "Цукерки Varto Пташине молоко глазуровані вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 151.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Varto",
+            "trademark_slug": "varto"
+          },
+          "description": "",
+          "slug": "tsukerka-varto",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-varto--varus02603566000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 151.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки джонні крокер молоко вагові",
+          "title": "Цукерки Roshen Джонні Крокер молоко вагові",
+          "category_id": "bulk-candy-varus",
+          "price": 215.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Темні хрусткі вафлі та молочна начинка, покриті глазур’ю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--varus02603328000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 215.9
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко суфле в чорному шоколаді",
+          "title": "Цукерки Любимов Пташине молоко суфле в чорному шоколаді 150г",
+          "category_id": "candy-in-box-varus",
+          "price": 68.1,
+          "unit": "pcs",
+          "weight": "208.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Любимов",
+            "trademark_slug": "liubimov"
+          },
+          "description": "Завдяки легендарному рецепту 1967 року Ви зможете насолодитися класичним смаком улюбленого десерту. Ви відчуєте знайомий з дитинства смак цукерок з легкою, повітряною начинкою у вигляді ніжного збитого суфле, покритих високоякісним чорним шоколадом.",
+          "slug": "tsukerka-liubimov-150g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-liubimov-150g--04820075504113/",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 476.69999999999993
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко ваніль",
+          "title": "Цукерки Gracio Пташине молоко Ваніль 150г",
+          "category_id": "candy-in-box-varus",
+          "price": 71.9,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Gracio ",
+            "trademark_slug": "gracio"
+          },
+          "description": "",
+          "slug": "tsukerka-gratsio-150g",
+          "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-gratsio-150g--05900847006195/",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 503.30000000000007
+      },
+      {
+        "product": {
+          "normalized_title": "печиво пряжене молоко цукрове",
+          "title": "Печиво Пряжене молоко цукрове",
+          "category_id": "cookies-varus",
+          "price": 69.9,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Вигода ",
+            "trademark_slug": "vigoda"
+          },
+          "description": "",
+          "slug": "pechivo-vigoda-ukrayina",
+          "web_url": "https://varus.zakaz.ua/uk/products/pechivo-vigoda-ukrayina--varus02604238000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 69.9
+      },
+      {
+        "product": {
+          "normalized_title": "вафлі wafers sandwich crunch молоко ваніль",
+          "title": "Вафлі Roshen Wafers Sandwich Crunch молоко ваніль 142г",
+          "category_id": "waffle-varus",
+          "price": 33.9,
+          "unit": "pcs",
+          "weight": "142.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 142.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафлі Wafers Sandwich Crunch – це надзвичайний хрускіт, товстий шар начинки з вмістом молока 15% та унікальна рецептура вафельного листа.",
+          "slug": "vafli-roshen-142g",
+          "web_url": "https://varus.zakaz.ua/uk/products/vafli-roshen-142g--04823077636967/",
+          "promotion": null
+        },
+        "quantity": 8,
+        "end_price": 271.2
+      },
+      {
+        "product": {
+          "normalized_title": "вироби фігурні кукурудзяні пряжене молоко неглазурованi",
+          "title": "Вироби фігурні Вигода кукурудзяні пряжене молоко неглазурованi 60г",
+          "category_id": "corn-curls-cotton-candy-varus",
+          "price": 7.7,
+          "unit": "pcs",
+          "weight": "60.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 60.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Вигода ",
+            "trademark_slug": "vigoda"
+          },
+          "description": "",
+          "slug": "palichka-vigoda-60g",
+          "web_url": "https://varus.zakaz.ua/uk/products/palichka-vigoda-60g--varus02051590600000/",
+          "promotion": null
+        },
+        "quantity": 17,
+        "end_price": 130.9
+      },
+      {
+        "product": {
+          "normalized_title": "шампунь botanic therapy кокосове молоко та макадамія",
+          "title": "Шампунь Garnier Botanic Therapy Кокосове молоко та макадамія 250мл",
+          "category_id": "tm-garnier",
+          "price": 90.0,
+          "unit": "pcs",
+          "weight": "300.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "GARNIER",
+            "trademark_slug": "garnier"
+          },
+          "description": "Експерти Garnier в області ботаніки відібрали живильні Кокосове молочко і олію горіха Макадамії для створення унікальної рецептури для живлення і м'якості волосся без обважнення. Кокосове молочко відоме своїми живильними і зміцнюючими властивостями. Олія горіха Макадамії володіє винятковими поживними властивостями, робить волосся еластичними і м'якими на дотик. Виглядає сильним, сяє красою, м'яке і еластичне на вигляд. Без обважнення.",
+          "slug": "shampun-garner-250ml",
+          "web_url": "https://varus.zakaz.ua/uk/products/shampun-garner-250ml--03600542144223/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 360.0
+      }
+    ]
+  }
+]

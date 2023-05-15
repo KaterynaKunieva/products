@@ -1,0 +1,4319 @@
+[
+  {
+    "request": {
+      "title_filter": "напій енергетичний",
+      "brand_filter": [
+        "Monster Energy",
+        "Non stop"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "напій енергетичний original",
+          "title": "Напій енергетичний Non Stop Original 250мл",
+          "category_id": "energy-drinks",
+          "price": 21.99,
+          "unit": "pcs",
+          "weight": "284.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "Світ став настільки тьмяним і похмурим, що навіть вузол краватки втомлено розпускається? Строгий робочий костюм перетворився на гамівну сорочку? Облиште, класика теж буває крутою і може відмінно підбадьорити. Non Stop Original – той самий легендарний класичний енергетик, який спростовує всі міфи про консерватизм. \nТому що він стабільно яскравий, стабільно крутий і стабільно потужно накачує ваше тіло бадьорістю і гарним настроєм у будь-який час доби. Non Stop Original - двадцять чотири години, не зупиняючись.",
+          "slug": "napii-non-stop-250ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/napii-non-stop-250ml--04820097890317/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 21.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний ultra",
+          "title": "Напій енергетичний Non Stop Ultra 0,5л",
+          "category_id": "energy-drinks",
+          "price": 31.99,
+          "unit": "pcs",
+          "weight": "526.0",
+          "bundle": 1,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-500ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097899952/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний mango loco",
+          "title": "Напій енергетичний Monster Energy Mango Loco 0,355л",
+          "category_id": "energy-drinks",
+          "price": 59.99,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "energetik-monster-355ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/energetik-monster-355ml--05060751213062/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 59.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний the doctor сильногазований",
+          "title": "Напій енергетичний Monster Energy The Doctor сильногазований 0,355л",
+          "category_id": "energy-drinks",
+          "price": 59.99,
+          "unit": "pcs",
+          "weight": "355.0",
+          "bundle": 1,
+          "volume": 355.0,
+          "weight_info": {
+            "value": 0.355,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Monster energy",
+            "trademark_slug": "monster-energy"
+          },
+          "description": "",
+          "slug": "napii-monster-355ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/napii-monster-355ml--05060639122929/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 59.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний boost",
+          "title": "Напій енергетичний Non Stop Boost 0,5л",
+          "category_id": "energy-drinks",
+          "price": 31.99,
+          "unit": "pcs",
+          "weight": "530.0",
+          "bundle": 1,
+          "volume": 500.0,
+          "weight_info": {
+            "value": 0.5,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-500ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097899167/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 31.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний non-stop original безалкогольний",
+          "title": "Напій енергетичний Non-Stop Original безалкогольний 0,75л",
+          "category_id": "energy-drinks",
+          "price": 36.99,
+          "unit": "pcs",
+          "weight": "780.0",
+          "bundle": 1,
+          "volume": 750.0,
+          "weight_info": {
+            "value": 0.75,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "Світ став настільки тьмяним і похмурим, що навіть вузол краватки втомлено розпускається? Строгий робочий костюм перетворився на гамівну сорочку? Облиште, класика теж буває крутою і може відмінно підбадьорити. Non Stop Original – той самий легендарний класичний енергетик, який спростовує всі міфи про консерватизм. \nТому що він стабільно яскравий, стабільно крутий і стабільно потужно накачує ваше тіло бадьорістю і гарним настроєм у будь-який час доби. Non Stop Original - двадцять чотири години, не зупиняючись.",
+          "slug": "napii-non-stop-750ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/napii-non-stop-750ml--04820097891987/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 36.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний еvolution",
+          "title": "Напій енергетичний Non Stop Еvolution 250мл",
+          "category_id": "energy-drinks",
+          "price": 26.99,
+          "unit": "pcs",
+          "weight": "274.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-250ml-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/energetik-non-stop-250ml-ukrayina--04820097898658/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 26.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій енергетичний jungle",
+          "title": "Напій енергетичний Non Stop Jungle 250мл",
+          "category_id": "energy-drinks",
+          "price": 21.99,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": 250.0,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Non Stop",
+            "trademark_slug": "non-stop"
+          },
+          "description": "",
+          "slug": "energetik-non-stop-250ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/energetik-non-stop-250ml--04820097897224/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 21.99
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "цукерки",
+      "brand_filter": [
+        "Roshen",
+        "Milka"
+      ],
+      "weight_filter": null,
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "цукерки ліщина",
+          "title": "Цукерки Roshen Ліщина",
+          "category_id": "bulk-candy-novus",
+          "price": 279.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки пралінові «Ліщина»\nПраліне з подрібненим лісовим горіхом в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02857481000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 279.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки сливки-ленивки шоколадно-вафельні",
+          "title": "Цукерки Roshen Сливки-ленивки шоколадно-вафельні",
+          "category_id": "bulk-candy-novus",
+          "price": 213.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Глазуровані екстра молочною шоколадною глазур’ю цукерки, з п’яти розсипчастих світлих вафельних листів та чотирьох шарів молочно-вершкової начинки зі справжніми молочними вершками.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02868597000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 213.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з шоколадом і сезамом вагові",
+          "title": "Цукерки Roshen Монблан з шоколадом і сезамом вагові",
+          "category_id": "bulk-candy-novus",
+          "price": 424.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з шоколадно-горіхового праліне зі смаженим кунжутом, декоровані чорним та білим шоколадом.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077628696/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 424.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки червоний мак",
+          "title": "Цукерки Roshen Червоний мак",
+          "category_id": "bulk-candy-novus",
+          "price": 279.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Праліне з додаванням карамельної крихти, пасти ядер горіхів фундука та мигдалю покрите шоколадною глазур’ю.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--novus02050000104893/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 279.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки galaretka",
+          "title": "Цукерки Roshen Galaretka",
+          "category_id": "bulk-candy-novus",
+          "price": 184.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки зі смаками ананасу, апельсина, манго, лайма в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02880240000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 184.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки корівка київська",
+          "title": "Цукерки Roshen Корівка Київська",
+          "category_id": "bulk-candy-novus",
+          "price": 125.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Неглазуровані цукерки, корпус - молочна помадка із цукровою скоринкою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02855182000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 125.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки kandy nut арахіс",
+          "title": "Цукерки Roshen Kandy Nut арахіс",
+          "category_id": "bulk-candy-novus",
+          "price": 194.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Смажений арахіс і м'яка карамель, глазуровані шоколадною глазур'ю.",
+          "slug": "tsukerka-roshen-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077611032/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 194.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки ko ko choco",
+          "title": "Цукерки Roshen Ko Ko Choco",
+          "category_id": "bulk-candy-novus",
+          "price": 319.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки Ko Ko Choco Write\nЦукерки в білому шоколаді з подвійною начинкою: кремовою і ванільною.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02870164000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 319.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки fudgenta",
+          "title": "Цукерки Roshen Fudgenta",
+          "category_id": "bulk-candy-novus",
+          "price": 164.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Молочна цукерка типу «ірис».",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02874630000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 164.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto bianco",
+          "title": "Цукерки Roshen Konafetto Bianco",
+          "category_id": "bulk-candy-novus",
+          "price": 209.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки в шоколадній глазурі з кремовою начинкою зі смаком згущеного молока.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--04823077621529/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 209.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з подрібленим мигдалем вагові",
+          "title": "Цукерки Roshen Монблан з подрібленим мигдалем вагові",
+          "category_id": "bulk-candy-novus",
+          "price": 429.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Праліне з подрібненим карамелізованим мигдалем глазуроване білим та чорним шоколадом.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077628726/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 429.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto nero",
+          "title": "Цукерки Roshen Konafetto Nero",
+          "category_id": "bulk-candy-novus",
+          "price": 229.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки у шоколадній глазурі, з кремовою начинкою зі смаком лісового горіха.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--04823077608841/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 229.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker choco",
+          "title": "Цукерки Roshen Johnny Krocker choco",
+          "category_id": "bulk-candy-novus",
+          "price": 224.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Світлі хрусткі вафлі та шоколадно-кремова начинка, покриті глазур'ю.",
+          "slug": "ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/ukrayina--04823077635595/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 224.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки krock з арахісовою пастою",
+          "title": "Цукерки Roshen Krock з арахісовою пастою",
+          "category_id": "bulk-candy-novus",
+          "price": 189.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель перешарована арахісової пастою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02884849000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 189.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки nougat",
+          "title": "Цукерки Roshen Nougat",
+          "category_id": "bulk-candy-novus",
+          "price": 214.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Нуга Roshen - ніжний десерт в форматі цукерки зі смаками крем-брюле і крем-какао.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02881704000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 214.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки кара-кум",
+          "title": "Цукерки Roshen Кара-Кум",
+          "category_id": "bulk-candy-novus",
+          "price": 279.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Глазуровані шоколадною глазур'ю цукерки, корпус - праліне з додаванням вафельної крихти.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02851018000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 279.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан крем-праліне з подрібненим лісовим горіхом вагові",
+          "title": "Цукерки Roshen Монблан крем-праліне з подрібненим лісовим горіхом вагові",
+          "category_id": "bulk-candy-novus",
+          "price": 419.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з комбінованою начинкою: праліне з подрібненими лісовими горіхами та горіхово-кремова начинка, декоровані білим і чорним шоколадом.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077628702/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 419.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker молоко",
+          "title": "Цукерки Roshen Johnny Krocker молоко",
+          "category_id": "bulk-candy-novus",
+          "price": 224.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні цукерки з молочною начинкою в шоколадній глазурі.",
+          "slug": "tsukerka",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka--04823077605352/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 224.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки рошен монблан з цільним лісовим горіхом",
+          "title": "Цукерки Рошен Монблан з цільним лісовим горіхом",
+          "category_id": "bulk-candy-novus",
+          "price": 434.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з кремовою горіховою начинкою з додаванням ядер горіхів фундука, декоровані білим шоколадом.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077628719/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 434.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки toffelini з шоколадною начинкою",
+          "title": "Цукерки Roshen Toffelini з шоколадною начинкою",
+          "category_id": "bulk-candy-novus",
+          "price": 229.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні тоффі з шоколадною начинкою.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--04823077631962/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 229.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколапки",
+          "title": "Цукерки Roshen Шоколапки 1кг",
+          "category_id": "bulk-candy-novus",
+          "price": 189.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тофі з подрібненим арахісом в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077604676/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 189.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки eclair",
+          "title": "Цукерки Roshen Eclair",
+          "category_id": "bulk-candy-novus",
+          "price": 179.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "М'яка карамель з шоколадною начинкою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02868614000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 179.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mont blanc з карамелізованим мигдалем",
+          "title": "Цукерки Roshen Mont Blanc з карамелізованим мигдалем",
+          "category_id": "bulk-candy-novus",
+          "price": 439.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мигдальне праліне з карамелізованим мигдалем глазуроване білим та темним шоколадом.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02882411000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 439.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки рошен монблан шоколадні з мигдалем та кокосовим кремом вагові",
+          "title": "Цукерки Рошен Монблан шоколадні з мигдалем та кокосовим кремом вагові",
+          "category_id": "bulk-candy-novus",
+          "price": 479.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тандем молочного шоколаду з ніжною начинкою із кокосового крему та мигдалю.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02858257000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 479.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки minky binky",
+          "title": "Цукерки Roshen Minky Binky",
+          "category_id": "bulk-candy-novus",
+          "price": 159.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тоффі з желейними начинками та додаванням фруктових соків: полуниці, апельсину, чорниці, абрикосу.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02874628000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 159.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки milky splash ірис з молочною начинкою",
+          "title": "Цукерки Roshen Milky Splash ірис з молочною начинкою",
+          "category_id": "bulk-candy-novus",
+          "price": 239.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вершкове тофі з молочною начинкою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02881705000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 239.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi rainbow belts желейні",
+          "title": "Цукерки Roshen Yummi Gummi Rainbow Belts желейні 70г",
+          "category_id": "packed-candy-novus",
+          "price": 30.99,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "tsukerka-roshen-70g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636264/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto bianco",
+          "title": "Цукерки Roshen Konafetto Bianco",
+          "category_id": "packed-candy-novus",
+          "price": 209.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки в шоколадній глазурі з кремовою начинкою зі смаком згущеного молока.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--04823077621529/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 209.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi banana land",
+          "title": "Цукерки Roshen Yummi Gummi Banana Land 70г",
+          "category_id": "packed-candy-novus",
+          "price": 30.99,
+          "unit": "pcs",
+          "weight": "74.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/ukrayina--04823077638459/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 30.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки konafetto nero",
+          "title": "Цукерки Roshen Konafetto Nero",
+          "category_id": "packed-candy-novus",
+          "price": 229.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні трубочки у шоколадній глазурі, з кремовою начинкою зі смаком лісового горіха.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--04823077608841/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 229.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker choco",
+          "title": "Цукерки Roshen Johnny Krocker choco",
+          "category_id": "packed-candy-novus",
+          "price": 224.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Світлі хрусткі вафлі та шоколадно-кремова начинка, покриті глазур'ю.",
+          "slug": "ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/ukrayina--04823077635595/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 224.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi cherry",
+          "title": "Цукерки Roshen Yummi Gummi Cherry 70г",
+          "category_id": "packed-candy-novus",
+          "price": 28.99,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "",
+          "slug": "ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/ukrayina--04823077638466/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi frozen yogo",
+          "title": "Цукерки Roshen Yummi Gummi Frozen Yogo 70г",
+          "category_id": "packed-candy-novus",
+          "price": 29.99,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі морозива з йогуртовими смаками: малина-йогурт, полуниця-йогурт, ананас-йогурт.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636363/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки johnny krocker молоко",
+          "title": "Цукерки Roshen Johnny Krocker молоко",
+          "category_id": "packed-candy-novus",
+          "price": 224.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафельні цукерки з молочною начинкою в шоколадній глазурі.",
+          "slug": "tsukerka",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka--04823077605352/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 224.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколапки",
+          "title": "Цукерки Roshen Шоколапки 1кг",
+          "category_id": "packed-candy-novus",
+          "price": 189.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тофі з подрібненим арахісом в шоколадній глазурі.",
+          "slug": "tsukerka-roshen-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077604676/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 189.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки корівка",
+          "title": "Цукерки Roshen Корівка 205г",
+          "category_id": "packed-candy-novus",
+          "price": 35.99,
+          "unit": "pcs",
+          "weight": "205.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 205.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Неглазуровані цукерки, корпус - молочна помадка з цукровою скоринкою.",
+          "slug": "tsukerka-roshen-205g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-205g-ukrayina--04823077608513/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 35.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi fizzy worms",
+          "title": "Цукерки Roshen Yummi Gummi Fizzy Worms 70г",
+          "category_id": "packed-candy-novus",
+          "price": 27.99,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі смугастих черв'ячків у кислій присипці та з подвійними смаками: виноград – яблуко, чорниця – апельсин, вишня – лимон.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636387/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 27.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi galaxy life",
+          "title": "Цукерки Roshen Yummi Gummi Galaxy Life 70г",
+          "category_id": "packed-candy-novus",
+          "price": 29.99,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс двошарових желатинових цукерок на основі спіненої маси зі смаками лимона, кавуна, апельсина, вишні, чорниці та яблука.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636356/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки yummi gummi mini bear mix",
+          "title": "Цукерки Roshen Yummi Gummi Mini Bear Mix 70г",
+          "category_id": "packed-candy-novus",
+          "price": 29.69,
+          "unit": "pcs",
+          "weight": "70.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 70.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс желатинових цукерок у формі ведмедиків зі смаками вишні, яблука, абрикоса, смородини, ананаса та апельсина. \nУ цукерках міститься 25% фруктового соку.",
+          "slug": "tsukerka-roshen-70g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636349/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.69
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки в шоколаді вишня з вишневим лікером",
+          "title": "Цукерки Roshen в шоколаді вишня з вишневим лікером 155г",
+          "category_id": "candy-in-box-novus",
+          "price": 69.99,
+          "unit": "pcs",
+          "weight": "155.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 155.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки в чорному шоколаді з вишневим лікером і цілою вишнею без кісточки. Коробка цукерок Roshen здатна додати святковості навіть в найпохмуріший день. Може бути як прекрасним доповненням до будь-якого подарунка, так і самостійним презентом.",
+          "slug": "tsukerka-roshen-155g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-155g-ukrayina--04823077625145/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 69.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки з молочного шоколаду кремово-полунична начинка",
+          "title": "Цукерки з молочного шоколаду Milka кремово-полунична начинка 110г",
+          "category_id": "candy-in-box-novus",
+          "price": 99.99,
+          "unit": "pcs",
+          "weight": "110.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 110.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Milka",
+            "trademark_slug": "milka"
+          },
+          "description": "",
+          "slug": "tsukerka-milka-110g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-milka-110g--07622201410407/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 99.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки київ вечірній",
+          "title": "Цукерки Roshen Київ вечірній 176г",
+          "category_id": "candy-in-box-novus",
+          "price": 199.0,
+          "unit": "pcs",
+          "weight": "176.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 176.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Класичне праліне з подрібненим фундуком та цілим лісовим горіхом у шоколадній глазурі.",
+          "slug": "tsukerka-roshen-176g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-176g-ukrayina--04823077616013/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 199.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки chocolateria",
+          "title": "Цукерки Roshen Chocolateria 194г",
+          "category_id": "candy-in-box-novus",
+          "price": 204.0,
+          "unit": "pcs",
+          "weight": "194.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 194.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асорті шоколадних цукерок молочного, білого та чорного шоколаду з начинками:\n-білий трюфель;\n-винний трюфель;\n-класичне праліне з сезамом;\n-мигдальне праліне зі шматочками мигдалю;\n-темне горіхове праліне;\n-двошарове праліне;\n-кавовий лікер;\n-вершкова помадка з бренді.",
+          "slug": "tsukerka-roshen-194g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-194g-ukrayina--04823077616389/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 204.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з шоколадом та сезамом",
+          "title": "Цукерки Roshen Монблан з шоколадом та сезамом 177г",
+          "category_id": "candy-in-box-novus",
+          "price": 114.0,
+          "unit": "pcs",
+          "weight": "177.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 177.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки з шоколадно-горіхового праліне зі смаженим кунжутом. Декоровані чорним і білим шоколадом.",
+          "slug": "tsukerka",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka--04823077633003/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 114.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки монблан з цільним лісовим горіхом",
+          "title": "Цукерки Roshen Монблан з цільним лісовим горіхом 177г",
+          "category_id": "candy-in-box-novus",
+          "price": 104.0,
+          "unit": "pcs",
+          "weight": "177.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 177.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Шоколадні цукерки з кремовою горіховою начинкою, додаванням ядер горіхів фундука. Декоровані білим шоколадом.",
+          "slug": "tsukerka-roshen-177g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-177g--04823077632983/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 104.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки shooters віскі-лікер",
+          "title": "Цукерки Roshen Shooters Віскі-лікер 150г",
+          "category_id": "candy-in-box-novus",
+          "price": 69.99,
+          "unit": "pcs",
+          "weight": "188.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки в чорному шоколаді з начинкою віскі-лікер.",
+          "slug": "tsukerka-roshen-150g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-150g--04823077633690/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 69.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шоколадні shooters з бренді-лікером",
+          "title": "Цукерки шоколадні Roshen Shooters з бренді-лікером 150г",
+          "category_id": "candy-in-box-novus",
+          "price": 64.99,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки у шоколаді з начинкою бренді-лікер.",
+          "slug": "tsukerka-roshen-150g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-150g-ukrayina--04823077618918/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 64.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки shooters шоколадні з ромовим лікером",
+          "title": "Цукерки Roshen Shooters шоколадні з ромовим лікером 150г",
+          "category_id": "candy-in-box-novus",
+          "price": 69.99,
+          "unit": "pcs",
+          "weight": "150.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки у шоколаді з начинкою ромовий лікер.",
+          "slug": "tsukerka-roshen-150g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-150g-ukrayina--04823077618901/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 69.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки з молочного шоколаду горіхова начинка",
+          "title": "Цукерки з молочного шоколаду Milka горіхова начинка 110г",
+          "category_id": "candy-in-box-novus",
+          "price": 99.99,
+          "unit": "pcs",
+          "weight": "110.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 110.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Milka",
+            "trademark_slug": "milka"
+          },
+          "description": "",
+          "slug": "tsukerka-milka-110g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-milka-110g--07622201408145/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 99.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки assortment еlegant в молочному шоколаді",
+          "title": "Цукерки Roshen Assortment Еlegant в молочному шоколаді 145г",
+          "category_id": "candy-in-box-novus",
+          "price": 109.0,
+          "unit": "pcs",
+          "weight": "145.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 145.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки Roshen Assortment Elegant молочний шоколад - чотири види цукерок в молочному шоколаді з начинками: вишневий трюфель, шоколадний крем, вершкова помадка, горіховий крем та подрібнені лісові горіхи.",
+          "slug": "tsukerka-roshen-145g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-145g-ukrayina--04823077611933/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 109.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки compliment шоколадні",
+          "title": "Цукерки Roshen Compliment шоколадні 145г",
+          "category_id": "candy-in-box-novus",
+          "price": 109.0,
+          "unit": "pcs",
+          "weight": "145.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 145.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асорті чотирьох видів цукерок в чорному шоколаді з різними начинками. Коробка цукерок Roshen здатна додати святковості навіть в найпохмуріший день. Може бути як прекрасним доповненням до будь-якого подарунка, так і самостійним презентом.",
+          "slug": "tsukerka-roshen-145g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-145g-ukrayina--04823077625879/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 109.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки assortment classic в чорному шоколаді",
+          "title": "Цукерки Roshen Assortment Classic в чорному шоколаді 154г",
+          "category_id": "candy-in-box-novus",
+          "price": 109.0,
+          "unit": "pcs",
+          "weight": "154.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 154.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки Roshen Assortment classic чорний шоколад - чотири види цукерок в чорному шоколаді з начинками: молочна помадка, молочна помадка з кавовим смаком, праліне з тертими лісовими горіхами, темне праліне з тертими лісовими горіхами.",
+          "slug": "tsukerka-roshen-154g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-154g-ukrayina--04823077611940/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 109.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки стріла подільська в шоколадній глазурі",
+          "title": "Цукерки Roshen Стріла подільська в шоколадній глазурі 200г",
+          "category_id": "candy-in-box-novus",
+          "price": 134.0,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерки в шоколадній глазурі. Начинка - згущене молоко з додаванням коньяку.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077615757/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 134.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки jelly",
+          "title": "Цукерки Roshen Jelly",
+          "category_id": "mints-and-gum",
+          "price": 124.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки, посипані дрібно кристалічним цукром, корпус - желейна маса на основі пектину з додаванням концентрованих фруктових соків.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02851005000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 124.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка",
+          "title": "Цукерки Roshen Шалена бджілка",
+          "category_id": "mints-and-gum",
+          "price": 149.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Мікс «Шалена бджілка» складається із 6 різноманітних фруктових смаків: апельсин, грейпфрут, кисла вишня, лісові ягоди, лимон лайм та суниця. Цукерки на основі желейного агента рослинного походження - каррагінана (продукт, зроблений із морських водоростей) та з додаванням натуральних соків.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02851058000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 149.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки шалена бджілка желейні неглазуровані",
+          "title": "Цукерки Roshen Шалена бджілка желейні неглазуровані 200г",
+          "category_id": "mints-and-gum",
+          "price": 34.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Асорті з карагінанових желейних цукерок з різноманітними фруктовими начинками: апельсин, грейпфрут, кисла вишня, лісові ягоди, лимон-лайм, суниця.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077602863/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 34.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки жувальні yummis тоффі зі смаком фруктів",
+          "title": "Цукерки жувальні Roshen Yummi's Тоффі зі смаком фруктів",
+          "category_id": "mints-and-gum",
+          "price": 149.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Жувальний ірис зі смаками яблука, вишні, апельсина та полуниці.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02884917000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 149.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки молочна краплинка карамель з молочною начинкою",
+          "title": "Цукерки Roshen Молочна краплинка карамель з молочною начинкою 200г",
+          "category_id": "mints-and-gum",
+          "price": 32.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель Рошен Молочна крапля - з молочною начинкою.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077612770/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 32.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки молочна крапля",
+          "title": "Цукерки Roshen Молочна крапля",
+          "category_id": "mints-and-gum",
+          "price": 159.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель з молочною начинкою.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02855260000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 159.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки creamel зі смаком фундука",
+          "title": "Цукерки Roshen Creamel зі смаком фундука",
+          "category_id": "mints-and-gum",
+          "price": 234.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Цукерка з кремовою начинкою з додаванням натуральної пасти з фундука.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02883665000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 234.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки mintex mint зі смаком мяти карамельні",
+          "title": "Цукерки Roshen Mintex Mint зі смаком м'яти карамельні",
+          "category_id": "mints-and-gum",
+          "price": 124.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель льодяна зі смаком м'яти.",
+          "slug": "tsukerka-roshen-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--novus02884415000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 124.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки желейні jelly",
+          "title": "Цукерки желейні Roshen Jelly 200г",
+          "category_id": "mints-and-gum",
+          "price": 26.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки, обсипані дрібнокристалічним цукром, корпус - желейна маса на основі пектину з додаванням концентрованих фруктових соків.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077602801/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 26.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки евкаліпт-ментол карамель льодяникова",
+          "title": "Цукерки Roshen Евкаліпт-ментол карамель льодяникова 200г",
+          "category_id": "mints-and-gum",
+          "price": 28.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Льодяникова карамель Рошен-Мікс евкаліпт-ментол зі смаками м'яти, ментолу та евкаліпта на основі натуральних ароматизаторів.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077612695/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 28.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки lollipops з коктейльними смаками ~1кг",
+          "title": "Цукерки Roshen LolliPops з коктейльними смаками (~1кг)",
+          "category_id": "mints-and-gum",
+          "price": 154.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель льодяникова з коктейльними  смаками.",
+          "slug": "tsukerka-roshen",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen--04823077613487/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 154.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки бім-бом карамельні із фруктово-ягідною начинкою",
+          "title": "Цукерки Roshen Бім-Бом карамельні із фруктово-ягідною начинкою 200г",
+          "category_id": "mints-and-gum",
+          "price": 29.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Карамель льодяникова Рошен Бім-Бом - прозора карамель у формі кульки з фруктово-ягідної начинкою зі смаками груші, ананаса, суниці та тутті-фрутті на основі натуральних соків та ароматизаторів.",
+          "slug": "tsukerka-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077612732/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 29.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки желейні bonny-fruit цитрусовий мікс",
+          "title": "Цукерки желейні Roshen Bonny-Fruit цитрусовий мікс 200г",
+          "category_id": "marshmallow-and-gumdrop",
+          "price": 32.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаками і в формі: апельсина, грейпфрута, лимон-лайма.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624247/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 32.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny-fruit желейні ягідний мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні ягідний мікс 200г",
+          "category_id": "marshmallow-and-gumdrop",
+          "price": 32.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаками та у формі лісовихі садових ягід: чорниці, суниці, журавлини, малини, винограду та чорної смородини.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624261/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 32.99
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки bonny-fruit желейні літній мікс",
+          "title": "Цукерки Roshen Bonny-Fruit желейні літній мікс 200г",
+          "category_id": "marshmallow-and-gumdrop",
+          "price": 35.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Желейні цукерки на основі пектину, на 25% складаються з соку. До складу міксу входять цукерки зі смаком і в формі літніх фруктів і ягід: яблука, груші, абрикоса, кавуна, вишні та полуниці.",
+          "slug": "marmelad-roshen-200g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/marmelad-roshen-200g-ukrayina--04823077624223/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 35.99
+      }
+    ]
+  },
+  {
+    "request": {
+      "title_filter": "молоко",
+      "brand_filter": null,
+      "weight_filter": "1кг",
+      "shop_filter": [
+        "silpo",
+        "novus",
+        "metro",
+        "varus"
+      ]
+    },
+    "product_buy_infos": [
+      {
+        "product": {
+          "normalized_title": "сир зат молоко едам твердий",
+          "title": "Сир ЗАТ Молоко Едам твердий 45%",
+          "category_id": "hard-cheese",
+          "price": 239.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "без тм",
+            "trademark_slug": "without-brand"
+          },
+          "description": "",
+          "slug": "sir",
+          "web_url": "https://novus.zakaz.ua/uk/products/sir--novus02866163000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 239.0
+      },
+      {
+        "product": {
+          "normalized_title": "сир зат молоко голландський твердий",
+          "title": "Сир ЗАТ Молоко Голландський твердий 45%",
+          "category_id": "hard-cheese",
+          "price": 239.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "без тм",
+            "trademark_slug": "without-brand"
+          },
+          "description": "",
+          "slug": "sir",
+          "web_url": "https://novus.zakaz.ua/uk/products/sir--novus02866159000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 239.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко особливе ультрапастеризоване",
+          "title": "Молоко Селянське Особливе ультрапастеризоване 6% 950г",
+          "category_id": "uht-milk",
+          "price": 63.99,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна вітчизняна високоякісна молочна продукція, вироблена з високосортної сировини найвищого ґатунку за технологією суперпастерізаціі.",
+          "slug": "moloko-selianske-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-selianske-950g-ukrayina--04820003486054/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 127.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване",
+          "title": "Молоко На здоров'я ультрапастеризоване 3,2% 950г",
+          "category_id": "uht-milk",
+          "price": 48.49,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ «На здоров'я» – це високоякісна молочна продукція. Широкий вибір молочної продукції: молоко, вершки, йогурт, молочний коктейль. \nПродукція компанії «Люстдорф» виготовляється із молочної сировини екстра та вищого гатунку. Підприємству його постачають 50 найкращих фермерських господарств Вінницької, Хмельницької, Житомирської та Черкаської областей. На кожному етапі виробництва молочної продукції здійснюється суворий професійний контроль за якістю та споживчими характеристиками.",
+          "slug": "moloko-na-zdorov-ia-1000ml-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-1000ml-ukrayina--04820003488546/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 96.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко стерилізоване вітамінізоване з 9 місяців",
+          "title": "Молоко Яготинське для дітей стерилізоване вітамінізоване з 9 місяців 3,2% 500г",
+          "category_id": "uht-milk",
+          "price": 24.99,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-500g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-500g--04823005203735/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 49.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко дитяче ультрапастеризоване",
+          "title": "Молоко На Здоров'я Дитяче ультрапастеризоване 3,2% 500г",
+          "category_id": "uht-milk",
+          "price": 27.99,
+          "unit": "pcs",
+          "weight": "525.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ «На здоровье» — це широкий асортимент корисної та смачної молочної продукції для всієї родини та споживачів з особливими потребами. Висока якість, інноваційна технологія виробництва та екологічна асептична упаковка Тетра Пак , яка надійно захищає продукти і дозволяє довше зберігати їх смак та свіжість - незмінні переваги вашої улюбленної продукції ТМ \"На здоровье\"",
+          "slug": "moloko-na-zdorov-ia-500g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-500g--04820003480830/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 55.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко родинне ультрапастеризоване",
+          "title": "Молоко Селянське Родинне ультрапастеризоване 2,5% 1,5кг",
+          "category_id": "uht-milk",
+          "price": 68.99,
+          "unit": "pcs",
+          "weight": "1547.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.5,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна українська молочна продукція, що відрізняється високою якістю та незрівняним, ніжним вершковим смаком, знайомим нам з дитинства. ТМ Селянське - ваші улюблені молочні продукти за приємною ціною.",
+          "slug": "moloko-selianske-1500g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-selianske-1500g-ukrayina--04820003486221/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 68.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малюкам ультрапастеризоване",
+          "title": "Молоко Селянське Малюкам ультрапастеризоване 2,5% 900г",
+          "category_id": "uht-milk",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "913.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "ТМ Селянське - це традиційна вітчизняна високоякісна молочна продукція, вироблена з високосортної сировини найвищого ґатунку за технологією суперпастерізаціі.",
+          "slug": "moloko-selianske-900g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-selianske-900g-ukrayina--04820003485101/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко з вітаміном d3 ультрапастеризоване",
+          "title": "Молоко Lactel з вітаміном D3 ультрапастеризоване 0,5% 950г",
+          "category_id": "uht-milk",
+          "price": 44.99,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Для того, щоб мати міцні, здорові кістки і зуби, людський організм потребує не тільки кальцій, але й достатню кількість вітаміну D3. Він допомагає засвоювати і утримувати кальцій в кістках та бере участь у підтримці нашої кісткової системи протягом усього життя. Для того, щоб Ви мали змогу отримати максимум користі від кальцію, який знаходиться в молоці, “Лактель” збагатив своє молоко вітаміном D3.",
+          "slug": "moloko-laktel-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-laktel-950g-ukrayina--04823065727516/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 89.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко вітамінізоване ультрапастеризоване",
+          "title": "Молоко На здоров'я вітамінізоване  ультрапастеризоване 2,5% 950г",
+          "category_id": "uht-milk",
+          "price": 51.99,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ «На здоров'я» – це високоякісна молочна продукція. Широкий вибір молочної продукції: молоко, вершки, йогурт, молочний коктейль. \nПродукція компанії «Люстдорф» виготовляється із молочної сировини екстра та вищого гатунку. Підприємству його постачають 50 найкращих фермерських господарств Вінницької, Хмельницької, Житомирської та Черкаської областей. На кожному етапі виробництва молочної продукції здійснюється суворий професійний контроль за якістю та споживчими характеристиками.",
+          "slug": "moloko-na-zdorov-ia-950ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-950ml--04820003488508/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 103.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко малюкам дитяче ультрапастеризоване",
+          "title": "Молоко Селянське Малюкам дитяче ультрапастеризоване 3,2% 950г",
+          "category_id": "uht-milk",
+          "price": 49.99,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "Молоко питне ультрапастеризоване для дитячого харчування від 9-ти місяців. Для коханих малюків.",
+          "slug": "moloko-selianske-950g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-selianske-950g--04820003485781/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 99.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване вітамінізоване від 9 місяців",
+          "title": "Молоко Яготинське для дітей ультрапастеризоване вітамінізоване від 9 місяців 3,2% 1кг",
+          "category_id": "uht-milk",
+          "price": 45.99,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-1000g--04823005203742/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 45.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко стерилізоване вітамінізоване з 9 місяців",
+          "title": "Молоко Яготинське для дітей стерилізоване вітамінізоване з 9 місяців 3,2% 500г",
+          "category_id": "sterilized-milk",
+          "price": 24.99,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-500g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-500g--04823005203735/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 49.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко коровяче питне стерилізоване вітамінізоване з 9 місяців",
+          "title": "Молоко Яготинське для дітей коров’яче питне стерилізоване вітамінізоване з 9 місяців 3.2% 200г",
+          "category_id": "sterilized-milk",
+          "price": 17.99,
+          "unit": "pcs",
+          "weight": "200.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 200.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-200g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-200g--04823005206989/",
+          "promotion": null
+        },
+        "quantity": 5,
+        "end_price": 89.94999999999999
+      },
+      {
+        "product": {
+          "normalized_title": "молоко від 9 місяців",
+          "title": "Молоко Яготинське для дітей від 9 місяців 3,2% 950г",
+          "category_id": "dairy-foods-for-babies",
+          "price": 47.39,
+          "unit": "pcs",
+          "weight": "986.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E.\nПродукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців.",
+          "slug": "moloko-iagotinske-dlia-ditei-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-950g-ukrayina--04823005209768/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 94.78
+      },
+      {
+        "product": {
+          "normalized_title": "молоко ультрапастеризоване вітамінізоване від 9 місяців",
+          "title": "Молоко Яготинське для дітей ультрапастеризоване вітамінізоване від 9 місяців 3,2% 1кг",
+          "category_id": "dairy-foods-for-babies",
+          "price": 45.99,
+          "unit": "pcs",
+          "weight": "1000.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське для дітей",
+            "trademark_slug": "iagotinske-dlia-ditei"
+          },
+          "description": "Молоко ТМ «Яготинське для дітей» — це високоякісний продукт, спеціально розроблений для немовлят. Він враховує потреби маляти в білку, кальції й вітамінах. Основа молочка — винятково добірне сертифіковане коров’яче молоко, яке поставляють фермерські господарства, а ми додатково збагачуємо його потрібними вітамінами А, D, E. Продукт призначений для прикорму малят віком від 9 місяців. Використовується молочко й у розведеному виді — на його основі ви зможете приготувати молочні страви для діточок віком від 6 місяців. Зручна та безпечна упаковка Тетра Пак дозволяє зберігати молочко свіжим до 90 діб. Три різних об’єми — 200, 500 та 1000 г — допоможуть батькам обрати оптимальний для себе формат. Великі економічні упаковки є зручними для приготування каш та інших страв, а менший пакетик дозволяє маляті підкріпитися молочком на прогулянці.",
+          "slug": "moloko-iagotinske-dlia-ditei-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotinske-dlia-ditei-1000g--04823005203742/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 45.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване",
+          "title": "Молоко Простоквашино пастеризоване 1% 870г",
+          "category_id": "pasteurized-milk",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "870.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Простоквашино ",
+            "trademark_slug": "prostokvashino"
+          },
+          "description": "Коров'яче молоко жирністю 1% ТМ \"Простоквашино\".\nСвіже та якісне, зі 100% фермерського молока.\nСмакота для всієї родини! \nУсі ферми, які постачають молоко для продукції Простоквашино, спеціально відібрані та відповідають високим стандартам компанії Данон.",
+          "slug": "moloko-prostokvashino-870g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-prostokvashino-870g-ukrayina--04820226162254/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко коровяче питне пастеризоване",
+          "title": "Молоко Яготинське коров’яче питне пастеризоване 2.6% 1,5кг",
+          "category_id": "pasteurized-milk",
+          "price": 68.99,
+          "unit": "pcs",
+          "weight": "1500.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.5,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Яготинське",
+            "trademark_slug": "iagotinske"
+          },
+          "description": "Молоко торгової марки «Яготинське» велике 2,6% виготовлено виключно з натурального коров'ячого молока без використання консервантів. Перевагою є обсяг упаковки, що дозволяє заощадити кошти при кожній покупці, а також зручний картонний пакет «пюр-пак» з кришкою, що закручується, яка дозволяє багаторазово відкривати і закривати продукт з мінімальною втратою свіжості. Додаткова, п'ята грань пакета дозволяє зручно брати продукт і дає можливість розміщувати на ній важливу для споживача інформацію.",
+          "slug": "moloko-iagotin-1500g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-iagotin-1500g--04820006531607/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 68.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко органічне",
+          "title": "Молоко Organic Milk органічне 2,5% 1кг",
+          "category_id": "pasteurized-milk",
+          "price": 47.99,
+          "unit": "pcs",
+          "weight": "1034.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": "organic-milk"
+          },
+          "description": "Чому \"О\"?\nТому що Органічно!\nМи - органічне виробництво повного циклу, створене за швейцарською моделлю.\nМи самостійно обробляємо землю, вирощуємо корми, які споживають наші корівки на наших власних фермах і пасовищах.\nМи поєднали традиційний спосіб виробництва молока та інноваційне обладнання, щоб Ви, смакуючи, змогли сказати: \"О! Це натурально і дуже смачно!\".",
+          "slug": "moloko-organik-milk-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-organik-milk-1000g--04820178810050/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 47.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко казкове пастеризоване",
+          "title": "Молоко Молокія Казкове пастеризоване  3,2% 870г",
+          "category_id": "pasteurized-milk",
+          "price": 43.99,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молокія",
+            "trademark_slug": "molokiia"
+          },
+          "description": "Молоко Казкове від «Молокія» виготовлене із молока екстра ґатунку від кращих фермерських господарств. Завдяки впровадженій німецькій технології очистки молоко Казкове  є абсолютно безпечним та корисним.",
+          "slug": "moloko-molokiia-870g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-molokiia-870g-ukrayina--04820045703966/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 87.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мікрофільтроване",
+          "title": "Молоко Селянське мікрофільтроване 2,5% 950г",
+          "category_id": "pasteurized-milk",
+          "price": 39.99,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "",
+          "slug": "moloko",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko--04820254400236/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 79.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко мікрофільтроване незбиране",
+          "title": "Молоко Селянське мікрофільтроване незбиране 3,4-3,8% 950г",
+          "category_id": "pasteurized-milk",
+          "price": 44.99,
+          "unit": "pcs",
+          "weight": "950.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Селянське",
+            "trademark_slug": "selianske"
+          },
+          "description": "",
+          "slug": "moloko-selianske-950g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-selianske-950g--04820254400496/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 89.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко к пастеризоване",
+          "title": "Молоко Organic Milkк пастеризоване 3,5% 1кг",
+          "category_id": "pasteurized-milk",
+          "price": 51.99,
+          "unit": "pcs",
+          "weight": "1030.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Organic Milk",
+            "trademark_slug": "organic-milk"
+          },
+          "description": "Чому \"О\"? Тому що Органічно!\nМи - органічне виробництво повного циклу, створене за швейцарською моделлю.\nМи самостійно обробляємо землю, вирощуємо корми, які споживають наші корівки на наших власних фермах і пасовищах.\nМи поєднали традиційний спосіб виробництва молока та інноваційне обладнання, щоб Ви, смакуючи, змогли сказати: \"О! Це натурально і дуже смачно!\".",
+          "slug": "moloko-organik-milk-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-organik-milk-1000g--04820178810043/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 51.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко козине пастеризоване",
+          "title": "Молоко Zinka козине пастеризоване 2.8% 510г",
+          "category_id": "pasteurized-milk",
+          "price": 36.99,
+          "unit": "pcs",
+          "weight": "510.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 510.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Zinka",
+            "trademark_slug": "zinka"
+          },
+          "description": "Молочні продукти ТМ  Zinka вироблено з козиного молока, отриманого від французьких племінних кіз порід зааненська та альпіна. Процес виробництва забезпечує якість та безпечність продукції і сприяє максимальному збереженню природної користі козиного молока.",
+          "slug": "moloko-zinka-510g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-zinka-510g-ukrayina--04820196970170/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 73.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пастеризоване незбиране",
+          "title": "Молоко Азорель пастеризоване незбиране 1л",
+          "category_id": "pasteurized-milk",
+          "price": 54.99,
+          "unit": "pcs",
+          "weight": "1020.0",
+          "bundle": 1,
+          "volume": 1000.0,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "л",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Азорель",
+            "trademark_slug": "azorel"
+          },
+          "description": "Молоко Азорель коров’яче пастеризоване незбиране - це молоко, яке проходить термічну обробку пастеризацією. Пастеризація відбувається при температурі 85°C з витримкою 10 хв. і подальшим охолодженням до температури розливу. За рахунок пастеризації молоко має термін придатності 5 днів.",
+          "slug": "moloko-azorel-1000ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-azorel-1000ml--04820154030021/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 54.99
+      },
+      {
+        "product": {
+          "normalized_title": "молоко адалис пастеризоване",
+          "title": "Молоко Адалис пастеризоване 2,5% 500г",
+          "category_id": "pasteurized-milk",
+          "price": 14.99,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "без тм",
+            "trademark_slug": "without-brand"
+          },
+          "description": "",
+          "slug": "moloko-500g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-500g-ukrayina--04820217650128/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 29.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне ультрапастеризоване",
+          "title": "Молоко Волошкове Поле безлактозне ультрапастеризоване 2,5% 900г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 47.99,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Волошкове Поле",
+            "trademark_slug": "voloshkove-pole"
+          },
+          "description": "Молочні продукти ТМ «Волошкове поле» - це продукти з багатим смаком і давніми традиціями, вироблені з молока кращих господарств України. Технології виробництва основані на використанні живих молочнокислих бактерій, вітамінів та натуральних добавок. Використання передових технологій і світового досвіду у виробництві молочних продуктів. Висока і стабільна якість продукції. Доступність продукції та широкий асортиментний вибір. Злагоджена робота колективу, як на самому підприємстві, так і на віддалених підрозділах в 13-ти містах України.",
+          "slug": "moloko-voloshkove-pole-900g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-voloshkove-pole-900g--04820004238584/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 95.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоровя безлактозне ультрапастеризоване",
+          "title": "Молоко На Здоров’я безлактозне ультрапастеризоване 2,5% 900г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "913.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ \"На здоров'я\" – це високоякісна молочна продукція. Широкий вибір молочної продукції: молоко, вершки, йогурт, молочний коктейль. \nПродукція компанії «Люстдорф» виготовляється із молочної сировини екстра та вищого гатунку. Підприємству його постачають 50 найкращих фермерських господарств Вінницької, Хмельницької, Житомирської та Черкаської областей. На кожному етапі виробництва молочної продукції здійснюється суворий професійний контроль за якістю та споживчими характеристиками.",
+          "slug": "moloko-na-zdorov-ia-900g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-900g--04820003488041/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоров`я безлактозне ультрапастеризоване",
+          "title": "Молоко На Здоров`я безлактозне ультрапастеризоване 2,5% 950г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 64.99,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "Молоко безлактозне - це продукт, спеціально розроблений для людей, які мають складності із засвоєнням звичайного молока і змушені відмовитися від його вживання. Адже у безлактозному молоці ТМ На здоровье вміст лактози знижений, тому це смачне і корисне молоко підходить для самих вибагливих та чутливих шлунків.",
+          "slug": "moloko-na-zdorov-ia",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia--04820003488522/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 129.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне лактель ультрапастеризоване",
+          "title": "Молоко безлактозне Лактель ультрапастеризоване 1,5% 950г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 59.99,
+          "unit": "pcs",
+          "weight": "980.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Безлактозне молоко “Легкий ранок” від ТМ «Лактель» створене для людей, які мають складнощі з перетравленням молочного цукру – лактози. Молоко “Легкий ранок” легко засвоюється організмом людини, не спричиняючи неприємних відчуттів, адже містить менше 0,01 % лактози. Лактель «Легкий ранок» зберігає у собі всі корисні властивості звичайного молока і підходить для всієї сім’ї.",
+          "slug": "moloko-laktel-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-laktel-950g-ukrayina--04823065727554/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 119.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове kara classic",
+          "title": "Молоко кокосове Kara Classic 17% 425мл",
+          "category_id": "lactose-free-milk-novus",
+          "price": 249.0,
+          "unit": "pcs",
+          "weight": "498.0",
+          "bundle": 1,
+          "volume": 425.0,
+          "weight_info": {
+            "value": 425.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "JS",
+            "trademark_slug": "js"
+          },
+          "description": "Молоко кокосове 17% жирності - ідеально підходить для приготування карі, десертів, пудингів, джемів, морозива та коктейлів. Використовується замість молока в кашах, млинцях та випічці, а також при запіканні риби, курки або тушкуванні овочів.",
+          "slug": "moloko-dzhei-es-425ml-tayiland",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-dzhei-es-425ml-tayiland--08886303223016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 747.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко лактель безлактозне ультрапастеризоване",
+          "title": "Молоко Лактель безлактозне ультрапастеризоване 2,5% 950г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 62.99,
+          "unit": "pcs",
+          "weight": "978.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Молоко нормалізоване ультрапастеризоване.",
+          "slug": "moloko-laktel-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-laktel-950g-ukrayina--04823065727561/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 125.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне",
+          "title": "Молоко Галичина безлактозне 2,5% 870г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "870.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": "galichina"
+          },
+          "description": "Вперше на українському ринку молочних продуктів – пастеризоване безлактозне молоко.\nМолоко – це унікальний продукт, у якому оптимальне співвідношення корисних речовин.\nУ ньому міститься 20 амінокислот (8 з яких незамінні), кальцій, калій, протеїн та вітаміни групи В, D, А.\nТож попри розповсюджений міф, що молоко необхідно лише малюкам, його рекомендують пити людині протягом усього життя.\nА для тих, хто не може засвоювати лактозу, пропонуємо безлактозне пастеризоване молоко.\nЗавдяки застосуванню сучасних технологій у ньому зберігаються усі необхідні для людини корисні речовини.",
+          "slug": "moloko-galichina-870g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-galichina-870g-ukrayina--04820222760461/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоровя безлактозне пастеризоване",
+          "title": "Молоко На Здоров’я безлактозне пастеризоване 2,5% 950г",
+          "category_id": "lactose-free-milk-novus",
+          "price": 49.99,
+          "unit": "pcs",
+          "weight": "981.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "",
+          "slug": "moloko-na-zdorov-ia-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-950g-ukrayina--04820003488300/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 99.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне ультрапастеризоване",
+          "title": "Молоко Волошкове Поле безлактозне ультрапастеризоване 2,5% 900г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 47.99,
+          "unit": "pcs",
+          "weight": "900.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Волошкове Поле",
+            "trademark_slug": "voloshkove-pole"
+          },
+          "description": "Молочні продукти ТМ «Волошкове поле» - це продукти з багатим смаком і давніми традиціями, вироблені з молока кращих господарств України. Технології виробництва основані на використанні живих молочнокислих бактерій, вітамінів та натуральних добавок. Використання передових технологій і світового досвіду у виробництві молочних продуктів. Висока і стабільна якість продукції. Доступність продукції та широкий асортиментний вибір. Злагоджена робота колективу, як на самому підприємстві, так і на віддалених підрозділах в 13-ти містах України.",
+          "slug": "moloko-voloshkove-pole-900g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-voloshkove-pole-900g--04820004238584/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 95.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоровя безлактозне ультрапастеризоване",
+          "title": "Молоко На Здоров’я безлактозне ультрапастеризоване 2,5% 900г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "913.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "ТМ \"На здоров'я\" – це високоякісна молочна продукція. Широкий вибір молочної продукції: молоко, вершки, йогурт, молочний коктейль. \nПродукція компанії «Люстдорф» виготовляється із молочної сировини екстра та вищого гатунку. Підприємству його постачають 50 найкращих фермерських господарств Вінницької, Хмельницької, Житомирської та Черкаської областей. На кожному етапі виробництва молочної продукції здійснюється суворий професійний контроль за якістю та споживчими характеристиками.",
+          "slug": "moloko-na-zdorov-ia-900g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-900g--04820003488041/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоров`я безлактозне ультрапастеризоване",
+          "title": "Молоко На Здоров`я безлактозне ультрапастеризоване 2,5% 950г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 64.99,
+          "unit": "pcs",
+          "weight": "985.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "Молоко безлактозне - це продукт, спеціально розроблений для людей, які мають складності із засвоєнням звичайного молока і змушені відмовитися від його вживання. Адже у безлактозному молоці ТМ На здоровье вміст лактози знижений, тому це смачне і корисне молоко підходить для самих вибагливих та чутливих шлунків.",
+          "slug": "moloko-na-zdorov-ia",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia--04820003488522/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 129.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне лактель ультрапастеризоване",
+          "title": "Молоко безлактозне Лактель ультрапастеризоване 1,5% 950г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 59.99,
+          "unit": "pcs",
+          "weight": "980.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Безлактозне молоко “Легкий ранок” від ТМ «Лактель» створене для людей, які мають складнощі з перетравленням молочного цукру – лактози. Молоко “Легкий ранок” легко засвоюється організмом людини, не спричиняючи неприємних відчуттів, адже містить менше 0,01 % лактози. Лактель «Легкий ранок» зберігає у собі всі корисні властивості звичайного молока і підходить для всієї сім’ї.",
+          "slug": "moloko-laktel-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-laktel-950g-ukrayina--04823065727554/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 119.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко лактель безлактозне ультрапастеризоване",
+          "title": "Молоко Лактель безлактозне ультрапастеризоване 2,5% 950г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 62.99,
+          "unit": "pcs",
+          "weight": "978.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lactel",
+            "trademark_slug": "lactel"
+          },
+          "description": "Молоко нормалізоване ультрапастеризоване.",
+          "slug": "moloko-laktel-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-laktel-950g-ukrayina--04823065727561/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 125.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пмкк згущене з цукром безлактозне",
+          "title": "Молоко ПМКК згущене з цукром безлактозне 8,5% 290г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 52.99,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "moloko-290g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-290g--04820012684434/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 211.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко безлактозне",
+          "title": "Молоко Галичина безлактозне 2,5% 870г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "870.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Галичина",
+            "trademark_slug": "galichina"
+          },
+          "description": "Вперше на українському ринку молочних продуктів – пастеризоване безлактозне молоко.\nМолоко – це унікальний продукт, у якому оптимальне співвідношення корисних речовин.\nУ ньому міститься 20 амінокислот (8 з яких незамінні), кальцій, калій, протеїн та вітаміни групи В, D, А.\nТож попри розповсюджений міф, що молоко необхідно лише малюкам, його рекомендують пити людині протягом усього життя.\nА для тих, хто не може засвоювати лактозу, пропонуємо безлактозне пастеризоване молоко.\nЗавдяки застосуванню сучасних технологій у ньому зберігаються усі необхідні для людини корисні речовини.",
+          "slug": "moloko-galichina-870g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-galichina-870g-ukrayina--04820222760461/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 77.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко на здоровя безлактозне пастеризоване",
+          "title": "Молоко На Здоров’я безлактозне пастеризоване 2,5% 950г",
+          "category_id": "dairy-free-food-and-drinks",
+          "price": 49.99,
+          "unit": "pcs",
+          "weight": "981.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 950.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "На Здоров'я",
+            "trademark_slug": "na-zdorovia"
+          },
+          "description": "",
+          "slug": "moloko-na-zdorov-ia-950g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-na-zdorov-ia-950g-ukrayina--04820003488300/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 99.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове kara classic",
+          "title": "Молоко кокосове Kara Classic 17% 425мл",
+          "category_id": "coconut-milk",
+          "price": 249.0,
+          "unit": "pcs",
+          "weight": "498.0",
+          "bundle": 1,
+          "volume": 425.0,
+          "weight_info": {
+            "value": 425.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "JS",
+            "trademark_slug": "js"
+          },
+          "description": "Молоко кокосове 17% жирності - ідеально підходить для приготування карі, десертів, пудингів, джемів, морозива та коктейлів. Використовується замість молока в кашах, млинцях та випічці, а також при запіканні риби, курки або тушкуванні овочів.",
+          "slug": "moloko-dzhei-es-425ml-tayiland",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-dzhei-es-425ml-tayiland--08886303223016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 747.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове органічне",
+          "title": "Молоко кокосове Bionaturalis органічне 400мл",
+          "category_id": "coconut-milk",
+          "price": 119.0,
+          "unit": "pcs",
+          "weight": "400.0",
+          "bundle": 1,
+          "volume": 400.0,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Bionaturalis",
+            "trademark_slug": "bionaturalis"
+          },
+          "description": "Екологічно чистий кокосовий напій Bionaturalis виготовляється з кокосових горіхів, вирощених на Шрі-Ланці. Прекрасно підходить для приготування страв східної кухні, різноманітних коктейлів, тортів, морозива, індійського карі та інших екзотичних страв.\nПідходить для веганів.",
+          "slug": "moloko-400ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-400ml--03330724201016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 357.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове kara classic",
+          "title": "Молоко кокосове Kara Classic 17% 425мл",
+          "category_id": "for-sushi",
+          "price": 249.0,
+          "unit": "pcs",
+          "weight": "498.0",
+          "bundle": 1,
+          "volume": 425.0,
+          "weight_info": {
+            "value": 425.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "JS",
+            "trademark_slug": "js"
+          },
+          "description": "Молоко кокосове 17% жирності - ідеально підходить для приготування карі, десертів, пудингів, джемів, морозива та коктейлів. Використовується замість молока в кашах, млинцях та випічці, а також при запіканні риби, курки або тушкуванні овочів.",
+          "slug": "moloko-dzhei-es-425ml-tayiland",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-dzhei-es-425ml-tayiland--08886303223016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 747.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко кокосове органічне",
+          "title": "Молоко кокосове Bionaturalis органічне 400мл",
+          "category_id": "for-sushi",
+          "price": 119.0,
+          "unit": "pcs",
+          "weight": "400.0",
+          "bundle": 1,
+          "volume": 400.0,
+          "weight_info": {
+            "value": 400.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Bionaturalis",
+            "trademark_slug": "bionaturalis"
+          },
+          "description": "Екологічно чистий кокосовий напій Bionaturalis виготовляється з кокосових горіхів, вирощених на Шрі-Ланці. Прекрасно підходить для приготування страв східної кухні, різноманітних коктейлів, тортів, морозива, індійського карі та інших екзотичних страв.\nПідходить для веганів.",
+          "slug": "moloko-400ml",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-400ml--03330724201016/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 357.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пряжене",
+          "title": "Молоко Простоквашино пряжене 2,5% 870г",
+          "category_id": "baked-milk",
+          "price": 44.99,
+          "unit": "pcs",
+          "weight": "870.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 870.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Простоквашино ",
+            "trademark_slug": "prostokvashino"
+          },
+          "description": "Пряжене молоко жирністю 2,5% ТМ \"Простоквашино\".\nСмачне та якісне, зі 100% фермерського молока.\nМає приємний карамельний смак та кремовий колір. \nІдеально - до кави, приготування каш, млинців та інших улюблених страв.\nСмакота для всієї родини!",
+          "slug": "moloko-prostokvashino-870g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-prostokvashino-870g-ukrayina--04820226162308/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 89.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе знежирене",
+          "title": "Молоко Mlekovita сухе знежирене 250г",
+          "category_id": "powder-milk",
+          "price": 95.99,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Mlekovita",
+            "trademark_slug": "mlekovita"
+          },
+          "description": "Сухе молоко – це продукт, який часто використовується у польській кухні. Це перевірена добавка до багатьох кондитерських виробів і солодких десертів, що надає смаку і поживної цінності, а також полегшує їх приготування. Він призначений для безпосереднього вживання після розчинення, а також як інгредієнт коктейлів, десертів і випічки.",
+          "slug": "moloko-250g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-250g--05900512500546/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 383.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко сухе",
+          "title": "Молоко Молочний світ сухе 25% 250г",
+          "category_id": "powder-milk",
+          "price": 91.99,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 250.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Молочний Світ",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Молоко сухе незбиране 25% жиру - виробляється із цільного пастеризованого коров'ячого молока шляхом висушування.",
+          "slug": "moloko-molochnii-svit-250g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-molochnii-svit-250g--04820002280226/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 367.96
+      },
+      {
+        "product": {
+          "normalized_title": "сирок глазурований 1 молоко згущене в глазурі 60г",
+          "title": "Сирок Злагода глазурований 2в1 молоко згущене в глазурі 60г",
+          "category_id": "sweet-curd",
+          "price": 18.49,
+          "unit": "pcs",
+          "weight": "58.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 0.0,
+            "unit": "молоко",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "ЗЛАГОДА",
+            "trademark_slug": "zlagoda"
+          },
+          "description": "2 в 1 - різні смаки в одній упаковці! Сирки з натуральним і вареним згущеним молоком ідеально доповнюють один одного. Тут зібрані найсвіжіші продукти: ніжна сирна маса з додаванням ароматного ваніліну, всіма улюблена натуральна сгущенка в одному сирку і варена, так нагадує карамельну іриску, в іншому. І все це спокуса, за традицією покрито скоринкою хрусткого шоколаду.\nДоставте собі подвійну радість!",
+          "slug": "sir-zlagoda-60g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/sir-zlagoda-60g-ukrayina--04820005424726/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 18.49
+      },
+      {
+        "product": {
+          "normalized_title": "сирок глазурований фані згущене молоко на печеві",
+          "title": "Сирок глазурований Фані згущене молоко на печеві 15% 50г",
+          "category_id": "sweet-curd",
+          "price": 12.99,
+          "unit": "pcs",
+          "weight": "74.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 50.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Фанні",
+            "trademark_slug": "fanni"
+          },
+          "description": "Торгова марка \"Фанні\" пропонує споживачам широкий асортимент високоякісної молочної продукції українського виробництва. Ця торгова марка входить до складу групи компаній \"Лакталіс\" – одного з найбільших світових виробників молочної групи товарів.\nГлазурований сирок від торгової марки «Фанні» виготовляється з натурального коров'ячого молока, яке робить його смак ніжним та приємним. Він покритий чудовою шоколадною глазур'ю, яка відмінно гармонує з сирною базою. До продукту також додано натуральне згущене молоко і хрумке печиво. Зручне багатошарове пакування надійно захищає сирок від впливу небажаних зовнішніх факторів.",
+          "slug": "sir-fanni-50g",
+          "web_url": "https://novus.zakaz.ua/uk/products/sir-fanni-50g--04820046443243/",
+          "promotion": null
+        },
+        "quantity": 20,
+        "end_price": 259.8
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк незбиране з цукром дсту",
+          "title": "Молоко згущене ПМКК незбиране з цукром 8,5% 290г ДСТУ",
+          "category_id": "condensed-milk",
+          "price": 41.99,
+          "unit": "pcs",
+          "weight": "296.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Молоко незбиране згущене з цукром 8,5% - виробляється за традиційною технологією тільки зі свіжого молока і цукру. Різноманітність упаковки і обсягів дозволить задовольнити найрізноманітніші запити.",
+          "slug": "zgushchene-moloko-pervomaisk-290g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-290g--04820012683178/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 167.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене ий мкк іриска варене нежирне",
+          "title": "Молоко згущене Первомайський МКК Іриска варене нежирне 370г",
+          "category_id": "condensed-milk",
+          "price": 59.99,
+          "unit": "pcs",
+          "weight": "406.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Не тільки діти полюбляють солодке, воно подобається усім , незалежно від віку. На полицях магазинів сьогодні можна побачити різноманітніші солодощі, наприклад, згущене варене молока \"Іриска\".",
+          "slug": "zgushchene-moloko-pervomaisk-370g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-370g--04820012682966/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 179.97
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк незбиране з цукром",
+          "title": "Молоко згущене ПМКК незбиране з цукром 8,5% 1кг",
+          "category_id": "condensed-milk",
+          "price": 174.0,
+          "unit": "pcs",
+          "weight": "1020.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "кг",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Молоко незбиране згущене з цукром 8,5% - виробляється за традиційною технологією тільки зі свіжого молока і цукру. Різноманітність упаковки і обсягів дозволить задовольнити найрізноманітніші запити.",
+          "slug": "zgushchene-moloko-1000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-1000g--04820012683079/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 174.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк іриска варене нежирне",
+          "title": "Молоко згущене ПМКК Іриска варене нежирне 500г",
+          "category_id": "condensed-milk",
+          "price": 76.99,
+          "unit": "pcs",
+          "weight": "590.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-500g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-500g-ukrayina--04820012684649/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 153.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене кокосове",
+          "title": "Молоко згущене King Island кокосове 380г",
+          "category_id": "condensed-milk",
+          "price": 109.0,
+          "unit": "pcs",
+          "weight": "380.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 380.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "King Island",
+            "trademark_slug": "king-island"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-380g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-380g--08850813328127/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 327.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене мама міла з цукром та какао дой-пак",
+          "title": "Молоко згущене Мама Міла з цукром та какао 7.5% 320г дой-пак",
+          "category_id": "condensed-milk",
+          "price": 67.99,
+          "unit": "pcs",
+          "weight": "320.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 320.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Mama Milla",
+            "trademark_slug": "mama-milla"
+          },
+          "description": "Згущене молоко \"Какао\" з цукром та какао MamaMilla - дуже смачне молоко! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру.",
+          "slug": "zgushchene-moloko-mama-milla-320g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-mama-milla-320g--04820103340829/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 271.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко пмкк згущене з цукром безлактозне",
+          "title": "Молоко ПМКК згущене з цукром безлактозне 8,5% 290г",
+          "category_id": "condensed-milk",
+          "price": 52.99,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "moloko-290g",
+          "web_url": "https://novus.zakaz.ua/uk/products/moloko-290g--04820012684434/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 211.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене незбиране з цукром",
+          "title": "Молоко згущене Ічня незбиране з цукром 8,5% 300г",
+          "category_id": "condensed-milk",
+          "price": 51.99,
+          "unit": "pcs",
+          "weight": "300.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 300.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Незбиране згущене молоко з цукром \"Ічня\" - це якісний продукт! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру.",
+          "slug": "zgushchene-moloko-ichnia-320g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-ichnia-320g--04820103340379/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 207.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене happy motley cows з цукром нежирне",
+          "title": "Молоко згущене Happy Motley Cows з цукром нежирне 440г",
+          "category_id": "condensed-milk",
+          "price": 59.99,
+          "unit": "pcs",
+          "weight": "440.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 440.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Нappy Motley Cows",
+            "trademark_slug": "nappy-motley-cows"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-khepi-motli-kaus-440g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-khepi-motli-kaus-440g--04820012683871/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 179.97
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене з цукром",
+          "title": "Молоко згущене Нappy Motley Cows з цукром 8,5% 290г",
+          "category_id": "condensed-milk",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "290.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Нappy Motley Cows",
+            "trademark_slug": "nappy-motley-cows"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-khepi-motli-kaus-290g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-khepi-motli-kaus-290g--04820012683864/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 155.96
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене незбиране з фруктозою",
+          "title": "Молоко згущене Ічня незбиране з фруктозою 8,5% 360г",
+          "category_id": "condensed-milk",
+          "price": 81.99,
+          "unit": "pcs",
+          "weight": "400.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 360.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Незбиране згущене молоко з фруктозою \"Ічня\" - це якісний продукт! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру.",
+          "slug": "zgushchene-moloko-ichnia-360g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-ichnia-360g-ukrayina--04820103340522/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 245.96999999999997
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене незбиране з цукорм",
+          "title": "Молоко згущене Ічня незбиране з цукорм 8,5% 900г",
+          "category_id": "condensed-milk",
+          "price": 134.0,
+          "unit": "pcs",
+          "weight": "934.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 900.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Незбиране згущене молоко з цукром \"Ічня\" - це якісний продукт! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру.",
+          "slug": "zgushchene-moloko-ichnia-900g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-ichnia-900g--04820103342267/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 268.0
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене",
+          "title": "Молоко згущене Ічня 8,5% 450г",
+          "category_id": "condensed-milk",
+          "price": 76.99,
+          "unit": "pcs",
+          "weight": "456.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 450.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Незбиране згущене молоко з цукром \"Ічня\" - це якісний продукт! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру. Дуже смачно додавати таке молоко до млинців, оладок, поливати запіканки, сирники та інші смаколики.",
+          "slug": "zgushchene-moloko-ichnia-450g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-ichnia-450g-ukrayina--04820103343042/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 230.96999999999997
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене іриска варене",
+          "title": "Молоко згущене Ічня Іриска варене 8,5% 370г",
+          "category_id": "condensed-milk",
+          "price": 65.99,
+          "unit": "pcs",
+          "weight": "402.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 370.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Ічня",
+            "trademark_slug": "ichnia"
+          },
+          "description": "Варене згущене молоко Іриска \"Ічня\" - це якісний продукт! Виготовлено на новітньому обладнанні з добірного натурального знежиреного коров'ячого молока та вершків методом згущення з додаванням цукру.",
+          "slug": "zgushchene-moloko-ichnia-370g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-ichnia-370g--04820103341901/",
+          "promotion": null
+        },
+        "quantity": 3,
+        "end_price": 197.96999999999997
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене пмкк іриска нежирне",
+          "title": "Молоко згущене ПМКК Іриска нежирне 500г",
+          "category_id": "condensed-milk",
+          "price": 65.99,
+          "unit": "pcs",
+          "weight": "796.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 500.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "Недоліком практично будь-яких солодощів є відсутність користі! На щастя, з будь-якого правила бувають винятки! Хороший приклад тому - згущене молоко! Його переваги: ​​повністю засвоюється більшістю людей, досить тривалий термін зберігання, альтернатива для любителів солодкого, висока енергетична цінність/користь. Купити згущене молоко варене Іриска, в Україні просто. Відмінність від звичайної згущенки, в тому що, вона проходить додаткову термічну обробку. Після неї з'являється характерний колір і смак, що відрізняється від оригінального!",
+          "slug": "zgushchene-moloko-pervomaisk-530g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-530g--04820012683291/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 131.98
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене ий мкк незбиране з цукром",
+          "title": "Молоко згущене Первомайський МКК незбиране з цукром 8,5% 15г",
+          "category_id": "condensed-milk",
+          "price": 10.99,
+          "unit": "pcs",
+          "weight": "15.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 15.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Первомайськ",
+            "trademark_slug": "pervomaisk"
+          },
+          "description": "",
+          "slug": "zgushchene-moloko-pervomaisk-15g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-pervomaisk-15g--04820012682850/",
+          "promotion": null
+        },
+        "quantity": 67,
+        "end_price": 736.33
+      },
+      {
+        "product": {
+          "normalized_title": "молоко згущене заречье варене з цукром",
+          "title": "Молоко згущене Заречье варене з цукром 8,5%",
+          "category_id": "condensed-milk",
+          "price": 88.99,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "без тм",
+            "trademark_slug": "without-brand"
+          },
+          "description": "Незбиране згущене молоко з цукром \"Заріччя\" Преміум. Якість - наша традиція. CHUB - упаковка - це ідеальне рішення для кондитерських підприємств, цехів. Переваги даної упаковки: зручність у вийманні продукту; відсутність громіздкої оборотної тари; невисока вартість упаковки; зручність утилізації.",
+          "slug": "zgushchene-moloko-zareche-8000g",
+          "web_url": "https://novus.zakaz.ua/uk/products/zgushchene-moloko-zareche-8000g--04820001072013/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 88.99
+      },
+      {
+        "product": {
+          "normalized_title": "печиво пряжене молоко в шоколадній глазурі без цукру",
+          "title": "Печиво Корисна Кондитерська Пряжене молоко в шоколадній глазурі без цукру 130г",
+          "category_id": "cookies",
+          "price": 58.99,
+          "unit": "pcs",
+          "weight": "152.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 130.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Корисна кондитерська",
+            "trademark_slug": "korisna-konditerska"
+          },
+          "description": "Стевія екстракт густий « Стевіясан» - 100 % НАТУРАЛЬНИЙ безкалорійний заменітеь цукру. Джерело вітамінів ( C , PP, E , B) , мінералів ( Ca, K , Mg, Fe, Mn , Sr , Zn, Co) .\nЛактітол - ПРИРОДНИЙ пребіотики , сприяє відновленню мікрофлори кишечника.\nЗародки пшениці - рослинний білок , містить 16 амінокислот, джерело вітамінів (A, B1, B2 , В12, D, E, РР) .\nПечиво містить рослинні волокна з висівок і борошна I і II сорту Рослинні волокна традиційно включають в свій раціон харчування моделі і шанувальники фітнесу , з метою корекції маси тіла.",
+          "slug": "pechivo-korisna-konditerska-130g",
+          "web_url": "https://novus.zakaz.ua/uk/products/pechivo-korisna-konditerska-130g--04820035540212/",
+          "promotion": null
+        },
+        "quantity": 8,
+        "end_price": 471.92
+      },
+      {
+        "product": {
+          "normalized_title": "печиво пряжене молоко в шоколадній глазурі без цукру",
+          "title": "Печиво Корисна Кондитерська Пряжене молоко в шоколадній глазурі без цукру 130г",
+          "category_id": "for-diabetics",
+          "price": 58.99,
+          "unit": "pcs",
+          "weight": "152.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 130.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Корисна кондитерська",
+            "trademark_slug": "korisna-konditerska"
+          },
+          "description": "Стевія екстракт густий « Стевіясан» - 100 % НАТУРАЛЬНИЙ безкалорійний заменітеь цукру. Джерело вітамінів ( C , PP, E , B) , мінералів ( Ca, K , Mg, Fe, Mn , Sr , Zn, Co) .\nЛактітол - ПРИРОДНИЙ пребіотики , сприяє відновленню мікрофлори кишечника.\nЗародки пшениці - рослинний білок , містить 16 амінокислот, джерело вітамінів (A, B1, B2 , В12, D, E, РР) .\nПечиво містить рослинні волокна з висівок і борошна I і II сорту Рослинні волокна традиційно включають в свій раціон харчування моделі і шанувальники фітнесу , з метою корекції маси тіла.",
+          "slug": "pechivo-korisna-konditerska-130g",
+          "web_url": "https://novus.zakaz.ua/uk/products/pechivo-korisna-konditerska-130g--04820035540212/",
+          "promotion": null
+        },
+        "quantity": 8,
+        "end_price": 471.92
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки лукас пташине молоко зі збивним корпусом глазуровані",
+          "title": "Цукерки Лукас Пташине молоко зі збивним корпусом глазуровані",
+          "category_id": "bulk-candy-novus",
+          "price": 199.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Lukas",
+            "trademark_slug": "lukas"
+          },
+          "description": "Цукерки «Пташине молоко» не потребують ні коментарів, ні реклами. Ці цукерки мають масову популярність по всьому світу. Звісно, Компанія «Лукас» не могла лишитись осторонь цієї легенди кондитерського мистецтва і пропонує власний варіант «Пташиного молока «Лукас». Ми приготували суфле вражаючої легкості. До речі, саме наш продукт став переможцем програми «Знак якості», що проводилася на телеканалі «Інтер». Тепер Ваша черга отримати насолоду від цих солодощів та оцінити їх рівень.",
+          "slug": "tsukerka-lukas",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-lukas--novus02871563000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 199.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко зі смаком какао-крем вагові",
+          "title": "Цукерки Жако Пташине молоко зі смаком какао-крем вагові",
+          "category_id": "bulk-candy-novus",
+          "price": 169.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Жако",
+            "trademark_slug": "zhako"
+          },
+          "description": "",
+          "slug": "tsukerka-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-ukrayina--novus02858785000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 169.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко вагові",
+          "title": "Цукерки Жако Пташине молоко вагові",
+          "category_id": "bulk-candy-novus",
+          "price": 166.0,
+          "unit": "kg",
+          "weight": "0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "kg",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Жако",
+            "trademark_slug": "zhako"
+          },
+          "description": "Цукерки виготовлені зі збитої на білках маси з додаванням згущеного молока та інших інгредієнтів. Цукерки глазуровані у кондитерській глазурі власного виробництва.",
+          "slug": "tsukerka-zhako-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-zhako-ukrayina--novus02875493000000/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 166.0
+      },
+      {
+        "product": {
+          "normalized_title": "цукерки пташине молоко суфле в чорному шоколаді",
+          "title": "Цукерки Любимов Пташине молоко суфле в чорному шоколаді 150г",
+          "category_id": "candy-in-box-novus",
+          "price": 69.99,
+          "unit": "pcs",
+          "weight": "208.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 150.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Любимов",
+            "trademark_slug": "liubimov"
+          },
+          "description": "Завдяки легендарному рецепту 1967 року Ви зможете насолодитися класичним смаком улюбленого десерту. Ви відчуєте знайомий з дитинства смак цукерок з легкою, повітряною начинкою у вигляді ніжного збитого суфле, покритих високоякісним чорним шоколадом.",
+          "slug": "tsukerka-liubimov-150g",
+          "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-liubimov-150g--04820075504113/",
+          "promotion": null
+        },
+        "quantity": 7,
+        "end_price": 489.92999999999995
+      },
+      {
+        "product": {
+          "normalized_title": "вафлі wafers sandwich crunch молоко ваніль",
+          "title": "Вафлі Roshen Wafers Sandwich Crunch молоко ваніль 142г",
+          "category_id": "waffle",
+          "price": 38.99,
+          "unit": "pcs",
+          "weight": "142.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 142.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Вафлі Wafers Sandwich Crunch – це надзвичайний хрускіт, товстий шар начинки з вмістом молока 15% та унікальна рецептура вафельного листа.",
+          "slug": "vafli-roshen-142g",
+          "web_url": "https://novus.zakaz.ua/uk/products/vafli-roshen-142g--04823077636967/",
+          "promotion": null
+        },
+        "quantity": 8,
+        "end_price": 311.92
+      },
+      {
+        "product": {
+          "normalized_title": "бісквіт золотий ключик згущене молоко *50г",
+          "title": "Бісквіт Roshen Золотий ключик згущене молоко 6шт*50г",
+          "category_id": "cakes-and-biscuits",
+          "price": 74.99,
+          "unit": "pcs",
+          "weight": "300.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "pcs",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": "Roshen",
+            "trademark_slug": "roshen"
+          },
+          "description": "Тістечка із темного бісквіту з начинкою зі згущеним молоком, декоровані глазур'ю.",
+          "slug": "biskvit-roshen-300g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/biskvit-roshen-300g-ukrayina--04823077629372/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 74.99
+      },
+      {
+        "product": {
+          "normalized_title": "напій кокосове молоко зі смаком шоколаду",
+          "title": "Напій Luck Siam кокосове молоко зі смаком шоколаду 290мл",
+          "category_id": "juice-drinks",
+          "price": 129.0,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": 290.0,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Luck Siam",
+            "trademark_slug": "luck-siam"
+          },
+          "description": "",
+          "slug": "napii-lak-siam-290ml-tayiland",
+          "web_url": "https://novus.zakaz.ua/uk/products/napii-lak-siam-290ml-tayiland--08859022406152/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 516.0
+      },
+      {
+        "product": {
+          "normalized_title": "напій кокосове молоко з ната де коко оригінальний",
+          "title": "Напій Luck Siam Кокосове молоко з Ната де Коко оригінальний 290мл",
+          "category_id": "juice-drinks",
+          "price": 129.0,
+          "unit": "pcs",
+          "weight": "500.0",
+          "bundle": 1,
+          "volume": 290.0,
+          "weight_info": {
+            "value": 290.0,
+            "unit": "мл",
+            "type": "capacity"
+          },
+          "producer": {
+            "trademark": "Luck Siam",
+            "trademark_slug": "luck-siam"
+          },
+          "description": "",
+          "slug": "napii-lak-siam-290ml-tayiland",
+          "web_url": "https://novus.zakaz.ua/uk/products/napii-lak-siam-290ml-tayiland--08859022402987/",
+          "promotion": null
+        },
+        "quantity": 4,
+        "end_price": 516.0
+      },
+      {
+        "product": {
+          "normalized_title": "морозиво пташине молоко в молочному шоколаді",
+          "title": "Морозиво Три Ведмеді Пташине молоко в молочному шоколаді 60г",
+          "category_id": "icecream",
+          "price": 22.99,
+          "unit": "pcs",
+          "weight": "60.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 60.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Три Ведмеді",
+            "trademark_slug": "tri-vedmedi"
+          },
+          "description": "",
+          "slug": "morozivo-tri-vedmedi-60g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/morozivo-tri-vedmedi-60g-ukrayina--04823086115088/",
+          "promotion": null
+        },
+        "quantity": 17,
+        "end_price": 390.83
+      },
+      {
+        "product": {
+          "normalized_title": "напій кавовий maccoffe згущене молоко 1 розчинний 18г",
+          "title": "Напій кавовий MacCoffe Згущене молоко 3в1 розчинний 18г",
+          "category_id": "coffee-drink",
+          "price": 5.99,
+          "unit": "pcs",
+          "weight": "18.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 18.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "MacCoffee",
+            "trademark_slug": "maccoffee"
+          },
+          "description": "Напій кавовий розчинний (3в1) з ароматом згущеного молока",
+          "slug": "napii-makkofe-18g-ukrayina",
+          "web_url": "https://novus.zakaz.ua/uk/products/napii-makkofe-18g-ukrayina--08887290145305/",
+          "promotion": null
+        },
+        "quantity": 56,
+        "end_price": 335.44
+      },
+      {
+        "product": {
+          "normalized_title": "крем-мило молоко та мед",
+          "title": "Крем-мило Pro Wash Молоко та мед 910г",
+          "category_id": "liquid-soap",
+          "price": 68.99,
+          "unit": "pcs",
+          "weight": "910.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 910.0,
+            "unit": "г",
+            "type": "mass"
+          },
+          "producer": {
+            "trademark": "Pro Wash",
+            "trademark_slug": "pro-wash"
+          },
+          "description": "",
+          "slug": "milo-krem-pro-vosh-910g",
+          "web_url": "https://novus.zakaz.ua/uk/products/milo-krem-pro-vosh-910g--04262396140180/",
+          "promotion": null
+        },
+        "quantity": 2,
+        "end_price": 137.98
+      },
+      {
+        "product": {
+          "normalized_title": "книга : молоко матері",
+          "title": "Книга Сент-Обін Е. Патрік Мелроуз: Молоко матері",
+          "category_id": "fiction-novus",
+          "price": 154.0,
+          "unit": "pcs",
+          "weight": "250.0",
+          "bundle": 1,
+          "volume": null,
+          "weight_info": {
+            "value": 1.0,
+            "unit": "pcs",
+            "type": "quantity"
+          },
+          "producer": {
+            "trademark": null,
+            "trademark_slug": null
+          },
+          "description": "Патрік подолав наркотичну залежність, одружився і зажив життям цілком нормальної людини. Він виховує двох синів і над усе прагне вберегти їх від жахіть власного дитинства. Але чи може доросла людина позбавитись привидів минулого? Чи вистачить його дружині сил на ще одну вередливу дитину, якою є Патрік? Чи вистачить самому Патрікові синівської любові, щоб прийняти рішення своєї матері? У цьому романі герої, попри власний вік і позірний життєвий досвід, продовжують шукати себе, намагаючись відокремити власне «я» від дитячих травм, помилок батьків, неправильних рішень, соціального тиску і шкідливих звичок. Втім, може, це і є їхнє справжнє «я»?",
+          "slug": "fabula",
+          "web_url": "https://novus.zakaz.ua/uk/products/fabula--09786170964236/",
+          "promotion": null
+        },
+        "quantity": 1,
+        "end_price": 154.0
+      }
+    ]
+  }
+]

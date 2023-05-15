@@ -1,0 +1,137 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy",
+          "Non stop"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "напій енергетичний original",
+            "title": "Напій енергетичний Non Stop Original 250мл",
+            "category_id": "energy-drinks",
+            "price": 21.99,
+            "unit": "pcs",
+            "weight": "284.0",
+            "bundle": 1,
+            "volume": 250.0,
+            "weight_info": {
+              "value": 250.0,
+              "unit": "мл",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": "Non Stop",
+              "trademark_slug": "non-stop"
+            },
+            "description": "Світ став настільки тьмяним і похмурим, що навіть вузол краватки втомлено розпускається? Строгий робочий костюм перетворився на гамівну сорочку? Облиште, класика теж буває крутою і може відмінно підбадьорити. Non Stop Original – той самий легендарний класичний енергетик, який спростовує всі міфи про консерватизм. \nТому що він стабільно яскравий, стабільно крутий і стабільно потужно накачує ваше тіло бадьорістю і гарним настроєм у будь-який час доби. Non Stop Original - двадцять чотири години, не зупиняючись.",
+            "slug": "napii-non-stop-250ml",
+            "web_url": "https://novus.zakaz.ua/uk/products/napii-non-stop-250ml--04820097890317/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 21.99
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "цукерки",
+        "brand_filter": [
+          "Roshen",
+          "Milka"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цукерки желейні jelly",
+            "title": "Цукерки желейні Roshen Jelly 200г",
+            "category_id": "mints-and-gum",
+            "price": 26.99,
+            "unit": "pcs",
+            "weight": "200.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 200.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Roshen",
+              "trademark_slug": "roshen"
+            },
+            "description": "Желейні цукерки, обсипані дрібнокристалічним цукром, корпус - желейна маса на основі пектину з додаванням концентрованих фруктових соків.",
+            "slug": "tsukerka-roshen-200g-ukrayina",
+            "web_url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-200g-ukrayina--04823077602801/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 26.99
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": null,
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "сирок глазурований 1 молоко згущене в глазурі 60г",
+            "title": "Сирок Злагода глазурований 2в1 молоко згущене в глазурі 60г",
+            "category_id": "sweet-curd",
+            "price": 18.49,
+            "unit": "pcs",
+            "weight": "58.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 0.0,
+              "unit": "молоко",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "ЗЛАГОДА",
+              "trademark_slug": "zlagoda"
+            },
+            "description": "2 в 1 - різні смаки в одній упаковці! Сирки з натуральним і вареним згущеним молоком ідеально доповнюють один одного. Тут зібрані найсвіжіші продукти: ніжна сирна маса з додаванням ароматного ваніліну, всіма улюблена натуральна сгущенка в одному сирку і варена, так нагадує карамельну іриску, в іншому. І все це спокуса, за традицією покрито скоринкою хрусткого шоколаду.\nДоставте собі подвійну радість!",
+            "slug": "sir-zlagoda-60g-ukrayina",
+            "web_url": "https://novus.zakaz.ua/uk/products/sir-zlagoda-60g-ukrayina--04820005424726/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 18.49
+        }
+      ]
+    }
+  ],
+  "end_price": 67
+}

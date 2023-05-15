@@ -1,0 +1,137 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy",
+          "Non stop"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "напій енергетичний boost",
+            "title": "Напій енергетичний Non Stop Boost 0,5л",
+            "category_id": "energy-drinks-metro",
+            "price": 33.8,
+            "unit": "pcs",
+            "weight": "530.0",
+            "bundle": 1,
+            "volume": 500.0,
+            "weight_info": {
+              "value": 0.5,
+              "unit": "л",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": "Non Stop",
+              "trademark_slug": "non-stop"
+            },
+            "description": "",
+            "slug": "energetik-non-stop-500ml",
+            "web_url": "https://metro.zakaz.ua/uk/products/energetik-non-stop-500ml--04820097899167/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 33.8
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "цукерки",
+        "brand_filter": [
+          "Roshen",
+          "Milka"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цукерки yummi gummi duo mix",
+            "title": "Цукерки Roshen Yummi Gummi Duo Mix 70г",
+            "category_id": "candies-and-chocolate-bars-metro",
+            "price": 29.05,
+            "unit": "pcs",
+            "weight": "70.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 70.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Roshen",
+              "trademark_slug": "roshen"
+            },
+            "description": "",
+            "slug": "tsukerka-roshen-70g",
+            "web_url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-70g--04823077636295/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 29.05
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": null,
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "молоко органічне",
+            "title": "Молоко Organic Milk органічне 0,5% 1л",
+            "category_id": "pasteurized-milk-metro",
+            "price": 34.22,
+            "unit": "pcs",
+            "weight": "1028.0",
+            "bundle": 1,
+            "volume": 1000.0,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "л",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": "Organic Milk",
+              "trademark_slug": "organic-milk"
+            },
+            "description": "",
+            "slug": "moloko-organik-milk-1000ml",
+            "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 34.22
+        }
+      ]
+    }
+  ],
+  "end_price": 97
+}

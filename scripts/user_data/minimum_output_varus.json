@@ -1,0 +1,137 @@
+{
+  "buy_list": [
+    {
+      "request": {
+        "title_filter": "напій енергетичний",
+        "brand_filter": [
+          "Monster Energy",
+          "Non stop"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "напій енергетичний jungle",
+            "title": "Напій енергетичний Non Stop Jungle 250мл",
+            "category_id": "energy-drinks-varus",
+            "price": 21.4,
+            "unit": "pcs",
+            "weight": "250.0",
+            "bundle": 1,
+            "volume": 250.0,
+            "weight_info": {
+              "value": 250.0,
+              "unit": "мл",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": "Non Stop",
+              "trademark_slug": "non-stop"
+            },
+            "description": "",
+            "slug": "energetik-non-stop-250ml",
+            "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-250ml--04820097897224/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 21.4
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "цукерки",
+        "brand_filter": [
+          "Roshen",
+          "Milka"
+        ],
+        "weight_filter": null,
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цукерки yummi gummi sour sticks желейні",
+            "title": "Цукерки Roshen Yummi Gummi Sour Sticks желейні 70г",
+            "category_id": "packed-candy-varus",
+            "price": 24.1,
+            "unit": "pcs",
+            "weight": "70.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 70.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Roshen",
+              "trademark_slug": "roshen"
+            },
+            "description": "",
+            "slug": "tsukerka-roshen-70g-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 24.1
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "молоко",
+        "brand_filter": null,
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "silpo",
+          "novus",
+          "metro",
+          "varus"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "молоко локо моко ультрапастеризоване з вітамінами а та d3 для дітей від 3 років",
+            "title": "Молоко Lactel Локо Моко ультрапастеризоване з вітамінами А та D3 для дітей від 3 років 2,5% 1кг",
+            "category_id": "uht-milk-varus",
+            "price": 45.9,
+            "unit": "pcs",
+            "weight": "1000.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 3.0,
+              "unit": "років",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "Lactel",
+              "trademark_slug": "lactel"
+            },
+            "description": "Молочні продукти Локо Моко надзвичайно корисні завдяки унікальному збагаченню кальцієм, вітаміном Д3 та кислотами Омега-3. Кислоти Омега-3 забезпечують клітини енергією для кращого проходження імпульсів між ними, завдяки чому покращується пам'ять, концентрація уваги, сприйняття інформації.",
+            "slug": "moloko-laktel-1000g-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/moloko-laktel-1000g-ukrayina--04823065721989/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 45.9
+        }
+      ]
+    }
+  ],
+  "end_price": 91
+}

@@ -178,7 +178,7 @@ def parse_weight_info_with_validation(product_info: ProductInfo) -> SizeInfo:
     return weight_info_formatted
 
 
-def normalize_weight_info(weight_info: SizeInfo, filter_unit: SizeInfoType = SizeInfoType.Unknown) -> SizeInfo:
+def normalize_weight_info(weight_info: SizeInfo, filter_type: SizeInfoType = SizeInfoType.Unknown) -> SizeInfo:
     weight_value, weight_unit, weight_type = weight_info.value, weight_info.unit, weight_info.type
     if weight_unit == 'л' or weight_unit == 'l':
         weight_value *= 1000
@@ -195,28 +195,27 @@ def normalize_weight_info(weight_info: SizeInfo, filter_unit: SizeInfoType = Siz
     elif weight_unit == 'км' or weight_unit == 'km':
         weight_value *= 1000
         weight_unit = 'м'
-    if filter_unit == SizeInfoType.Capacity:
+    if filter_type == SizeInfoType.Capacity:
         return mass_to_capacity(weight_info)
-    elif filter_unit == SizeInfoType.Mass:
+    elif filter_type == SizeInfoType.Mass:
         return capacity_to_mass(weight_info)
     return SizeInfo(value=weight_value, unit=weight_unit, type=weight_info.type)
 
 
-# нужно приводить единицы измерения запроса к ед.изм. товаров
 def capacity_to_mass(weight_info: SizeInfo) -> SizeInfo:
     weight_value, weight_unit, weight_type = weight_info.value, weight_info.unit, weight_info.type
-    if weight_type == SizeInfoType.Capacity:
-        if weight_unit == 'мл':
-            weight_unit = 'г'
-    return SizeInfo(value=weight_value, unit=weight_unit, type=weight_info.type)
+    if weight_unit == 'мл':
+        weight_unit = 'г'
+        weight_type = SizeInfoType.Mass
+    return SizeInfo(value=weight_value, unit=weight_unit, type=weight_type)
 
 
 def mass_to_capacity(weight_info: SizeInfo) -> SizeInfo:
     weight_value, weight_unit, weight_type = weight_info.value, weight_info.unit, weight_info.type
-    if weight_type == SizeInfoType.Capacity:
-        if weight_unit == 'г':
-            weight_unit = 'мл'
-    return SizeInfo(value=weight_value, unit=weight_unit, type=weight_info.type)
+    if weight_unit in['г', "гр"]:
+        weight_unit = 'мл'
+        weight_type = SizeInfoType.Capacity
+    return SizeInfo(value=weight_value, unit=weight_unit, type=weight_type)
 
 
 def get_products_buy_info(product_element: ProductInfo, min_size: str = "") -> ProductBuyInfo:
@@ -225,30 +224,35 @@ def get_products_buy_info(product_element: ProductInfo, min_size: str = "") -> P
     normalized_min_size_info: SizeInfo = normalize_weight_info(parse_weight_info(min_size)) if min_size else None
     normalized_weight_info: SizeInfo
 
-    #if normalized_weight_info/.type != Length and normalized_min_size_info.type 1= :emgthj
     if normalized_min_size_info and normalized_min_size_info.unit:
-        normalized_weight_info = normalize_weight_info(product_element.weight_info, filter_unit=normalized_min_size_info.type)
+        normalized_weight_info = normalize_weight_info(product_element.weight_info, filter_type=normalized_min_size_info.type)
     else:
         normalized_weight_info = normalize_weight_info(product_element.weight_info)
     try:
         price: float = product_element.price
         if normalized_min_size_info:
-            if product_element.bundle and normalized_weight_info.value:
-                quantity = math.ceil(normalized_min_size_info.value /
-                                     (normalized_weight_info.value * product_element.bundle))
-            elif product_element.bundle:
-                quantity = math.ceil(normalized_min_size_info.value / product_element.bundle)
-            elif normalized_weight_info.value:
-                quantity = math.ceil(normalized_min_size_info.value / normalized_weight_info.value)
+            if normalized_weight_info.unit == normalized_min_size_info.unit and \
+                    (normalized_weight_info.type != SizeInfoType.Length or
+                     normalized_min_size_info.type != SizeInfoType.Length):
+                if product_element.bundle and normalized_weight_info.value:
+                    quantity = math.ceil(normalized_min_size_info.value /
+                                         (normalized_weight_info.value * product_element.bundle))
+                elif product_element.bundle:
+                    quantity = math.ceil(normalized_min_size_info.value / product_element.bundle)
+                elif normalized_weight_info.value:
+                    quantity = math.ceil(normalized_min_size_info.value / normalized_weight_info.value)
+            else:
+                quantity = 1
             end_price = price * quantity
-
         elif normalized_weight_info.value:
             end_price = price * quantity
-        # print(f"{product_element.title}")
-        # print(
-        #     f"\tNeed {int(quantity)} with amount {normalized_weight_info.value} {normalized_weight_info.unit} and price {price} uah")
-        # print(
-        #     f"\tResult: {quantity * normalized_weight_info.value} {normalized_weight_info.unit} by {(math.ceil(price * quantity)) * 100 / 100} uah")
+        print(f"{product_element.title}")
+        print(
+            f"\tNeed {int(quantity)} with amount {normalized_weight_info.value} {normalized_weight_info.unit} "
+            f"and price {price} uah")
+        print(
+            f"\tResult: {quantity * normalized_weight_info.value} {normalized_weight_info.unit} by "
+            f"{(math.ceil(price * quantity)) * 100 / 100} uah")
     except Exception as ex:
         logging.error("Sorting of product by price failed", exc_info=ex)
     return ProductBuyInfo(end_price=end_price, product=product_element, quantity=quantity)

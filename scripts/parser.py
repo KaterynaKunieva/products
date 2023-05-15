@@ -8,7 +8,7 @@ from typing import List, Dict, Set
 import click
 from pydantic import parse_file_as
 
-from base_entities import CategoryInfo, ProductInfo
+from base_entities import CategoryInfo, ProductInfo, SizeInfoType
 from constants import STORE_INFO_PATH
 from extensions import async_cmd, json_serial
 from helpers import parse_weight_info_with_validation, normalize_title, get_shop_locations, shop_infos, shop_parsers
@@ -148,8 +148,11 @@ async def parse_shop_products(shops, locations, promotions_only, page_count, per
                     product.normalized_title = normalize_title(product_title=product.title,
                                                                product_brand=product.producer.trademark)
                     product.weight_info = parse_weight_info_with_validation(product)
-                    #if product.weight_info.type == SizeInf
-                    #overwrite bundle
+                    if product.weight_info.type == SizeInfoType.Length and SizeInfoType.Quantity in product.title:
+                        product.bundle *= product.weight_info.value
+                        product.unit = product.weight_info.unit
+                        # а что тогда дальше? в weight_info
+
             print(
                 f"Available {promotion_str} products for '{shop_full_name}', categories count: {len(category_products)}")
             if not products_cached or force_reload:

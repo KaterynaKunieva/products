@@ -2,71 +2,677 @@
   "buy_list": [
     {
       "request": {
-        "title_filter": "напій енергетичний",
-        "brand_filter": [
-          "Monster Energy",
-          "Non stop"
-        ],
-        "weight_filter": null,
+        "title_filter": "Хліб житній",
+        "brand_filter": null,
+        "weight_filter": "3.25кг",
         "shop_filter": [
-          "silpo",
           "novus",
           "metro",
-          "varus"
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
         ]
       },
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "напій енергетичний jungle evolution fresh з/б",
-            "title": "Напій енергетичний Non Stop Jungle Evolution Fresh з/б",
-            "category_id": "59",
-            "price": 17.9,
+            "normalized_title": "хліб житній заварний класичний нарізаний",
+            "title": "Хліб «Кулиничі» «Житній» заварний класичний нарізаний",
+            "category_id": "497",
+            "price": 26.39,
             "unit": null,
-            "weight": "250мл",
+            "weight": "500г",
             "bundle": null,
             "volume": null,
             "weight_info": {
-              "value": 250.0,
-              "unit": "мл",
-              "type": "capacity"
+              "value": 500.0,
+              "unit": "г",
+              "type": "mass"
             },
             "producer": {
-              "trademark": "Non Stop",
+              "trademark": "Кулиничі",
               "trademark_slug": null
             },
             "description": null,
-            "slug": "napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
-            "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
+            "slug": "khlib-kulynychi-zhytnii-zavarnyi-klasychnyi-narizanyi-731829",
+            "web_url": "https://shop.silpo.ua/product/khlib-kulynychi-zhytnii-zavarnyi-klasychnyi-narizanyi-731829",
             "promotion": null
           },
-          "quantity": 1,
-          "end_price": 17.9
+          "quantity": 7,
+          "end_price": 184.73000000000002
         }
       ]
     },
     {
       "request": {
-        "title_filter": "цукерки",
-        "brand_filter": [
-          "Roshen",
-          "Milka"
-        ],
-        "weight_filter": null,
+        "title_filter": "Хліб пшеничний",
+        "brand_filter": null,
+        "weight_filter": "5.2кг",
         "shop_filter": [
-          "silpo",
           "novus",
           "metro",
-          "varus"
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
         ]
       },
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "цукерки джеллі желейні",
-            "title": "Цукерки Roshen «Джеллі» желейні",
-            "category_id": "520",
-            "price": 12.3,
+            "normalized_title": "хліб пшеничний 1 ґатунок",
+            "title": "Хліб «Рум'янець» «Пшеничний» 1 ґатунок",
+            "category_id": "497",
+            "price": 20.59,
+            "unit": null,
+            "weight": "600г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 600.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Рум'янець",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "khlib-rum-ianets-pshenychnyi-1-gatunok-589178",
+            "web_url": "https://shop.silpo.ua/product/khlib-rum-ianets-pshenychnyi-1-gatunok-589178",
+            "promotion": null
+          },
+          "quantity": 9,
+          "end_price": 185.31
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Борошно пшеничне",
+        "brand_filter": null,
+        "weight_filter": "0,8кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "борошно пшеничне 1-й ґатунок",
+            "title": "Борошно EuroMill пшеничне 1-й ґатунок",
+            "category_id": "69",
+            "price": 19.79,
+            "unit": null,
+            "weight": "1кг",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "EuroMill",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "boroshno-euromill-pshenychne-1-i-gatunok-780446",
+            "web_url": "https://shop.silpo.ua/product/boroshno-euromill-pshenychne-1-i-gatunok-780446",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 19.79
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Вівсяна крупа",
+        "brand_filter": null,
+        "weight_filter": "0,1кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Гречана крупа",
+        "brand_filter": null,
+        "weight_filter": "0,2кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Картопля",
+        "brand_filter": null,
+        "weight_filter": "7,9кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "картопля свіжа не очищена нарізана",
+            "title": "Картопля Грінвіль свіжа не очищена нарізана",
+            "category_id": "409",
+            "price": 24.99,
+            "unit": null,
+            "weight": "500г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 500.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Грінвіль",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "kartoplia-grinvil-svizha-ne-ochyshchena-narizana-921022",
+            "web_url": "https://shop.silpo.ua/product/kartoplia-grinvil-svizha-ne-ochyshchena-narizana-921022",
+            "promotion": null
+          },
+          "quantity": 16,
+          "end_price": 399.84
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Капуста",
+        "brand_filter": null,
+        "weight_filter": "2,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "капуста білоголова по-домашньому з овочами",
+            "title": "Капуста білоголова «По-домашньому» з овочами",
+            "category_id": "428",
+            "price": 44.99,
+            "unit": null,
+            "weight": "500г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 500.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Без ТМ",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "kapusta-bilogolova-po-domashnomu-z-ovochamy-913805",
+            "web_url": "https://shop.silpo.ua/product/kapusta-bilogolova-po-domashnomu-z-ovochamy-913805",
+            "promotion": null
+          },
+          "quantity": 5,
+          "end_price": 224.95000000000002
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Цибуля",
+        "brand_filter": null,
+        "weight_filter": "0,8кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "соус цибуля зі сметаною",
+            "title": "Соус «Чумак» цибуля зі сметаною",
+            "category_id": "180",
+            "price": 31.99,
+            "unit": null,
+            "weight": "200г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 200.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Чумак",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "sous-chumak-tsybulia-zi-smetanoiu-831404",
+            "web_url": "https://shop.silpo.ua/product/sous-chumak-tsybulia-zi-smetanoiu-831404",
+            "promotion": null
+          },
+          "quantity": 4,
+          "end_price": 127.96
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Помідори",
+        "brand_filter": null,
+        "weight_filter": "1,1кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "помідори солоні",
+            "title": "Помідори «Грінвіль» солоні",
+            "category_id": "428",
+            "price": 79.99,
+            "unit": null,
+            "weight": "450г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 450.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Грінвіль",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "pomidory-grinvil-soloni-527137",
+            "web_url": "https://shop.silpo.ua/product/pomidory-grinvil-soloni-527137",
+            "promotion": null
+          },
+          "quantity": 3,
+          "end_price": 239.96999999999997
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Огірки",
+        "brand_filter": null,
+        "weight_filter": "1кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "огірки солоні 9-11 см",
+            "title": "Огірки «Грінвіль» солоні 9-11 см",
+            "category_id": "428",
+            "price": 69.99,
+            "unit": null,
+            "weight": "500г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 500.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Грінвіль",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "ogirky-grinvil-soloni-9-11-sm-555440",
+            "web_url": "https://shop.silpo.ua/product/ogirky-grinvil-soloni-9-11-sm-555440",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 139.98
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Цукор",
+        "brand_filter": null,
+        "weight_filter": "2кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цукор фасований",
+            "title": "Цукор «Ситий двір» фасований",
+            "category_id": "70",
+            "price": 33.69,
+            "unit": null,
+            "weight": "1кг",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Ситий двір",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "tsukor-sytyi-dvir-fasovanyi-480826",
+            "web_url": "https://shop.silpo.ua/product/tsukor-sytyi-dvir-fasovanyi-480826",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 33.69
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Олія",
+        "brand_filter": null,
+        "weight_filter": "0,6кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "олівець-олія для кутикули",
+            "title": "Олівець-олія для кутикули",
+            "category_id": "566",
+            "price": 29.99,
+            "unit": null,
+            "weight": "шт",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Без ТМ",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "olivets-oliia-dlia-kutykuly-791360",
+            "web_url": "https://shop.silpo.ua/product/olivets-oliia-dlia-kutykuly-791360",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 29.99
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Яловичина",
+        "brand_filter": null,
+        "weight_filter": "1,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "мясо bill beff яловичина консервована",
+            "title": "М'ясо Bill Beff яловичина консервована",
+            "category_id": "162",
+            "price": 64.99,
+            "unit": null,
+            "weight": "400г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 400.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Bill Beef",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "m-iaso-bill-beff-ialovychyna-konservovana-904574",
+            "web_url": "https://shop.silpo.ua/product/m-iaso-bill-beff-ialovychyna-konservovana-904574",
+            "promotion": null
+          },
+          "quantity": 4,
+          "end_price": 259.96
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Курятина",
+        "brand_filter": null,
+        "weight_filter": "1,7кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Оселедець",
+        "brand_filter": null,
+        "weight_filter": "0,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "оселедець с/м 300+",
+            "title": "Оселедець с/м 300+",
+            "category_id": "282",
+            "price": 10.9,
             "unit": null,
             "weight": "100г",
             "bundle": null,
@@ -77,29 +683,39 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Roshen",
+              "trademark": "Без ТМ",
               "trademark_slug": null
             },
             "description": null,
-            "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
-            "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011",
+            "slug": "oseledets-s-m-300-574460",
+            "web_url": "https://shop.silpo.ua/product/oseledets-s-m-300-574460",
             "promotion": null
           },
-          "quantity": 1,
-          "end_price": 12.3
+          "quantity": 3,
+          "end_price": 32.7
         }
       ]
     },
     {
       "request": {
-        "title_filter": "молоко",
+        "title_filter": "Молоко",
         "brand_filter": null,
-        "weight_filter": "1кг",
+        "weight_filter": "5кг",
         "shop_filter": [
-          "silpo",
           "novus",
           "metro",
-          "varus"
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
         ]
       },
       "product_buy_infos": [
@@ -108,7 +724,7 @@
             "normalized_title": "молоко дитяче харчування від 9 місяців",
             "title": "Молоко «Злагода» дитяче харчування від 9 місяців 3,2%",
             "category_id": "4373",
-            "price": 15.99,
+            "price": 17.99,
             "unit": null,
             "weight": "0,2кг",
             "bundle": null,
@@ -128,10 +744,346 @@
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 15.99
+          "end_price": 17.99
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Молоко",
+        "brand_filter": null,
+        "weight_filter": "5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "молоко дитяче харчування від 9 місяців",
+            "title": "Молоко «Злагода» дитяче харчування від 9 місяців 3,2%",
+            "category_id": "4373",
+            "price": 17.99,
+            "unit": null,
+            "weight": "0,2кг",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 0.2,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Злагода",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-744676",
+            "web_url": "https://shop.silpo.ua/product/moloko-zlagoda-dytiache-kharchuvannia-vid-9-misiatsiv-3-2-744676",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 17.99
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Кефір",
+        "brand_filter": null,
+        "weight_filter": "2.5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "кефір повна п/е",
+            "title": "Кефір «Повна Чаша»® 2,5% п/е",
+            "category_id": "236",
+            "price": 28.99,
+            "unit": null,
+            "weight": "900г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 900.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": null,
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "kefir-povna-chasha-2-5-p-e-541679",
+            "web_url": "https://shop.silpo.ua/product/kefir-povna-chasha-2-5-p-e-541679",
+            "promotion": null
+          },
+          "quantity": 3,
+          "end_price": 86.97
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Ряжанка",
+        "brand_filter": null,
+        "weight_filter": "2.5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "ряжанка лавка старий порицьк з незбираного молока органічна",
+            "title": "Ряжанка «Лавка традицій» «Старий Порицьк» з незбираного молока органічна 4%",
+            "category_id": "236",
+            "price": 59.99,
+            "unit": null,
+            "weight": "1л",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "л",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": null,
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "riazhanka-lavka-tradytsii-staryi-porytsk-z-nezbyranogo-moloka-organichna-4-869920",
+            "web_url": "https://shop.silpo.ua/product/riazhanka-lavka-tradytsii-staryi-porytsk-z-nezbyranogo-moloka-organichna-4-869920",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 59.99
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Масло вершкове",
+        "brand_filter": null,
+        "weight_filter": "0,4кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Сир твердий",
+        "brand_filter": null,
+        "weight_filter": "0,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "сир твердий , брусок",
+            "title": "Сир «Пирятин» твердий 50%, брусок",
+            "category_id": "1472",
+            "price": 34.9,
+            "unit": null,
+            "weight": "100г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 100.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Пирятин",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "syr-pyriatyn-tverdyi-50-brusok-885062",
+            "web_url": "https://shop.silpo.ua/product/syr-pyriatyn-tverdyi-50-brusok-885062",
+            "promotion": null
+          },
+          "quantity": 3,
+          "end_price": 104.69999999999999
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Сметана",
+        "brand_filter": null,
+        "weight_filter": "0,4кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "сметана селянська",
+            "title": "Сметана «Селянська» 15%",
+            "category_id": "4376",
+            "price": 26.99,
+            "unit": null,
+            "weight": "300г",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 300.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": null,
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "smetana-selianska-15-917296",
+            "web_url": "https://shop.silpo.ua/product/smetana-selianska-15-917296",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 53.98
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Яйця",
+        "brand_filter": null,
+        "weight_filter": "18шт",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "свічка у формі яйця великодня 60/45 мм в асортименті",
+            "title": "Свічка Bolsius у формі яйця великодня 60/45 мм в асортименті",
+            "category_id": "645",
+            "price": 14.99,
+            "unit": null,
+            "weight": "шт",
+            "bundle": null,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Bolsius",
+              "trademark_slug": null
+            },
+            "description": null,
+            "slug": "svichka-bolsius-u-formi-iaitsia-velykodnia-60-45-mm-v-asortymenti-597108",
+            "web_url": "https://shop.silpo.ua/product/svichka-bolsius-u-formi-iaitsia-velykodnia-60-45-mm-v-asortymenti-597108",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 14.99
         }
       ]
     }
   ],
-  "end_price": 46
+  "end_price": 2235
 }

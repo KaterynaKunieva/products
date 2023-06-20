@@ -102,7 +102,7 @@ class ZakazoShopScrapperService(ShopScrapperService):
         total_tasks = len(scrape_args)
         print(f"Total amount of scrape tasks: {total_tasks},  categories: {len(categories_flat)}")
         completed_tasks = 0
-        for args in chunks(scrape_args, 15):
+        for args in chunks(scrape_args, 10):
             for item in await asyncio.gather(
                     *[asyncio.create_task(get_page_products(arg.get("page"), arg.get("category"))) for arg in args]):
                 item: ProductListWithCategory

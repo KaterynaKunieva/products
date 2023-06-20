@@ -47,7 +47,7 @@ def cli():
 @click.option('--force_reload', default=True, type=bool, help='force data download no matter cache exists.')
 async def parse_categories(shops, locations, promotions_only, popular, force_reload):
     shop_list = list(shop_infos.keys()) if not shops or shops == "all" else [shop.strip() for shop in shops.split(",")]
-    input_locations = locations.splt(",") if locations and locations != "all" else []
+    input_locations = locations.split(",") if locations and locations != "all" else []
 
     ###
     async def scrape_categories(shop_key: str, shop_location: str, promotion: bool = False):
@@ -150,8 +150,7 @@ async def parse_shop_products(shops, locations, promotions_only, page_count, per
                     product.weight_info = parse_weight_info_with_validation(product)
                     if product.weight_info.type == SizeInfoType.Length and SizeInfoType.Quantity in product.title:
                         product.bundle *= product.weight_info.value
-                        product.unit = product.weight_info.unit
-                        # а что тогда дальше? в weight_info
+                        product.unit = product.weight_info.unit 
 
             print(
                 f"Available {promotion_str} products for '{shop_full_name}', categories count: {len(category_products)}")
@@ -231,4 +230,4 @@ async def parse_shop_products(shops, locations, promotions_only, page_count, per
 
 
 if __name__ == '__main__':
-    parse_shop_products()
+    cli()

@@ -18,8 +18,10 @@ def cli():
 
 @cli.command()
 @async_cmd
-@click.option('--input_file_path', default="./user_data/user_buy_request.json", type=str, help='list of shops.')
-# @click.option('--output_file_path', default="./output.json", type=str, help='list of shops.')
+@click.option('--input_file_path', default="./user_data/user_buy_request.json", type=str, help='relative file path '
+                                                                                               'to user request.')
+# @click.option('--output_file_path', default="./user_data/", type=str, help='relative file path
+# to dir where save outputs')
 async def form_buy_list(input_file_path):
     user_query: UserBuyRequest = parse_file_as(UserBuyRequest, input_file_path)
     if user_query:

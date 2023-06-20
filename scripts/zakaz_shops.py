@@ -41,13 +41,13 @@ zakaz_shops = {
     "таврія": [ShopInfo(name='таврія', id=48221130,title='таврія')],
     "космос": [ShopInfo(name='космос', id=48225131, title='космос')],
     "восторг": [ShopInfo(name='восторг', id=48231001, title='восторг')],
-    "харків": [ShopInfo(name='харків', id=482320001,title='харків клочківська drive')],
-    "varus":[ShopInfo(name='varus', id=48241001, title='varus')],
+    "харків": [ShopInfo(name='харків', id=482320001,title='харків')],
+    "varus": [ShopInfo(name='varus', id=48241001, title='varus')],
     "auchan": [ShopInfo(name='auchan', id=48246401, title='auchan')],
     "winetime": [ShopInfo(name='winetime', id=482550001,title='winetime')],
     "столичний": [ShopInfo(name='столичний', id=48257001, title='столичний')],
     "megamarket": [ShopInfo(name='megamarket', id=482676003, title='megamarket')],
-    "ultramarket":[ShopInfo(name='ultramarket', id=482776003, title='ultramarket')],
+    "ultramarket": [ShopInfo(name='ultramarket', id=482776003, title='ultramarket')],
     "екомаркет": [ShopInfo(name='екомаркет', id=482800030, title='екомаркет')]
 }
 

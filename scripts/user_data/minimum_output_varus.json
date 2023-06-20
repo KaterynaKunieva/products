@@ -2,104 +2,720 @@
   "buy_list": [
     {
       "request": {
-        "title_filter": "напій енергетичний",
-        "brand_filter": [
-          "Monster Energy",
-          "Non stop"
-        ],
-        "weight_filter": null,
+        "title_filter": "Хліб житній",
+        "brand_filter": null,
+        "weight_filter": "3.25кг",
         "shop_filter": [
-          "silpo",
           "novus",
           "metro",
-          "varus"
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
         ]
       },
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "напій енергетичний jungle",
-            "title": "Напій енергетичний Non Stop Jungle 250мл",
-            "category_id": "energy-drinks-varus",
-            "price": 21.4,
+            "normalized_title": "хліб житній з висівками",
+            "title": "Хліб житній з висівками 350г",
+            "category_id": "own-bread-and-bakery-products-varus",
+            "price": 32.5,
             "unit": "pcs",
-            "weight": "250.0",
-            "bundle": 1,
-            "volume": 250.0,
-            "weight_info": {
-              "value": 250.0,
-              "unit": "мл",
-              "type": "capacity"
-            },
-            "producer": {
-              "trademark": "Non Stop",
-              "trademark_slug": "non-stop"
-            },
-            "description": "",
-            "slug": "energetik-non-stop-250ml",
-            "web_url": "https://varus.zakaz.ua/uk/products/energetik-non-stop-250ml--04820097897224/",
-            "promotion": null
-          },
-          "quantity": 1,
-          "end_price": 21.4
-        }
-      ]
-    },
-    {
-      "request": {
-        "title_filter": "цукерки",
-        "brand_filter": [
-          "Roshen",
-          "Milka"
-        ],
-        "weight_filter": null,
-        "shop_filter": [
-          "silpo",
-          "novus",
-          "metro",
-          "varus"
-        ]
-      },
-      "product_buy_infos": [
-        {
-          "product": {
-            "normalized_title": "цукерки yummi gummi sour sticks желейні",
-            "title": "Цукерки Roshen Yummi Gummi Sour Sticks желейні 70г",
-            "category_id": "packed-candy-varus",
-            "price": 24.1,
-            "unit": "pcs",
-            "weight": "70.0",
+            "weight": "350.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 70.0,
+              "value": 350.0,
               "unit": "г",
               "type": "mass"
             },
             "producer": {
-              "trademark": "Roshen",
-              "trademark_slug": "roshen"
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
             },
             "description": "",
-            "slug": "tsukerka-roshen-70g-ukrayina",
-            "web_url": "https://varus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/",
+            "slug": "khlib-bez-tm-350g-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/khlib-bez-tm-350g-ukrayina--varus02062746200005/",
             "promotion": null
           },
-          "quantity": 1,
-          "end_price": 24.1
+          "quantity": 10,
+          "end_price": 325.0
         }
       ]
     },
     {
       "request": {
-        "title_filter": "молоко",
+        "title_filter": "Хліб пшеничний",
+        "brand_filter": null,
+        "weight_filter": "5.2кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "мф хліб пшеничний тігріс , ваговий",
+            "title": "МФ Хліб пшеничний \"Тігріс\" , ваговий",
+            "category_id": "own-bread-and-bakery-products-varus",
+            "price": 69.5,
+            "unit": "kg",
+            "weight": "0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "kg",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
+            },
+            "description": "",
+            "slug": "khlib-bez-tm",
+            "web_url": "https://varus.zakaz.ua/uk/products/khlib-bez-tm--varus02701748000000/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 69.5
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Борошно пшеничне",
+        "brand_filter": null,
+        "weight_filter": "0,8кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "борошно пшеничне вищого гатунку",
+            "title": "Борошно Вигода пшеничне вищого гатунку 1кг",
+            "category_id": "flour-varus",
+            "price": 14.3,
+            "unit": "pcs",
+            "weight": "1000.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Вигода ",
+              "trademark_slug": "vigoda"
+            },
+            "description": "",
+            "slug": "boroshno-vigoda-1000g",
+            "web_url": "https://varus.zakaz.ua/uk/products/boroshno-vigoda-1000g--varus02059967600004/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 14.3
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Вівсяна крупа",
+        "brand_filter": null,
+        "weight_filter": "0,1кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Гречана крупа",
+        "brand_filter": null,
+        "weight_filter": "0,2кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Картопля",
+        "brand_filter": null,
+        "weight_filter": "7,9кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "картопля перший ґатунок україна",
+            "title": "Картопля перший ґатунок Україна",
+            "category_id": "potato-varus",
+            "price": 7.4,
+            "unit": "kg",
+            "weight": "0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "kg",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
+            },
+            "description": "",
+            "slug": "ovochi-kartoplia-bez-tm-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/ovochi-kartoplia-bez-tm-ukrayina--varus02501774000000/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 7.4
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Капуста",
+        "brand_filter": null,
+        "weight_filter": "2,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "капуста другий гатунок",
+            "title": "Капуста другий гатунок",
+            "category_id": "fresh-cabbage-varus",
+            "price": 39.9,
+            "unit": "kg",
+            "weight": "0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "kg",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
+            },
+            "description": "",
+            "slug": "bez-tm",
+            "web_url": "https://varus.zakaz.ua/uk/products/bez-tm--varus02500393000000/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 39.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Цибуля",
+        "brand_filter": null,
+        "weight_filter": "0,8кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цибуля ріпчаста перший гатунок",
+            "title": "Цибуля ріпчаста перший гатунок",
+            "category_id": "onion-and-garlic-varus",
+            "price": 48.9,
+            "unit": "kg",
+            "weight": "0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "kg",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
+            },
+            "description": "",
+            "slug": "ovochi-tsibulia",
+            "web_url": "https://varus.zakaz.ua/uk/products/ovochi-tsibulia--varus02500013000000/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 48.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Помідори",
+        "brand_filter": null,
+        "weight_filter": "1,1кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "помідори чері",
+            "title": "Помідори Globex чері 680г",
+            "category_id": "canned-tomato-varus",
+            "price": 79.9,
+            "unit": "pcs",
+            "weight": "680.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 680.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Globex",
+              "trademark_slug": "globex"
+            },
+            "description": "",
+            "slug": "ovochi",
+            "web_url": "https://varus.zakaz.ua/uk/products/ovochi--05999881047431/",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 159.8
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Огірки",
         "brand_filter": null,
         "weight_filter": "1кг",
         "shop_filter": [
-          "silpo",
           "novus",
           "metro",
-          "varus"
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "огірки корнішони /500г",
+            "title": "Огірки Чудова Марка корнішони 300г/500г",
+            "category_id": "salads-and-pickles-varus",
+            "price": 56.9,
+            "unit": "pcs",
+            "weight": "500.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "pcs",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "Чудова марка",
+              "trademark_slug": "chudova-marka"
+            },
+            "description": "",
+            "slug": "ovochi-ogirki-chudova-marka-500g",
+            "web_url": "https://varus.zakaz.ua/uk/products/ovochi-ogirki-chudova-marka-500g--04820116704915/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 56.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Цукор",
+        "brand_filter": null,
+        "weight_filter": "2кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "цукор білий кристалічний",
+            "title": "Цукор Круп'яна майстерня білий кристалічний 1кг",
+            "category_id": "sugar-1-varus",
+            "price": 32.9,
+            "unit": "pcs",
+            "weight": "1000.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "кг",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Круп'яна Майстерня",
+              "trademark_slug": "krupiana-maisternia"
+            },
+            "description": "",
+            "slug": "1000g",
+            "web_url": "https://varus.zakaz.ua/uk/products/1000g--04820192240055/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 32.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Олія",
+        "brand_filter": null,
+        "weight_filter": "0,6кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "олія соняшникова нерафінована",
+            "title": "Олія соняшникова Вигода нерафінована 0,8л",
+            "category_id": "oil-varus",
+            "price": 51.3,
+            "unit": "pcs",
+            "weight": "800.0",
+            "bundle": 1,
+            "volume": 800.0,
+            "weight_info": {
+              "value": 0.8,
+              "unit": "л",
+              "type": "capacity"
+            },
+            "producer": {
+              "trademark": "Вигода ",
+              "trademark_slug": "vigoda"
+            },
+            "description": "",
+            "slug": "oliia-vigoda-800ml",
+            "web_url": "https://varus.zakaz.ua/uk/products/oliia-vigoda-800ml--varus02060250900008/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 51.3
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Яловичина",
+        "brand_filter": null,
+        "weight_filter": "1,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "ласощі клуб 4 лапи преміум мясна паличка яловичина для собак",
+            "title": "Ласощі Клуб 4 лапи Преміум М'ясна Паличка яловичина для собак 12г",
+            "category_id": "tm-club-4-paws",
+            "price": 28.9,
+            "unit": "pcs",
+            "weight": "15.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 4.0,
+              "unit": "лапи",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "CLUB 4 PAWS",
+              "trademark_slug": "club-4-paws"
+            },
+            "description": "Ласощі для собак у вигляді м’ясної палички містять 90% м’ясних інгредієнтів (зокрема 29 % з\nяловичини) та вітамінний комплекс A, E, D3 та L-карнітин. Беззернові палички виготовлені без\nвикористання цукру, сої, штучних ароматизаторів та барвників. Для максимального збереження\nсвіжості продукту, кожна паличка запакована в індивідуальну металізовану упаковку. Смаколик\nможе бути ідеальною винагородою за виконання команд на прогулянці чи в подорожі, а також\nяк перекусом між прийомами їжі.",
+            "slug": "lasoshchi-klub-4-lapi-12g-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/lasoshchi-klub-4-lapi-12g-ukrayina--04820083908217/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 28.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Курятина",
+        "brand_filter": null,
+        "weight_filter": "1,7кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": []
+    },
+    {
+      "request": {
+        "title_filter": "Оселедець",
+        "brand_filter": null,
+        "weight_filter": "0,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "оселедець k.i.t. філе в олії180г",
+            "title": "Оселедець K.I.T. філе в олії180г",
+            "category_id": "marinated-fish-varus",
+            "price": 46.9,
+            "unit": "pcs",
+            "weight": "180.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "pcs",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "К.І.Т.",
+              "trademark_slug": "k-i-t"
+            },
+            "description": "",
+            "slug": "riba-oseledets-k-i-t-180g",
+            "web_url": "https://varus.zakaz.ua/uk/products/riba-oseledets-k-i-t-180g--04823044202553/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 46.9
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Молоко",
+        "brand_filter": null,
+        "weight_filter": "5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
         ]
       },
       "product_buy_infos": [
@@ -108,7 +724,7 @@
             "normalized_title": "молоко локо моко ультрапастеризоване з вітамінами а та d3 для дітей від 3 років",
             "title": "Молоко Lactel Локо Моко ультрапастеризоване з вітамінами А та D3 для дітей від 3 років 2,5% 1кг",
             "category_id": "uht-milk-varus",
-            "price": 45.9,
+            "price": 47.5,
             "unit": "pcs",
             "weight": "1000.0",
             "bundle": 1,
@@ -128,10 +744,374 @@
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 45.9
+          "end_price": 47.5
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Молоко",
+        "brand_filter": null,
+        "weight_filter": "5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "молоко локо моко ультрапастеризоване з вітамінами а та d3 для дітей від 3 років",
+            "title": "Молоко Lactel Локо Моко ультрапастеризоване з вітамінами А та D3 для дітей від 3 років 2,5% 1кг",
+            "category_id": "uht-milk-varus",
+            "price": 47.5,
+            "unit": "pcs",
+            "weight": "1000.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 3.0,
+              "unit": "років",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "Lactel",
+              "trademark_slug": "lactel"
+            },
+            "description": "Молочні продукти Локо Моко надзвичайно корисні завдяки унікальному збагаченню кальцієм, вітаміном Д3 та кислотами Омега-3. Кислоти Омега-3 забезпечують клітини енергією для кращого проходження імпульсів між ними, завдяки чому покращується пам'ять, концентрація уваги, сприйняття інформації.",
+            "slug": "moloko-laktel-1000g-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/moloko-laktel-1000g-ukrayina--04823065721989/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 47.5
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Кефір",
+        "brand_filter": null,
+        "weight_filter": "2.5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "кефір із низьким вмістом дріжджів",
+            "title": "Кефір Varto із низьким вмістом дріжджів 2,5% 850г",
+            "category_id": "kefir-varus",
+            "price": 30.9,
+            "unit": "pcs",
+            "weight": "850.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 850.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Varto",
+              "trademark_slug": "varto"
+            },
+            "description": "",
+            "slug": "kefir-varto-850g-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/kefir-varto-850g-ukrayina--varus02061502300003/",
+            "promotion": null
+          },
+          "quantity": 3,
+          "end_price": 92.69999999999999
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Ряжанка",
+        "brand_filter": null,
+        "weight_filter": "2.5кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "ряжанка яготинська",
+            "title": "Ряжанка 4% Яготинська 450г",
+            "category_id": "ryazhenka-varus",
+            "price": 21.3,
+            "unit": "pcs",
+            "weight": "472.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 450.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Яготинське",
+              "trademark_slug": "iagotinske"
+            },
+            "description": "Ряжанка ТМ Яготинське - це натуральний кисломолочний продукт, що виготовляється з пастеризованого пряженого молока шляхом його сквашування спеціальними заквасочними культурами. Ряжанка має світло-кремовий колір і приємний ніжно-карамельний аромат. Ряжанка стане прекрасною основою для всіляких десертів, млинців, окрошки і інших супів.",
+            "slug": "riazhanka-iagotin-450g",
+            "web_url": "https://varus.zakaz.ua/uk/products/riazhanka-iagotin-450g--04823005205470/",
+            "promotion": null
+          },
+          "quantity": 6,
+          "end_price": 127.80000000000001
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Масло вершкове",
+        "brand_filter": null,
+        "weight_filter": "0,4кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "масло вершкове несолоне",
+            "title": "Масло Elle&Vire вершкове несолоне 82% 200г",
+            "category_id": "sweet-butter-varus",
+            "price": 115.4,
+            "unit": "pcs",
+            "weight": "200.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 200.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Elle&Vire",
+              "trademark_slug": "elle-vire"
+            },
+            "description": "Elle & Vire використовує весь свій досвід у виробництві традиційного масла. Якщо хочете бути справжнім шеф-кухарем у себе на кухні, масло Elle & Vire універсально і ідеально підходить абсолютно для всіх типів страв, випічки. Цей продукт надає особливий особливий вершковий смак! Який варіант оберете ви?",
+            "slug": "maslo-el-vir-200g-frantsiia",
+            "web_url": "https://varus.zakaz.ua/uk/products/maslo-el-vir-200g-frantsiia--03161911364531/",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 230.8
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Сир твердий",
+        "brand_filter": null,
+        "weight_filter": "0,3кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "сир твердий 2 місяців безлактозний нарізка",
+            "title": "Сир твердий Dziugas 40% 2 місяців безлактозний нарізка 150г",
+            "category_id": "hard-cheese-varus",
+            "price": 99.9,
+            "unit": "pcs",
+            "weight": "150.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 150.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Dziugas",
+              "trademark_slug": "dziugas"
+            },
+            "description": "Не містить лактози.",
+            "slug": "sir-dzhiugas-150g-litva",
+            "web_url": "https://varus.zakaz.ua/uk/products/sir-dzhiugas-150g-litva--04770299391085/",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 199.8
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Сметана",
+        "brand_filter": null,
+        "weight_filter": "0,4кг",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "сметана мілкін",
+            "title": "Сметана Мілкін 21% 400г",
+            "category_id": "sour-cream-varus",
+            "price": 31.5,
+            "unit": "pcs",
+            "weight": "400.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 400.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Milkin",
+              "trademark_slug": "milkin"
+            },
+            "description": "",
+            "slug": "smetana-smakovenki-400ml-ukrayina",
+            "web_url": "https://varus.zakaz.ua/uk/products/smetana-smakovenki-400ml-ukrayina--04820066251170/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 31.5
+        }
+      ]
+    },
+    {
+      "request": {
+        "title_filter": "Яйця",
+        "brand_filter": null,
+        "weight_filter": "18шт",
+        "shop_filter": [
+          "novus",
+          "metro",
+          "таврія",
+          "космос",
+          "восторг",
+          "харків",
+          "varus",
+          "auchan",
+          "winetime",
+          "столичний",
+          "megamarket",
+          "ultramarket",
+          "екомаркет",
+          "silpo"
+        ]
+      },
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "яйця перепелині",
+            "title": "Яйця перепелині Домашній Кошик 10шт",
+            "category_id": "chicken-eggs-varus",
+            "price": 27.9,
+            "unit": "pcs",
+            "weight": "140.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 10.0,
+              "unit": "шт",
+              "type": "quantity"
+            },
+            "producer": {
+              "trademark": "Домашній Кошик",
+              "trademark_slug": "domashnii-koshik"
+            },
+            "description": "",
+            "slug": "iaitse-domashnii-koshik",
+            "web_url": "https://varus.zakaz.ua/uk/products/iaitse-domashnii-koshik--varus02059566700006/",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 55.8
         }
       ]
     }
   ],
-  "end_price": 91
+  "end_price": 1715
 }

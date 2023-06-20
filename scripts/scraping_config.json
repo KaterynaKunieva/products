@@ -1,0 +1,58 @@
+{
+  "novus": {
+    "max_request_batch": 15,
+    "timeout": 2.5
+  },
+  "metro": {
+    "max_request_batch": 15,
+    "timeout": 2.5
+  },
+  "таврія": {
+    "max_request_batch": 10,
+    "timeout": 2.5
+  },
+  "космос": {
+    "max_request_batch": 5,
+    "timeout": 2.5
+  },
+  "восторг": {
+    "max_request_batch": 10,
+    "timeout": 2.5
+  },
+  "харків": {
+    "max_request_batch": 5,
+    "timeout": 2.5
+  },
+  "varus": {
+    "max_request_batch": 15,
+    "timeout": 2.5
+  },
+  "auchan": {
+    "max_request_batch": 5,
+    "timeout": 2.5
+  },
+  "winetime": {
+    "max_request_batch": 10,
+    "timeout": 2.5
+  },
+  "столичний": {
+    "max_request_batch": 10,
+    "timeout": 2.5
+  },
+  "megamarket": {
+    "max_request_batch": 15,
+    "timeout": 2.5
+  },
+  "ultramarket": {
+    "max_request_batch": 15,
+    "timeout": 2.5
+  },
+  "екомаркет": {
+    "max_request_batch": 10,
+    "timeout": 2.5
+  },
+  "silpo": {
+    "max_request_batch": 30,
+    "timeout": 2.5
+  }
+}

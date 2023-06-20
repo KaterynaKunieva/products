@@ -22,35 +22,7 @@
           "silpo"
         ]
       },
-      "product_buy_infos": [
-        {
-          "product": {
-            "normalized_title": "хліб житній нарізаний",
-            "title": "Хліб Рум'янець житній нарізаний 450г",
-            "category_id": "rye-bread-metro",
-            "price": 25.23,
-            "unit": "pcs",
-            "weight": "450.0",
-            "bundle": 1,
-            "volume": null,
-            "weight_info": {
-              "value": 450.0,
-              "unit": "г",
-              "type": "mass"
-            },
-            "producer": {
-              "trademark": "Рум'янець",
-              "trademark_slug": "rumianets"
-            },
-            "description": "Справжній житній хліб, виготовлений з житнього обдирного борошна. Ми робимо цей хліб на живій житній заквасці, яка допомагає розкрити усі корисні властивості житнього хліба. Наш «100% житній» має щільний дещо вологий м’якуш та насичений житній смак з легкою кислинкою, яку вдало доповнюють пряні нотки гвоздики та кмину. Рекомендуємо «100% житній» зі шматочками щедро приправленого за смаком сала до наваристого українського борщу.",
-            "slug": "khlib-rum-ianets-450g",
-            "web_url": "https://metro.zakaz.ua/uk/products/khlib-rum-ianets-450g--04820062050746/",
-            "promotion": null
-          },
-          "quantity": 8,
-          "end_price": 201.84
-        }
-      ]
+      "product_buy_infos": []
     },
     {
       "request": {
@@ -74,35 +46,7 @@
           "silpo"
         ]
       },
-      "product_buy_infos": [
-        {
-          "product": {
-            "normalized_title": "хліб пшеничний сімейний нарізаний",
-            "title": "Хліб пшеничний Київхліб Сімейний нарізаний 600г",
-            "category_id": "wheat-bread-metro",
-            "price": 26.39,
-            "unit": "pcs",
-            "weight": "600.0",
-            "bundle": 1,
-            "volume": null,
-            "weight_info": {
-              "value": 600.0,
-              "unit": "г",
-              "type": "mass"
-            },
-            "producer": {
-              "trademark": "Київхліб",
-              "trademark_slug": "kiyivkhlib"
-            },
-            "description": "Класичний пшеничний хліб з додаванням молочної сироватки – це ніжний молочний смак хліба та пухка м’якушка. Класика, яку складно перевершити! ДСТУ 7518.",
-            "slug": "khlib-kiyivkhlib-600g",
-            "web_url": "https://metro.zakaz.ua/uk/products/khlib-kiyivkhlib-600g--04820136408305/",
-            "promotion": null
-          },
-          "quantity": 9,
-          "end_price": 237.51
-        }
-      ]
+      "product_buy_infos": []
     },
     {
       "request": {
@@ -129,10 +73,10 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "борошно пшеничне цільнозернове жорнове",
-            "title": "Борошно Metro Chef пшеничне цільнозернове жорнове 1кг",
-            "category_id": "flour-metro",
-            "price": 26.8,
+            "normalized_title": "борошно пшеничне амбар вищий гатунок",
+            "title": "Борошно пшеничне Амбар вищий гатунок 1кг",
+            "category_id": "flour-cosmos",
+            "price": 15.2,
             "unit": "pcs",
             "weight": "1000.0",
             "bundle": 1,
@@ -143,16 +87,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Metro Chef",
-              "trademark_slug": "metro-chef"
+              "trademark": "Ambar",
+              "trademark_slug": "ambar"
             },
-            "description": "Рекомендації щодо вживання: борошно пшеничне цільнозернове використовують при приготуванні хліба, хлібобулочних виробів та млинців.",
-            "slug": "boroshno-metro-shef-1000g",
-            "web_url": "https://metro.zakaz.ua/uk/products/boroshno-metro-shef-1000g--04820019601656/",
+            "description": "",
+            "slug": "boroshno-ambar-1000g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/boroshno-ambar-1000g--04820233400011/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 26.8
+          "end_price": 15.2
         }
       ]
     },
@@ -229,10 +173,10 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "картопля рожева",
-            "title": "Картопля рожева",
-            "category_id": "vegetables-metro",
-            "price": 10.3,
+            "normalized_title": "картопля червона",
+            "title": "Картопля червона",
+            "category_id": "potato-cosmos",
+            "price": 18.9,
             "unit": "kg",
             "weight": "0",
             "bundle": 1,
@@ -248,11 +192,11 @@
             },
             "description": "",
             "slug": "ovochi-kartoplia",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-kartoplia--metro28552600000000/",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/ovochi-kartoplia--cosmos02000000036564/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 10.3
+          "end_price": 18.9
         }
       ]
     },
@@ -283,8 +227,8 @@
           "product": {
             "normalized_title": "капуста молода",
             "title": "Капуста молода",
-            "category_id": "vegetables-metro",
-            "price": 51.9,
+            "category_id": "fresh-cabbage-cosmos",
+            "price": 69.9,
             "unit": "kg",
             "weight": "0",
             "bundle": 1,
@@ -299,12 +243,12 @@
               "trademark_slug": "without-brand"
             },
             "description": "",
-            "slug": "ovochi-kapusta",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-kapusta--metro28247700000000/",
+            "slug": "ovochi-kapusta-ukrayina",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/ovochi-kapusta-ukrayina--cosmos02000000456560/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 51.9
+          "end_price": 69.9
         }
       ]
     },
@@ -333,18 +277,18 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "цибуля синя",
-            "title": "Цибуля синя",
-            "category_id": "vegetables-metro",
-            "price": 57.1,
-            "unit": "kg",
+            "normalized_title": "цибуля фенхель",
+            "title": "Цибуля Фенхель",
+            "category_id": "onion-and-garlic-cosmos",
+            "price": 54.9,
+            "unit": "pcs",
             "weight": "0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
               "value": 1.0,
-              "unit": "kg",
-              "type": "mass"
+              "unit": "pcs",
+              "type": "quantity"
             },
             "producer": {
               "trademark": "без тм",
@@ -352,11 +296,11 @@
             },
             "description": "",
             "slug": "ovochi-tsibulia",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-tsibulia--metro28719000000000/",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/ovochi-tsibulia--cosmos02000001933817/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 57.1
+          "end_price": 54.9
         }
       ]
     },
@@ -385,10 +329,10 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "помідори шинкарь солоні",
-            "title": "Помідори Шинкарь солоні 1кг",
-            "category_id": "salads-and-pickles-metro",
-            "price": 86.29,
+            "normalized_title": "помідори квашені",
+            "title": "Помідори Дунайський аграрій квашені 1кг",
+            "category_id": "canned-tomato-cosmos",
+            "price": 169.0,
             "unit": "pcs",
             "weight": "1000.0",
             "bundle": 1,
@@ -399,16 +343,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Шинкаръ",
-              "trademark_slug": "shinkar"
+              "trademark": "Дунайський Аграрій",
+              "trademark_slug": "dunaiskii-agrarii"
             },
-            "description": "Помідори червоні, цілі, солоні в розсолі, з кислувато-солонуватим приємним смаком і пряним ароматом розфоасовані в  пластикові відерця.",
-            "slug": "ovochi-pomidor-shinkar-1000g-ukrayina",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-pomidor-shinkar-1000g-ukrayina--04820205840401/",
+            "description": "",
+            "slug": "ovochi-pomidor-dunaiskii-agrarii-1000g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/ovochi-pomidor-dunaiskii-agrarii-1000g--04820240130574/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 86.29
+          "end_price": 169.0
         }
       ]
     },
@@ -437,30 +381,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "огірки мариновані цілі",
-            "title": "Огірки Aro мариновані цілі 1л",
-            "category_id": "canned-cucumber-metro",
-            "price": 59.9,
+            "normalized_title": "огірки консервовані",
+            "title": "Огірки Українська Зірка консервовані 1кг",
+            "category_id": "canned-cucumber-cosmos",
+            "price": 83.6,
             "unit": "pcs",
-            "weight": "1400.0",
+            "weight": "1020.0",
             "bundle": 1,
-            "volume": 1000.0,
+            "volume": null,
             "weight_info": {
               "value": 1.0,
-              "unit": "л",
-              "type": "capacity"
+              "unit": "кг",
+              "type": "mass"
             },
             "producer": {
-              "trademark": "Aro",
-              "trademark_slug": "aro"
+              "trademark": "Українська зірка",
+              "trademark_slug": "ukrayinska-zirka"
             },
             "description": "",
-            "slug": "ovochi-ogirki-aro-1000ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-ogirki-aro-1000ml--metro98690056760680/",
+            "slug": "ovochi-ogirki-ukrayinska-zirka-1020g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/ovochi-ogirki-ukrayinska-zirka-1020g--04823071315042/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 59.9
+          "end_price": 83.6
         }
       ]
     },
@@ -489,30 +433,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "цукор белый кристалічний",
-            "title": "Цукор Metro Chef белый кристалічний 1кг",
-            "category_id": "own-brands-metro",
-            "price": 39.9,
+            "normalized_title": "цукор білий ічний порційний *100шт",
+            "title": "Цукор Кристал білий кристалічний порційний 5г*100шт",
+            "category_id": "sugar-1-cosmos",
+            "price": 32.9,
             "unit": "pcs",
-            "weight": "1000.0",
+            "weight": "500.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
               "value": 1.0,
-              "unit": "кг",
-              "type": "mass"
+              "unit": "pcs",
+              "type": "quantity"
             },
             "producer": {
-              "trademark": "Metro Chef",
-              "trademark_slug": "metro-chef"
+              "trademark": "Кристал",
+              "trademark_slug": "kristal"
             },
             "description": "",
-            "slug": "tsukor-metro-shef-1000g",
-            "web_url": "https://metro.zakaz.ua/uk/products/tsukor-metro-shef-1000g--04820160760905/",
+            "slug": "tsukor-kristal-500g-ukrayina",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/tsukor-kristal-500g-ukrayina--04820146980761/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 39.9
+          "end_price": 32.9
         }
       ]
     },
@@ -541,30 +485,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "олія соняшникова рафінована",
-            "title": "Олія Aro соняшникова рафінована 0,85л",
-            "category_id": "own-brands-metro",
-            "price": 46.9,
+            "normalized_title": "свіча магнолія ароматизована",
+            "title": "Свіча Bolsius Магнолія ароматизована 53/45 1шт",
+            "category_id": "tm-bolsius",
+            "price": 34.9,
             "unit": "pcs",
-            "weight": "850.0",
+            "weight": "900.0",
             "bundle": 1,
-            "volume": 850.0,
+            "volume": null,
             "weight_info": {
-              "value": 0.85,
-              "unit": "л",
-              "type": "capacity"
+              "value": 1.0,
+              "unit": "шт",
+              "type": "quantity"
             },
             "producer": {
-              "trademark": "Aro",
-              "trademark_slug": "aro"
+              "trademark": "bolsius",
+              "trademark_slug": "bolsius"
             },
-            "description": "Ідеальна для приготування гарячих страв салатів соусів та домашньої консервації. Виготовлена з відбірного насіння високої якості. В олії збережено природну користь насіння навіть після рафінації.",
-            "slug": "oliia-aro-870ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/oliia-aro-870ml--04820060041050/",
+            "description": "",
+            "slug": "svichka-bolsius-polshcha",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/svichka-bolsius-polshcha--08717847061447/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 46.9
+          "end_price": 34.9
         }
       ]
     },
@@ -593,30 +537,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "яловичина туристична",
-            "title": "Яловичина Етнічні м'ясники туристична 525г",
-            "category_id": "canned-beef-metro",
-            "price": 91.69,
+            "normalized_title": "рідка приправа ніжна яловичина в томатному соусі",
+            "title": "Рідка приправа Верес Ніжна яловичина в томатному соусі 200г",
+            "category_id": "flavoring-and-marinade-cosmos",
+            "price": 25.0,
             "unit": "pcs",
-            "weight": "525.0",
+            "weight": "210.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 525.0,
+              "value": 200.0,
               "unit": "г",
               "type": "mass"
             },
             "producer": {
-              "trademark": "Етнічні М'ясники",
-              "trademark_slug": "etnichni-miasniki"
+              "trademark": "Верес",
+              "trademark_slug": "veres"
             },
-            "description": "",
-            "slug": "m-iaso-etnichni-m-iasniki-525g",
-            "web_url": "https://metro.zakaz.ua/uk/products/m-iaso-etnichni-m-iasniki-525g--04820181490188/",
+            "description": "Ніжна яловичина в томатному соусі – приправа з шматочками овочів та запашними спеціями, додає мясу насичений томатний смак з нотками розмарину, базиліку і мускатного горіху.",
+            "slug": "marinad",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/marinad--04823105402960/",
             "promotion": null
           },
-          "quantity": 3,
-          "end_price": 275.07
+          "quantity": 7,
+          "end_price": 175.0
         }
       ]
     },
@@ -669,10 +613,10 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "оселедець матьє з ароматом запашних трав",
-            "title": "Оселедець Бріз-Т Матьє з ароматом запашних трав 300г",
-            "category_id": "marinated-fish-metro",
-            "price": 87.87,
+            "normalized_title": "оселедець по-скандинавськи філе в олії",
+            "title": "Оселедець Norven По-скандинавськи філе в олії 300г",
+            "category_id": "marinated-fish-cosmos",
+            "price": 59.9,
             "unit": "pcs",
             "weight": "300.0",
             "bundle": 1,
@@ -683,16 +627,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "бріз-т",
-              "trademark_slug": "briz-t"
+              "trademark": "Norven",
+              "trademark_slug": "norven"
             },
-            "description": "",
-            "slug": "riba-oseledets-300g-ukrayina",
-            "web_url": "https://metro.zakaz.ua/uk/products/riba-oseledets-300g-ukrayina--04820088170817/",
+            "description": "Норвезький оселедець LOFOTEN – скандинавський морський делікатес, виловлений у водах Лофотенських островів на півночі Норвегії. Неймовірно смачний, поживний, містить вітаміні, мікроелементи, Омега-3 та Омега-6. Ніжні філе з прянощами в олії. Зручне герметичне паковання. Продукт готовий до вживання та приготування улюблених страв.",
+            "slug": "riba-oseledets-norven-300g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/riba-oseledets-norven-300g--04820185106108/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 87.87
+          "end_price": 59.9
         }
       ]
     },
@@ -721,30 +665,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "молоко органічне",
-            "title": "Молоко Organic Milk органічне 0,5% 1л",
-            "category_id": "pasteurized-milk-metro",
-            "price": 34.22,
+            "normalized_title": "молоко гормолзавод пастеризоване",
+            "title": "Молоко Гормолзавод пастеризоване 2,6% 0,5л",
+            "category_id": "pasteurized-milk-cosmos",
+            "price": 30.0,
             "unit": "pcs",
-            "weight": "1028.0",
+            "weight": "520.0",
             "bundle": 1,
-            "volume": 1000.0,
+            "volume": 500.0,
             "weight_info": {
-              "value": 1.0,
+              "value": 0.5,
               "unit": "л",
               "type": "capacity"
             },
             "producer": {
-              "trademark": "Organic Milk",
-              "trademark_slug": "organic-milk"
+              "trademark": "Гормолзавод №1",
+              "trademark_slug": "gormolzavod-1"
             },
-            "description": "",
-            "slug": "moloko-organik-milk-1000ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
+            "description": "Продовжуємо молочний марафон! Молоку присвячують пісні, про нього складають казки, та шо там казати, першим було не яйце чи курка, а МО - ЛО - КО! До вашої уваги - молоко виключно класу “Екстра”. Використовуємо “коротку пастеризацію” - щоб зберегти корисну молочну мікрофлору. Молоко можна пити з печивом, булочкою або з кавою. Але воно навіть не потребує компанії з вищеназваних смаколиків, бо чудове саме по собі. \nЗміцнює імунітет, допомагає приборкувати застуду і постачає організму вітаміни A, D, B1, B12, кальцій та інше. Словом, пийте молоко - будете здорові! \nІ ще - у нас чесний літр за чесні гроші. Тому що в нашій пляшці молока - цілий літр молока, не менше! Купуєте літр - отримуєте літр! \nМ-м-молочка?",
+            "slug": "moloko-ukrayina",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/moloko-ukrayina--04820168280030/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 34.22
+          "end_price": 30.0
         }
       ]
     },
@@ -773,30 +717,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "молоко органічне",
-            "title": "Молоко Organic Milk органічне 0,5% 1л",
-            "category_id": "pasteurized-milk-metro",
-            "price": 34.22,
+            "normalized_title": "молоко гормолзавод пастеризоване",
+            "title": "Молоко Гормолзавод пастеризоване 2,6% 0,5л",
+            "category_id": "pasteurized-milk-cosmos",
+            "price": 30.0,
             "unit": "pcs",
-            "weight": "1028.0",
+            "weight": "520.0",
             "bundle": 1,
-            "volume": 1000.0,
+            "volume": 500.0,
             "weight_info": {
-              "value": 1.0,
+              "value": 0.5,
               "unit": "л",
               "type": "capacity"
             },
             "producer": {
-              "trademark": "Organic Milk",
-              "trademark_slug": "organic-milk"
+              "trademark": "Гормолзавод №1",
+              "trademark_slug": "gormolzavod-1"
             },
-            "description": "",
-            "slug": "moloko-organik-milk-1000ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
+            "description": "Продовжуємо молочний марафон! Молоку присвячують пісні, про нього складають казки, та шо там казати, першим було не яйце чи курка, а МО - ЛО - КО! До вашої уваги - молоко виключно класу “Екстра”. Використовуємо “коротку пастеризацію” - щоб зберегти корисну молочну мікрофлору. Молоко можна пити з печивом, булочкою або з кавою. Але воно навіть не потребує компанії з вищеназваних смаколиків, бо чудове саме по собі. \nЗміцнює імунітет, допомагає приборкувати застуду і постачає організму вітаміни A, D, B1, B12, кальцій та інше. Словом, пийте молоко - будете здорові! \nІ ще - у нас чесний літр за чесні гроші. Тому що в нашій пляшці молока - цілий літр молока, не менше! Купуєте літр - отримуєте літр! \nМ-м-молочка?",
+            "slug": "moloko-ukrayina",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/moloko-ukrayina--04820168280030/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 34.22
+          "end_price": 30.0
         }
       ]
     },
@@ -825,30 +769,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "кефір термостатний органічний",
-            "title": "Кефір Organic Milk термостатний органічний 1% 1кг",
-            "category_id": "kefir-metro",
-            "price": 44.93,
+            "normalized_title": "кефір мукс термостатний нежирний",
+            "title": "Кефір Азорель Мукс термостатний нежирний 1% 0,5л",
+            "category_id": "kefir-cosmos",
+            "price": 42.2,
             "unit": "pcs",
-            "weight": "1092.0",
+            "weight": "520.0",
             "bundle": 1,
-            "volume": null,
+            "volume": 500.0,
             "weight_info": {
-              "value": 1.0,
-              "unit": "кг",
-              "type": "mass"
+              "value": 0.5,
+              "unit": "л",
+              "type": "capacity"
             },
             "producer": {
-              "trademark": "Organic Milk",
-              "trademark_slug": "organic-milk"
+              "trademark": "Азорель",
+              "trademark_slug": "azorel"
             },
-            "description": "Чому \"О\"?\nТому що Органічно!\nМи - органічне виробництво повного циклу, створене за швейцарською моделлю.\nМи самостійно обробляємо землю, вирощуємо корми, які споживають наші корівки на наших власних фермах і пасовищах.\nМи поєднали традиційний спосіб виробництва молока та інноваційне обладнання, щоб Ви, смакуючи, змогли сказати: \"О! Це натурально і дуже смачно!\".",
-            "slug": "kefir-organik-milk-1000g",
-            "web_url": "https://metro.zakaz.ua/uk/products/kefir-organik-milk-1000g--04820178810029/",
+            "description": "Кефір Мукс виготовляється термостатним способом. Після пастеризації, молоко сепарується, за рахунок чого регулюється вміст жиру до рівня 1%. Далі додається закваска прямого внесення, після чого відбувається процес сквашування у термостатній камері з витримкою до 9 годин. Утворення згустку відбувається у споживчій тарі.",
+            "slug": "kefir-azorel-500ml",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/kefir-azorel-500ml--04820154030229/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 44.93
+          "end_price": 42.2
         }
       ]
     },
@@ -877,30 +821,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "ряжанка селянська",
-            "title": "Ряжанка Селянська 4% 450г",
-            "category_id": "ryazhenka-metro",
-            "price": 26.31,
+            "normalized_title": "ряжанка гормолзавод безлактозна",
+            "title": "Ряжанка Гормолзавод безлактозна 2,5% 1л",
+            "category_id": "ryazhenka-cosmos",
+            "price": 65.5,
             "unit": "pcs",
-            "weight": "469.0",
+            "weight": "1020.0",
             "bundle": 1,
-            "volume": null,
+            "volume": 1000.0,
             "weight_info": {
-              "value": 450.0,
-              "unit": "г",
-              "type": "mass"
+              "value": 1.0,
+              "unit": "л",
+              "type": "capacity"
             },
             "producer": {
-              "trademark": "Селянське",
-              "trademark_slug": "selianske"
+              "trademark": "Гормолзавод №1",
+              "trademark_slug": "gormolzavod-1"
             },
-            "description": "Ряженка тм «Селянська» - один з традиційний кисломолочний продуктів. Виробляється з сировини вищого  та «Екстра» ґатунків з додаванням високоякісних європейських заквасок.",
-            "slug": "riazhanka-selianske-450g-ukrayina",
-            "web_url": "https://metro.zakaz.ua/uk/products/riazhanka-selianske-450g-ukrayina--04820003485941/",
+            "description": "",
+            "slug": "riazhanka-gormolzavod-1000ml-ukrayina",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/riazhanka-gormolzavod-1000ml-ukrayina--04820168280344/",
             "promotion": null
           },
-          "quantity": 6,
-          "end_price": 157.85999999999999
+          "quantity": 1,
+          "end_price": 65.5
         }
       ]
     },
@@ -926,7 +870,35 @@
           "silpo"
         ]
       },
-      "product_buy_infos": []
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "масло вершкове з какао органічне",
+            "title": "Масло Organic Milk вершкове з какао органічне 62% 200г",
+            "category_id": "sweet-butter-cosmos",
+            "price": 103.4,
+            "unit": "pcs",
+            "weight": "210.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 200.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Organic Milk",
+              "trademark_slug": "organic-milk"
+            },
+            "description": "Продукція Organic Milk є унікальною за сукупністю таких характеристик, як користь, безпека споживання, смакові якості та кулінарні можливості. Особливість продукції полягає в тому, що у процесі переробки молока та виробництва молочних продуктів використовуються лише органічне молоко та кисломолочні бактерії, що мають відповідність міжнародним вимогам органічного виробництва.",
+            "slug": "maslo-organik-milk-200g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/maslo-organik-milk-200g--04820178810456/",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 206.8
+        }
+      ]
     },
     {
       "request": {
@@ -953,30 +925,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "сир твердий білий сичужний сир скибочками",
-            "title": "Сир Dublin Dairy твердий білий сичужний сир скибочками 48% 150г",
-            "category_id": "semi-hard-cheese-metro",
-            "price": 114.3,
+            "normalized_title": "сир твердий форте класік безлактозний без глютену",
+            "title": "Сир твердий Valio Форте Класік безлактозний без глютену 26% 180г",
+            "category_id": "hard-cheese-cosmos",
+            "price": 166.2,
             "unit": "pcs",
-            "weight": "150.0",
+            "weight": "190.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 150.0,
+              "value": 180.0,
               "unit": "г",
               "type": "mass"
             },
             "producer": {
-              "trademark": "Dublin Dairy",
-              "trademark_slug": "dublin-dairy"
+              "trademark": "Valio",
+              "trademark_slug": "valio"
             },
-            "description": "",
-            "slug": "sir-dablin-deiri-150g",
-            "web_url": "https://metro.zakaz.ua/uk/products/sir-dablin-deiri-150g--05902431270456/",
+            "description": "Твердий італійський сир Forte Classico цілих 10 місяців проходив процес дозрівання, він має пікантний аромат і трохи солодкуватий присмак. Сир Forte прекрасно підходить для вживання в тертому вигляді, скибочки і кубики сиру ідеально підійдуть як закуска до вина і фруктів.",
+            "slug": "sir-valio-180g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/sir-valio-180g--04740553698113/",
             "promotion": null
           },
           "quantity": 2,
-          "end_price": 228.6
+          "end_price": 332.4
         }
       ]
     },
@@ -1005,12 +977,12 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "сметана яготинська",
-            "title": "Сметана Яготинська 15% 400г",
-            "category_id": "sour-cream-metro",
-            "price": 42.85,
+            "normalized_title": "сметана гормолзавод термостатна",
+            "title": "Сметана Гормолзавод №1 термостатна 15% 400г",
+            "category_id": "sour-cream-cosmos",
+            "price": 42.0,
             "unit": "pcs",
-            "weight": "420.0",
+            "weight": "400.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
@@ -1019,16 +991,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Яготинське",
-              "trademark_slug": "iagotinske"
+              "trademark": "Гормолзавод №1",
+              "trademark_slug": "gormolzavod-1"
             },
-            "description": "Сметана ТМ «Яготинська» виробляється зі свіжих натуральних вершків різного вмісту жиру — 15% та 21%. Вона має однорідну, в міру густу консистенцію та чистий кисломолочний смак з ніжним ароматом.\nЯк і вся продукція ТМ «Яготинське», сметана на Яготинському маслозаводі виробляється на сучасному обладнанні закритого циклу від світових виробників, яке виключає прямий контакт рук з продукцією під час її виробництва. Весь виробничий цикл — від прийому молока на завод до фасування готової продукції — відбувається в закритому режимі без втручання людини.\nСметана — дуже смачний та корисний продукт.  Додавайте сметану до борщу, млинців, вареників та використовуйте в якості заправки для салатів.",
-            "slug": "smetana-iagotin-400g",
-            "web_url": "https://metro.zakaz.ua/uk/products/smetana-iagotin-400g--04823005203216/",
+            "description": "Продукт виготовлений з нормалізованих пастеризованих вершків сквашуванням закваскою молочнокислих культур термостатним способом.\nСметану застосовують для безпосереднього вживання в їжу, для кулінарних цілей.",
+            "slug": "smetana-gormolzavod-400g",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/smetana-gormolzavod-400g--04820168280252/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 42.85
+          "end_price": 42.0
         }
       ]
     },
@@ -1057,33 +1029,33 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "яйця перепелині metro chef",
-            "title": "Яйця перепелині Metro Chef 20шт",
-            "category_id": "quail-eggs-metro",
-            "price": 60.9,
+            "normalized_title": "прикраса пасхальна великдні яйця з трояндами",
+            "title": "Прикраса пасхальна Великдні яйця з трояндами",
+            "category_id": "easter-goods-cosmos",
+            "price": 39.06,
             "unit": "pcs",
-            "weight": "280.0",
+            "weight": "66.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 20.0,
-              "unit": "шт",
+              "value": 1.0,
+              "unit": "pcs",
               "type": "quantity"
             },
             "producer": {
-              "trademark": "Metro Professional",
-              "trademark_slug": "metro-professional"
+              "trademark": "Добрик",
+              "trademark_slug": "dobrik"
             },
             "description": "",
-            "slug": "iaitse",
-            "web_url": "https://metro.zakaz.ua/uk/products/iaitse--04820184280106/",
+            "slug": "ukrayina",
+            "web_url": "https://cosmos.zakaz.ua/uk/products/ukrayina--04820205893667/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 60.9
+          "end_price": 39.06
         }
       ]
     }
   ],
-  "end_price": 1784
+  "end_price": 1502
 }

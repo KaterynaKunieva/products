@@ -1,49 +1,661 @@
 {
   "buy_list": [
     {
-      "shop": "silpo",
+      "shop": "auchan",
       "product_request": {
         "request": {
-          "title_filter": "напій енергетичний",
-          "brand_filter": [
-            "Monster Energy",
-            "Non stop"
-          ],
-          "weight_filter": null,
+          "title_filter": "Хліб житній",
+          "brand_filter": null,
+          "weight_filter": "3.25кг",
           "shop_filter": [
-            "silpo",
             "novus",
             "metro",
-            "varus"
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
           ]
         },
         "product_buy_infos": [
           {
             "product": {
-              "normalized_title": "напій енергетичний jungle evolution fresh з/б",
-              "title": "Напій енергетичний Non Stop Jungle Evolution Fresh з/б",
-              "category_id": "59",
-              "price": 17.9,
-              "unit": null,
-              "weight": "250мл",
-              "bundle": null,
+              "normalized_title": "хліб житній діабетичний формовий",
+              "title": "Хліб Формула смаку житній діабетичний формовий 300г",
+              "category_id": "rye-bread-auchan",
+              "price": 12.4,
+              "unit": "pcs",
+              "weight": "300.0",
+              "bundle": 1,
               "volume": null,
               "weight_info": {
-                "value": 250.0,
-                "unit": "мл",
-                "type": "capacity"
+                "value": 300.0,
+                "unit": "г",
+                "type": "mass"
               },
               "producer": {
-                "trademark": "Non Stop",
-                "trademark_slug": null
+                "trademark": "Формула Смаку",
+                "trademark_slug": "formula-smaku"
               },
-              "description": null,
-              "slug": "napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
-              "web_url": "https://shop.silpo.ua/product/napii-energetychnyi-non-stop-jungle-evolution-fresh-z-b-838902",
+              "description": "Рекомендується для вживання всім віковим групам населення для покращення моторики кишечника, нормалізації органів травлення, виведення із організму токсичних елементів та радіонуклідів.",
+              "slug": "khlib-formula-smaku-300g",
+              "web_url": "https://auchan.zakaz.ua/uk/products/khlib-formula-smaku-300g--04820018281545/",
+              "promotion": null
+            },
+            "quantity": 11,
+            "end_price": 136.4
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Хліб пшеничний",
+          "brand_filter": null,
+          "weight_filter": "5.2кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "хліб пшеничний тостовий ваговий",
+              "title": "Хліб пшеничний тостовий ваговий",
+              "category_id": "bread-own-bakery-auchan",
+              "price": 68.0,
+              "unit": "kg",
+              "weight": "0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "kg",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "без тм",
+                "trademark_slug": "without-brand"
+              },
+              "description": "",
+              "slug": "khlib",
+              "web_url": "https://auchan.zakaz.ua/uk/products/khlib--auchan02521454000000/",
               "promotion": null
             },
             "quantity": 1,
-            "end_price": 17.9
+            "end_price": 68.0
+          }
+        ]
+      }
+    },
+    {
+      "shop": "varus",
+      "product_request": {
+        "request": {
+          "title_filter": "Борошно пшеничне",
+          "brand_filter": null,
+          "weight_filter": "0,8кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "борошно пшеничне вищого гатунку",
+              "title": "Борошно Вигода пшеничне вищого гатунку 1кг",
+              "category_id": "flour-varus",
+              "price": 14.3,
+              "unit": "pcs",
+              "weight": "1000.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "кг",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Вигода ",
+                "trademark_slug": "vigoda"
+              },
+              "description": "",
+              "slug": "boroshno-vigoda-1000g",
+              "web_url": "https://varus.zakaz.ua/uk/products/boroshno-vigoda-1000g--varus02059967600004/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 14.3
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Картопля",
+          "brand_filter": null,
+          "weight_filter": "7,9кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "картопля відбірна",
+              "title": "Картопля відбірна",
+              "category_id": "fresh-potatoes-auchan",
+              "price": 4.5,
+              "unit": "kg",
+              "weight": "0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "kg",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "без тм",
+                "trademark_slug": "without-brand"
+              },
+              "description": "",
+              "slug": "ovochi-kartoplia",
+              "web_url": "https://auchan.zakaz.ua/uk/products/ovochi-kartoplia--auchan02208525000000/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Капуста",
+          "brand_filter": null,
+          "weight_filter": "2,3кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "капуста економ",
+              "title": "Капуста Економ",
+              "category_id": "fresh-cabbage-auchan",
+              "price": 19.9,
+              "unit": "kg",
+              "weight": "0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "kg",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "без тм",
+                "trademark_slug": "without-brand"
+              },
+              "description": "",
+              "slug": "ovochi-kapusta-ukrayina",
+              "web_url": "https://auchan.zakaz.ua/uk/products/ovochi-kapusta-ukrayina--auchan02208524000000/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 19.9
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Цибуля",
+          "brand_filter": null,
+          "weight_filter": "0,8кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "цибуля економ",
+              "title": "Цибуля Економ",
+              "category_id": "onions-auchan",
+              "price": 5.2,
+              "unit": "kg",
+              "weight": "0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "kg",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "без тм",
+                "trademark_slug": "without-brand"
+              },
+              "description": "",
+              "slug": "ovochi-tsibulia",
+              "web_url": "https://auchan.zakaz.ua/uk/products/ovochi-tsibulia--auchan02201095000000/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "shop": "megamarket",
+      "product_request": {
+        "request": {
+          "title_filter": "Помідори",
+          "brand_filter": null,
+          "weight_filter": "1,1кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "помідори шинкарь солоні",
+              "title": "Помідори Шинкарь солоні 1кг",
+              "category_id": "salads-and-pickles-megamarket",
+              "price": 72.2,
+              "unit": "pcs",
+              "weight": "1000.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "кг",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Шинкаръ",
+                "trademark_slug": "shinkar"
+              },
+              "description": "Помідори червоні, цілі, солоні в розсолі, з кислувато-солонуватим приємним смаком і пряним ароматом розфоасовані в  пластикові відерця.",
+              "slug": "ovochi-pomidor-shinkar-1000g-ukrayina",
+              "web_url": "https://megamarket.zakaz.ua/uk/products/ovochi-pomidor-shinkar-1000g-ukrayina--04820205840401/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 72.2
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Огірки",
+          "brand_filter": null,
+          "weight_filter": "1кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "огірки корнішони /500г",
+              "title": "Огірки Чудова Марка корнішони 300г/500г",
+              "category_id": "salads-and-pickles-auchan",
+              "price": 55.8,
+              "unit": "pcs",
+              "weight": "500.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "pcs",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "Чудова марка",
+                "trademark_slug": "chudova-marka"
+              },
+              "description": "",
+              "slug": "ovochi-ogirki-chudova-marka-500g",
+              "web_url": "https://auchan.zakaz.ua/uk/products/ovochi-ogirki-chudova-marka-500g--04820116704915/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 55.8
+          }
+        ]
+      }
+    },
+    {
+      "shop": "таврія",
+      "product_request": {
+        "request": {
+          "title_filter": "Цукор",
+          "brand_filter": null,
+          "weight_filter": "2кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "цукор білий ічний порційний *100шт",
+              "title": "Цукор Кристал білий кристалічний порційний 5г*100шт",
+              "category_id": "sugar-1-tavriav",
+              "price": 32.9,
+              "unit": "pcs",
+              "weight": "500.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "pcs",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "Кристал",
+                "trademark_slug": "kristal"
+              },
+              "description": "",
+              "slug": "tsukor-kristal-500g-ukrayina",
+              "web_url": "https://tavriav.zakaz.ua/uk/products/tsukor-kristal-500g-ukrayina--04820146980761/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 32.9
+          }
+        ]
+      }
+    },
+    {
+      "shop": "novus",
+      "product_request": {
+        "request": {
+          "title_filter": "Олія",
+          "brand_filter": null,
+          "weight_filter": "0,6кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "маска-олія oberig відновлююча яєчно-пантенолова з 5 оліями для пошкодженого сухого пористого та фарбованого волосся",
+              "title": "Маска-олія O'Berig Відновлююча яєчно-пантенолова з 5 оліями для пошкодженого сухого пористого та фарбованого волосся 15мл",
+              "category_id": "special-care",
+              "price": 3.49,
+              "unit": "pcs",
+              "weight": "15.0",
+              "bundle": 1,
+              "volume": 15.0,
+              "weight_info": {
+                "value": 5.0,
+                "unit": "оліями",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "O’BERIG",
+                "trademark_slug": "oberig"
+              },
+              "description": "",
+              "slug": "ukrayina",
+              "web_url": "https://novus.zakaz.ua/uk/products/ukrayina--04820197006717/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 3.49
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Яловичина",
+          "brand_filter": null,
+          "weight_filter": "1,3кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "ласощі клуб 4 лапи преміум мясна паличка яловичина для собак",
+              "title": "Ласощі Клуб 4 лапи Преміум М'ясна Паличка яловичина для собак 12г",
+              "category_id": "dog-treats-auchan",
+              "price": 20.9,
+              "unit": "pcs",
+              "weight": "15.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 4.0,
+                "unit": "лапи",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "CLUB 4 PAWS",
+                "trademark_slug": "club-4-paws"
+              },
+              "description": "Ласощі для собак у вигляді м’ясної палички містять 90% м’ясних інгредієнтів (зокрема 29 % з\nяловичини) та вітамінний комплекс A, E, D3 та L-карнітин. Беззернові палички виготовлені без\nвикористання цукру, сої, штучних ароматизаторів та барвників. Для максимального збереження\nсвіжості продукту, кожна паличка запакована в індивідуальну металізовану упаковку. Смаколик\nможе бути ідеальною винагородою за виконання команд на прогулянці чи в подорожі, а також\nяк перекусом між прийомами їжі.",
+              "slug": "lasoshchi-klub-4-lapi-12g-ukrayina",
+              "web_url": "https://auchan.zakaz.ua/uk/products/lasoshchi-klub-4-lapi-12g-ukrayina--04820083908217/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 20.9
+          }
+        ]
+      }
+    },
+    {
+      "shop": "megamarket",
+      "product_request": {
+        "request": {
+          "title_filter": "Курятина",
+          "brand_filter": null,
+          "weight_filter": "1,7кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "курятина по-східному з овочами",
+              "title": "Курятина по-східному з овочами",
+              "category_id": "meat-dishes-megamarket",
+              "price": 355.0,
+              "unit": "kg",
+              "weight": "0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "kg",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "без тм",
+                "trademark_slug": "without-brand"
+              },
+              "description": "",
+              "slug": "m-iaso",
+              "web_url": "https://megamarket.zakaz.ua/uk/products/m-iaso--megamarket00000000173636/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 355.0
           }
         ]
       }
@@ -52,26 +664,33 @@
       "shop": "silpo",
       "product_request": {
         "request": {
-          "title_filter": "цукерки",
-          "brand_filter": [
-            "Roshen",
-            "Milka"
-          ],
-          "weight_filter": null,
+          "title_filter": "Оселедець",
+          "brand_filter": null,
+          "weight_filter": "0,3кг",
           "shop_filter": [
-            "silpo",
             "novus",
             "metro",
-            "varus"
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
           ]
         },
         "product_buy_infos": [
           {
             "product": {
-              "normalized_title": "цукерки джеллі желейні",
-              "title": "Цукерки Roshen «Джеллі» желейні",
-              "category_id": "520",
-              "price": 12.3,
+              "normalized_title": "оселедець с/м 300+",
+              "title": "Оселедець с/м 300+",
+              "category_id": "282",
+              "price": 10.9,
               "unit": null,
               "weight": "100г",
               "bundle": null,
@@ -82,16 +701,16 @@
                 "type": "mass"
               },
               "producer": {
-                "trademark": "Roshen",
+                "trademark": "Без ТМ",
                 "trademark_slug": null
               },
               "description": null,
-              "slug": "tsukerky-roshen-dzhelli-zheleini-139011",
-              "web_url": "https://shop.silpo.ua/product/tsukerky-roshen-dzhelli-zheleini-139011",
+              "slug": "oseledets-s-m-300-574460",
+              "web_url": "https://shop.silpo.ua/product/oseledets-s-m-300-574460",
               "promotion": null
             },
-            "quantity": 1,
-            "end_price": 12.3
+            "quantity": 3,
+            "end_price": 32.7
           }
         ]
       }
@@ -100,14 +719,24 @@
       "shop": "silpo",
       "product_request": {
         "request": {
-          "title_filter": "молоко",
+          "title_filter": "Молоко",
           "brand_filter": null,
-          "weight_filter": "1кг",
+          "weight_filter": "5кг",
           "shop_filter": [
-            "silpo",
             "novus",
             "metro",
-            "varus"
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
           ]
         },
         "product_buy_infos": [
@@ -116,7 +745,7 @@
               "normalized_title": "молоко дитяче харчування від 9 місяців",
               "title": "Молоко «Злагода» дитяче харчування від 9 місяців 3,2%",
               "category_id": "4373",
-              "price": 15.99,
+              "price": 17.99,
               "unit": null,
               "weight": "0,2кг",
               "bundle": null,
@@ -136,11 +765,341 @@
               "promotion": null
             },
             "quantity": 1,
-            "end_price": 15.99
+            "end_price": 17.99
+          }
+        ]
+      }
+    },
+    {
+      "shop": "auchan",
+      "product_request": {
+        "request": {
+          "title_filter": "Кефір",
+          "brand_filter": null,
+          "weight_filter": "2.5кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "кефір кожен день",
+              "title": "Кефір Кожен День 1%",
+              "category_id": "kefir-auchan",
+              "price": 13.9,
+              "unit": "pcs",
+              "weight": "400.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "pcs",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "Ашан",
+                "trademark_slug": "ashan"
+              },
+              "description": "",
+              "slug": "kefir-kozhen-den-400g",
+              "web_url": "https://auchan.zakaz.ua/uk/products/kefir-kozhen-den-400g--04823090114244/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 13.9
+          }
+        ]
+      }
+    },
+    {
+      "shop": "ultramarket",
+      "product_request": {
+        "request": {
+          "title_filter": "Ряжанка",
+          "brand_filter": null,
+          "weight_filter": "2.5кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "ряжанка термостатна",
+              "title": "Ряжанка Villa Milk термостатна 4% 0,5л",
+              "category_id": "ryazhenka-ultramarket",
+              "price": 33.9,
+              "unit": "pcs",
+              "weight": "500.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 0.5,
+                "unit": "л",
+                "type": "capacity"
+              },
+              "producer": {
+                "trademark": "Villa Milk",
+                "trademark_slug": "villa-milk"
+              },
+              "description": "Ряжанка термостатна 4% це натуральний кисломолочний продукт, виготовлений у резервуарі, що відтворює традиційну українську піч і дарує неповторний домашній смак. У молоко, після пастеризації, додається закваска, після чого відбувається автоматизований процес розливу у споживчу тару. Потім продукт направляється до термостатної камери, де при температурі роботи закваски з витримкою до 12 годин, відбувається процес сквашування. Утворення згустку відбувається безпосередньо у тій тарі, яку ви бачите в магазині. Такий істинно народний спосіб приготування дозволяє отримати однорідну глянцеву і щільну структуру продукту, робить його густим і смачним.",
+              "slug": "ukrayina",
+              "web_url": "https://ultramarket.zakaz.ua/uk/products/ukrayina--04820220740120/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 33.9
+          }
+        ]
+      }
+    },
+    {
+      "shop": "novus",
+      "product_request": {
+        "request": {
+          "title_filter": "Масло вершкове",
+          "brand_filter": null,
+          "weight_filter": "0,4кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "масло вершкове несолоне",
+              "title": "Масло Golden White вершкове несолоне 82% 250г",
+              "category_id": "sweet-butter",
+              "price": 68.99,
+              "unit": "pcs",
+              "weight": "253.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 250.0,
+                "unit": "г",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Golden White",
+                "trademark_slug": "golden-white"
+              },
+              "description": "",
+              "slug": "maslo-golden-vait-250g-frantsiia",
+              "web_url": "https://novus.zakaz.ua/uk/products/maslo-golden-vait-250g-frantsiia--03278310990169/",
+              "promotion": null
+            },
+            "quantity": 2,
+            "end_price": 137.98
+          }
+        ]
+      }
+    },
+    {
+      "shop": "ultramarket",
+      "product_request": {
+        "request": {
+          "title_filter": "Сир твердий",
+          "brand_filter": null,
+          "weight_filter": "0,3кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "сир твердий тертий безлактозний 2 місяці дозрівання",
+              "title": "Сир Dziugas твердий тертий безлактозний 2 місяці дозрівання 40% 100г",
+              "category_id": "hard-cheese-ultramarket",
+              "price": 85.7,
+              "unit": "pcs",
+              "weight": "100.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 2.0,
+                "unit": "місяці",
+                "type": "quantity"
+              },
+              "producer": {
+                "trademark": "Dziugas",
+                "trademark_slug": "dziugas"
+              },
+              "description": "",
+              "slug": "sir-dzhiugas-100g",
+              "web_url": "https://ultramarket.zakaz.ua/uk/products/sir-dzhiugas-100g--04770299046152/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 85.7
+          }
+        ]
+      }
+    },
+    {
+      "shop": "столичний",
+      "product_request": {
+        "request": {
+          "title_filter": "Сметана",
+          "brand_filter": null,
+          "weight_filter": "0,4кг",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "сметана вівальді",
+              "title": "Сметана Вівальді 21% 400г",
+              "category_id": "sour-cream-stolychnyi",
+              "price": 29.9,
+              "unit": "pcs",
+              "weight": "400.0",
+              "bundle": 1,
+              "volume": null,
+              "weight_info": {
+                "value": 400.0,
+                "unit": "г",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Vivaldi",
+                "trademark_slug": "vivaldi"
+              },
+              "description": "",
+              "slug": "smetana-400g",
+              "web_url": "https://stolychnyi.zakaz.ua/uk/products/smetana-400g--stolychnyi02010007434003/",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 29.9
+          }
+        ]
+      }
+    },
+    {
+      "shop": "silpo",
+      "product_request": {
+        "request": {
+          "title_filter": "Яйця",
+          "brand_filter": null,
+          "weight_filter": "18шт",
+          "shop_filter": [
+            "novus",
+            "metro",
+            "таврія",
+            "космос",
+            "восторг",
+            "харків",
+            "varus",
+            "auchan",
+            "winetime",
+            "столичний",
+            "megamarket",
+            "ultramarket",
+            "екомаркет",
+            "silpo"
+          ]
+        },
+        "product_buy_infos": [
+          {
+            "product": {
+              "normalized_title": "свічка у формі яйця великодня 60/45 мм в асортименті",
+              "title": "Свічка Bolsius у формі яйця великодня 60/45 мм в асортименті",
+              "category_id": "645",
+              "price": 14.99,
+              "unit": null,
+              "weight": "шт",
+              "bundle": null,
+              "volume": null,
+              "weight_info": {
+                "value": 1.0,
+                "unit": "кг",
+                "type": "mass"
+              },
+              "producer": {
+                "trademark": "Bolsius",
+                "trademark_slug": null
+              },
+              "description": null,
+              "slug": "svichka-bolsius-u-formi-iaitsia-velykodnia-60-45-mm-v-asortymenti-597108",
+              "web_url": "https://shop.silpo.ua/product/svichka-bolsius-u-formi-iaitsia-velykodnia-60-45-mm-v-asortymenti-597108",
+              "promotion": null
+            },
+            "quantity": 1,
+            "end_price": 14.99
           }
         ]
       }
     }
   ],
-  "end_price": 46
+  "end_price": 1155
 }

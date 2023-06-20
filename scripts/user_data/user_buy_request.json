@@ -1,40 +1,146 @@
 {
   "buy_list": [
     {
-      "title_filter": "напій енергетичний",
-      "shop_filter": [
-        "silpo",
-        "novus",
-        "metro",
-        "varus"
-      ],
-      "brand_filter": [
-        "Monster Energy",
-        "Non stop"
-      ]
+      "title_filter": "Хліб житній",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "3.25кг"
     },
     {
-      "title_filter": "цукерки",
-      "shop_filter": [
-        "silpo",
-        "novus",
-        "metro",
-        "varus"
-      ],
-      "brand_filter": [
-        "Roshen", "Milka"
-      ]
+      "title_filter": "Хліб пшеничний",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "5.2кг"
     },
     {
-      "title_filter": "молоко",
-      "weight_filter": "1кг",
-      "shop_filter": [
-        "silpo",
-        "novus",
-        "metro",
-        "varus"
-      ]
+      "title_filter": "Борошно пшеничне",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,8кг"
+    },
+    {
+      "title_filter": "Вівсяна крупа",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,1кг"
+    },
+    {
+      "title_filter": "Гречана крупа",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,2кг"
+    },
+    {
+      "title_filter": "Картопля",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "7,9кг"
+    },
+    {
+      "title_filter": "Капуста",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "2,3кг"
+    },
+    {
+      "title_filter": "Цибуля",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,8кг"
+    },
+    {
+      "title_filter": "Помідори",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "1,1кг"
+    },
+    {
+      "title_filter": "Огірки",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "1кг"
+    },
+    {
+      "title_filter": "Цукор",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "2кг"
+    },
+    {
+      "title_filter": "Олія",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,6кг"
+    },
+    {
+      "title_filter": "Яловичина",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "1,3кг"
+    },
+    {
+      "title_filter": "Курятина",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "1,7кг"
+    },
+    {
+      "title_filter": "Оселедець",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,3кг"
+    },
+    {
+      "title_filter": "Молоко",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "5кг"
+    },
+    {
+      "title_filter": "Молоко",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "5кг"
+    },
+    {
+      "title_filter": "Кефір",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "2.5кг"
+    },
+    {
+      "title_filter": "Ряжанка",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "2.5кг"
+    },
+    {
+      "title_filter": "Масло вершкове",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,4кг"
+    },
+    {
+      "title_filter": "Сир твердий",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,3кг"
+    },
+    {
+      "title_filter": "Сметана",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "0,4кг"
+    },
+    {
+      "title_filter": "Яйця",
+      "shop_filter": ["novus", "metro", "таврія", "космос", "восторг", "харків", "varus", "auchan", "winetime", 
+        "столичний", "megamarket", "ultramarket", "екомаркет", "silpo"],
+      "weight_filter": "18шт"
     }
+
+
+
   ],
   "buy_location_preference": "multi_shop_check"
 }

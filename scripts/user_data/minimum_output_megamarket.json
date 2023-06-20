@@ -22,35 +22,7 @@
           "silpo"
         ]
       },
-      "product_buy_infos": [
-        {
-          "product": {
-            "normalized_title": "хліб житній нарізаний",
-            "title": "Хліб Рум'янець житній нарізаний 450г",
-            "category_id": "rye-bread-metro",
-            "price": 25.23,
-            "unit": "pcs",
-            "weight": "450.0",
-            "bundle": 1,
-            "volume": null,
-            "weight_info": {
-              "value": 450.0,
-              "unit": "г",
-              "type": "mass"
-            },
-            "producer": {
-              "trademark": "Рум'янець",
-              "trademark_slug": "rumianets"
-            },
-            "description": "Справжній житній хліб, виготовлений з житнього обдирного борошна. Ми робимо цей хліб на живій житній заквасці, яка допомагає розкрити усі корисні властивості житнього хліба. Наш «100% житній» має щільний дещо вологий м’якуш та насичений житній смак з легкою кислинкою, яку вдало доповнюють пряні нотки гвоздики та кмину. Рекомендуємо «100% житній» зі шматочками щедро приправленого за смаком сала до наваристого українського борщу.",
-            "slug": "khlib-rum-ianets-450g",
-            "web_url": "https://metro.zakaz.ua/uk/products/khlib-rum-ianets-450g--04820062050746/",
-            "promotion": null
-          },
-          "quantity": 8,
-          "end_price": 201.84
-        }
-      ]
+      "product_buy_infos": []
     },
     {
       "request": {
@@ -77,30 +49,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "хліб пшеничний сімейний нарізаний",
-            "title": "Хліб пшеничний Київхліб Сімейний нарізаний 600г",
-            "category_id": "wheat-bread-metro",
-            "price": 26.39,
+            "normalized_title": "хліб пшеничний заварний",
+            "title": "Хліб Пшеничний Заварний 500г",
+            "category_id": "own-bread-and-bakery-products-megamarket",
+            "price": 26.0,
             "unit": "pcs",
-            "weight": "600.0",
+            "weight": "500.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 600.0,
+              "value": 500.0,
               "unit": "г",
               "type": "mass"
             },
             "producer": {
-              "trademark": "Київхліб",
-              "trademark_slug": "kiyivkhlib"
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
             },
-            "description": "Класичний пшеничний хліб з додаванням молочної сироватки – це ніжний молочний смак хліба та пухка м’якушка. Класика, яку складно перевершити! ДСТУ 7518.",
-            "slug": "khlib-kiyivkhlib-600g",
-            "web_url": "https://metro.zakaz.ua/uk/products/khlib-kiyivkhlib-600g--04820136408305/",
+            "description": "",
+            "slug": "khlib-500g",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/khlib-500g--megamarket00000000151894/",
             "promotion": null
           },
-          "quantity": 9,
-          "end_price": 237.51
+          "quantity": 11,
+          "end_price": 286.0
         }
       ]
     },
@@ -129,10 +101,10 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "борошно пшеничне цільнозернове жорнове",
-            "title": "Борошно Metro Chef пшеничне цільнозернове жорнове 1кг",
-            "category_id": "flour-metro",
-            "price": 26.8,
+            "normalized_title": "борошно пшеничне перший сорт",
+            "title": "Борошно EuroMill пшеничне перший сорт 1кг",
+            "category_id": "flour-megamarket",
+            "price": 19.9,
             "unit": "pcs",
             "weight": "1000.0",
             "bundle": 1,
@@ -143,16 +115,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Metro Chef",
-              "trademark_slug": "metro-chef"
+              "trademark": "EuroMill ",
+              "trademark_slug": "euromill"
             },
-            "description": "Рекомендації щодо вживання: борошно пшеничне цільнозернове використовують при приготуванні хліба, хлібобулочних виробів та млинців.",
-            "slug": "boroshno-metro-shef-1000g",
-            "web_url": "https://metro.zakaz.ua/uk/products/boroshno-metro-shef-1000g--04820019601656/",
+            "description": "",
+            "slug": "boroshno-ievromil-1000g",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/boroshno-ievromil-1000g--04820213980137/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 26.8
+          "end_price": 19.9
         }
       ]
     },
@@ -231,8 +203,8 @@
           "product": {
             "normalized_title": "картопля рожева",
             "title": "Картопля рожева",
-            "category_id": "vegetables-metro",
-            "price": 10.3,
+            "category_id": "potato-megamarket",
+            "price": 13.9,
             "unit": "kg",
             "weight": "0",
             "bundle": 1,
@@ -248,11 +220,11 @@
             },
             "description": "",
             "slug": "ovochi-kartoplia",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-kartoplia--metro28552600000000/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/ovochi-kartoplia--megamarket00000000190251/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 10.3
+          "end_price": 13.9
         }
       ]
     },
@@ -283,8 +255,8 @@
           "product": {
             "normalized_title": "капуста молода",
             "title": "Капуста молода",
-            "category_id": "vegetables-metro",
-            "price": 51.9,
+            "category_id": "fresh-cabbage-megamarket",
+            "price": 53.9,
             "unit": "kg",
             "weight": "0",
             "bundle": 1,
@@ -300,11 +272,11 @@
             },
             "description": "",
             "slug": "ovochi-kapusta",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-kapusta--metro28247700000000/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/ovochi-kapusta--megamarket00000000123198/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 51.9
+          "end_price": 53.9
         }
       ]
     },
@@ -333,10 +305,10 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "цибуля синя",
-            "title": "Цибуля синя",
-            "category_id": "vegetables-metro",
-            "price": 57.1,
+            "normalized_title": "цибуля синя марс",
+            "title": "Цибуля синя Марс",
+            "category_id": "onion-and-garlic-megamarket",
+            "price": 60.8,
             "unit": "kg",
             "weight": "0",
             "bundle": 1,
@@ -352,11 +324,11 @@
             },
             "description": "",
             "slug": "ovochi-tsibulia",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-tsibulia--metro28719000000000/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/ovochi-tsibulia--megamarket00000000124744/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 57.1
+          "end_price": 60.8
         }
       ]
     },
@@ -387,8 +359,8 @@
           "product": {
             "normalized_title": "помідори шинкарь солоні",
             "title": "Помідори Шинкарь солоні 1кг",
-            "category_id": "salads-and-pickles-metro",
-            "price": 86.29,
+            "category_id": "salads-and-pickles-megamarket",
+            "price": 72.2,
             "unit": "pcs",
             "weight": "1000.0",
             "bundle": 1,
@@ -404,11 +376,11 @@
             },
             "description": "Помідори червоні, цілі, солоні в розсолі, з кислувато-солонуватим приємним смаком і пряним ароматом розфоасовані в  пластикові відерця.",
             "slug": "ovochi-pomidor-shinkar-1000g-ukrayina",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-pomidor-shinkar-1000g-ukrayina--04820205840401/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/ovochi-pomidor-shinkar-1000g-ukrayina--04820205840401/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 86.29
+          "end_price": 72.2
         }
       ]
     },
@@ -437,30 +409,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "огірки мариновані цілі",
-            "title": "Огірки Aro мариновані цілі 1л",
-            "category_id": "canned-cucumber-metro",
-            "price": 59.9,
+            "normalized_title": "огірки шинкарь солоні",
+            "title": "Огірки Шинкарь солоні 1кг",
+            "category_id": "salads-and-pickles-megamarket",
+            "price": 65.2,
             "unit": "pcs",
-            "weight": "1400.0",
+            "weight": "1000.0",
             "bundle": 1,
-            "volume": 1000.0,
+            "volume": null,
             "weight_info": {
               "value": 1.0,
-              "unit": "л",
-              "type": "capacity"
+              "unit": "кг",
+              "type": "mass"
             },
             "producer": {
-              "trademark": "Aro",
-              "trademark_slug": "aro"
+              "trademark": "Шинкаръ",
+              "trademark_slug": "shinkar"
             },
-            "description": "",
-            "slug": "ovochi-ogirki-aro-1000ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/ovochi-ogirki-aro-1000ml--metro98690056760680/",
+            "description": "Огірки солоні, цілі, розміром 9-11см.,  в розсолі, з кислувато-солонуватим приємним смаком і пряним ароматом розфасовані в  пластикові відерця.",
+            "slug": "ovochi-ogirki-shinkar-1000g-ukrayina",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/ovochi-ogirki-shinkar-1000g-ukrayina--04820205840388/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 59.9
+          "end_price": 65.2
         }
       ]
     },
@@ -489,12 +461,12 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "цукор белый кристалічний",
-            "title": "Цукор Metro Chef белый кристалічний 1кг",
-            "category_id": "own-brands-metro",
-            "price": 39.9,
+            "normalized_title": "цукор пресований кубик",
+            "title": "Цукор Саркара Продукт пресований кубик 1кг",
+            "category_id": "sugar-1-megamarket",
+            "price": 52.9,
             "unit": "pcs",
-            "weight": "1000.0",
+            "weight": "1002.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
@@ -503,16 +475,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Metro Chef",
-              "trademark_slug": "metro-chef"
+              "trademark": "Саркара Продукт",
+              "trademark_slug": "sarkara-produkt"
             },
-            "description": "",
-            "slug": "tsukor-metro-shef-1000g",
-            "web_url": "https://metro.zakaz.ua/uk/products/tsukor-metro-shef-1000g--04820160760905/",
+            "description": "Цукор білий пресований з цукрових буряків швидкорозчинний в формі кубика.",
+            "slug": "tsukor-sarkara-produkt-1000g",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/tsukor-sarkara-produkt-1000g--04820160760226/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 39.9
+          "end_price": 52.9
         }
       ]
     },
@@ -541,30 +513,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "олія соняшникова рафінована",
-            "title": "Олія Aro соняшникова рафінована 0,85л",
-            "category_id": "own-brands-metro",
-            "price": 46.9,
+            "normalized_title": "серветки магнолія 18шт",
+            "title": "Серветки Silken Магнолія 33х33см 18шт",
+            "category_id": "table-napkins-megamarket",
+            "price": 31.5,
             "unit": "pcs",
-            "weight": "850.0",
+            "weight": "50.0",
             "bundle": 1,
-            "volume": 850.0,
+            "volume": null,
             "weight_info": {
-              "value": 0.85,
-              "unit": "л",
-              "type": "capacity"
+              "value": 1089.0,
+              "unit": "см",
+              "type": "length"
             },
             "producer": {
-              "trademark": "Aro",
-              "trademark_slug": "aro"
+              "trademark": "Silken",
+              "trademark_slug": "silken"
             },
-            "description": "Ідеальна для приготування гарячих страв салатів соусів та домашньої консервації. Виготовлена з відбірного насіння високої якості. В олії збережено природну користь насіння навіть після рафінації.",
-            "slug": "oliia-aro-870ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/oliia-aro-870ml--04820060041050/",
+            "description": "",
+            "slug": "servetka-silken",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/servetka-silken--04823077402807/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 46.9
+          "end_price": 31.5
         }
       ]
     },
@@ -593,30 +565,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "яловичина туристична",
-            "title": "Яловичина Етнічні м'ясники туристична 525г",
-            "category_id": "canned-beef-metro",
-            "price": 91.69,
-            "unit": "pcs",
-            "weight": "525.0",
+            "normalized_title": "яловичина кістковий набір",
+            "title": "Яловичина кістковий набір",
+            "category_id": "beef-megamarket",
+            "price": 39.0,
+            "unit": "kg",
+            "weight": "0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 525.0,
-              "unit": "г",
+              "value": 1.0,
+              "unit": "kg",
               "type": "mass"
             },
             "producer": {
-              "trademark": "Етнічні М'ясники",
-              "trademark_slug": "etnichni-miasniki"
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
             },
             "description": "",
-            "slug": "m-iaso-etnichni-m-iasniki-525g",
-            "web_url": "https://metro.zakaz.ua/uk/products/m-iaso-etnichni-m-iasniki-525g--04820181490188/",
+            "slug": "kistka",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/kistka--megamarket00000000148948/",
             "promotion": null
           },
-          "quantity": 3,
-          "end_price": 275.07
+          "quantity": 1,
+          "end_price": 39.0
         }
       ]
     },
@@ -642,7 +614,35 @@
           "silpo"
         ]
       },
-      "product_buy_infos": []
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "курятина по-східному з овочами",
+            "title": "Курятина по-східному з овочами",
+            "category_id": "meat-dishes-megamarket",
+            "price": 355.0,
+            "unit": "kg",
+            "weight": "0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 1.0,
+              "unit": "kg",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "без тм",
+              "trademark_slug": "without-brand"
+            },
+            "description": "",
+            "slug": "m-iaso",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/m-iaso--megamarket00000000173636/",
+            "promotion": null
+          },
+          "quantity": 1,
+          "end_price": 355.0
+        }
+      ]
     },
     {
       "request": {
@@ -669,12 +669,12 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "оселедець матьє з ароматом запашних трав",
-            "title": "Оселедець Бріз-Т Матьє з ароматом запашних трав 300г",
-            "category_id": "marinated-fish-metro",
-            "price": 87.87,
+            "normalized_title": "оселедець філе-шматочки в олії",
+            "title": "Оселедець Flagman філе-шматочки в олії 300г",
+            "category_id": "marinated-fish-megamarket",
+            "price": 81.1,
             "unit": "pcs",
-            "weight": "300.0",
+            "weight": "348.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
@@ -683,16 +683,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "бріз-т",
-              "trademark_slug": "briz-t"
+              "trademark": "Flagman",
+              "trademark_slug": "flagman"
             },
             "description": "",
-            "slug": "riba-oseledets-300g-ukrayina",
-            "web_url": "https://metro.zakaz.ua/uk/products/riba-oseledets-300g-ukrayina--04820088170817/",
+            "slug": "file-oseledets-flagman-300g",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/file-oseledets-flagman-300g--04820065700617/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 87.87
+          "end_price": 81.1
         }
       ]
     },
@@ -723,8 +723,8 @@
           "product": {
             "normalized_title": "молоко органічне",
             "title": "Молоко Organic Milk органічне 0,5% 1л",
-            "category_id": "pasteurized-milk-metro",
-            "price": 34.22,
+            "category_id": "pasteurized-milk-megamarket",
+            "price": 35.4,
             "unit": "pcs",
             "weight": "1028.0",
             "bundle": 1,
@@ -740,11 +740,11 @@
             },
             "description": "",
             "slug": "moloko-organik-milk-1000ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 34.22
+          "end_price": 35.4
         }
       ]
     },
@@ -775,8 +775,8 @@
           "product": {
             "normalized_title": "молоко органічне",
             "title": "Молоко Organic Milk органічне 0,5% 1л",
-            "category_id": "pasteurized-milk-metro",
-            "price": 34.22,
+            "category_id": "pasteurized-milk-megamarket",
+            "price": 35.4,
             "unit": "pcs",
             "weight": "1028.0",
             "bundle": 1,
@@ -792,11 +792,11 @@
             },
             "description": "",
             "slug": "moloko-organik-milk-1000ml",
-            "web_url": "https://metro.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/moloko-organik-milk-1000ml--04820178810654/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 34.22
+          "end_price": 35.4
         }
       ]
     },
@@ -825,30 +825,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "кефір термостатний органічний",
-            "title": "Кефір Organic Milk термостатний органічний 1% 1кг",
-            "category_id": "kefir-metro",
-            "price": 44.93,
+            "normalized_title": "кефір мукс термостатний нежирний",
+            "title": "Кефір Азорель Мукс термостатний нежирний 1% 0,5л",
+            "category_id": "kefir-megamarket",
+            "price": 38.8,
             "unit": "pcs",
-            "weight": "1092.0",
+            "weight": "520.0",
             "bundle": 1,
-            "volume": null,
+            "volume": 500.0,
             "weight_info": {
-              "value": 1.0,
-              "unit": "кг",
-              "type": "mass"
+              "value": 0.5,
+              "unit": "л",
+              "type": "capacity"
             },
             "producer": {
-              "trademark": "Organic Milk",
-              "trademark_slug": "organic-milk"
+              "trademark": "Азорель",
+              "trademark_slug": "azorel"
             },
-            "description": "Чому \"О\"?\nТому що Органічно!\nМи - органічне виробництво повного циклу, створене за швейцарською моделлю.\nМи самостійно обробляємо землю, вирощуємо корми, які споживають наші корівки на наших власних фермах і пасовищах.\nМи поєднали традиційний спосіб виробництва молока та інноваційне обладнання, щоб Ви, смакуючи, змогли сказати: \"О! Це натурально і дуже смачно!\".",
-            "slug": "kefir-organik-milk-1000g",
-            "web_url": "https://metro.zakaz.ua/uk/products/kefir-organik-milk-1000g--04820178810029/",
+            "description": "Кефір Мукс виготовляється термостатним способом. Після пастеризації, молоко сепарується, за рахунок чого регулюється вміст жиру до рівня 1%. Далі додається закваска прямого внесення, після чого відбувається процес сквашування у термостатній камері з витримкою до 9 годин. Утворення згустку відбувається у споживчій тарі.",
+            "slug": "kefir-azorel-500ml",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/kefir-azorel-500ml--04820154030229/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 44.93
+          "end_price": 38.8
         }
       ]
     },
@@ -877,30 +877,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "ряжанка селянська",
-            "title": "Ряжанка Селянська 4% 450г",
-            "category_id": "ryazhenka-metro",
-            "price": 26.31,
+            "normalized_title": "ряжанка термостатна",
+            "title": "Ряжанка Villa Milk термостатна 4% 1л",
+            "category_id": "ryazhenka-megamarket",
+            "price": 54.5,
             "unit": "pcs",
-            "weight": "469.0",
+            "weight": "1020.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 450.0,
-              "unit": "г",
-              "type": "mass"
+              "value": 1.0,
+              "unit": "л",
+              "type": "capacity"
             },
             "producer": {
-              "trademark": "Селянське",
-              "trademark_slug": "selianske"
+              "trademark": "Villa Milk",
+              "trademark_slug": "villa-milk"
             },
-            "description": "Ряженка тм «Селянська» - один з традиційний кисломолочний продуктів. Виробляється з сировини вищого  та «Екстра» ґатунків з додаванням високоякісних європейських заквасок.",
-            "slug": "riazhanka-selianske-450g-ukrayina",
-            "web_url": "https://metro.zakaz.ua/uk/products/riazhanka-selianske-450g-ukrayina--04820003485941/",
+            "description": "",
+            "slug": "ukrayina",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/ukrayina--04820220740052/",
             "promotion": null
           },
-          "quantity": 6,
-          "end_price": 157.85999999999999
+          "quantity": 1,
+          "end_price": 54.5
         }
       ]
     },
@@ -926,7 +926,35 @@
           "silpo"
         ]
       },
-      "product_buy_infos": []
+      "product_buy_infos": [
+        {
+          "product": {
+            "normalized_title": "масло вершкове з какао органічне",
+            "title": "Масло Organic Milk вершкове з какао органічне 62% 200г",
+            "category_id": "sweet-butter-megamarket",
+            "price": 92.9,
+            "unit": "pcs",
+            "weight": "210.0",
+            "bundle": 1,
+            "volume": null,
+            "weight_info": {
+              "value": 200.0,
+              "unit": "г",
+              "type": "mass"
+            },
+            "producer": {
+              "trademark": "Organic Milk",
+              "trademark_slug": "organic-milk"
+            },
+            "description": "Продукція Organic Milk є унікальною за сукупністю таких характеристик, як користь, безпека споживання, смакові якості та кулінарні можливості. Особливість продукції полягає в тому, що у процесі переробки молока та виробництва молочних продуктів використовуються лише органічне молоко та кисломолочні бактерії, що мають відповідність міжнародним вимогам органічного виробництва.",
+            "slug": "maslo-organik-milk-200g",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/maslo-organik-milk-200g--04820178810456/",
+            "promotion": null
+          },
+          "quantity": 2,
+          "end_price": 185.8
+        }
+      ]
     },
     {
       "request": {
@@ -953,30 +981,30 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "сир твердий білий сичужний сир скибочками",
-            "title": "Сир Dublin Dairy твердий білий сичужний сир скибочками 48% 150г",
-            "category_id": "semi-hard-cheese-metro",
-            "price": 114.3,
+            "normalized_title": "сир твердий тертий мікс",
+            "title": "Сир Zanetti твердий тертий мікс 32% 100г",
+            "category_id": "hard-cheese-megamarket",
+            "price": 86.5,
             "unit": "pcs",
-            "weight": "150.0",
+            "weight": "100.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
-              "value": 150.0,
+              "value": 100.0,
               "unit": "г",
               "type": "mass"
             },
             "producer": {
-              "trademark": "Dublin Dairy",
-              "trademark_slug": "dublin-dairy"
+              "trademark": "Zanetti",
+              "trademark_slug": "zanetti"
             },
             "description": "",
-            "slug": "sir-dablin-deiri-150g",
-            "web_url": "https://metro.zakaz.ua/uk/products/sir-dablin-deiri-150g--05902431270456/",
+            "slug": "sir-zhanetti-100g",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/sir-zhanetti-100g--08002710421146/",
             "promotion": null
           },
-          "quantity": 2,
-          "end_price": 228.6
+          "quantity": 3,
+          "end_price": 259.5
         }
       ]
     },
@@ -1005,12 +1033,12 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "сметана яготинська",
-            "title": "Сметана Яготинська 15% 400г",
-            "category_id": "sour-cream-metro",
-            "price": 42.85,
+            "normalized_title": "сметана термостатна",
+            "title": "Сметана Villa Milk термостатна 20% 400г",
+            "category_id": "sour-cream-megamarket",
+            "price": 67.0,
             "unit": "pcs",
-            "weight": "420.0",
+            "weight": "410.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
@@ -1019,16 +1047,16 @@
               "type": "mass"
             },
             "producer": {
-              "trademark": "Яготинське",
-              "trademark_slug": "iagotinske"
+              "trademark": "Villa Milk",
+              "trademark_slug": "villa-milk"
             },
-            "description": "Сметана ТМ «Яготинська» виробляється зі свіжих натуральних вершків різного вмісту жиру — 15% та 21%. Вона має однорідну, в міру густу консистенцію та чистий кисломолочний смак з ніжним ароматом.\nЯк і вся продукція ТМ «Яготинське», сметана на Яготинському маслозаводі виробляється на сучасному обладнанні закритого циклу від світових виробників, яке виключає прямий контакт рук з продукцією під час її виробництва. Весь виробничий цикл — від прийому молока на завод до фасування готової продукції — відбувається в закритому режимі без втручання людини.\nСметана — дуже смачний та корисний продукт.  Додавайте сметану до борщу, млинців, вареників та використовуйте в якості заправки для салатів.",
-            "slug": "smetana-iagotin-400g",
-            "web_url": "https://metro.zakaz.ua/uk/products/smetana-iagotin-400g--04823005203216/",
+            "description": "Сметана термостатна виготовлена у термостатний спосіб. У молоко, після пастеризації, додається закваска, після чого відбувається автоматизований процес розливу у споживчу тару. Потім продукт направляється до термостатної камери, де при температурі роботи закваски з витримкою до 12 годин, відбувається процес сквашування. Утворення згустку відбувається безпосередньо у тій тарі, яку ви бачите в магазині.",
+            "slug": "smetana-villa-milk",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/smetana-villa-milk--04820220740106/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 42.85
+          "end_price": 67.0
         }
       ]
     },
@@ -1057,12 +1085,12 @@
       "product_buy_infos": [
         {
           "product": {
-            "normalized_title": "яйця перепелині metro chef",
-            "title": "Яйця перепелині Metro Chef 20шт",
-            "category_id": "quail-eggs-metro",
-            "price": 60.9,
+            "normalized_title": "яйця перепелині",
+            "title": "Яйця Екодиво перепелині 20шт",
+            "category_id": "other-eggs-megamarket",
+            "price": 49.2,
             "unit": "pcs",
-            "weight": "280.0",
+            "weight": "360.0",
             "bundle": 1,
             "volume": null,
             "weight_info": {
@@ -1071,19 +1099,19 @@
               "type": "quantity"
             },
             "producer": {
-              "trademark": "Metro Professional",
-              "trademark_slug": "metro-professional"
+              "trademark": "Екодиво",
+              "trademark_slug": "ekodivo"
             },
             "description": "",
             "slug": "iaitse",
-            "web_url": "https://metro.zakaz.ua/uk/products/iaitse--04820184280106/",
+            "web_url": "https://megamarket.zakaz.ua/uk/products/iaitse--04820244730046/",
             "promotion": null
           },
           "quantity": 1,
-          "end_price": 60.9
+          "end_price": 49.2
         }
       ]
     }
   ],
-  "end_price": 1784
+  "end_price": 1857
 }

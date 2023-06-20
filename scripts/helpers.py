@@ -12,8 +12,8 @@ from zakaz_shops import zakaz_shops
 shop_infos = {**zakaz_shops, **silpo_shops}
 shop_parsers: Dict[str, ShopScrapperService] = {**{shop: ZakazoShopScrapperService() for shop in zakaz_shops.keys()}, **{shop: SilpoShopScrapperService() for shop in silpo_shops.keys()}}
 
-capacity_measures = ["л", "мл"]
-mass_measures = ["кг", "г", "гр"]
+capacity_measures = ["л", "мл", 'l', 'ml']
+mass_measures = ["кг", "г", "гр", 'kg', 'g', 'gr']
 length_measures = ['м', 'см', 'мм', 'км', 'm', 'cm', 'mm', 'km']
 
 def normalize_title(product_title: str, product_brand: str = ""):
